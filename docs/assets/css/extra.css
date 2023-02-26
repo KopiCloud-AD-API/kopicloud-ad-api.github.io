@@ -297,10 +297,13 @@ header .md-search__input {
 }
 
 
-.site-footer .container .col-sm {
-  display: inline-block;
-  
+.site-footer{
+  color: dodgerblue;
+  font-size: 1em !important;
 }
+
+
+
 .site-footer .container .row{
   display: flex;
   justify-content: space-between;
@@ -308,12 +311,28 @@ header .md-search__input {
   padding: 0 32px;
 }
 
+.md-footer-meta {
+  background-color: black;
+  color: dodgerblue;
+}
+
 .site-footer a{
+  vertical-align: top;
   text-decoration: none;
+  color: dodgerblue;
+  background-color: black;
+  
+
+}
+.site-footer hr{
+  border-color: dodgerblue;
+  height: 0.5rem !important;
+  
 }
 
 .site-footer .brand-icons svg{
-  font-size: 3rem;
+  font-size: 2em;
+  color: white;
 }
 
 @media (max-width: 991px) {

@@ -16,7 +16,7 @@ theme:
   font:
     text: Nunito Sans
   language: en
-  logo: assets/images/logo.svg
+  logo: assets/images/KopiCloud-logo.png
   name: material
   palette:
     scheme: spacelift
@@ -46,5 +46,6 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 extra_css:
   - assets/css/extra.css
+
 
 
