@@ -1,5 +1,5 @@
 ---
-description: Take your Infrastructure as Code to the next level
+description: Welcome to KopiCloud AD API
 ---
 
 # 👋 Hello, Spacelift!
