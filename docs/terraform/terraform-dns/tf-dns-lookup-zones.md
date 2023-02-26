@@ -11,6 +11,65 @@ Manage Microsoft DNS Lookup Zones in AD DNS using the KopiCloud AD Terraform Pro
 
 ----
 
+# Create a DNS Lookup Zone
+
+Create a DNS Lookup Zone:
+
+```
+resource "kopicloud_dns_lookup_zone" "test_lookup" {
+  zone_name = "kopicloud.org"
+}
+```
+
+Returns the created DNS Lookup Zone:
+
+```
+output "dns_lookup_zone" {
+  description = "Created DNS Lookup Zone"
+  value       = resource.kopicloud_dns_lookup_zone.test_lookup
+}
+```
+
+----
+
+# List All DNS Lookup Zones
+
+List All DNS Lookup Zones:
+
+```
+data "kopicloud_dns_lookup_zone_list" "test_lookup_all" {}
+```
+
+Returns the List of DNS Lookup Zones:
+
+```
+output "dns_lookup_zone_list" {
+  description = "List of DNS Lookup Zones"
+  value       = data.kopicloud_dns_lookup_zone_list.test_lookup_all
+}
+```
+
+----
+
+# List All DNS Zones
+
+List All DNS Zones (Reverse Lookup Zones and Lookup Zones):
+
+```
+data "kopicloud_dns_zone_list" "test_all" {}
+```
+
+Returns the List of All DNS Zones:
+
+```
+output "dns_all_zone_list" {
+  description = "List of All DNS Zones"
+  value       = data.kopicloud_dns_zone_list.test_all
+}
+```
+
+----
+
 ## Source Code
 
 Source code available [here](https://github.com/KopiCloud-AD-API/terraform-kopicloud-ad-api-dns-zones)
