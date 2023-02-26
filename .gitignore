@@ -341,3 +341,5 @@ ASALocalRun/
 .localhistory/
 
 
+/docs/terraform/terraform.md
+/.gitignore
