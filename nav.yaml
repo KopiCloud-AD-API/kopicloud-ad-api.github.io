@@ -6,5 +6,8 @@ nav:
     - Configuration:
       - concepts/configuration/README.md
       - concepts/configuration/environment.md
+    - Terraform: 
+      - terraform/terraform.md
+      - terraform/terraform-dns/terraform-dns.md
 
     

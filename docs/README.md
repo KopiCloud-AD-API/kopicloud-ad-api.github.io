@@ -1,8 +1,8 @@
 ---
-description: Take your Infrastructure as Code to the next level
+description: Welcome to KopiCloud AD API
 ---
 
-# 👋 Hello, Spacelift!
+# 👋 Welcome to KopiCloud AD API!
 
 Spacelift is a sophisticated, continuous integration and deployment (CI/CD) platform for _infrastructure-as-code,_ currently supporting [Terraform](https://www.terraform.io/){: rel="nofollow"}, [Pulumi](https://www.pulumi.com/){: rel="nofollow"}, [AWS CloudFormation](https://aws.amazon.com/cloudformation/){: rel="nofollow"}, and [Kubernetes](https://kubernetes.io/){: rel="nofollow"}. It's designed and implemented by long-time DevOps practitioners based on previous experience with large-scale installations - dozens of teams, hundreds of engineers, and tens of thousands of cloud resources.
 
