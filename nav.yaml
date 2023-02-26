@@ -1,0 +1,10 @@
+nav:
+  - README.md
+  - getting-started.md
+  - ✋ FAQ: faq/README.md
+  - ⭐ Main Concepts:
+    - Configuration:
+      - concepts/configuration/README.md
+      - concepts/configuration/environment.md
+
+    

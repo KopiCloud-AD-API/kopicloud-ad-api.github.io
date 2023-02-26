@@ -1,0 +1,50 @@
+INHERIT: ./nav.yaml
+copyright: © 2022 Kopicloud, Inc. All rights reserved
+site_author: Kopicloud
+site_description: The API for Microsoft Active Directory and DNS
+site_name: Kopicloud-ad-api Documentation
+site_url: https://help.kopicloud-ad-api.com
+theme:
+  custom_dir: overrides
+  favicon: assets/images/favicon.png
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+  font:
+    text: Nunito Sans
+  language: en
+  logo: assets/images/logo.svg
+  name: material
+  palette:
+    scheme: spacelift
+use_directory_urls: false
+watch:
+  - nav.yaml
+  - overrides
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.highlight:
+      auto_title: false
+      linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: »
+      permalink_title: Anchor link to this section
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+extra_css:
+  - assets/css/extra.css
+
+
