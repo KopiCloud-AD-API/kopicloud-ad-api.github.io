@@ -1,7 +1,6 @@
 nav:
-  - README.md
+  - index.md
   - getting-started.md
-  - ✋ FAQ: faq/README.md
   - ⭐ Main Concepts:
     - Configuration:
       - concepts/configuration/README.md
@@ -9,5 +8,6 @@ nav:
     - Terraform: 
       - terraform/terraform.md
       - terraform/terraform-dns/terraform-dns.md
-
+  - FAQ: faq/README.md
+  - changelog.md 
     

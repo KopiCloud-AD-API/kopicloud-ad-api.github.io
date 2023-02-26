@@ -1,8 +1,8 @@
 INHERIT: ./nav.yaml
-copyright: © 2022 Kopicloud, Inc. All rights reserved
-site_author: Kopicloud
+copyright: © 2023 KopiCloud Limited. All rights reserved
+site_author: KopiCloud Limited
 site_description: The API for Microsoft Active Directory and DNS
-site_name: Kopicloud-ad-api Documentation
+site_name: KopiCloud AD API Documentation
 site_url: https://help.kopicloud-ad-api.com
 theme:
   custom_dir: overrides
@@ -19,7 +19,7 @@ theme:
   logo: assets/images/KopiCloud-logo.png
   name: material
   palette:
-    scheme: spacelift
+    scheme: kopicloud
 use_directory_urls: false
 watch:
   - nav.yaml
