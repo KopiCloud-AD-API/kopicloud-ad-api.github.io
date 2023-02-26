@@ -7,11 +7,11 @@ nav:
     - Terraform: 
       - terraform/terraform.md
       - terraform/terraform-dns/tf-dns.md
-      - terraform/terraform-dns/tf-dns-aaaa-records.md
-      - terraform/terraform-dns/tf-dns-a-records.md
-      - terraform/terraform-dns/tf-dns-cname-records.md
-      - terraform/terraform-dns/tf-dns-lookup-zones.md
-      - terraform/terraform-dns/tf-dns-reverse-lookup-zones.md
+      - DNS AAAA Records: terraform/terraform-dns/tf-dns-aaaa-records.md
+      - DNS A Records: terraform/terraform-dns/tf-dns-a-records.md
+      - DNS CNAME Records: terraform/terraform-dns/tf-dns-cname-records.md
+      - DNS Lookup Zones: terraform/terraform-dns/tf-dns-lookup-zones.md
+      - DNS Reverse Lookup Zones: terraform/terraform-dns/tf-dns-reverse-lookup-zones.md
   - FAQ: faq/index.md
   - changelog.md 
     
