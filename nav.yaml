@@ -8,6 +8,8 @@ nav:
     - Terraform: 
       - Terraform: terraform/terraform.md
 
+  - Authentication:
+    - Generate Token: token-authentication.md
   - Terraform:
     - Authentication: terraform/authentication.md
     - AD Computer:
