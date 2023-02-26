@@ -27,7 +27,7 @@ We need to test the code to make sure it works perfectly and need to spend hours
 
 Some our previous customers, called the API from Terraform and so we decided to create a Terraform Provider, so we need to make many changes so they can work with our Terraform Provider.
 
-## Why KopiCloud Active Directory API
+## Why KopiCloud AD API
 
 So, why do you want to use KopiCloud Active Directory API? 
 
