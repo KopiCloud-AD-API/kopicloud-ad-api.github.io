@@ -1,0 +1,50 @@
+---
+title: Create KopiCloud AD API Authentication Token
+description: Create KopiCloud AD API Authentication Token
+---
+
+# Create KopiCloud AD API Authentication Token
+
+KopiCloud AD API support two types of token: **JWT Token** and **Basic Token**.
+
+> **Note:** Save your token in a safe place.
+
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+
+----
+
+## Login to the KopiCloud AD API Management Website
+
+Enter your username and password to login:
+
+![Image title](https://help.kopicloud-ad-api.com/assets/docs/login.png){ align=left }
+
+----
+
+## Create JWT Token
+
+JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object.
+
+This information can be verified and trusted because it is digitally signed.
+
+JWT are recommended for applications, for example Terraform, and they can expire automatically.
+
+To create a **JWT Token**, login to the KopiCloud AD API management website, anc click on the **JWT Token** menu.
+
+Enter a unique token name and expiration time (or 0 to create a not-expirining token), and click on the **Generate** button.
+
+![Image title](https://help.kopicloud-ad-api.com/assets/docs/generate_jwt_token.png){ align=left }
+
+----
+
+## Create Basic Token
+
+Basic tokens are created combining an username and password.
+
+To create a **Basic Token**, login to the KopiCloud AD API management website, anc click on the **Basic Token** menu.
+
+Enter your username and password, and click on the **Generate** button.
+
+> **Note:** If you change your password, you need to regenerate your **Basic Token**.
+
+![Image title](https://help.kopicloud-ad-api.com/assets/docs/generate_basic_token.png){ align=left }

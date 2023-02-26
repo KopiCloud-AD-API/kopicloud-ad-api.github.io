@@ -16,10 +16,7 @@ Understand how to configure **KopiCloud AD Terraform Provider** authentication.
 
 Login to the KopiCloud AD API management website and generate a token.
 
-![Image title](https://help.kopicloud-ad-api.com/assets/docs/generate_jwt_token.png){ align=left }
-
-
-Configure the KopiCloud Provider with the hostname of your API server and the authentication token.
+In your **provider.tf** file, configure the KopiCloud AD Provider with the hostname of your API server and the authentication token.
 
 ```
 terraform {

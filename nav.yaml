@@ -9,9 +9,11 @@ nav:
       - Terraform: terraform/terraform.md
 
   - Authentication:
-    - Generate Token: token-authentication.md
+    - Generate Token: authentication/token-authentication.md
+    - Manage Tokens: authentication/manage-tokens.md
+    - Terraform Authentication: authentication/terraform-authentication.md
+
   - Terraform:
-    - Authentication: terraform/authentication.md
     - AD Computer:
       - AD Computer with Terraform: terraform/terraform-computer/computer.md
     - AD Group:
