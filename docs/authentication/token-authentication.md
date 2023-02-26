@@ -17,7 +17,9 @@ KopiCloud AD API support two types of token: **JWT Token** and **Basic Token**.
 
 Enter your username and password to login:
 
-![Image title](https://help.kopicloud-ad-api.com/assets/docs/login.png){ align=left }
+![Image title](https://help.kopicloud-ad-api.com/assets/docs/login.png)
+
+And click on the **Login button.
 
 ----
 
@@ -33,7 +35,11 @@ To create a **JWT Token**, login to the KopiCloud AD API management website, anc
 
 Enter a unique token name and expiration time (or 0 to create a not-expirining token), and click on the **Generate** button.
 
-![Image title](https://help.kopicloud-ad-api.com/assets/docs/generate_jwt_token.png){ align=left }
+![Image title](https://help.kopicloud-ad-api.com/assets/docs/generate_jwt_token.png)
+
+Then, the token will be generated. Copy the token and store in a safe place!
+
+![Image title](https://help.kopicloud-ad-api.com/assets/docs/generate_jwt_token_result.png)
 
 ----
 
@@ -47,4 +53,4 @@ Enter your username and password, and click on the **Generate** button.
 
 > **Note:** If you change your password, you need to regenerate your **Basic Token**.
 
-![Image title](https://help.kopicloud-ad-api.com/assets/docs/generate_basic_token.png){ align=left }
+![Image title](https://help.kopicloud-ad-api.com/assets/docs/generate_basic_token.png)
