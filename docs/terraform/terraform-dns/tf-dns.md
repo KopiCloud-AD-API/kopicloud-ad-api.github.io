@@ -1,10 +1,11 @@
 ---
-title: Manage Microsof DNS with Terraform
+title: DNS with Terraform
+description: Manage Microsoft DNS with Terraform
 ---
 
-# Manage Microsof DNS with Terraform
+# DNS with Terraform
 
-Our KopiCloud AD Terraform Provider, can help to automate:
+Our KopiCloud AD Terraform Provider, can help to manage Microsoft DNS:
 
 - Create and remove DNS A Records
 
