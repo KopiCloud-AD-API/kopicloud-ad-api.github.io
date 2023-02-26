@@ -1,6 +1,8 @@
 nav:
   - README.md
   - getting-started.md
+  - Terraform: terraform/terraform.md
+    - Manage DNS with Terraform: terraform/terraform-dns
   - ✋ FAQ: faq/README.md
   - ⭐ Main Concepts:
     - Configuration:
