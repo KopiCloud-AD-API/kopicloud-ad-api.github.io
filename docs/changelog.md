@@ -11,7 +11,7 @@ All notable user-facing changes to this project are documented in this file.
 
 ## KopiCloud AD API Change Log
 
-### v1.0.0 - Release Date: March 2023
+### v1.0.0 - March 2023
 
 API Initial Release
 
