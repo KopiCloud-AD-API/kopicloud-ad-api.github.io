@@ -6,13 +6,12 @@ nav:
       - api/api.md
     - Terraform: 
       - terraform/terraform.md
-      - terraform/terraform-dns/terraform-dns.md
-      - terraform/terraform-dns/terraform-dns.md
-      - terraform/terraform-dns/tf-dns-aaaa-records.md
-      - terraform/terraform-dns/tf-dns-a-records.md
-      - terraform/terraform-dns/tf-dns-cname-records.md
-      - terraform/terraform-dns/tf-dns-lookup-zones.md
-      - terraform/terraform-dns/tf-dns-reverse-lookup-zones.md
+      - terraform/terraform-dns/tf-dns.md
+        - terraform/terraform-dns/tf-dns-aaaa-records.md
+        - terraform/terraform-dns/tf-dns-a-records.md
+        - terraform/terraform-dns/tf-dns-cname-records.md
+        - terraform/terraform-dns/tf-dns-lookup-zones.md
+        - terraform/terraform-dns/tf-dns-reverse-lookup-zones.md
   - FAQ: faq/index.md
   - changelog.md 
     

@@ -3,7 +3,7 @@ description: >-
   Active Directory as Code
 ---
 
-# Active Directory as Code with Terraform
+# Active Directory as Code
 
 KopiCloud AD API includes a Terraform Provider
 
