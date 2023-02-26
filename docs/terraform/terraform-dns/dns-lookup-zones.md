@@ -11,7 +11,7 @@ Manage Microsoft DNS Lookup Zones in AD DNS using the KopiCloud AD Terraform Pro
 
 ----
 
-# Create a DNS Lookup Zone
+## Create a DNS Lookup Zone
 
 Create a DNS Lookup Zone:
 
@@ -32,7 +32,7 @@ output "dns_lookup_zone" {
 
 ----
 
-# List All DNS Lookup Zones
+## List All DNS Lookup Zones
 
 List All DNS Lookup Zones:
 
@@ -51,7 +51,7 @@ output "dns_lookup_zone_list" {
 
 ----
 
-# List All DNS Zones
+## List All DNS Zones
 
 List All DNS Zones (Reverse Lookup Zones and Lookup Zones):
 

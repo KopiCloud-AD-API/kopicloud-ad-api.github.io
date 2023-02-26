@@ -11,7 +11,7 @@ Manage Microsoft DNS Records and DNS Zones in AD DNS using the KopiCloud AD Terr
 
 ----
 
-# DNS Terraform Resources
+## DNS Terraform Resources
 
 The provider includes **Terraform Resources** to manipulate DNS Records and DNS Zones:
 
@@ -27,7 +27,7 @@ The provider includes **Terraform Resources** to manipulate DNS Records and DNS 
 
 ----
 
-# DNS Terraform Data Sources
+## DNS Terraform Data Sources
 
 The provider includes **Terraform Data Sources** to list existing DNS Records and DNS Zones:
 

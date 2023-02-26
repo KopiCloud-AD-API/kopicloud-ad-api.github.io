@@ -11,7 +11,7 @@ Manage Microsoft DNS Reverse Lookup Zones in AD DNS using the KopiCloud AD Terra
 
 ----
 
-# Create a DNS Reverse Lookup Zone
+## Create a DNS Reverse Lookup Zone
 
 Create a DNS Reverse Lookup Zone:
 
@@ -32,7 +32,7 @@ output "dns_reverse_zone" {
 
 ----
 
-# List All DNS Reverse Lookup Zones
+## List All DNS Reverse Lookup Zones
 
 List All DNS Reverse Lookup Zones:
 
@@ -52,7 +52,7 @@ output "dns_reverse_lookup_zone_list" {
 
 ----
 
-# List All DNS Zones
+## List All DNS Zones
 
 List All DNS Zones (Reverse Lookup Zones and Lookup Zones):
 

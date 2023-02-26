@@ -11,7 +11,7 @@ Manage Microsoft DNS A Records in AD DNS using the KopiCloud AD Terraform Provid
 
 ----
 
-# Create a DNS A Record
+## Create a DNS A Record
 
 Create a DNS A Record for a computer
 
@@ -43,7 +43,7 @@ output "dns_a_record_hostname" {
 
 ----
 
-# List All DNS A Records
+## List All DNS A Records
 
 List All DNS A Records:
 
@@ -62,7 +62,7 @@ output "OUTPUT_dns_a_records_list_all" {
 
 ----
 
-# Filter DNS A Records with the Zone Name
+## Filter DNS A Records with the Zone Name
 
 Filter DNS A Records with the Zone Name:
 
@@ -83,7 +83,7 @@ output "OUTPUT_dns_a_records_list_zone_name" {
 
 ----
 
-# Filter DNS A Records with an IP Address
+## Filter DNS A Records with an IP Address
 
 Filter DNS A Records with an IP Address:
 
@@ -104,7 +104,7 @@ output "OUTPUT_dns_a_records_list_ip_address" {
 
 ----
 
-# Filter DNS A Records with a Hostname
+## Filter DNS A Records with a Hostname
 
 Filter DNS A Records with a Hostname:
 

@@ -11,7 +11,7 @@ Manage Microsoft DNS CNAME Records in AD DNS using the KopiCloud AD Terraform Pr
 
 ----
 
-# Create a DNS CNAME Record
+## Create a DNS CNAME Record
 
 Create a DNS CNAME Record for a Computer:
 
@@ -34,7 +34,7 @@ output "dns_cname_record" {
 
 ----
 
-# List All DNS CNAME Records
+## List All DNS CNAME Records
 
 List All DNS CNAME Records:
 
@@ -53,7 +53,7 @@ output "OUTPUT_dns_cname_records_list_all" {
 
 ----
 
-# Filter DNS CNAME Records with the Zone Name
+## Filter DNS CNAME Records with the Zone Name
 
 Filter DNS CNAME Records with the Zone Name:
 
@@ -74,7 +74,7 @@ output "OUTPUT_dns_cname_records_list_zone_name" {
 
 ----
 
-# Filter DNS CNAME Records with an Alias
+## Filter DNS CNAME Records with an Alias
 
 
 Filter DNS CNAME Records with an Alias:
@@ -96,7 +96,7 @@ output "OUTPUT_dns_cname_records_list_ip_address" {
 
 ----
 
-# Filter DNS CNAME Records with a Hostname
+## Filter DNS CNAME Records with a Hostname
 
 Filter the DNS CNAME Records with a Hostname:
 
