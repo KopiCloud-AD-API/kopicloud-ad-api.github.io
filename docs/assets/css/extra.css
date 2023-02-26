@@ -300,6 +300,8 @@ header .md-search__input {
 .site-footer{
   color: dodgerblue;
   font-size: 1em !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 

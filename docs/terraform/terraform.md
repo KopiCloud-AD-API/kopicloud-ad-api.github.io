@@ -1,5 +1,6 @@
 ---
-description: Active Directory as Code
+description: >-
+  Active Directory as Code
 ---
 
 # Active Directory as Code with Terraform
