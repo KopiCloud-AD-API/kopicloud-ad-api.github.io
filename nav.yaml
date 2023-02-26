@@ -9,14 +9,19 @@ nav:
       - Terraform: terraform/terraform.md
 
   - Terraform:
+    - Authentication: terraform/authentication.md
+    - Computers:
+      - Computers with Terraform: terraform/terraform-computers/computers.md
     - DNS:
-      - DNS with Terraform: terraform/terraform-dns/tf-dns.md
-      - DNS AAAA Records: terraform/terraform-dns/tf-dns-aaaa-records.md
-      - DNS A Records: terraform/terraform-dns/tf-dns-a-records.md
-      - DNS CNAME Records: terraform/terraform-dns/tf-dns-cname-records.md
+      - DNS with Terraform: terraform/terraform-dns/dns.md
+      - DNS AAAA Records: terraform/terraform-dns/dns-aaaa-records.md
+      - DNS A Records: terraform/terraform-dns/dns-a-records.md
+      - DNS CNAME Records: terraform/terraform-dns/ns-cname-records.md
       - DNS Lookup Zones: terraform/terraform-dns/tf-dns-lookup-zones.md
       - DNS Reverse Lookup Zones: terraform/terraform-dns/tf-dns-reverse-lookup-zones.md
+    - Groups:
+      - Groups with Terraform: terraform/terraform-groups/groups.md
 
-  - FAQ: faq/index.md
-  - ChangeLog: changelog.md 
+  - FAQ: faq.md
+  - Change Log: changelog.md 
     

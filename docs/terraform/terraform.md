@@ -1,6 +1,6 @@
 ---
-description: >-
-  Active Directory as Code
+title: Active Directory as Code
+description: Active Directory as Code with Terraform
 ---
 
 # Active Directory as Code

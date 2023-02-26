@@ -6,6 +6,8 @@ description: Welcome to KopiCloud AD API
 
 **KopiCloud AD API** is an API designed to manage **Microsoft Active Directory and DNS** in secure way from custom applications, automation tools, DevOps pipelines and Terraform.
 
+----
+
 ## Overview
 
 **KopiCloud AD API** was born many years ago from a personal need, as most of our KopiCloud tools. 
@@ -26,6 +28,8 @@ Publishing a very large and complex web app required lots of time and effort fro
 We need to test the code to make sure it works perfectly and need to spend hours and hours documenting the API. 
 
 Some our previous customers, called the API from Terraform and so we decided to create a Terraform Provider, so we need to make many changes so they can work with our Terraform Provider.
+
+----
 
 ## Why KopiCloud AD API
 
