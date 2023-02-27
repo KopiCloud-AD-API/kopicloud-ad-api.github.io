@@ -1,6 +1,6 @@
 nav:
   - index.md
-  - getting-started.md
+  - Getting Started: getting-started.md
 
   - Interfaces:
     - API:
