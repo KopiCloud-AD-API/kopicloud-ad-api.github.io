@@ -11,7 +11,7 @@ Manage Microsoft DNS AAAA Records using the KopiCloud AD API:
 ----
 
 ## List All DNS AAAA Records in All Zones
-GET /api/DnsAAAARecord/All
+<span class="btn-get">GET</span> /api/DnsAAAARecord/All
 
 **Parameters**
 
@@ -38,7 +38,7 @@ GET /api/DnsAAAARecord/All
 ----
 
 ## List All DNS AAAA Records in a DNS Zone
-GET /api/DnsAAAARecord/{ZoneName}
+<span class="btn-get">GET</span> /api/DnsAAAARecord/{ZoneName}
 
 **Parameters**
 
@@ -66,7 +66,7 @@ GET /api/DnsAAAARecord/{ZoneName}
 ----
 
 ## List All DNS AAAA Records that match with DNS Hostname
-GET /api/DnsAAAARecord/HostName/{DNS_HostName}
+<span class="btn-get">GET</span> /api/DnsAAAARecord/HostName/{DNS_HostName}
 
 **Parameters**
 
@@ -95,7 +95,7 @@ GET /api/DnsAAAARecord/HostName/{DNS_HostName}
 ----
 
 ## List All DNS AAAA Records that match with IPv6 Address
-GET /api/DnsAAAARecord/IPv6Address/{IPv6_Address}
+<span class="btn-get">GET</span> /api/DnsAAAARecord/IPv6Address/{IPv6_Address}
 
 **Parameters**
 
@@ -124,7 +124,7 @@ GET /api/DnsAAAARecord/IPv6Address/{IPv6_Address}
 ----
 
 ## Get DNS AAAA Record that match with DNS Hostname and IPv6 Address
-GET /api/DnsAAAARecord
+<span class="btn-get">GET</span> /api/DnsAAAARecord
 
 **Parameters**
 
@@ -155,7 +155,7 @@ GET /api/DnsAAAARecord
 ----
 
 ## Create a DNS AAAA Records
-POST /api/DnsAAAARecord
+<span class="btn-post">POST</span> /api/DnsAAAARecord
 
 **Parameters**
 
@@ -186,7 +186,7 @@ POST /api/DnsAAAARecord
 ----
 
 ## Delete a DNS A Record
-<span class="delete">DELETE</span> /api/DnsAAAARecord
+<span class="btn-delete">DELETE</span> /api/DnsAAAARecord
 
 
 **Parameters**
