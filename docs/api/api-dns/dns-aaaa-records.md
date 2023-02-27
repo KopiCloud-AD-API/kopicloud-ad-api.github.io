@@ -10,7 +10,7 @@ Manage Microsoft DNS AAAA Records using the KopiCloud AD API:
 
 ----
 
-## GET /api/DnsAAAARecord/All
+## ==GET== /api/DnsAAAARecord/All
 List All DNS AAAA Records in All Zones
 
 **Parameters**
@@ -34,3 +34,162 @@ List All DNS AAAA Records in All Zones
   ]
 }
 ```
+
+----
+
+## GET /api/DnsAAAARecord/{ZoneName}
+List All DNS AAAA Records in a DNS Zone
+
+**Parameters**
+
+| Name       | Type   | Description                          | Mandatory |
+| ---------- | ------ | ------------------------------------ | --------- |
+| ZoneName   | string | DNS Zone Name                        | Yes       |
+| Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
+}
+```
+
+----
+
+## GET /api/DnsAAAARecord/HostName/{DNS_HostName}
+List All DNS AAAA Records that match with DNS Hostname
+
+**Parameters**
+
+| Name         | Type   | Description                          | Mandatory |
+| ------------ | ------ | ------------------------------------ | --------- |
+| DNS_HostName | string | DNS Host Name                        | Yes       |
+| Auth-Token   | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
+
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
+}
+```
+
+----
+
+## GET /api/DnsAAAARecord/IPv6Address/{IPv6_Address}
+
+**Parameters**
+
+| Name         | Type   | Description                          | Mandatory |
+| ------------ | ------ | ------------------------------------ | --------- |
+| IPv6_Address | string | IPv6 Address                         | Yes       |
+| Auth-Token   | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
+
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
+}
+```
+
+----
+
+GET /api/DnsAAAARecord
+Get DNS AAAA Record that match with DNS Hostname and IPv6 Address
+
+**Parameters**
+
+| Name         | Type   | Description                          | Mandatory |
+| ------------ | ------ | ------------------------------------ | --------- |
+| DNS_HostName | string | DNS Host Name                        | Yes       |
+| IPv6_Address | string | IPv6 Address                         | Yes       |
+| ZoneName     | string | DNS Zone Name                        | Yes       |
+| Auth-Token   | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
+
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
+}
+```
+
+----
+
+POST /api/DnsAAAARecord
+Create a DNS AAAA Records
+
+**Parameters**
+
+| Name         | Type   | Description                          | Mandatory |
+| ------------ | ------ | ------------------------------------ | --------- |
+| DNS_HostName | string | DNS Host Name                        | Yes       |
+| IPv6_Address | string | IPv6 Address                         | Yes       |
+| ZoneName     | string | DNS Zone Name                        | Yes       |
+| Auth-Token   | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
+
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
+}
+```
+
+----
+
+DELETE /api/DnsAAAARecord
+Delete a DNS A Record
+
+| Name         | Type   | Description                          | Mandatory |
+| ------------ | ------ | ------------------------------------ | --------- |
+| DNS_HostName | string | DNS Host Name                        | Yes       |
+| IPv6_Address | string | IPv6 Address                         | Yes       |
+| ZoneName     | string | DNS Zone Name                        | Yes       |
+| Auth-Token   | string | Bearer or Basic Authentication Token | Yes       |
