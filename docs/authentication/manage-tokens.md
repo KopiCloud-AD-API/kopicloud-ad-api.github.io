@@ -4,10 +4,9 @@ description: Manage KopiCloud AD API Authentication Token
 ---
 
 # Manage KopiCloud AD API Authentication Token
-
-Manage KopiCloud AD API Authentication Token, including list, enable, disable, and delete authentication tokens.
-
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+
+Manage KopiCloud AD API authentication tokens, including list, enable, disable, and delete authentication tokens.
 
 ----
 
