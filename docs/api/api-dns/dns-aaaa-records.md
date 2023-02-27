@@ -14,9 +14,10 @@ Manage Microsoft DNS AAAA Records using the KopiCloud AD API:
 List All DNS AAAA Records in All Zones
 
 **Parameters**
-| Name | Type | Description | Mandatory |
-| ---- | ---- | ----------- | --------- |
-| Auth-Token | string | Bearer or Basic Authentication Token | Yes |
+
+| Name       | Type   | Description                          | Mandatory |
+| ---------- | ------ | ------------------------------------ | --------- |
+| Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
 ```
