@@ -1,4 +1,4 @@
-<div class="grid cards" markdown>
+<div class="wrapper" markdown>
 
 -   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
 
@@ -34,3 +34,4 @@
     [:octicons-arrow-right-24: License](#)
 
 </div>
+

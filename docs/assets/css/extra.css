@@ -357,3 +357,26 @@ header .md-search__input {
     font-size: 3rem;
   }
 }
+
+
+.wrapper ul {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+}
+
+.wrapper ul li{
+  /*create card*/
+  margin-left: 0.5rem !important;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  padding: 10px;
+  margin-right: 5px;
+  
+  /*create card*/
+
+
+
+}
+
