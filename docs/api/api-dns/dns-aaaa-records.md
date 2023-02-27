@@ -1,6 +1,6 @@
 ---
 title: DNS AAAA Records API Methods
-description: Manage Microsof DNS AAAA Records with KopiCloud AD API
+description: Manage Microsoft DNS AAAA Records with KopiCloud AD API
 ---
 
 # Manage DNS AAAA Records with KopiCloud AD API

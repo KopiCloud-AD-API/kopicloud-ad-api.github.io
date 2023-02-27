@@ -25,6 +25,13 @@ See Sass variables available: https://github.com/squidfunk/mkdocs-material/blob/
   border-radius: 5px;
 }
 
+.btn-put {
+  background-color: #fba130;
+  color: white;
+  padding: 3px 30px 3px 30px;
+  border-radius: 5px;
+}
+
 :root {
   --color-default-white: #fff;
   --color-primary-main: #7C47FC;
