@@ -10,8 +10,8 @@ Manage Microsoft DNS AAAA Records using the KopiCloud AD API:
 
 ----
 
-## GET /api/DnsAAAARecord/All
-List All DNS AAAA Records in All Zones
+## List All DNS AAAA Records in All Zones
+GET /api/DnsAAAARecord/All
 
 **Parameters**
 
@@ -37,8 +37,8 @@ List All DNS AAAA Records in All Zones
 
 ----
 
-## GET /api/DnsAAAARecord/{ZoneName}
-List All DNS AAAA Records in a DNS Zone
+## List All DNS AAAA Records in a DNS Zone
+GET /api/DnsAAAARecord/{ZoneName}
 
 **Parameters**
 
@@ -65,8 +65,8 @@ List All DNS AAAA Records in a DNS Zone
 
 ----
 
-## GET /api/DnsAAAARecord/HostName/{DNS_HostName}
-List All DNS AAAA Records that match with DNS Hostname
+## List All DNS AAAA Records that match with DNS Hostname
+GET /api/DnsAAAARecord/HostName/{DNS_HostName}
 
 **Parameters**
 
@@ -94,7 +94,8 @@ List All DNS AAAA Records that match with DNS Hostname
 
 ----
 
-## GET /api/DnsAAAARecord/IPv6Address/{IPv6_Address}
+## List All DNS AAAA Records that match with IPv6 Address
+GET /api/DnsAAAARecord/IPv6Address/{IPv6_Address}
 
 **Parameters**
 
@@ -122,39 +123,8 @@ List All DNS AAAA Records that match with DNS Hostname
 
 ----
 
-## GET /api/DnsAAAARecord
-Get DNS AAAA Record that match with DNS Hostname and IPv6 Address
-
-**Parameters**
-
-| Name         | Type   | Description                          | Mandatory |
-| ------------ | ------ | ------------------------------------ | --------- |
-| DNS_HostName | string | DNS Host Name                        | Yes       |
-| IPv6_Address | string | IPv6 Address                         | Yes       |
-| ZoneName     | string | DNS Zone Name                        | Yes       |
-| Auth-Token   | string | Bearer or Basic Authentication Token | Yes       |
-
-**Return Schema**
-
-```
-{
-  "output": "string",
-  "result": [
-    {
-      "name": "string",
-      "type": "string",
-      "data": "string",
-      "zone": "string",
-      "timestamp": "string"
-    }
-  ]
-}
-```
-
-----
-
-## POST /api/DnsAAAARecord
-Create a DNS AAAA Records
+## Get DNS AAAA Record that match with DNS Hostname and IPv6 Address
+GET /api/DnsAAAARecord
 
 **Parameters**
 
@@ -184,8 +154,40 @@ Create a DNS AAAA Records
 
 ----
 
-## DELETE /api/DnsAAAARecord
-Delete a DNS A Record
+## Create a DNS AAAA Records
+POST /api/DnsAAAARecord
+
+**Parameters**
+
+| Name         | Type   | Description                          | Mandatory |
+| ------------ | ------ | ------------------------------------ | --------- |
+| DNS_HostName | string | DNS Host Name                        | Yes       |
+| IPv6_Address | string | IPv6 Address                         | Yes       |
+| ZoneName     | string | DNS Zone Name                        | Yes       |
+| Auth-Token   | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
+
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
+}
+```
+
+----
+
+## Delete a DNS A Record
+DELETE /api/DnsAAAARecord
+
 
 **Parameters**
 
