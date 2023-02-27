@@ -15,7 +15,7 @@ Manage KopiCloud AD API Authentication Token, including list, enable, disable, a
 
 To manage Authentication Tokens, login to the KopiCloud AD API management website, anc click on the **Token List** menu.
 
-![Image title](https://help.kopicloud-ad-api.com/assets/docs/token_List.png)
+![Token List](https://help.kopicloud-ad-api.com/assets/docs/token_List.png)
 
 ----
 

@@ -1,4 +1,3 @@
-
 ---
 title: Getting Started
 description: Getting Started with KopiCloud AD API
@@ -36,11 +35,13 @@ Go to the **Settings** page, click on **Licenses** and **Generate a Trial Licens
 
 ## Download and try the API
 
-Visit the [Download](https://www.kopicloud-ad-api.com/download) page to download the Setup.
+Visit the [Download](https://www.kopicloud-ad-api.com/download) page to download the Setup application.
 
 Execute the Setup application to install and configure your machine.
 
-> Coming soon: we will provide scripts to create full unattended deployments
+Or create a **Setup Configuration File** to automate the deployment of the KopiCloud AD API.
+
+> Coming soon: we will provide scripts to create full unattended deployments in Azure, AWS, GCP and VMware.
 
 ----
 
@@ -49,101 +50,87 @@ Execute the Setup application to install and configure your machine.
 Start writing your integration in any development or scripting language that supports a REST API:
 
 **Microsoft .NET**
-            
-[Microsoft .NET](https://www.kopicloud-ad-api.com/images/development/dotnet.png)
+
+![Microsoft .NET](https://www.kopicloud-ad-api.com/images/development/dotnet.png)
 
 **Python**
 
-[Python](https://www.kopicloud-ad-api.com/images/development/python.png)
+![Python](https://www.kopicloud-ad-api.com/images/development/python.png)
 
- <div class="row">
-                <div class="col">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <img src="/images/development/javascript.png" />
-                            <br /><br />
-                            <p class="card-text">JavaScript</p>
-                        </div>
-                    </div>
-                </div>
+**JavaScript**
 
-                <div class="col">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <img src="/images/development/typescript.png" />
-                            <br /><br />
-                            <p class="card-text">TypeScript</p>
-                        </div>
-                    </div>
-                </div>
+![JavaScript](https://www.kopicloud-ad-api.com/images/development/javascript.png)
 
-                <div class="col">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <img src="/images/development/java.png" />
-                            <br /><br />
-                            <p class="card-text">Java</p>
-                        </div>
-                    </div>
-                </div>
+**TypeScript**
 
-            </div>
+![TypeScript](https://www.kopicloud-ad-api.com/images/development/typescript.png)
 
-            <div class="row">
+**Java**
 
-                <div class="col">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <img src="/images/development/powershell.png" />
-                            <br /><br />
-                            <p class="card-text">Microsoft PowerShell</p>
-                        </div>
-                    </div>
-                </div>
+![Java](https://www.kopicloud-ad-api.com/images/development/java.png)
 
-                <div class="col">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <img src="/images/development/bash.png" />
-                            <br /><br />
-                            <p class="card-text">BASH</p>
-                        </div>
-                    </div>
-                </div>
+**PowerShell**
 
-                <div class="col">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <img src="/images/development/php.png" />
-                            <br /><br />
-                            <p class="card-text">PHP</p>
-                        </div>
-                    </div>
-                </div>
+![PowerShell](https://www.kopicloud-ad-api.com/images/development/powershell.png)
 
-                <div class="col">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <img src="/images/development/golang.png" />
-                            <br /><br />
-                            <p class="card-text">Go</p>
-                        </div>
-                    </div>
-                </div>
+**Bash**
 
-                <div class="col">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <img src="/images/development/ruby.png" />
-                            <br /><br />
-                            <p class="card-text">Ruby</p>
-                        </div>
-                    </div>
-                </div>
+![PowerShell](https://www.kopicloud-ad-api.com/images/development/bash.png)
 
-            </div>
+**PHP**
+
+![PHP](https://www.kopicloud-ad-api.com/images/development/php.png)
+
+**Go**
+
+![Go](https://www.kopicloud-ad-api.com/images/development/golang.png)
+                
+**Ruby**
+
+![Ruby](https://www.kopicloud-ad-api.com/images/development/ruby.png)
+
+----
+
+## Get help from our Consulting Services
+
+If you are busy or need help with the integration between your applications and **KopiCloud AD API**, get in touch with our [Consulting Services](https://www.kopicloud-ad-api.com/consulting).
+
+ We have a team of engineers and developers that can help you accelerate the implementation of **KopiCloud AD API** in your company:
+    
+![Setup](https://www.kopicloud-ad-api.com/images/consulting/server.png)
+
+**Setup of KopiCloud AD API Servers**
+
+- Implement and configure **KopiCloud AD API** in your cloud environment (AWS, Azure, GCP, OCI) or the datacenter (vSphere, Hyper-V).
+- Set up Active Directory groups and permissions for authentication.
+- Migrate servers between cloud environments or datacenter.
 
 
+![Development](https://www.kopicloud-ad-api.com/images/consulting/development.png)
 
-    If you are busy or need help with the integration between your applications and **KopiCloud AD API**, get in touch with our [Consulting Services](https://www.kopicloud-ad-api.com/consulting)
+**API Integration with your Application**
 
+- Write custom code in any major language (C#, Go, Node, Python, Java, TypeScript, Python, etc.) to consume **KopiCloud AD API** methods from your application.
+- Development of libraries or SDK to consume the API.
+
+
+![Terraform](https://www.kopicloud-ad-api.com/images/consulting/terraform.png)
+
+**Terraform Code Development**
+
+- Write Terraform code to automate any Active Directory and DNS tasks in AWS, Azure, GCP, OCI, and VMware vSphere.
+- Create a custom Terraform provider for **KopiCloud AD API** or update/extended the existing Terraform provider.
+
+
+![DevOps](https://www.kopicloud-ad-api.com/images/consulting/devops.png)
+
+**CI/CD Pipelines**
+
+- Write CI/CD Pipelines (Azure DevOps, GitHub, GitLab, etc.) to automate Active Directory and DNS tasks with Terraform code.
+
+![Scripting Development](https://www.kopicloud-ad-api.com/images/consulting/command.png)
+
+**Scripting Development**
+
+- Development of scripts to consume **KopiCloud AD API** methods from PowerShell or Bash.
+- Create a custom PowerShell library to consume the API.
