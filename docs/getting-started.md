@@ -97,7 +97,7 @@ If you are busy or need help with the integration between your applications and 
 
  We have a team of engineers and developers that can help you accelerate the implementation of **KopiCloud AD API** in your company:
     
-![Setup](https://www.kopicloud-ad-api.com/images/consulting/server.png)
+![Setup](https://www.kopicloud-ad-api.com/images/consulting/server.png){ align=left }
 
 **Setup of KopiCloud AD API Servers**
 
@@ -106,7 +106,7 @@ If you are busy or need help with the integration between your applications and 
 - Migrate servers between cloud environments or datacenter.
 
 
-![Development](https://www.kopicloud-ad-api.com/images/consulting/development.png)
+![Development](https://www.kopicloud-ad-api.com/images/consulting/development.png){ align=left }
 
 **API Integration with your Application**
 
@@ -114,7 +114,7 @@ If you are busy or need help with the integration between your applications and 
 - Development of libraries or SDK to consume the API.
 
 
-![Terraform](https://www.kopicloud-ad-api.com/images/consulting/terraform.png)
+![Terraform](https://www.kopicloud-ad-api.com/images/consulting/terraform.png){ align=left }
 
 **Terraform Code Development**
 
@@ -122,13 +122,13 @@ If you are busy or need help with the integration between your applications and 
 - Create a custom Terraform provider for **KopiCloud AD API** or update/extended the existing Terraform provider.
 
 
-![DevOps](https://www.kopicloud-ad-api.com/images/consulting/devops.png)
+![DevOps](https://www.kopicloud-ad-api.com/images/consulting/devops.png){ align=left }
 
 **CI/CD Pipelines**
 
 - Write CI/CD Pipelines (Azure DevOps, GitHub, GitLab, etc.) to automate Active Directory and DNS tasks with Terraform code.
 
-![Scripting Development](https://www.kopicloud-ad-api.com/images/consulting/command.png)
+![Scripting Development](https://www.kopicloud-ad-api.com/images/consulting/command.png){ align=left }
 
 **Scripting Development**
 
