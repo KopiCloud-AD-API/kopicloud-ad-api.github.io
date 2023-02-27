@@ -10,7 +10,7 @@ Manage Microsoft DNS AAAA Records using the KopiCloud AD API:
 
 ----
 
-## ==GET== /api/DnsAAAARecord/All
+## GET /api/DnsAAAARecord/All
 List All DNS AAAA Records in All Zones
 
 **Parameters**
@@ -122,7 +122,7 @@ List All DNS AAAA Records that match with DNS Hostname
 
 ----
 
-GET /api/DnsAAAARecord
+## GET /api/DnsAAAARecord
 Get DNS AAAA Record that match with DNS Hostname and IPv6 Address
 
 **Parameters**
@@ -153,7 +153,7 @@ Get DNS AAAA Record that match with DNS Hostname and IPv6 Address
 
 ----
 
-POST /api/DnsAAAARecord
+## POST /api/DnsAAAARecord
 Create a DNS AAAA Records
 
 **Parameters**
@@ -184,8 +184,10 @@ Create a DNS AAAA Records
 
 ----
 
-DELETE /api/DnsAAAARecord
+## DELETE /api/DnsAAAARecord
 Delete a DNS A Record
+
+**Parameters**
 
 | Name         | Type   | Description                          | Mandatory |
 | ------------ | ------ | ------------------------------------ | --------- |
@@ -193,3 +195,20 @@ Delete a DNS A Record
 | IPv6_Address | string | IPv6 Address                         | Yes       |
 | ZoneName     | string | DNS Zone Name                        | Yes       |
 | Auth-Token   | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
+
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
+}
+```
