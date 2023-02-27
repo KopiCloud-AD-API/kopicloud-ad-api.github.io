@@ -111,4 +111,5 @@ If you are busy or need help with the integration between your applications and 
 ![DevOps](https://www.kopicloud-ad-api.com/images/consulting/devops.png){ align=left }
 
 - Write CI/CD Pipelines (Azure DevOps, GitHub, GitLab, etc.) to automate Active Directory and DNS tasks with Terraform code.
+<br /><br />
 

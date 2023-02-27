@@ -4,6 +4,9 @@ nav:
 
   - Setup:
     - Requirements: setup/requirements.md
+    - Install API: setup/install-api.md
+    - Unatended Install: setup/unattended-install-api.md
+    - One-Click Deployment:
 
   - Interfaces:
     - API:
