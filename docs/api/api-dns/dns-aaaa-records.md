@@ -186,7 +186,7 @@ POST /api/DnsAAAARecord
 ----
 
 ## Delete a DNS A Record
-==DELETE== /api/DnsAAAARecord
+<span class="delete">DELETE</span> /api/DnsAAAARecord
 
 
 **Parameters**
