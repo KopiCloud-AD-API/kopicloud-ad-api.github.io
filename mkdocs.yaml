@@ -25,6 +25,7 @@ watch:
   - nav.yaml
   - overrides
 markdown_extensions:
+  - md_in_html
   - admonition
   - attr_list
   - pymdownx.details
