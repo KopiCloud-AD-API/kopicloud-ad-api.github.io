@@ -53,14 +53,14 @@ Start writing your integration in any development or scripting language that sup
 ![Python](https://www.kopicloud-ad-api.com/images/development/python.png){ align=left }
 ![JavaScript](https://www.kopicloud-ad-api.com/images/development/javascript.png){ align=left }
 ![TypeScript](https://www.kopicloud-ad-api.com/images/development/typescript.png){ align=left }
-![Java](https://www.kopicloud-ad-api.com/images/development/java.png){ align=left }
+![Java](https://www.kopicloud-ad-api.com/images/development/java.png)
 <br /><br />
 
 ![PowerShell](https://www.kopicloud-ad-api.com/images/development/powershell.png){ align=left }
 ![Bash](https://www.kopicloud-ad-api.com/images/development/bash.png){ align=left }
 ![PHP](https://www.kopicloud-ad-api.com/images/development/php.png){ align=left }
 ![Go](https://www.kopicloud-ad-api.com/images/development/golang.png){ align=left }
-![Ruby](https://www.kopicloud-ad-api.com/images/development/ruby.png){ align=left }
+![Ruby](https://www.kopicloud-ad-api.com/images/development/ruby.png)
 <br /><br />
 
 
