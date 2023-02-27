@@ -49,45 +49,35 @@ Or create a **Setup Configuration File** to automate the deployment of the KopiC
 
 Start writing your integration in any development or scripting language that supports a REST API:
 
+![Microsoft .NET](https://www.kopicloud-ad-api.com/images/development/dotnet.png){ align=left }
 **Microsoft .NET**
 
-![Microsoft .NET](https://www.kopicloud-ad-api.com/images/development/dotnet.png)
-
+![Python](https://www.kopicloud-ad-api.com/images/development/python.png){ align=left }
 **Python**
 
-![Python](https://www.kopicloud-ad-api.com/images/development/python.png)
-
+![JavaScript](https://www.kopicloud-ad-api.com/images/development/javascript.png){ align=left }
 **JavaScript**
 
-![JavaScript](https://www.kopicloud-ad-api.com/images/development/javascript.png)
-
+![TypeScript](https://www.kopicloud-ad-api.com/images/development/typescript.png){ align=left }
 **TypeScript**
 
-![TypeScript](https://www.kopicloud-ad-api.com/images/development/typescript.png)
-
+![Java](https://www.kopicloud-ad-api.com/images/development/java.png){ align=left }
 **Java**
 
-![Java](https://www.kopicloud-ad-api.com/images/development/java.png)
-
+![PowerShell](https://www.kopicloud-ad-api.com/images/development/powershell.png){ align=left }
 **PowerShell**
 
-![PowerShell](https://www.kopicloud-ad-api.com/images/development/powershell.png)
-
+![PowerShell](https://www.kopicloud-ad-api.com/images/development/bash.png){ align=left }
 **Bash**
 
-![PowerShell](https://www.kopicloud-ad-api.com/images/development/bash.png)
-
+![PHP](https://www.kopicloud-ad-api.com/images/development/php.png){ align=left }
 **PHP**
 
-![PHP](https://www.kopicloud-ad-api.com/images/development/php.png)
-
+![Go](https://www.kopicloud-ad-api.com/images/development/golang.png){ align=left }
 **Go**
-
-![Go](https://www.kopicloud-ad-api.com/images/development/golang.png)
                 
+![Ruby](https://www.kopicloud-ad-api.com/images/development/ruby.png){ align=left }
 **Ruby**
-
-![Ruby](https://www.kopicloud-ad-api.com/images/development/ruby.png)
 
 ----
 
@@ -96,41 +86,42 @@ Start writing your integration in any development or scripting language that sup
 If you are busy or need help with the integration between your applications and **KopiCloud AD API**, get in touch with our [Consulting Services](https://www.kopicloud-ad-api.com/consulting).
 
  We have a team of engineers and developers that can help you accelerate the implementation of **KopiCloud AD API** in your company:
-    
-![Setup](https://www.kopicloud-ad-api.com/images/consulting/server.png){ align=left }
 
 **Setup of KopiCloud AD API Servers**
+    
+![Setup](https://www.kopicloud-ad-api.com/images/consulting/server.png){ align=left }
 
 - Implement and configure **KopiCloud AD API** in your cloud environment (AWS, Azure, GCP, OCI) or the datacenter (vSphere, Hyper-V).
 - Set up Active Directory groups and permissions for authentication.
 - Migrate servers between cloud environments or datacenter.
 
 
-![Development](https://www.kopicloud-ad-api.com/images/consulting/development.png){ align=left }
-
 **API Integration with your Application**
+
+![Development](https://www.kopicloud-ad-api.com/images/consulting/development.png){ align=left }
 
 - Write custom code in any major language (C#, Go, Node, Python, Java, TypeScript, Python, etc.) to consume **KopiCloud AD API** methods from your application.
 - Development of libraries or SDK to consume the API.
 
 
-![Terraform](https://www.kopicloud-ad-api.com/images/consulting/terraform.png){ align=left }
-
 **Terraform Code Development**
+
+![Terraform](https://www.kopicloud-ad-api.com/images/consulting/terraform.png){ align=left }
 
 - Write Terraform code to automate any Active Directory and DNS tasks in AWS, Azure, GCP, OCI, and VMware vSphere.
 - Create a custom Terraform provider for **KopiCloud AD API** or update/extended the existing Terraform provider.
 
 
-![DevOps](https://www.kopicloud-ad-api.com/images/consulting/devops.png){ align=left }
-
 **CI/CD Pipelines**
+
+![DevOps](https://www.kopicloud-ad-api.com/images/consulting/devops.png){ align=left }
 
 - Write CI/CD Pipelines (Azure DevOps, GitHub, GitLab, etc.) to automate Active Directory and DNS tasks with Terraform code.
 
-![Scripting Development](https://www.kopicloud-ad-api.com/images/consulting/command.png){ align=left }
 
 **Scripting Development**
+
+![Scripting Development](https://www.kopicloud-ad-api.com/images/consulting/command.png){ align=left }
 
 - Development of scripts to consume **KopiCloud AD API** methods from PowerShell or Bash.
 - Create a custom PowerShell library to consume the API.
