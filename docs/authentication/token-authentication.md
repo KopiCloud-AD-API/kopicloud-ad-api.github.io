@@ -7,8 +7,6 @@ description: Create KopiCloud AD API Authentication Token
 
 KopiCloud AD API support two types of token: **JWT Token** and **Basic Token**.
 
-> **Note:** Save your token in a safe place.
-
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
 ----
@@ -19,7 +17,7 @@ Enter your username and password to login:
 
 ![Image title](https://help.kopicloud-ad-api.com/assets/docs/login.png)
 
-And click on the **Login button.
+And click on the **Login** button.
 
 ----
 
@@ -54,3 +52,7 @@ Enter your username and password, and click on the **Generate** button.
 > **Note:** If you change your password, you need to regenerate your **Basic Token**.
 
 ![Image title](https://help.kopicloud-ad-api.com/assets/docs/generate_basic_token.png)
+
+Then, the token will be generated. Copy the token and store in a safe place!
+
+![Image title](https://help.kopicloud-ad-api.com/assets/docs/generate_basic_token_result.png)
