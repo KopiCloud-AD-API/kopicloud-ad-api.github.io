@@ -2,6 +2,9 @@ nav:
   - index.md
   - Getting Started: getting-started.md
 
+  - Setup:
+    - Requirements: setup/requirements.md
+
   - Interfaces:
     - API:
       - API: api/api.md
