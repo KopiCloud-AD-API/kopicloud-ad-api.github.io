@@ -19,6 +19,15 @@ nav:
     - Manage Tokens: authentication/manage-tokens.md
     - Terraform Authentication: authentication/terraform-authentication.md
 
+  - API:
+    - DNS:
+      - DNS with Terraform: api/api-dns/dns.md
+      - DNS AAAA Records: api/api-dns/dns-aaaa-records.md
+      - DNS A Records: api/api-dns/dns-a-records.md
+      - DNS CNAME Records: api/api-dns/dns-cname-records.md
+      - DNS Lookup Zones: api/api-dns/dns-lookup-zones.md
+      - DNS Reverse Lookup Zones: api/api-dns/dns-reverse-lookup-zones.md
+
   - Terraform:
     - AD Computer:
       - AD Computer with Terraform: terraform/terraform-computer/computer.md
