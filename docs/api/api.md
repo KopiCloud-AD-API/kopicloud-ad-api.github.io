@@ -9,17 +9,17 @@ date: 2023-02-28
 
 The **KopiCloud AD API** is a REST API.
 
-The API can be consumed making API calls from:
+The API can be consumed by making API calls from:
 
-- Different development languages, such C#, Python, JavaScript, etc.
+- Different development languages, such as C#, Python, JavaScript, etc.
 
 - Scripting languages such PowerShell or Bash.
 
-- From the [Swagger UI](.api/swagger-ui.md).
+- From the [Swagger UI](swagger-ui.md).
 
-- Using our [Terraform Provider](.terraform/terraform.md).
+- Using our [Terraform Provider](..terraform/terraform.md).
 
-- KopiCloud AD SDKs, currently under development.
+- KopiCloud AD SDKs, which are currently under development.
 
 ----
 
@@ -37,7 +37,7 @@ When people use the term **REST API**, they are generally referring to an API ac
 
 These URLs represent various resources with one or more methods that can be performed on them over HTTP, like GET, POST, PUT, and DELETE.
 
-- <span class="btn-get">GET</span> requests data only – and not modify it in any way.
+- <span class="btn-get">GET</span> requests data only – and does not modify it in any way.
 
 - <span class="btn-delete">DELETE</span> delete the resources defined in the API method.
 
@@ -65,7 +65,7 @@ The KopiCloud AD API will return the following API response codes:
 
 ## API Authentication
 
-By default, you need an [Authentication Token](authentication/token-authentication.md) to make API calls.
+By default, you need an [Authentication Token](..authentication/token-authentication.md) to make API calls.
 
 **KopiCloud AD API** supports two types of tokens: **JWT Token**, and **Basic Token**.
 
