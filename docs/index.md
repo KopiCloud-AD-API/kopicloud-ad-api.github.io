@@ -30,7 +30,7 @@ We need to test the code to make sure it works perfectly and need to spend hours
 
 Some of our previous customers, called the API from Terraform and so we decided to create a Terraform Provider, so we need to make many changes so they can work with our Terraform Provider.
 
-And creating the Terraform Provider, required to rewrite over 40% of the methods and add more methods.
+And creating the Terraform Provider required rewriting over 40% of the methods and adding a few extra methods.
 
 ----
 
