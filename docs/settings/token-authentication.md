@@ -1,6 +1,7 @@
 ---
 title: Managing Token Authentication
 description: Managing KopiCloud AD API Token Authentication
+date: 2023-02-28
 ---
 
 # Managing API Token Authentication

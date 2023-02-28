@@ -1,6 +1,7 @@
 ---
 title: Create KopiCloud AD API Authentication Token
 description: Create KopiCloud AD API Authentication Token
+date: 2023-02-28
 ---
 
 # Create KopiCloud AD API Authentication Token

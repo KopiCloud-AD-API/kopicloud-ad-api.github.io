@@ -1,6 +1,7 @@
 ---
 title: Terraform Authentication
 description: KopiCloud AD Terraform Provider Authentication
+date: 2023-02-28
 ---
 
 # Terraform Authentication
@@ -12,9 +13,9 @@ Understand how to configure **KopiCloud AD Terraform Provider** authentication.
 
 ## Set up the Terraform Provider
 
-Login to the KopiCloud AD API management website and generate a token.
+Login to the **KopiCloud AD API Management Website** and [generate a token](authentication/token-authentication.md).
 
-In your **provider.tf** file, configure the KopiCloud AD Provider with the hostname of your API server and the authentication token.
+In your **provider.tf** file, configure the **KopiCloud AD Terraform Provider** with the hostname of your API server and the authentication token.
 
 ```
 terraform {

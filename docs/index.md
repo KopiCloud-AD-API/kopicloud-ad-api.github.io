@@ -1,11 +1,12 @@
 ---
 title: Welcome to KopiCloud AD API
 description: Welcome to KopiCloud AD API
+date: 2023-02-28
 ---
 
 # KopiCloud AD API Intro
 
-**KopiCloud AD API** is an API designed to manage **Microsoft Active Directory and DNS** in a secure way from custom applications, automation tools, DevOps pipelines, and Terraform.
+**KopiCloud AD API** is a REST API designed to manage **Microsoft Active Directory and DNS** in a secure way from custom applications, automation tools, DevOps pipelines, and Terraform.
 
 ----
 

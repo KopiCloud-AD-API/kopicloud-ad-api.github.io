@@ -1,6 +1,7 @@
 ---
 title: Install KopiCloud AD API
 description: Install KopiCloud AD API Server
+date: 2023-xx-xx
 ---
 
 # Install KopiCloud AD API Setup

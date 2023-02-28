@@ -1,6 +1,7 @@
 ---
 title: Credits
 description: Credits and Attributions
+date: 2023-02-28
 ---
 
 # Credits
@@ -27,7 +28,7 @@ This is the team that over the last few years completed the API and the Terrafor
 
 ----
 
-## Icons Attributions
+## Attributions
 
 Below is the list of icons we used on our website and their authors:
 

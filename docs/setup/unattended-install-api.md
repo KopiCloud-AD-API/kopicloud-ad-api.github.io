@@ -1,6 +1,7 @@
 ---
 title: Unattended Install KopiCloud AD API
 description: Unattended Install KopiCloud AD API Server
+date: 2023-xx-xx
 ---
 
 # Unattended Install KopiCloud AD API Setup

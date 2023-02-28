@@ -1,12 +1,13 @@
 ---
 title: KopiCloud AD API Requirements
 description: KopiCloud AD API Requirements
+date: 2023-02-28
 ---
 
 # KopiCloud AD API Requirements
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-The requirements to install KopiCloud AD API server.
+Review the requirements to install the KopiCloud AD API server.
 
 ----
 
@@ -70,4 +71,4 @@ The requirements of memory and CPU are very low; we have been running in a large
 
 The recommended configuration is 2vCPUs and 8GB of RAM.
 
-The storage required is at least 60 GB of storage in C drive, including OS, SQL Server, IIS and application code.
+The storage recommended is at least 60 GB of storage in the C drive, including OS, SQL Server, IIS, and application code.

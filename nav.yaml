@@ -4,15 +4,13 @@ nav:
 
   - Setup:
     - Requirements: setup/requirements.md
-    - Install API: setup/install-api.md
-    - Unatended Install: setup/unattended-install-api.md
-    - One-Click Deployment: setup/one-click-deployments.md
+    #- Install API: setup/install-api.md
+    #- Unatended Install: setup/unattended-install-api.md
+    #- One-Click Deployment: setup/one-click-deployments.md
 
   - Interfaces:
-    - API:
-      - API: api/api.md
-    - Terraform: 
-      - Terraform: terraform/terraform.md
+    - API: api/api.md
+    - Terraform: terraform/terraform.md
 
   - Authentication:
     - Generate Token: authentication/token-authentication.md
@@ -22,7 +20,7 @@ nav:
 
   - API:
     - DNS:
-      - DNS with Terraform: api/api-dns/dns.md
+      - DNS API Methods: api/api-dns/dns.md
       - DNS AAAA Records: api/api-dns/dns-aaaa-records.md
       - DNS A Records: api/api-dns/dns-a-records.md
       - DNS CNAME Records: api/api-dns/dns-cname-records.md
@@ -30,16 +28,16 @@ nav:
       - DNS Reverse Lookup Zones: api/api-dns/dns-reverse-lookup-zones.md
 
   - Terraform:
-    - AD Computer:
-      - AD Computer with Terraform: terraform/terraform-computer/computer.md
-    - AD Group:
-      - AD Group with Terraform: terraform/terraform-group/group.md
-    - AD Group Membership:
-      - AD Group Membership with Terraform: terraform/terraform-group-membership/group-membership.md
-    - AD OU:
-      - AD OU with Terraform: terraform/terraform-ou/ou.md
-    - AD Users:
-      - AD User with Terraform: terraform/terraform-user/user.md
+    #- AD Computer:
+    #  - AD Computer with Terraform: terraform/terraform-computer/computer.md
+    #- AD Group:
+    #  - AD Group with Terraform: terraform/terraform-group/group.md
+    #- AD Group Membership:
+    #  - AD Group Membership with Terraform: terraform/terraform-group-membership/group-membership.md
+    #- AD OU:
+    #  - AD OU with Terraform: terraform/terraform-ou/ou.md
+    #- AD Users:
+    #  - AD User with Terraform: terraform/terraform-user/user.md
     - DNS:
       - DNS with Terraform: terraform/terraform-dns/dns.md
       - DNS AAAA Records: terraform/terraform-dns/dns-aaaa-records.md

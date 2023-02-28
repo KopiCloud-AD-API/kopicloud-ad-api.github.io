@@ -1,6 +1,7 @@
 ---
 title: Manage KopiCloud AD API Authentication Token
 description: Manage KopiCloud AD API Authentication Token
+date: 2023-02-28
 ---
 
 # Manage KopiCloud AD API Authentication Token

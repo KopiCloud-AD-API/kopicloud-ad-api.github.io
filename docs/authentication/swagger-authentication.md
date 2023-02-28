@@ -1,6 +1,7 @@
 ---
 title: API Swagger Authentication
 description: KopiCloud AD API Swagger Authentication
+date: 2023-02-28
 ---
 
 # KopiCloud AD API Swagger Authentication
@@ -18,9 +19,7 @@ It is useful to test methods or can be used for some quick activities or actions
 
 If **Token Authentication** is enabled, every call to the API will require a token.
 
-Check the status of the Token Authentication, in the footer of the **KopiCloud AD API Management Website**:
-
-![Token Authentication Status](https://help.kopicloud-ad-api.com/assets/docs/token_authentication_status.png)
+[Check the status of the Token Authentication](settings/token-authentication.md), in the footer of the **KopiCloud AD API Management Website**.
 
 If Token Authentication is enabled, the Swagger UI will request a token to execute an API method:
 
