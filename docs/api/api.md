@@ -17,7 +17,7 @@ The API can be consumed by making API calls from:
 
 - From the [Swagger UI](swagger-ui.md).
 
-- Using our [Terraform Provider](..terraform/terraform.md).
+- Using our [Terraform Provider](../terraform/terraform.md).
 
 - KopiCloud AD SDKs, which are currently under development.
 
@@ -65,7 +65,7 @@ The KopiCloud AD API will return the following API response codes:
 
 ## API Authentication
 
-By default, you need an [Authentication Token](..authentication/token-authentication.md) to make API calls.
+By default, you need an [Authentication Token](../authentication/token-authentication.md) to make API calls.
 
 **KopiCloud AD API** supports two types of tokens: **JWT Token**, and **Basic Token**.
 
