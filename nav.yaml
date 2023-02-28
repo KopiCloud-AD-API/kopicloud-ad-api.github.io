@@ -49,6 +49,9 @@ nav:
   - Settings:
     - Token Authentication: settings/token-authentication.md     
 
+  - Logging:
+    - Event Logging: logging/event-logging.md
+
   - Product:
     #- FAQ: faq.md
     - Change Log: changelog.md
