@@ -10,7 +10,7 @@ date: 2023-02-28
 
 ----
 
-## Overview
+## A Bit of History
 
 **KopiCloud AD API** was born many years ago from a personal need, as most of our KopiCloud tools. 
 
@@ -30,6 +30,8 @@ We need to test the code to make sure it works perfectly and need to spend hours
 
 Some of our previous customers, called the API from Terraform and so we decided to create a Terraform Provider, so we need to make many changes so they can work with our Terraform Provider.
 
+And creating the Terraform Provider, required to rewrite over 40% of the methods and add more methods.
+
 ----
 
 ## Why KopiCloud AD API
@@ -42,7 +44,8 @@ So if you want to automate access to Active Directory or DNS, you must write you
 
 > **It is secure**
 
-Instead of using usernames and passwords to access Active Directory or DNS, we use tokens. 
+Instead of using usernames and passwords to access Active Directory or DNS, we use [authentication tokens](/authentication/token-authentication.md)
+
 These tokens can be used for a limited time or forever. 
 
 > **We keep a log of everything**
