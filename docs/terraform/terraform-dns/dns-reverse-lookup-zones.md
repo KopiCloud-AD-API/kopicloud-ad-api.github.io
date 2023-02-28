@@ -1,13 +1,13 @@
 ---
 title: DNS Reverse Lookup Zones
-description: Manage Microsof DNS Reverse Lookup Zones with Terraform
+description: Manage Microsoft DNS Reverse Lookup Zones with Terraform
 date: 2023-03-01
 ---
 
 # DNS Reverse Lookup Zones
 [![Terraform](https://img.shields.io/badge/terraform-v1.3+-blue.svg)](https://www.terraform.io/downloads.html) [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Manage Microsoft DNS Reverse Lookup Zones in AD DNS using the KopiCloud AD Terraform Provider:
+Manage Microsoft DNS Reverse Lookup Zones using the KopiCloud AD Terraform Provider.
 
 ----
 

@@ -1,13 +1,13 @@
 ---
 title: DNS Lookup Zones with Terraform
-description: Manage Microsof DNS Lookup Zones with Terraform
+description: Manage Microsoft DNS Lookup Zones with Terraform
 date: 2023-03-01
 ---
 
 # DNS Lookup Zones
 [![Terraform](https://img.shields.io/badge/terraform-v1.3+-blue.svg)](https://www.terraform.io/downloads.html) [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Manage Microsoft DNS Lookup Zones in AD DNS using the KopiCloud AD Terraform Provider:
+Manage Microsoft DNS Lookup Zones using the KopiCloud AD Terraform Provider.
 
 ----
 
