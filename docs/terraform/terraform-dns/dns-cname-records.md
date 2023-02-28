@@ -1,6 +1,7 @@
 ---
 title: DNS CNAME Records with Terraform
 description: Manage Microsof DNS CNAME Records with Terraform
+date: 2023-03-01
 ---
 
 # DNS CNAME Records

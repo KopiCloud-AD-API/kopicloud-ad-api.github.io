@@ -1,6 +1,7 @@
 ---
 title: DNS A Records with Terraform
 description: Manage Microsof DNS A Records with Terraform
+date: 2023-03-01
 ---
 
 # DNS A Records

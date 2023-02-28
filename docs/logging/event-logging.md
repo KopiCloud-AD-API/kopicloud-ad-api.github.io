@@ -7,9 +7,17 @@ date: 2023-03-01
 # Event Logging
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-An event is logged each time an API method is invoked, so you know who and when they call any API method.
+An event is logged each time an API method is invoked.
 
-All the information is store in a database and can be exported to your favorite SIEM (Security Information and Event Management) software.
+These event logs are used to **audit actions performed by the API** so you know who and when they call any API method.
+
+All the information is stored in a database and can be exported to your favorite SIEM (Security Information and Event Management) software.
+
+----
+
+## Event Log
+
+TBC
 
 ----
 

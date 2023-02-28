@@ -1,6 +1,7 @@
 ---
 title: DNS Lookup Zones with Terraform
 description: Manage Microsof DNS Lookup Zones with Terraform
+date: 2023-03-01
 ---
 
 # DNS Lookup Zones

@@ -1,6 +1,7 @@
 ---
 title: DNS with Terraform
 description: Manage Microsoft DNS with Terraform
+date: 2023-03-01
 ---
 
 # DNS with Terraform
@@ -35,6 +36,8 @@ The provider includes **Terraform Data Sources** to list existing DNS Records an
 - List DNS AAAA Records
 
 - List DNS CNAME Records
+
+- List All DNS Zones
 
 - List DNS Loopkup Zones
 

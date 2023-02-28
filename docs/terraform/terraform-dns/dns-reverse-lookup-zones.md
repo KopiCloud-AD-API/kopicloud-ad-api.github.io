@@ -1,6 +1,7 @@
 ---
 title: DNS Reverse Lookup Zones
 description: Manage Microsof DNS Reverse Lookup Zones with Terraform
+date: 2023-03-01
 ---
 
 # DNS Reverse Lookup Zones
