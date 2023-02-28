@@ -48,6 +48,9 @@ nav:
       - DNS Lookup Zones: terraform/terraform-dns/dns-lookup-zones.md
       - DNS Reverse Lookup Zones: terraform/terraform-dns/dns-reverse-lookup-zones.md
 
+  - Security:
+    - Token Authentication: security/token-authentication.md     
+
   - Product:
     #- FAQ: faq.md
     - Change Log: changelog.md
