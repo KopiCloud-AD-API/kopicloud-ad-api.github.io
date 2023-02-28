@@ -48,7 +48,7 @@ nav:
       - DNS Lookup Zones: terraform/terraform-dns/dns-lookup-zones.md
       - DNS Reverse Lookup Zones: terraform/terraform-dns/dns-reverse-lookup-zones.md
 
-  - Security:
+  - {% octicon tools height:16 %} Settings:
     - Token Authentication: security/token-authentication.md     
 
   - Product:
