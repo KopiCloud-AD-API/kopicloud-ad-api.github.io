@@ -48,5 +48,7 @@ nav:
       - DNS Reverse Lookup Zones: terraform/terraform-dns/dns-reverse-lookup-zones.md
 
   - FAQ: faq.md
-  - Change Log: changelog.md 
+  - Change Log: changelog.md
+  - Credits: credits.md
+  
     
