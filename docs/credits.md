@@ -1,17 +1,17 @@
 ---
 title: Credits
-description: Credits
+description: Credits and Attributions
 ---
 
 # Credits
 
-The beginnings of **KopiCloud AD API** go back to the year 2014, and the finished release is the effort of a small team of developers, engineers and designers over the last five years of work.
+The beginnings of **KopiCloud AD API** go back to the year 2014, and the finished release is the effort of a small team of developers, engineers, and designers over the last five years of work.
 
 ----
 
-## Team:
+## The Team
 
-This is the team that over last few years completed the API and the Terraform provider:
+This is the team that over the last few years completed the API and the Terraform provider:
 
 - Project Management: Guillermo
 
@@ -29,7 +29,7 @@ This is the team that over last few years completed the API and the Terraform pr
 
 ## Icons Attributions
 
-Below are the list of icons we used in our website and their authors.
+Below is the list of icons we used on our website and their authors:
 
 - <a href="https://www.flaticon.com/free-icons/dns" title="dns icons">Dns icons created by SumberRejeki - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/imac" title="imac icons">Imac icons created by Those Icons - Flaticon</a>

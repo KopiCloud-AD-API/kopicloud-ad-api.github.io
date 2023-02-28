@@ -17,6 +17,7 @@ nav:
   - Authentication:
     - Generate Token: authentication/token-authentication.md
     - Manage Tokens: authentication/manage-tokens.md
+    - API Swagger Authentication: authentication/swagger-authentication.md
     - Terraform Authentication: authentication/terraform-authentication.md
 
   - API:

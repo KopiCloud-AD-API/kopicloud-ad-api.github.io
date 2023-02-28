@@ -7,7 +7,9 @@ description: Create KopiCloud AD API Authentication Token
 
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-KopiCloud AD API support two types of token: **JWT Token** and **Basic Token**.
+**KopiCloud AD API** supports two types of tokens: **JWT Token** and **Basic Token**.
+
+This token will be used to authenticate to the API from application integrations, the API Swagger, and the Terraform Provider.
 
 ----
 
@@ -27,25 +29,25 @@ JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and s
 
 This information can be verified and trusted because it is digitally signed.
 
-JWT are recommended for applications, for example Terraform, and they can expire automatically.
+JWT tokens  are recommended for applications, for example, Terraform, and they can expire automatically.
 
-To create a **JWT Token**, login to the KopiCloud AD API management website, anc click on the **JWT Token** menu.
+To create a **JWT Token**, login to the KopiCloud AD API management website, and click on the **JWT Token** menu.
 
-Enter a unique token name and expiration time (or 0 to create a not-expirining token), and click on the **Generate** button.
+Enter a unique token name and expiration time (or 0 to create a not-expiring token), and click on the **Generate** button.
 
 ![Image title](https://help.kopicloud-ad-api.com/assets/docs/generate_jwt_token.png)
 
-Then, the token will be generated. Copy the token and store in a safe place!
+Then, the token will be generated. Copy the token and store it in a safe place!
 
 ![Image title](https://help.kopicloud-ad-api.com/assets/docs/generate_jwt_token_result.png)
 
 ----
 
-## Create Basic Token
+## Create a Basic Token
 
-Basic tokens are created combining an username and password.
+Basic tokens are created by combining a username and password.
 
-To create a **Basic Token**, login to the KopiCloud AD API management website, anc click on the **Basic Token** menu.
+To create a **Basic Token**, login to the KopiCloud AD API management website, and click on the **Basic Token** menu.
 
 Enter your username and password, and click on the **Generate** button.
 
@@ -53,6 +55,6 @@ Enter your username and password, and click on the **Generate** button.
 
 ![Image title](https://help.kopicloud-ad-api.com/assets/docs/generate_basic_token.png)
 
-Then, the token will be generated. Copy the token and store in a safe place!
+Then, the token will be generated. Copy the token and store it in a safe place!
 
 ![Image title](https://help.kopicloud-ad-api.com/assets/docs/generate_basic_token_result.png)
