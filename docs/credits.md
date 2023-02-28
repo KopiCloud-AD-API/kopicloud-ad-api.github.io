@@ -5,13 +5,13 @@ description: Credits
 
 # Credits
 
-**KopiCloud AD API** is the effort of dozens of developers, engineers and designers over 9 years of work.
+The beginnings of **KopiCloud AD API** go back to the year 2014, and the finished release is the effort of a small team of developers, engineers and designers over the last five years of work.
 
 ----
 
 ## Team:
 
-This is the team that over last few years completed the API:
+This is the team that over last few years completed the API and the Terraform provider:
 
 - Project Management: Guillermo
 
@@ -19,7 +19,11 @@ This is the team that over last few years completed the API:
 
 - API Development: Guillermo, Sami, Alex
 
+- Setup: Guillermo
+
 - Graphic Design: Serhii, Appel, Bedam, Olena
+
+- Documentation: Guillermo
 
 ----
 

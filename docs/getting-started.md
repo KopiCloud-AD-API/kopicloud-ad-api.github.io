@@ -10,9 +10,9 @@ description: Getting Started with KopiCloud AD API
 
 - **Download** and try **KopiCloud Active Directory API**
 
-- Check the **detailed API documentation**
+- Check this **detailed API documentation**
 
-- Write **integrations** with your appls
+- Write **integrations** with your applications
             
 - Write your **Terraform code** to automate Active Directory with our Terraform Provider
 
@@ -25,15 +25,15 @@ description: Getting Started with KopiCloud AD API
 
 Login into your account or create a new account.
 
-Go to the **Settings** page, click on **Licenses** and **Generate a Trial License**.
+Go to the **Settings** page, click on **Licenses**, and **Generate a Trial License**.
 
-> Note #1: there is a limited on the trial licenses that you can generate
+> Note #1: there is a limit on the number of trial licenses that you can generate
 
 > Note #2: the trial starts when you activate your license
 
 ----
 
-## Download and try the API
+## Download and Try the API
 
 Visit the [Download](https://www.kopicloud-ad-api.com/download) page to download the Setup application.
 
@@ -41,11 +41,11 @@ Execute the Setup application to install and configure your machine.
 
 Or create a **Setup Configuration File** to automate the deployment of the KopiCloud AD API.
 
-> Coming soon: we will provide scripts to create full unattended deployments in Azure, AWS, GCP and VMware.
+> Coming soon: we will provide scripts to create full unattended deployments in Azure, AWS, GCP, OCI, and VMware.
 
 ----
 
-## Write your integrations
+## Write your Integrations
 
 Start writing your integration in any development or scripting language that supports a REST API:
 
@@ -66,7 +66,7 @@ Start writing your integration in any development or scripting language that sup
 
 ----
 
-## Get help from our Consulting Services
+## Get Help from our Consulting Services
 
 If you are busy or need help with the integration between your applications and **KopiCloud AD API**, get in touch with our [Consulting Services](https://www.kopicloud-ad-api.com/consulting).
 

@@ -5,7 +5,7 @@ description: Welcome to KopiCloud AD API
 
 # KopiCloud AD API Intro
 
-**KopiCloud AD API** is an API designed to manage **Microsoft Active Directory and DNS** in secure way from custom applications, automation tools, DevOps pipelines and Terraform.
+**KopiCloud AD API** is an API designed to manage **Microsoft Active Directory and DNS** in a secure way from custom applications, automation tools, DevOps pipelines, and Terraform.
 
 ----
 
@@ -13,10 +13,9 @@ description: Welcome to KopiCloud AD API
 
 **KopiCloud AD API** was born many years ago from a personal need, as most of our KopiCloud tools. 
 
-In 2014, I started a project called **KopiBoot**, tool to automate deployment of Windows applications on the public and private cloud.
-This project, included code to create resouces in Active Directory and DNS.
+In 2014, I started a project called KopiBoot, a tool to automate the deployment of Windows applications on the public and private cloud. This project included the initial code to create resources in Active Directory and DNS, used by this API.
 
-After that, we developed an simple API for customers to integrate their existing apps with Active Directory. 
+After that, we developed a simple API for customers to integrate their existing apps with Active Directory.
 
 Over the years, we used and expanded the API with many new functionalities for more customers, including DNS and integration with cloud-managed Active Directories, such as **AWS Managed Microsoft AD** and **Azure Active Directory Domain Services (Azure AD DS)**. 
 
@@ -28,7 +27,7 @@ Publishing a very large and complex web app required lots of time and effort fro
 
 We need to test the code to make sure it works perfectly and need to spend hours and hours documenting the API. 
 
-Some our previous customers, called the API from Terraform and so we decided to create a Terraform Provider, so we need to make many changes so they can work with our Terraform Provider.
+Some of our previous customers, called the API from Terraform and so we decided to create a Terraform Provider, so we need to make many changes so they can work with our Terraform Provider.
 
 ----
 
@@ -47,7 +46,7 @@ These tokens can be used for a limited time or forever.
 
 > **We keep a log of everything**
 
-Every task or action is written in a log, so you know who did everything and when they did. 
+Every task or action is written in a log, so you know who did everything and when they did it. 
 
 We will extend logging capabilities to write the log to AWS CloudWatch, Azure Log Analytics, Splunk, Datadog, and other options in the upcoming months.
 

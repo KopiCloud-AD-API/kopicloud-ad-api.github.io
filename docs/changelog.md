@@ -5,13 +5,15 @@ description: KopiCloud AD API Change Log
 
 # Change Log
 
-All notable user-facing changes to this project are documented in this file.
+All notable user-facing changes to this project are documented in this page.
 
 ----
 
 ## KopiCloud AD API Change Log
 
 ### v1.0.0 - March 2023
+
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
 API Initial Release
 
@@ -45,6 +47,8 @@ API Initial Release
 
 ### v1.0.0 - March 2023
 
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+
 Terraform Provider Initial Release.
 
 - Create, update and remove AD Users
@@ -57,8 +61,6 @@ Terraform Provider Initial Release.
 
 - Create, update and remove AD Computers
 
-- Clean up inactive AD Computers
-
 - Create, update and remove AD OUs
 
 - Create and remove DNS A Records
@@ -70,4 +72,3 @@ Terraform Provider Initial Release.
 - Create and remove DNS Loopkup Zones
 
 - Create and remove DNS Reverse Loopkup Zones
-
