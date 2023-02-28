@@ -13,11 +13,11 @@ The API can be consumed making API calls from:
 
 - Different development languages, such C#, Python, JavaScript, etc.
 
-- Scripting languages such PowerShell or Bash
+- Scripting languages such PowerShell or Bash.
 
-- From the [Swagger UI](api/swagger.md)
+- From the [Swagger UI](.api/swagger-ui.md).
 
-- Using our [Terraform Provider](terraform/terraform.md).
+- Using our [Terraform Provider](.terraform/terraform.md).
 
 - KopiCloud AD SDKs, currently under development.
 
