@@ -1,12 +1,13 @@
 ---
 title: DNS API
 description: Manage Microsoft DNS with KopiCloud AD API
+date: 2023-03-01
 ---
 
 # Manage Microsoft DNS with KopiCloud AD API
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Manage Microsoft DNS Records and DNS Zones using the KopiCloud AD API:
+Manage Microsoft DNS Records and DNS Zones using the KopiCloud AD API.
 
 ----
 
@@ -35,6 +36,8 @@ The API help you to list existing DNS Records and DNS Zones:
 - List DNS AAAA Records
 
 - List DNS CNAME Records
+
+- List All DNS Zones
 
 - List DNS Loopkup Zones
 
