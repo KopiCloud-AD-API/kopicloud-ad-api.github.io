@@ -1,12 +1,13 @@
 ---
 title: DNS A Records API Methods
 description: Manage Microsoft DNS A Records with KopiCloud AD API
+date: 2023-03-02
 ---
 
-# Manage DNS  Records with KopiCloud AD API
-[![Terraform](https://img.shields.io/badge/terraform-v1.3+-blue.svg)](https://www.terraform.io/downloads.html) [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+# Manage DNS A Records with KopiCloud AD API
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Manage Microsoft DNS A Records using the KopiCloud AD API:
+Manage Microsoft DNS A Records using the KopiCloud AD API.
 
 ----
 
@@ -94,15 +95,15 @@ Manage Microsoft DNS A Records using the KopiCloud AD API:
 
 ----
 
-## List All DNS A Records that match with IP Address
+## List All DNS AAAA Records that match with IP Address
 <span class="btn-get">GET</span> /api/DnsARecord/IPAddress/{IP_Address}
 
 **Parameters**
 
-| Name         | Type   | Description                          | Mandatory |
-| ------------ | ------ | ------------------------------------ | --------- |
-| IP_Address   | string | IP Address                           | Yes       |
-| Auth-Token   | string | Bearer or Basic Authentication Token | Yes       |
+| Name       | Type   | Description                          | Mandatory |
+| ---------- | ------ | ------------------------------------ | --------- |
+| IP_Address | string | IP Address                           | Yes       |
+| Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
 
