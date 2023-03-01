@@ -1,8 +1,27 @@
 /*
-Spacelift color scheme
-
 See Sass variables available: https://github.com/squidfunk/mkdocs-material/blob/master/src/assets/stylesheets/main/_colors.scss
 */
+
+.card-container {
+  align-items: start;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+}
+
+.card {
+  background-color: orangered;
+  border-radius: 5px;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  text-shadow: 1px 1px 0 #555;
+}
+
+.fas {
+  font-size: 50px;
+}
 
 .btn-delete {
   background-color: red;
