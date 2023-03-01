@@ -12,14 +12,17 @@ date: 2023-02-28
 
 ## Why KopiCloud AD API
 
+So, why do you want to use KopiCloud Active Directory API? 
+
 
 <div class="wrapper" markdown>
 
--   <span style="color:dodgeblue">![Token List](https://help.kopicloud-ad-api.com/assets/icons/api.png) No official API from Microsoft</span>
+-   ![Token List](https://help.kopicloud-ad-api.com/assets/icons/api.png) <span style="color:dodgeblue">No official API from Microsoft</span>
 
     ---
 
     There is no official Microsoft API, so if you want to automate access to the Active Directory or DNS, you must write your own API or execute PowerShell commands.
+
 
 
 -   ![Token List](https://help.kopicloud-ad-api.com/assets/icons/secure.png) It is secure
@@ -29,79 +32,35 @@ date: 2023-02-28
     Instead of using usernames and passwords to access Active Directory or DNS, we use authentication tokens. These tokens can be used for a limited time or forever.
 
 
--   :material-format-font:{ .lg .middle } __Made to measure__
+
+-   ![Token List](https://help.kopicloud-ad-api.com/assets/icons/log.png) We keep a log of everything
 
     ---
 
-    Change the colors, fonts, language, icons, logo and more with a few lines
+    Every task or action executed is written in a log, so you know who and when they call any API method. Coming soon, you will be able to forward events to several SIEMs.
 
-    [:octicons-arrow-right-24: Customization](#)
 
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
-
-    ---
-
-    Material for MkDocs is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: License](#)
+-   ![Token List](https://help.kopicloud-ad-api.com/assets/icons/terraform.png) Automate AD with our Terraform Provider
 
     ---
 
-    Change the colors, fonts, language, icons, logo and more with a few lines
+    Create service accounts in AD, create DNS records, clean up orphan machine accounts in AD after a Terraform destroy, reset user passwords, and more.
 
-    [:octicons-arrow-right-24: Customization](#)
 
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+-   ![Token List](https://help.kopicloud-ad-api.com/assets/icons/buildings.png) Designed for all kinds of companies
 
     ---
 
-    Material for MkDocs is licensed under MIT and available on [GitHub]
+    We have plenty of pre-configured security access groups. The API provides many options if you are a small company or a large enterprise with a dedicated security team.
 
-    [:octicons-arrow-right-24: License](#)
 
+-   ![Token List](https://help.kopicloud-ad-api.com/assets/icons/test.png) Production or Test Environment?
+
+    ---
+
+    Both. If you are in production, every call is secured using a token, and everything is logged. Or you can disable the token authentication if running in a test environment.
 </div>
-
-So, why do you want to use KopiCloud Active Directory API? 
-
-> **There is **
-
-So if you want to automate access to Active Directory or DNS, you must write your API or call PowerShell Commands.
-
-> **It is secure**
-
-Instead of using usernames and passwords to access Active Directory or DNS, we use [authentication tokens](/authentication/token-authentication.md)
-
-These tokens can be used for a limited time or forever. 
-
-> **We keep a log of everything**
-
-Every task or action is written in a log, so you know who did everything and when they did it. 
-
-We will extend logging capabilities to write the log to AWS CloudWatch, Azure Log Analytics, Splunk, Datadog, and other options in the upcoming months.
-
-> **The API was designed with automation in mind**
-
-You can consume the API from your application or use our Terraform module to automate your pipelines.
-
-> **Automate your deployment on the cloud (or on-prem) with our Terraform Module**
-
-Create service accounts in AD, create DNS records, clean up old machines (we hate these machine accounts after a Terraform destroy!), and do everything you can do with the API.
-
-> **Designed for all kinds of companies**
-
-The API provides many options if you are a small company or a large enterprise with a dedicated security team. 
-
-You can create a single account with full access or use a dedicated group with read-only for your information security groups.
-
-We have plenty of pre-configured options, for example, a group to manipulate only DNS records.
-
-> **Production or Development?**
-
-Both are covered. 
-
-If you run in production, we must make a secure call using the token and everything is logged. 
-
-Or you can disable the token authentication if you are running in development.
 
 ----
 
