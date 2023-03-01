@@ -25,7 +25,7 @@ So, why do you want to use KopiCloud Active Directory API?
 
 
 
--   ![Token List](https://help.kopicloud-ad-api.com/assets/icons/secure.png) It is secure
+-   ![Token List](https://help.kopicloud-ad-api.com/assets/icons/secure.png) We use Tokens instead of Passwords
 
     ---
 
