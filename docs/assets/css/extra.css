@@ -167,7 +167,6 @@ header .md-search__input {
   border-radius: 6px;
 }
 
-/* Hide the "Spacelift" primary menu title */
 .md-nav--primary > .md-nav__title {
   display: none;
 }

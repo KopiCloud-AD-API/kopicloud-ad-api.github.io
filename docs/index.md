@@ -15,13 +15,12 @@ date: 2023-02-28
 
 <div class="wrapper" markdown>
 
--   ![Token List](https://help.kopicloud-ad-api.com/assets/icons/api.png) No official API from Microsoft
+-   <span style="color:dodgeblue">![Token List](https://help.kopicloud-ad-api.com/assets/icons/api.png) No official API from Microsoft</span>
 
     ---
 
     There is no official Microsoft API, so if you want to automate access to the Active Directory or DNS, you must write your own API or execute PowerShell commands.
 
-    ---
 
 -   ![Token List](https://help.kopicloud-ad-api.com/assets/icons/secure.png) It is secure
 
