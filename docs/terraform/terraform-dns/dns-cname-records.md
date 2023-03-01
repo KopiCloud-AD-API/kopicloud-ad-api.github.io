@@ -1,122 +1,217 @@
 ---
-title: DNS CNAME Records with Terraform
-description: Manage Microsof DNS CNAME Records with Terraform
+title: DNS CNAME Records API Methods
+description: Manage Microsoft DNS CNAME Records with KopiCloud AD API
 date: 2023-03-01
 ---
 
-# DNS CNAME Records
-[![Terraform](https://img.shields.io/badge/terraform-v1.3+-blue.svg)](https://www.terraform.io/downloads.html) [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+# Manage DNS CNAME Records with KopiCloud AD API
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Manage Microsoft DNS CNAME Records using the KopiCloud AD Terraform Provider.
-
-----
-
-## Create a DNS CNAME Record
-
-Create a DNS CNAME Record for a Computer:
-
-```
-resource "kopicloud_dns_cname_record" "test_cname" {
-  hostname       = "tftestcn01"
-  hostname_alias = "tftestcn01_alias"
-  zone_name      = "kopicloud.local"
-}
-```
-
-Output the created DNS CNAME Record:
-
-```
-output "dns_cname_record" {
-  description = "Created DNS CNAME Record"
-  value       = resource.kopicloud_dns_cname_record.test_cname
-}
-```
+Manage Microsoft DNS CNAME Records using the KopiCloud AD API.
 
 ----
 
-## List All DNS CNAME Records
+## List All DNS CNAME Records in All Zones
+<span class="btn-get">GET</span> /api/DnsCNameRecord/All
 
-List All DNS CNAME Records:
+**Parameters**
 
+| Name       | Type   | Description                          | Mandatory |
+| ---------- | ------ | ------------------------------------ | --------- |
+| Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
 ```
-data "kopicloud_dns_cname_records_list" "test_cname_all" {}
-```
-
-Returns All DNS CNAME Records:
-
-```
-output "OUTPUT_dns_cname_records_list_all" {
-  description = "List ALL existing DNS CNAME records"
-  value       = data.kopicloud_dns_cname_records_list.test_cname_all
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
 }
 ```
 
 ----
 
-## Filter DNS CNAME Records with the Zone Name
+## List All DNS CNAME Records in a DNS Zone
+<span class="btn-get">GET</span> /api/DnsCNameRecord/{ZoneName}
 
-Filter DNS CNAME Records with the Zone Name:
+**Parameters**
 
+| Name       | Type   | Description                          | Mandatory |
+| ---------- | ------ | ------------------------------------ | --------- |
+| ZoneName   | string | DNS Zone Name                        | Yes       |
+| Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
 ```
-data "kopicloud_dns_cname_records_list" "test_cname_zone_name" {
-  zone_name = "kopicloud.local"
-}
-```
-
-Returns all DNS CNAME Records that matches the Zone Name:
-
-```
-output "OUTPUT_dns_cname_records_list_zone_name" {
-  description = "List existing DNS CNAME records in a Zone"
-  value       = data.kopicloud_dns_cname_records_list.test_cname_zone_name
-}
-```
-
-----
-
-## Filter DNS CNAME Records with an Alias
-
-
-Filter DNS CNAME Records with an Alias:
-
-```
-data "kopicloud_dns_cname_records_list" "test_cname_alias" {
-  hostname_alias = "computer70_alias"
-}
-```
-
-Returns all DNS CNAME Records that matches the Alias:
-
-```
-output "OUTPUT_dns_cname_records_list_ip_address" {
-  description = "List existing DNS CNAME Records with the Alias"
-  value       = data.kopicloud_dns_cname_records_list.test_cname_alias
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
 }
 ```
 
 ----
 
-## Filter DNS CNAME Records with a Hostname
+## List All DNS CNAME Records that match with DNS Hostname
+<span class="btn-get">GET</span> /api/DnsCNameRecord/HostName/{DNS_HostName}
 
-Filter the DNS CNAME Records with a Hostname:
+**Parameters**
+
+| Name         | Type   | Description                          | Mandatory |
+| ------------ | ------ | ------------------------------------ | --------- |
+| DNS_HostName | string | DNS Host Name                        | Yes       |
+| Auth-Token   | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
 
 ```
-data "kopicloud_dns_cname_records_list" "test_cname_hostname" {
-  hostname = "computer33"
-}
-```
-
-Returns all DNS CNAME Records that matches the Hostname:
-
-```
-output "OUTPUT_dns_cname_records_list_hostname" {
-  description = "List Existing DNS CNAME Records"
-  value       = data.kopicloud_dns_cname_records_list.test_cname_hostname
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
 }
 ```
 
 ----
 
-## Source Code
+## List All DNS CNAME Records that match with DNS HostName Alias
+<span class="btn-get">GET</span> /api/DnsCNameRecord/HostNameAlias/{DNS_HostName_Alias}
 
-Source code available [here](https://github.com/KopiCloud-AD-API/terraform-kopicloud-ad-api-dns-cname-records)
+**Parameters**
+
+| Name               | Type   | Description                          | Mandatory |
+| ------------------ | ------ | ------------------------------------ | --------- |
+| DNS_HostName_Alias | string | DNS Host Name Alias                  | Yes       |
+| Auth-Token         | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
+
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
+}
+```
+
+----
+
+## Get DNS CNAME Record that match with DNS HostName and Alias
+<span class="btn-get">GET</span> /api/DnsCNameRecord
+
+**Parameters**
+
+| Name               | Type   | Description                          | Mandatory |
+| ------------------ | ------ | ------------------------------------ | --------- |
+| DNS_HostName       | string | DNS Host Name                        | Yes       |
+| DNS_HostName_Alias | string | DNS Host Name Alias                  | Yes       |
+| ZoneName           | string | DNS Zone Name                        | Yes       |
+| Auth-Token         | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
+
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
+}
+```
+
+----
+
+## Create a DNS CNAME Records
+<span class="btn-post">POST</span> /api/DnsCNameRecord
+
+**Parameters**
+
+| Name               | Type   | Description                          | Mandatory |
+| ------------------ | ------ | ------------------------------------ | --------- |
+| DNS_HostName       | string | DNS Host Name                        | Yes       |
+| DNS_HostName_Alias | string | DNS Host Name Alias                  | Yes       |
+| ZoneName           | string | DNS Zone Name                        | Yes       |
+| Auth-Token         | string | Bearer or Basic Authentication Token | Yes       |
+
+
+**Return Schema**
+
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
+}
+```
+
+----
+
+## Delete a DNS A Record
+<span class="btn-delete">DELETE</span> /api/DnsCNameRecord
+
+**Parameters**
+
+| Name               | Type   | Description                          | Mandatory |
+| ------------------ | ------ | ------------------------------------ | --------- |
+| DNS_HostName       | string | DNS Host Name                        | Yes       |
+| DNS_HostName_Alias | string | DNS Host Name Alias                  | Yes       |
+| ZoneName           | string | DNS Zone Name                        | Yes       |
+| Auth-Token         | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
+
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
+}
+```
