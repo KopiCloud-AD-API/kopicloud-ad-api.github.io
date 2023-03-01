@@ -15,17 +15,20 @@ date: 2023-02-28
 
 <div class="wrapper" markdown>
 
-![Token List](https://help.kopicloud-ad-api.com/assets/icons/api.png) No official API from Microsoft
+-   ![Token List](https://help.kopicloud-ad-api.com/assets/icons/api.png) No official API from Microsoft
 
     ---
 
-There is no official Microsoft API, so if you want to automate access to the Active Directory or DNS, you must write your own API or execute PowerShell commands.
+    There is no official Microsoft API, so if you want to automate access to the Active Directory or DNS, you must write your own API or execute PowerShell commands.
 
     ---
 
-    Focus on your content and generate a responsive and searchable static site
+-   ![Token List](https://help.kopicloud-ad-api.com/assets/icons/secure.png) It is secure
 
-    [:octicons-arrow-right-24: Reference](#)
+    ---
+
+    Instead of using usernames and passwords to access Active Directory or DNS, we use authentication tokens. These tokens can be used for a limited time or forever.
+
 
 -   :material-format-font:{ .lg .middle } __Made to measure__
 
