@@ -53,7 +53,7 @@ nav:
     - Event Logging: logging/event-logging.md
 
   - Product:
-    - FAQ: faq.md
+    #- FAQ: faq.md
     - Change Log: changelog.md
     - Credits: credits.md
   

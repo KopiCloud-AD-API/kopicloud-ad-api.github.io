@@ -10,35 +10,58 @@ date: 2023-02-28
 
 ----
 
-## A Bit of History
-
-**KopiCloud AD API** was born many years ago from a personal need, as most of our KopiCloud tools. 
-
-In 2014, I started a project called KopiBoot, a tool to automate the deployment of Windows applications on the public and private cloud. This project included the initial code to create resources in Active Directory and DNS, used by this API.
-
-After that, I developed a simple API for customers to integrate their existing apps with Active Directory.
-
-Over the years, I used and expanded the API with many new functionalities for more customers, including DNS and integration with cloud-managed Active Directories, such as **AWS Managed Microsoft AD** and **Azure Active Directory Domain Services (Azure AD DS)**. 
-
-It was implemented in cloud environments in AWS, Azure, GCP, and OCI, from global insurance companies to government entities and startups. 
-
-And lots of our customers loved it so much that they asked to publish it, so they don’t need to maintain it anymore 😊
-
-Publishing a very large and complex web app required lots of time and effort from a team of developers for over a year. 
-
-We need to test the code to make sure it works perfectly and need to spend hours and hours documenting the API. 
-
-Some of our previous customers, called the API from Terraform and so we decided to create a Terraform Provider, so we need to make many changes so they can work with our Terraform Provider.
-
-And creating the Terraform Provider required rewriting over 40% of the methods and adding a few extra methods.
-
-----
-
 ## Why KopiCloud AD API
+
+
+<div class="wrapper" markdown>
+
+![Token List](https://help.kopicloud-ad-api.com/assets/icons/api.png) No official API from Microsoft
+
+    ---
+
+There is no official Microsoft API, so if you want to automate access to the Active Directory or DNS, you must write your own API or execute PowerShell commands.
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
+
+-   :material-format-font:{ .lg .middle } __Made to measure__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
+</div>
 
 So, why do you want to use KopiCloud Active Directory API? 
 
-> **There is no official API from Microsoft**
+> **There is **
 
 So if you want to automate access to Active Directory or DNS, you must write your API or call PowerShell Commands.
 
@@ -77,3 +100,28 @@ Both are covered.
 If you run in production, we must make a secure call using the token and everything is logged. 
 
 Or you can disable the token authentication if you are running in development.
+
+----
+
+## A Bit of History
+
+**KopiCloud AD API** was born many years ago from a personal need, as most of our KopiCloud tools. 
+
+In 2014, I started a project called KopiBoot, a tool to automate the deployment of Windows applications on the public and private cloud. This project included the initial code to create resources in Active Directory and DNS, used by this API.
+
+After that, I developed a simple API for customers to integrate their existing apps with Active Directory.
+
+Over the years, I used and expanded the API with many new functionalities for more customers, including DNS and integration with cloud-managed Active Directories, such as **AWS Managed Microsoft AD** and **Azure Active Directory Domain Services (Azure AD DS)**. 
+
+It was implemented in cloud environments in AWS, Azure, GCP, and OCI, from global insurance companies to government entities and startups. 
+
+And lots of our customers loved it so much that they asked to publish it, so they don’t need to maintain it anymore 😊
+
+Publishing a very large and complex web app required lots of time and effort from a team of developers for over a year. 
+
+We need to test the code to make sure it works perfectly and need to spend hours and hours documenting the API. 
+
+Some of our previous customers, called the API from Terraform and so we decided to create a Terraform Provider, so we need to make many changes so they can work with our Terraform Provider.
+
+And creating the Terraform Provider required rewriting over 40% of the methods and adding a few extra methods.
+
