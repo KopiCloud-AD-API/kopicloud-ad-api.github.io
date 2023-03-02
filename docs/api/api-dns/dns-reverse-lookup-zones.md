@@ -1,75 +1,125 @@
 ---
-title: DNS Reverse Lookup Zones
-description: Manage Microsof DNS Reverse Lookup Zones with Terraform
+title: DNS Reverse Lookup Zones API Methods
+description: Manage Microsoft DNS Reverse Lookup Zones with KopiCloud AD API
+date: 2023-03-02
 ---
 
-# DNS Reverse Lookup Zones
-[![Terraform](https://img.shields.io/badge/terraform-v1.3+-blue.svg)](https://www.terraform.io/downloads.html) [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+# Manage DNS Reverse Lookup Zones with KopiCloud AD API
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Manage Microsoft DNS Reverse Lookup Zones in AD DNS using the KopiCloud AD Terraform Provider:
-
-----
-
-## Create a DNS Reverse Lookup Zone
-
-Create a DNS Reverse Lookup Zone:
-
-```
-resource "kopicloud_dns_reverse_lookup_zone" "test_reverse" {
-  network_id = "192.168.55.0/24"
-}
-```
-
-Returns the created DNS Reverse Lookup Zone:
-
-```
-output "dns_reverse_zone" {
-  description = "Created DNS Reverse Lookup Zone"
-  value       = resource.kopicloud_dns_reverse_lookup_zone.test_reverse
-}
-```
+Manage Microsoft DNS Reverse Lookup Zones using the KopiCloud AD API.
 
 ----
 
 ## List All DNS Reverse Lookup Zones
+<span class="btn-get">GET</span> /api/DnsReverseLookupZone/All
 
-List All DNS Reverse Lookup Zones:
+**Parameters**
+
+| Name              | Type    | Description                          | Mandatory |
+| ----------------- | ------- | ------------------------------------ | --------- |
+| IgnoreSystemZones | boolean | Ignore System Zones (Default = true) | Yes       |
+| Auth-Token        | string  | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
 
 ```
-data "kopicloud_dns_reverse_lookup_zone_list" "test_reverse_all" {}
-```
-
-
-Returns the List of DNS Reverse Lookup Zones:
-
-```
-output "dns_reverse_lookup_zone_list" {
-  description = "List of DNS Reverse Lookup Zones"
-  value       = data.kopicloud_dns_reverse_lookup_zone_list.test_reverse_all
+{
+  "output": "string",
+  "result": [
+    {
+      "distinguishedName": "string",
+      "zoneName": "string",
+      "zoneType": "string",
+      "type": "string"
+    }
+  ]
 }
 ```
 
 ----
 
-## List All DNS Zones
+## Get Dns Reverse Lookup Zone by NetworkID Or Zone Name
+<span class="btn-get">GET</span> /api/DnsReverseLookupZone/{NetworkIDOrZoneName}
 
-List All DNS Zones (Reverse Lookup Zones and Lookup Zones):
+**Parameters**
+
+| Name                | Type    | Description                                                             | Mandatory |
+| ------------------- | ------- | ----------------------------------------------------------------------- | --------- |
+| NetworkIDOrZoneName | string  | Network ID (ex. 10.20.30.0/24) or Zone Name (ex. 30.20.10.in-addr.arpa) | Yes       |
+| IgnoreSystemZones   | boolean | Ignore System Zones (Default = true)                                    | Yes       |
+| Auth-Token          | string  | Bearer or Basic Authentication Token                                    | Yes       |
+
+**Return Schema**
 
 ```
-data "kopicloud_dns_zone_list" "test_all" {}
-```
-
-Returns the List of All DNS Zones:
-
-```
-output "dns_all_zone_list" {
-  description = "List of All DNS Zones"
-  value       = data.kopicloud_dns_zone_list.test_all
+{
+  "output": "string",
+  "result": [
+    {
+      "distinguishedName": "string",
+      "zoneName": "string",
+      "zoneType": "string",
+      "type": "string"
+    }
+  ]
 }
 ```
 
 ----
 
-## Source Code
+## Create a DNS Reverse Lookup Zone
+<span class="btn-post">POST</span> /api/DnsReverseLookupZone/{NetworkID}
 
-Source code available [here](https://github.com/KopiCloud-AD-API/terraform-kopicloud-ad-api-dns-zones)
+**Parameters**
+
+| Name       | Type   | Description                                                     | Mandatory |
+| ---------- | ------ | --------------------------------------------------------------- | --------- |
+| NetworkID  | string | DNS Reverse Lookup NetworkID to Create. Format: 192.168.50.0/24 | Yes       |
+| Auth-Token | string | Bearer or Basic Authentication Token                            | Yes       |
+
+**Return Schema**
+
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "distinguishedName": "string",
+      "zoneName": "string",
+      "zoneType": "string",
+      "type": "string"
+    }
+  ]
+}
+```
+
+----
+
+## Remove a DNS Reverse Lookup Zone
+<span class="btn-delete">DELETE</span> /api/DnsReverseLookupZone/{NetworkIDOrZoneName}
+
+**Parameters**
+
+| Name                | Type   | Description                          | Mandatory |
+| ------------------- | ------ | ------------------------------------ | --------- |
+| NetworkIDOrZoneName | string | NetworkID Zone Name to Remove        | Yes       |
+| Auth-Token          | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
+
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "distinguishedName": "string",
+      "zoneName": "string",
+      "zoneType": "string",
+      "type": "string"
+    }
+  ]
+}
+```
+
+
