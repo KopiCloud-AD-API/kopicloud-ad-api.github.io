@@ -1,18 +1,18 @@
 ---
-title: DNS Lookup Zones API Methods
-description: Manage Microsoft DNS Lookup Zones with KopiCloud AD API
-date: 2023-03-01
+title: DNS Zones API Methods
+description: Manage Microsoft DNS Zones with KopiCloud AD API
+date: 2023-03-02
 ---
 
-# Manage DNS Lookup Zones with KopiCloud AD API
+# Manage DNS Zones with KopiCloud AD API
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Manage Microsoft DNS Lookup Zones using the KopiCloud AD API.
+Manage Microsoft DNS Zones using the KopiCloud AD API.
 
 ----
 
-## List All DNS Lookup Zones
-<span class="btn-get">GET</span> /api/DnsLookupZone/All
+## List All DNS Zones
+<span class="btn-get">GET</span> /api/DnsZones/All
 
 **Parameters**
 
@@ -22,6 +22,7 @@ Manage Microsoft DNS Lookup Zones using the KopiCloud AD API.
 | Auth-Token        | string  | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
+
 ```
 {
   "output": "string",
@@ -38,8 +39,8 @@ Manage Microsoft DNS Lookup Zones using the KopiCloud AD API.
 
 ----
 
-## Create a DNS Lookup Zone
-<span class="btn-post">POST</span> /api/DnsLookupZone/{ZoneName}
+## List All DNS CNAME Records in a DNS Zone
+<span class="btn-get">GET</span> /api/DnsCNameRecord/{ZoneName}
 
 **Parameters**
 
@@ -65,9 +66,8 @@ Manage Microsoft DNS Lookup Zones using the KopiCloud AD API.
 
 ----
 
-## Remove a DNS Lookup Zone
-
-<span class="btn-delete">DELETE</span> /api/DnsLookupZone/{ZoneName}
+## Check If DNS Zone Exists
+<span class="btn-get">GET</span> /api/DnsZones/{ZoneName}/Exists
 
 **Parameters**
 
@@ -77,17 +77,11 @@ Manage Microsoft DNS Lookup Zones using the KopiCloud AD API.
 | Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
+
 ```
 {
   "output": "string",
-  "result": [
-    {
-      "distinguishedName": "string",
-      "zoneName": "string",
-      "zoneType": "string",
-      "type": "string"
-    }
-  ]
+  "result": true
 }
 ```
 
