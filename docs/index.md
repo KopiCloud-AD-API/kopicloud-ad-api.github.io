@@ -12,7 +12,7 @@ date: 2023-03-01
 
 ## Why KopiCloud AD API
 
-So, why do you want to use KopiCloud Active Directory API? 
+So, why do you need to use KopiCloud Active Directory API? 
 
 
 <div class="wrapper" markdown>
@@ -76,9 +76,11 @@ Over the years, I used and expanded the API with many new functionalities for mo
 
 It was implemented in cloud environments in AWS, Azure, GCP, and OCI, from global insurance companies to government entities and startups. 
 
-And lots of our customers loved it so much that they asked to publish it, so they don’t need to maintain it anymore 😊
+And lots of these customers loved it so much that they asked to publish it, so they don’t need to maintain it anymore 😊
 
-Publishing a very large and complex web app required lots of time and effort from a team of developers for over a year. 
+Publishing a very large and complex web app required lots of time and effort from a team of developers for over a year.
+
+We improved the UI, we created a new setup application, we added new methods, and we add extended some of the existing methods with more functionalities.
 
 We need to test the code to make sure it works perfectly and need to spend hours and hours documenting the API. 
 
@@ -86,3 +88,4 @@ Some of our previous customers, called the API from Terraform and so we decided 
 
 And creating the Terraform Provider required rewriting over 40% of the methods and adding a few extra methods.
 
+Our team has worked very hard for more than a year so you don't have to.

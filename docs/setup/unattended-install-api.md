@@ -13,4 +13,61 @@ Unattended installation and configuration of the KopiCloud AD API in your server
 
 ## Create the Unattended Setup Configuration File
 
-Coming soon!
+To create an unattended setup we need to create a file called **setup.config** and copy on the same folder where the setup file is located.
+
+-----
+
+### Dark Mode
+
+Configure the user interface of the setup program to run in Dark Mode.
+
+The default option is Dark Mode **ON**. This setting is not required if you want to run in Dark Mode.
+
+**How to Use:**
+
+```
+Dark Mode = yes
+```
+
+Options:
+
+- Yes (Default)
+- No
+
+-----
+
+## Unattended Mode
+
+Configure the setup to run in unattended mode (no user interface). This mode is useful for unattended deployments.
+
+The default option is Unattended Mode **OFF**. This setting is not required if you want to run the setup with user interface. 
+
+**How to Use:**
+
+```
+Unattended Mode = yes
+```
+
+Options:
+
+- Yes 
+- No (Default)
+
+-----
+
+## Unattended Mode
+
+Configure the setup to run in unattended mode (no user interface). This mode is useful for unattended deployments.
+
+The default option is Unattended Mode **OFF**. This setting is not required if you want to run the setup with user interface. 
+
+**How to Use:**
+
+```
+Unattended Mode = yes
+```
+
+Options:
+
+- Yes 
+- No (Default)
