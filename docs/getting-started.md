@@ -28,7 +28,7 @@ Login into the [KopiCloud AD API website](https://www.kopicloud-ad-api.com) with
 
 Go to the **Settings** page, click on the **Trial** menu, enter your name and company, and click on the **Generate Trial** button.
 
-![Create Trial](https://help.kopicloud-ad-api.com/assets/docs/token_List.png)
+![Create Trial](https://help.kopicloud-ad-api.com/assets/docs/generate_trial_license.png)
 
 > Note #1: there is a limit on the number of trial licenses that you can generate
 
