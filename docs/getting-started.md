@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 description: Getting Started with KopiCloud AD API
-date: 2023-02-28
+date: 2023-03-19
 ---
 
 # Getting Started with KopiCloud AD API
@@ -9,7 +9,7 @@ date: 2023-02-28
 
 - Get a **free trial license**
 
-- **Download** and try **KopiCloud Active Directory API**
+- Deploy a **KopiCloud AD API** server
 
 - Check this **detailed API documentation**
 
@@ -36,15 +36,21 @@ Go to the **Settings** page, click on the **Trial** menu, enter your name and co
 
 ----
 
-## Download and Try the API
+## Deploy and Try the API
+
+You have 3 options to deploy your **KopiCloud AD API** server:
+
+1) Search for **KopiCloud AD API** in the MarketPlace of your Cloud Provider
+
+2) Download the Setup and install **KopiCloud AD API** in your server
 
 Visit the [Download](https://www.kopicloud-ad-api.com/download) page to download the Setup application.
 
 Execute the Setup application to install and configure your machine.
 
-Or create a **Setup Configuration File** to automate the deployment of the KopiCloud AD API.
+Join the machine to your AD domain.
 
-> Coming soon: we will provide scripts to create full unattended deployments in Azure, AWS, GCP, OCI, and VMware.
+3) Coming soon: we will provide Terraform scripts to create full unattended deployments in Azure, AWS, GCP, OCI, and VMware.
 
 ----
 
