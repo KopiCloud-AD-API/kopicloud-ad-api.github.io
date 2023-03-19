@@ -21,7 +21,7 @@ In your **provider.tf** file, configure the **KopiCloud AD Terraform Provider** 
 terraform {
   required_providers {
     kopicloud = {
-      source = "kopicloud/ad"
+      source = "kopicloud-ad-api/ad"
     }
   }
 }

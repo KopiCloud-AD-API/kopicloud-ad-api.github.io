@@ -71,4 +71,4 @@ The requirements of memory and CPU are very low; we have been running in a large
 
 The recommended configuration is 2vCPUs and 8GB of RAM.
 
-The storage recommended is at least 60 GB of storage in the C drive, including OS, SQL Server, IIS, and application code.
+The storage recommended is at least 30 GB of storage in the C drive, including OS, SQL Server, IIS, and application code.
