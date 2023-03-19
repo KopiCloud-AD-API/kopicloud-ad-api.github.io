@@ -29,7 +29,7 @@ So, why do you need to use KopiCloud Active Directory API?
 
     ---
 
-    Instead of using usernames and passwords to access Active Directory or DNS, we use authentication tokens. These tokens can be used for a limited time or forever.
+    Instead of using usernames and passwords with WinRM to access Active Directory or DNS, we use an API with authentication tokens. WinRM no required. These tokens can be used for a limited time or forever.
 
 
 
