@@ -27,6 +27,7 @@ value = data.kopicloud_active_directory_user_list.all
 }
 
 ```
+
 ----
 
 ## Check If a User Is a Member of an Active Directory Group
@@ -46,6 +47,7 @@ value = data.kopicloud_active_directory_member.active_user
 }
 
 ```
+
 ----
 
 ## Check If a User Is a Member of an Active Directory Group and return the AD Group
@@ -65,6 +67,7 @@ value = data.kopicloud_active_directory.groupname
 }
 
 ```
+
 ----
 
 ## Create an Active Directory User to an Active Directory Group
@@ -84,6 +87,7 @@ value = data.kopicloud_active_directory_user_add.groupname
 }
 
 ```
+
 ----
 
 ## Remove an Active Directory User from an Active Directory Group Membership
