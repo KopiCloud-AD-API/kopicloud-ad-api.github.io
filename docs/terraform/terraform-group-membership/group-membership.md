@@ -10,7 +10,7 @@ Manage Microsoft AD Group Membership using the KopiCloud AD Terraform Provider:
 
 ----
 
-## List of All AD Users with Group Memebrship
+## List of All AD Users with Group Membership
 
 AD Users with Group Membership:
 
@@ -52,7 +52,7 @@ value = data.kopicloud_active_directory_member.active_user
 
 ## Check If a User Is a Member of an Active Directory Group and return the AD Group
 
-AD Group Membership of a Actve AD Member:
+AD Group Membership of an Active Member:
 
 ```
 data "kopicloud_active_directory" "groupname" {}

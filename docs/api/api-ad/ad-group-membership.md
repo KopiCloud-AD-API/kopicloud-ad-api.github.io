@@ -11,7 +11,7 @@ Manage Microsoft AD Group Membership API Methods using the KopiCloud
 
 ----
 
-## Get Active Directory Users from Group Memebrship
+## Get Active Directory Users from Group Membership
 
 <span class="btn-get">GET</span> /api/ADUser/{Username}/Group/All
 
