@@ -25,6 +25,7 @@ output "OUTPUT_active_directory_user_list_all" {
 description = "Return all AD User Group Membership"
 value = data.kopicloud_active_directory_user_list.all
 }
+
 ```
 ----
 
@@ -43,6 +44,7 @@ output "OUTPUT_active_directory_member_active_user" {
 description = "Return all AD User Group Membership"
 value = data.kopicloud_active_directory_member.active_user
 }
+
 ```
 ----
 
@@ -61,6 +63,7 @@ output "OUTPUT_kopicloud_active_directory_groupname" {
 description = "Return all AD User Group Membership"
 value = data.kopicloud_active_directory.groupname
 }
+
 ```
 ----
 
@@ -79,6 +82,7 @@ output "OUTPUT_active_directory_user_add_groupname" {
 description = "Return AD User with Group"
 value = data.kopicloud_active_directory_user_add.groupname
 }
+
 ```
 ----
 
