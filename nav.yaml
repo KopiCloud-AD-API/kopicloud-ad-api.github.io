@@ -27,6 +27,8 @@ nav:
       - DNS Zones: api/api-dns/dns-zones.md
       - DNS Lookup Zones: api/api-dns/dns-lookup-zones.md
       - DNS Reverse Lookup Zones: api/api-dns/dns-reverse-lookup-zones.md
+    - API:
+      - API AD Group Membership: api/api-ad/ad-group-membership.md
 
   - Terraform:
     #- AD Computer:
@@ -46,6 +48,8 @@ nav:
       - DNS CNAME Records: terraform/terraform-dns/dns-cname-records.md
       - DNS Lookup Zones: terraform/terraform-dns/dns-lookup-zones.md
       - DNS Reverse Lookup Zones: terraform/terraform-dns/dns-reverse-lookup-zones.md
+    - API:
+      - API Terraform Group Membership: terraform/terraform-group-membership/group-membership.md
 
   - Settings:
     - Token Authentication: settings/token-authentication.md     
