@@ -22,8 +22,8 @@ Returns All Active Directory Users with Group Membership:
 
 ```
 output "OUTPUT_active_directory_user_list_all" {
-description = "Return all AD User Group Membership"
-value = data.kopicloud_active_directory_user_list.all
+  description = "Return all AD User Group Membership"
+  value = data.kopicloud_active_directory_user_list.all
 }
 ```
 
