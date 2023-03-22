@@ -107,4 +107,4 @@ value = data.kopicloud_active_directory_user.delete
 
 ## Source Code
 
-Source code available [here](https://github.com/KopiCloud-AD-API/terraform-kopicloud-ad-api-dns-a-records)
+Source code available [here](https://github.com/KopiCloud-AD-API/terraform-kopicloud-ad-api-group-membership)
