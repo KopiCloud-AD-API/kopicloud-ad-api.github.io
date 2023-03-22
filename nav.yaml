@@ -48,6 +48,7 @@ nav:
       - DNS Reverse Lookup Zones: terraform/terraform-dns/dns-reverse-lookup-zones.md
 
   - Settings:
+    - Security Group Access: settings/security.md
     - Token Authentication: settings/token-authentication.md     
 
   - Logging:
