@@ -3,7 +3,7 @@ title: AD Group Membership with Terraform
 description: Manage AD Group Membership with Terraform
 ---
 
-# Manage Microsoft AD Group Membership using the KopiCloud AD Terraform Provider
+# AD Group Membership with Terraform
 [![Terraform](https://img.shields.io/badge/terraform-v1.3+-blue.svg)](https://www.terraform.io/downloads.html) [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
 Manage Microsoft AD Group Membership using the KopiCloud AD Terraform Provider:
