@@ -1,7 +1,7 @@
 ---
 title: AD Group Membership API Methods
 description: Describing all API methods of AD Group Membership 
-date: 2023-03-02
+date: 2023-03-21
 ---
 
 # Manage Microsoft AD Group Membership using the KopiCloud AD API with 

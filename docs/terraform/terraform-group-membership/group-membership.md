@@ -1,6 +1,7 @@
 ---
 title: AD Group Membership with Terraform
 description: Manage AD Group Membership with Terraform
+date: 2023-03-21
 ---
 
 # AD Group Membership with Terraform
