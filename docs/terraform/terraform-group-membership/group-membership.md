@@ -12,18 +12,20 @@ Manage Microsoft AD Group Membership using the KopiCloud AD Terraform Provider:
 
 ## List of All AD Users with Group Membership
 
-AD Users with Group Membership:
+List Group Membership for an User:
 
 ```
-data "kopicloud_active_directory_user_list" "all" {}
+data "kopicloud_group_membership_list" "test" {
+  user_name  = "guillermo"
+}
 ```
 
-Returns All Active Directory Users with Group Membership:
+Show Group Membership:
 
 ```
-output "OUTPUT_active_directory_user_list_all" {
-description = "Return all AD User Group Membership"
-value = data.kopicloud_active_directory_user_list.all
+output "OUTPUT_kopicloud_group_membership_list" {
+  description = "Show Group Membership"
+  value       = data.kopicloud_group_membership_list.test
 }
 ```
 
@@ -34,15 +36,17 @@ value = data.kopicloud_active_directory_user_list.all
 If the AD User is a member with Group Membership:
 
 ```
-data "kopicloud_active_directory_member" "active_user" {}
+data "kopicloud_group_membership_list" "test" {
+  user_name  = "guillermo"
+}
 ```
 
 Returns User of Active Directory with Group Membership:
 
 ```
-output "OUTPUT_active_directory_member_active_user" {
-description = "Return all AD User Group Membership"
-value = data.kopicloud_active_directory_member.active_user
+output "OUTPUT_kopicloud_group_membership_list" {
+  description = "Show Group Membership"
+  value       = data.kopicloud_group_membership_list.test
 }
 ```
 
@@ -53,15 +57,17 @@ value = data.kopicloud_active_directory_member.active_user
 AD Group Membership of an Active Member:
 
 ```
-data "kopicloud_active_directory" "groupname" {}
+data "kopicloud_group_membership_list" "test" {
+  user_name  = "guillermo"
+}
 ```
 
 Returns Active Directory User Group Membership:
 
 ```
-output "OUTPUT_kopicloud_active_directory_groupname" {
-description = "Return all AD User Group Membership"
-value = data.kopicloud_active_directory.groupname
+output "OUTPUT_kopicloud_group_membership_list" {
+  description = "Show Group Membership"
+  value       = data.kopicloud_group_membership_list.test
 }
 ```
 
@@ -72,15 +78,18 @@ value = data.kopicloud_active_directory.groupname
 Add an AD User in a Group Membership:
 
 ```
-data "_kopicloud_active_directory_user_add" "groupname" {}
+resource "kopicloud_group_membership" "test" {
+  user_name  = "guillermo"
+  group_name = "KopiCloud Architects"
+}
 ```
 
 Returns Details of Active Directory User in Group:
 
 ```
-output "OUTPUT_active_directory_user_add_groupname" {
-description = "Return AD User with Group"
-value = data.kopicloud_active_directory_user_add.groupname
+output "OUTPUT_kopicloud_group_membership" {
+  description = "Added User to an AD Group"
+  value       = resource.kopicloud_group_membership.test
 }
 ```
 
@@ -91,15 +100,17 @@ value = data.kopicloud_active_directory_user_add.groupname
 Remove an AD User from AD Group: 
 
 ```
-data "kopicloud_active_directory_user_" "delete" {}
+data "kopicloud_group_membership_list" "test" {
+  user_name  = "guillermo"
+}
 ```
 
 Returns Object of removed AD User:
 
 ```
-output "OUTPUT_active_directory_user_delete" {
-description = "Return AD User with Group"
-value = data.kopicloud_active_directory_user.delete
+output "OUTPUT_kopicloud_group_membership_list" {
+  description = "Show Group Membership"
+  value       = data.kopicloud_group_membership_list.test
 }
 ```
 
