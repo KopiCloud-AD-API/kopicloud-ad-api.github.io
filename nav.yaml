@@ -47,7 +47,12 @@ nav:
       - DNS Lookup Zones: terraform/terraform-dns/dns-lookup-zones.md
       - DNS Reverse Lookup Zones: terraform/terraform-dns/dns-reverse-lookup-zones.md
 
+  - Security:
+    - Security Overview: security/security.md
+    - Access Matrix: security/matrix.md
+    
   - Settings:
+    - Security Group Access: settings/security.md
     - Token Authentication: settings/token-authentication.md     
 
   - Logging:

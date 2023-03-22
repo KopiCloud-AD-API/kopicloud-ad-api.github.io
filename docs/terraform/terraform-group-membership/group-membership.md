@@ -23,9 +23,9 @@ data "kopicloud_group_membership_list" "test" {
 Show Group Membership:
 
 ```
-output "OUTPUT_kopicloud_group_membership_list" {
-  description = "Show Group Membership"
-  value       = data.kopicloud_group_membership_list.test
+output "OUTPUT_active_directory_user_list_all" {
+  description = "Return all AD User Group Membership"
+  value = data.kopicloud_active_directory_user_list.all
 }
 ```
 
