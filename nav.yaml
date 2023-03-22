@@ -20,6 +20,7 @@ nav:
 
   - API:
     - AD Group Membership: api/api-ad/ad-group-membership.md
+    - AD Groups: api/api-ad-groups/ad-groups.md
     - DNS:
       - DNS API Methods: api/api-dns/dns.md
       - DNS AAAA Records: api/api-dns/dns-aaaa-records.md
@@ -39,6 +40,7 @@ nav:
     #- AD Users:
     #  - AD User with Terraform: terraform/terraform-user/user.md
     - AD Group Membership: terraform/terraform-group-membership/group-membership.md
+    - AD Groups: terraform/terraform-ad-groups/terraform-ad-groups.md
     - DNS:
       - DNS with Terraform: terraform/terraform-dns/dns.md
       - DNS AAAA Records: terraform/terraform-dns/dns-aaaa-records.md
