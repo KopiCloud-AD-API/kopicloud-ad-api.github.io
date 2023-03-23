@@ -4,14 +4,14 @@ description: Describing all API methods of AD Group Membership
 date: 2023-03-23
 ---
 
-# Manage Microsoft AD Group Membership using the KopiCloud AD API with 
+# Manage AD Group Membership with the KopiCloud AD API
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Manage Microsoft AD Group Membership API Methods using the KopiCloud
+Manage Microsoft AD Group Membership API Methods using the KopiCloud AD API.
 
 ----
 
-## Get AD Users from Group Membership
+## Get AD Users from AD Group Membership
 
 <span class="btn-get">GET</span> /api/ADUser/{Username}/Group/All
 
@@ -43,7 +43,7 @@ Manage Microsoft AD Group Membership API Methods using the KopiCloud
 
 ----
 
-## Check If a User Is a Member of an AD Group
+## Check If a AD User Is a Member of an AD Group
 
 <span class="btn-get">GET</span> /api/ADUser/{Username}/Group/{GroupName}/Exists
 
@@ -128,7 +128,7 @@ Manage Microsoft AD Group Membership API Methods using the KopiCloud
 
 ----
 
-## Remove an AD User From an AD Group
+## Remove an AD User from an AD Group
 
 <span class="btn-delete">DELETE</span> /api/ADUser/{Username}/Group/{GroupName}
 
