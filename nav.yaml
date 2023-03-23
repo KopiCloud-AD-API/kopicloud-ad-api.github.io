@@ -23,7 +23,7 @@ nav:
       - AD Group: api/api-ad/ad-group.md
       - AD Group Membership: api/api-ad/ad-group-membership.md
       - AD Organization Unit: api/api-ad/ad-ou.md
-      - AD Computers: api/api-ad-computer\ad-computer.md
+      - AD Computers: api/api-ad/ad-computer.md
     - DNS:
       - DNS API Method: api/api-dns/dns.md
       - DNS AAAA Record: api/api-dns/dns-aaaa-records.md
@@ -38,7 +38,7 @@ nav:
       - AD Group: terraform/terraform-ad/ad-group.md
       - AD Group Membership: terraform/terraform-ad/ad-group-membership.md
       - AD Organization Unit: terraform/terraform-ad/ad-ou.md
-      - AD Computers: terraform\terraform-computer\computer.md
+      - AD Computers: terraform/terraform-ad/ad-computer.md
 
     - DNS:
       - DNS with Terraform: terraform/terraform-dns/dns.md
