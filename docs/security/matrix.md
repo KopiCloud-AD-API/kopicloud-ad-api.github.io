@@ -1,12 +1,12 @@
 ---
-title: Welcome to KopiCloud AD API
-description: Welcome to KopiCloud AD API
-date: 2023-03-01
+title: KopiCloud AD API Security Groups Matrix
+description: KopiCloud AD API Security Groups Matrix
+date: 2023-03-23
 ---
 
 # KopiCloud AD API Security Groups Matrix
 
-The tables above explain the permissions based on your AD Group Membership
+Review the permissions listed below based on your AD Group Membership.
 
 -----
 
@@ -15,40 +15,37 @@ The tables above explain the permissions based on your AD Group Membership
 List, Create, Rename, Update and Delete AD Users.
 
 | API Method | API<br />Group | AD<br />Group | DNS<br />Group | Admin<br />Group | Security<br />Group |
-| --------------------------------- | --------- | -------- | --------- | ----------- | -------------- |
-| List of ALL Users           | Yes       | Yes      | No        | Yes         | No             |
-| List of Users Inside an OU  | Yes       | Yes      | No        | Yes         | No             |
-| Get User Details            | Yes       | Yes      | No        | Yes         | No             |
-| Get User Details By Guid    | Yes       | Yes      | No        | Yes         | No             |
-| Check If User Exist         | Yes       | Yes      | No        | Yes         | No             |
-| Get AD Last Logon              | Yes       | Yes      | No        | Yes         | No             |
-| POST / Create New User            | Yes       | Yes      | No        | Yes         | No             |
-| PUT / Update User                 | Yes       | Yes      | No        | Yes         | No             |
-| PUT / Update User by Guid         | Yes       | Yes      | No        | Yes         | No             |
-| PUT / Reset User Password         | Yes       | Yes      | No        | Yes         | No             |
-| PUT / Enable User                 | Yes       | Yes      | No        | Yes         | No             |
-| PUT / Disable User                | Yes       | Yes      | No        | Yes         | No             |
-| PUT / Unlock User                 | Yes       | Yes      | No        | Yes         | No             |
-| PUT / Rename User                 | Yes       | Yes      | No        | Yes         | No             |
-| DELETE / Delete User              | Yes       | Yes      | No        | Yes         | No             |
-| DELETE / Delete User by Guid      | Yes       | Yes      | No        | Yes         | No             |
+| ---------------------- | --- | --- | -- | --- | -- |
+| List AD User           | Yes | Yes | No | Yes | No |
+| Get AD User Details    | Yes | Yes | No | Yes | No |
+| Check If AD User Exist | Yes | Yes | No | Yes | No |
+| Get AD User Last Logon | Yes | Yes | No | Yes | No |
+| Create New AD User     | Yes | Yes | No | Yes | No |
+| Update AD User         | Yes | Yes | No | Yes | No |
+| Reset AD User Password | Yes | Yes | No | Yes | No |
+| Enable AD User         | Yes | Yes | No | Yes | No |
+| Disable AD User        | Yes | Yes | No | Yes | No |
+| Unlock AD User         | Yes | Yes | No | Yes | No |
+| Rename AD User         | Yes | Yes | No | Yes | No |
+| Delete AD User         | Yes | Yes | No | Yes | No |
 
 ----
 
 ## AD Computer
 
-| API Method                             | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
-| ---------------------------------------| --------- | -------- | --------- | ----------- | ----------- | -------------- |
-| GET / List ALL Computers               | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / List Computers inside an AD OU   | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / Show Computer Details            | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / Check If Computer Exists         | Yes       | Yes      | No        | No          | Yes         | No             |
-| POST / Register Computer               | Yes       | Yes      | No        | No          | Yes         | No             |
-| PUT / Rename Computer                  | Yes       | Yes      | No        | No          | Yes         | No             |
-| PUT / Update Computer Description      | Yes       | Yes      | No        | No          | Yes         | No             |
-| DELETE / Remove Computer               | Yes       | Yes      | No        | No          | Yes         | No             |
-| DELETE / Remove Multiple Computer      | Yes       | Yes      | No        | No          | Yes         | No             |
-| DELETE / CleanUp Inactive AD Computers | Yes       | Yes      | No        | No          | Yes         | No             |
+List, Create, Rename, Update and Delete AD Computers.
+
+| API Method | API<br />Group | AD<br />Group | DNS<br />Group | Admin<br />Group | Security<br />Group |
+| ------------------------------ | --- | --- | -- | --- | -- |
+| List ALL AD Computers          | Yes | Yes | No | Yes | No |
+| Show AD Computer Details       | Yes | Yes | No | Yes | No |
+| Check If AD Computer Exists    | Yes | Yes | No | Yes | No |
+| Register AD Computer           | Yes | Yes | No | Yes | No |
+| Rename AD Computer             | Yes | Yes | No | Yes | No |
+| Update AD Computer Description | Yes | Yes | No | Yes | No |
+| Remove AD Computer             | Yes | Yes | No | Yes | No |
+| Remove Multiple AD Computers   | Yes | Yes | No | Yes | No |
+| Clean Up Inactive AD Computers | Yes | Yes | No | Yes | No |
 
 ----
 
@@ -56,29 +53,29 @@ List, Create, Rename, Update and Delete AD Users.
 
 List, Create, Rename, Update and Delete AD Groups.
 
-| API Method                | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
-| ------------------------------------------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
-| GET / List ALl Groups                                               | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / List Groups Inside OU                                         | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / List All Distribution Groups                                  | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / List All Security Groups                                      | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / Show Group Details                                            | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / Group Exists                                                  | Yes       | Yes      | No        | No          | Yes         | No             |
-| POST / Create Security Group                                        | Yes       | Yes      | No        | No          | Yes         | No             |
-| POST / Create Distribution Group                                    | Yes       | Yes      | No        | No          | Yes         | No             |
-| PUT / Rename Group                                                  | Yes       | Yes      | No        | No          | Yes         | No             |
-| DELETE / Delete Group                                               | Yes       | Yes      | No        | No          | Yes         | No             |
+| API Method | API<br />Group | AD<br />Group | DNS<br />Group | Admin<br />Group | Security<br />Group |
+| ---------------------------- | --- | --- | -- | --- | -- |
+| List AD Groups               | Yes | Yes | No | Yes | No |
+| List AD Distribution Groups  | Yes | Yes | No | Yes | No |
+| List AD Security Groups      | Yes | Yes | No | Yes | No |
+| Show AD Group Details        | Yes | Yes | No | Yes | No |
+| Check if AD Group Exists     | Yes | Yes | No | Yes | No |
+| Create AD Security Group     | Yes | Yes | No | Yes | No |
+| Create AD Distribution Group | Yes | Yes | No | Yes | No |
+| Rename AD Group              | Yes | Yes | No | Yes | No |
+| Delete AD Group              | Yes | Yes | No | Yes | No |
 
 ----
 
 ## AD Group Membership
 
-| API Method                | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
-| ------------------------------------------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
-| GET / AD User Group Membership                                      | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / Check If User is a Member of a Group                          | Yes       | Yes      | No        | No          | Yes         | No             |
-| POST / Add User to Specific Group                                   | Yes       | Yes      | No        | No          | Yes         | No             |
-| DELETE / Remove User from Specific Group                            | Yes       | Yes      | No        | No          | Yes         | No             |
+Manage AD Group Membership of AD Users.
+
+| API Method | API<br />Group | AD<br />Group | DNS<br />Group | Admin<br />Group | Security<br />Group |
+| ---------------------------------- | --- | --- | -- | --- | -- |
+| Check AD User Group Membership     | Yes | Yes | No | Yes | No |
+| Add AD User to Specific AD Group   | Yes | Yes | No | Yes | No |
+| Remove AD User from Specific Group | Yes | Yes | No | Yes | No |
 
 ----
 
@@ -86,16 +83,16 @@ List, Create, Rename, Update and Delete AD Groups.
 
 List, Create, Rename, Update and Delete AD OUs.
 
-| API Method            | API<br />Group | AD<br />Group | DNS<br />Group | Admin<br />Group | Security<br />Group |
-| --------------------- | --------- | -------- | --------- | ----------- | -------------- |
-| List All AD OUs       | Yes       | Yes      | No        | Yes         | No             |
-| Show AD OU Details    | Yes       | Yes      | No        | Yes         | No             |
-| Check if AD OU Exists | Yes       | Yes      | No        | Yes         | No             |
-| Create AD OU          | Yes       | Yes      | No        | Yes         | No             |
-| Rename AD OU          | Yes       | Yes      | No        | Yes         | No             |
-| Update AD OU          | Yes       | Yes      | No        | Yes         | No             |
-| Move AD OU            | Yes       | Yes      | No        | Yes         | No             |
-| Delete AD OU          | Yes       | Yes      | No        | Yes         | No             |
+| API Method | API<br />Group | AD<br />Group | DNS<br />Group | Admin<br />Group | Security<br />Group |
+| --------------------- | --- | --- | -- | --- | -- |
+| List All AD OUs       | Yes | Yes | No | Yes | No |
+| Show AD OU Details    | Yes | Yes | No | Yes | No |
+| Check if AD OU Exists | Yes | Yes | No | Yes | No |
+| Create AD OU          | Yes | Yes | No | Yes | No |
+| Rename AD OU          | Yes | Yes | No | Yes | No |
+| Update AD OU          | Yes | Yes | No | Yes | No |
+| Move AD OU            | Yes | Yes | No | Yes | No |
+| Delete AD OU          | Yes | Yes | No | Yes | No |
 
 ----
 
