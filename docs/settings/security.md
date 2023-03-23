@@ -13,13 +13,41 @@ This article explains how to use AD security groups to provide access to specifi
 
 ----
 
+## APIAuthenticationGroup
+
+The **APIAuthenticationGroup** group is used to **Call ALL API Methods** and provide the following permissions: **Login, Create and Manage OWN Tokens, Call ALL API Methods, No Event Logs Access**.   
+
+To use this group, create an Active Directory Security Group in your Active Directory, for example, **KopiCloud-API-Authentication**, and add users that will consume all API methods to it.
+
+Open the **appsettings.json** file located on the root of the KopiCloud AD API folder (by default, is C:\KopiCloud-AD-API).
+
+Set the status of the Security Group using the information below:
+
+> Security Group Enabled
+
+```
+"APIAuthenticationGroup": "KopiCloud-API-Authentication"
+```
+
+> Security Group Disabled
+
+```
+"APIAuthenticationGroup": ""
+```
+
+Save the file.
+
+Restart the web server using the **IISReset command** or the IIS Console.
+
+----
+
 ## APIADAuthenticationGroup
 
-The **APIADAuthenticationGroup** group is used to **Call AD API Methods** provide the folowing permissions: **Login, Create tokens, Call API Methods for AD, No Security Logs**.   
+The **APIADAuthenticationGroup** group is used to **Call AD API Methods** and provide the following permissions: **Login, Create and Manage OWN Tokens, Call API Methods for AD, No Event Logs Access**.   
 
-To use this group, create an Active Directory Security Group in your Active Directory, for example: **KopiCloud-API-AD-Authentication** and add users that will consume the AD API to it.
+To use this group, create an Active Directory Security Group in your Active Directory, for example, **KopiCloud-API-AD-Authentication**, and add users that will consume the AD API to it.
 
-Open the **appsettings.json** file located on the root of the KopiCloud AD API folder (by default is C:\KopiCloud-AD-API).
+Open the **appsettings.json** file located on the root of the KopiCloud AD API folder (by default, is C:\KopiCloud-AD-API).
 
 Set the status of the Security Group using the information below:
 
@@ -43,11 +71,11 @@ Restart the web server using the **IISReset command** or the IIS Console.
 
 ## APIDNSAuthenticationGroup
 
-The **APIDNSAuthenticationGroup** group is used to **Call DNS API Methods** provide the folowing permissions: **Login, Create tokens, Call API Methods for DNS, No Security Logs**.   
+The **APIDNSAuthenticationGroup** group is used to **Call DNS API Methods** and provide the following permissions: **Login, Create and Manage OWN Tokens, Call API Methods for DNS, No Event Logs Access**.   
 
-To use this group, create an Active Directory Security Group in your Active Directory, for example: **KopiCloud-API-DNS-Authentication** and add users that will consume the DNS API to it.
+To use this group, create an Active Directory Security Group in your Active Directory, for example, **KopiCloud-API-DNS-Authentication**, and add users that will consume the DNS API to it.
 
-Open the **appsettings.json** file located on the root of the KopiCloud AD API folder (by default is C:\KopiCloud-AD-API).
+Open the **appsettings.json** file located on the root of the KopiCloud AD API folder (by default, is C:\KopiCloud-AD-API).
 
 Set the status of the Security Group using the information below:
 
@@ -71,11 +99,11 @@ Restart the web server using the **IISReset command** or the IIS Console.
 
 ## APIAdminGroup
 
-The **APIAdminGroup** group is used for **Admin Access** provide the folowing permissions: **Login, Create Tokens, Manage Tokens, Call ALL API Methods, View Security Log**.   
+The **APIAdminGroup** group is used for **Admin Access** to provide the following permissions: **Login, Create and Manage ALL Tokens, Call ALL API Methods, View Event Logs**.   
 
-To use this group, create an Active Directory Security Group in your Active Directory, for example: **KopiCloud-API-Admin-Access** and add users that will consume the DNS API to it.
+To use this group, create an Active Directory Security Group in your Active Directory, for example, **KopiCloud-API-Admin-Access**, and add the administrator users to manage the API.
 
-Open the **appsettings.json** file located on the root of the KopiCloud AD API folder (by default is C:\KopiCloud-AD-API).
+Open the **appsettings.json** file located on the root of the KopiCloud AD API folder (by default, is C:\KopiCloud-AD-API).
 
 Set the status of the Security Group using the information below:
 
@@ -97,41 +125,13 @@ Restart the web server using the **IISReset command** or the IIS Console.
 
 ----
 
-## APIAdminGroup
-
-The **APIAdminGroup** group is used for **Admin Access** provide the folowing permissions: **Login, Create Tokens, Manage Tokens, Call ALL API Methods, View Security Log**.   
-
-To use this group, create an Active Directory Security Group in your Active Directory, for example: **KopiCloud-API-Admin-Access** and add users that will consume the DNS API to it.
-
-Open the **appsettings.json** file located on the root of the KopiCloud AD API folder (by default is C:\KopiCloud-AD-API).
-
-Set the status of the Security Group using the information below:
-
-> Security Group Enabled
-
-```
-"APIAdminGroup": "KopiCloud-API-Admin-Access"
-```
-
-> Security Group Disabled
-
-```
-"APIAdminGroup": ""
-```
-
-Save the file.
-
-Restart the web server using the **IISReset command** or the IIS Console.
-
----
-
 ## APISecurityGroup
 
-The **APISecurityGroup** group is used for **Security Access** provide the folowing permissions: **Login, Manage Tokens, No API Method Execution, View Security Logs**.   
+The **APISecurityGroup** group is used for the **Information Security Team Access** and provides the following permissions: **Login, Create and Manage ALL Tokens, No API Method Execution, View Event Logs**.   
 
-To use this group, create an Active Directory Security Group in your Active Directory, for example: **KopiCloud-API-Security-Access** and add users that will consume the DNS API to it.
+To use this group, create an Active Directory Security Group in your Active Directory, for example, **KopiCloud-API-Security-Access**, and add users from your Information Security Team to it.
 
-Open the **appsettings.json** file located on the root of the KopiCloud AD API folder (by default is C:\KopiCloud-AD-API).
+Open the **appsettings.json** file located on the root of the KopiCloud AD API folder (by default, is C:\KopiCloud-AD-API).
 
 Set the status of the Security Group using the information below:
 
@@ -155,18 +155,18 @@ Restart the web server using the **IISReset command** or the IIS Console.
 
 ## APITokenAuthenticationGroup
 
-The **APISecurityGroup** group is used for **Token Authentication** provide the folowing permissions: **Login, Create Tokens, No API Method Execution, No Security Logs**.   
+The **APITokenAuthenticationGroup** group is used for **Token Authentication** and provides the following permissions: **Login, Create and Manage ALL Tokens, No API Method Execution, No Event Logs Access**.   
 
-To use this group, create an Active Directory Security Group in your Active Directory, for example: **KopiCloud-API-Token-Authentication** and add users that will consume the DNS API to it.
+To use this group, create an Active Directory Security Group in your Active Directory, for example, **KopiCloud-API-Token-Authentication**, and add users to manage authentication tokens.
 
-Open the **appsettings.json** file located on the root of the KopiCloud AD API folder (by default is C:\KopiCloud-AD-API).
+Open the **appsettings.json** file located on the root of the KopiCloud AD API folder (by default, is C:\KopiCloud-AD-API).
 
 Set the status of the Security Group using the information below:
 
 > Security Group Enabled
 
 ```
-"APITokenAuthenticationGroup": "KopiCloud-API-Security-Access"
+"APITokenAuthenticationGroup": "KopiCloud-API-Token-Authentication"
 ```
 
 > Security Group Disabled
@@ -179,3 +179,30 @@ Save the file.
 
 Restart the web server using the **IISReset command** or the IIS Console.
 
+---
+
+## APILogAccessGroup
+
+The **APILogAccessGroup** group is used for **Troubleshooting or API Debugging** and provides the following permissions: **Login, View Event Logs, No API Method Execution**. 
+
+To use this group, create an Active Directory Security Group in your Active Directory, for example: **KopiCloud-API-Log-Access**,  and add users needing to access the Event Log for troubleshooting or developers that need to debug applications.
+
+Open the **appsettings.json** file located on the root of the KopiCloud AD API folder (by default, is C:\KopiCloud-AD-API).
+
+Set the status of the Security Group using the information below:
+
+> Security Group Enabled
+
+```
+"APILogAccessGroup": "KopiCloud-API-Log-Access"
+```
+
+> Security Group Disabled
+
+```
+"APILogAccessGroup": ""
+```
+
+Save the file.
+
+Restart the web server using the **IISReset command** or the IIS Console.
