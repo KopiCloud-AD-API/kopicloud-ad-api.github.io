@@ -1,7 +1,7 @@
 ---
 title: Manage KopiCloud AD API Authentication Token
 description: Manage KopiCloud AD API Authentication Token
-date: 2023-02-28
+date: 2023-03-23
 ---
 
 # Manage KopiCloud AD API Authentication Token
@@ -13,7 +13,7 @@ Manage KopiCloud AD API authentication tokens, including list, enable, disable, 
 
 ## List Authentication Tokens
 
-To manage Authentication Tokens, login to the **KopiCloud AD API Management Website**, and click on the **Token List** menu.
+To manage Authentication Tokens, login to the **KopiCloud AD API Management Console**, and click on the **Token List** menu.
 
 ![Token List](https://help.kopicloud-ad-api.com/assets/docs/token_List.png)
 
@@ -29,7 +29,4 @@ Click on the **Enable** button to enable the token or the **Disable** button to 
 
 ## Delete Authentication Tokens
 
-When a token expired, the status button will change to **Delete**.
-
-Click on the **Delete** button to delete the token.
-
+Click on the **Delete** button in the **Delete** column, next to the token.
