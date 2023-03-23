@@ -8,7 +8,7 @@ date: 2023-03-01
 
 ## AD User
 
-| API Method                        | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
+| API Method Type and Description   | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
 | --------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
 | GET / List of ALL Users           | Yes       | Yes      | No        | No          | Yes         | No             |
 | GET / List of Users Inside an OU  | Yes       | Yes      | No        | No          | Yes         | No             |
