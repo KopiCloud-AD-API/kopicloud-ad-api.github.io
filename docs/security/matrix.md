@@ -9,6 +9,7 @@ date: 2023-03-01
 ## AD User
 
 | <div style="width:200px">API Method</div> | <div style="width:50px">API<br />Group</div> | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
+| _________________________________ | ___ | ___ | ___ | ___ | ___ | ___ |
 | --------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
 | GET / List of ALL Users           | Yes       | Yes      | No        | No          | Yes         | No             |
 | GET / List of Users Inside an OU  | Yes       | Yes      | No        | No          | Yes         | No             |
