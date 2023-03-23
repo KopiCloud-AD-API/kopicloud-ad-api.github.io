@@ -1,28 +1,27 @@
 ---
 title: AD Groups API Methods
 description: Describing all API methods of AD Groups 
-date: 2023-03-22
+date: 2023-03-23
 ---
 
-# Manage Microsoft AD Groups using the KopiCloud AD API with 
+# Manage AD Groups with the KopiCloud AD API
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Manage Microsoft AD Groups API Methods using the KopiCloud
+Manage Microsoft AD Groups API Methods using the KopiCloud AD API
 
 ----
 
-## Get a List of Active Directory Groups Inside an OU (Review)
+## Get a List of AD Groups Inside an OU
 
 <span class="btn-get">GET</span> /api/ADGroups
 
-
 **Parameters**
 
-| Name       | Type   | Description                          | Mandatory |
-| ---------- | ------ | ------------------------------------ | --------- |
-| OUPath | string | Organization Unit DN Path| No       |
-| Recursive | boolean | Recursive Search| No       |
-| Auth-Token  | string | Bearer or Basic Authentication Token| Yes      |
+| Name       | Type    | Description                          | Mandatory |
+| ---------- | ------- | ------------------------------------ | --------- |
+| OUPath     | string  | Organization Unit DN Path            | No        |
+| Recursive  | boolean | Recursive Search                     | No        |
+| Auth-Token | string  | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
 
@@ -45,17 +44,16 @@ Manage Microsoft AD Groups API Methods using the KopiCloud
 
 ----
 
-## Get an AD Group Details (Name, Description, Path, Type and Scope)
+## Get an AD Group Details
 
 <span class="btn-get">GET</span> /api/ADGroups/{GroupName}
-
 
 **Parameters**
 
 | Name       | Type   | Description                          | Mandatory |
 | ---------- | ------ | ------------------------------------ | --------- |
-| GroupName  | string | AD Group Name| Yes       |
-| Auth-Token  | string | Bearer or Basic Authentication Token| Yes      |
+| GroupName  | string | AD Group Name                        | Yes       |
+| Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
 
@@ -76,17 +74,16 @@ Manage Microsoft AD Groups API Methods using the KopiCloud
 
 ----
 
-## Get and Check if the Active Directory Organization Unit Exists
+## Check if the AD OU Exists
 
 <span class="btn-get">GET</span> /api/ADGroups/{GroupName}/Exists
-
 
 **Parameters**
 
 | Name       | Type   | Description                          | Mandatory |
 | ---------- | ------ | ------------------------------------ | --------- |
-| GroupName  | string | AD Group Name| Yes       |
-| Auth-Token  | string | Bearer or Basic Authentication Token| Yes      |
+| GroupName  | string | AD Group Name                        | Yes       |
+| Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
 
@@ -99,16 +96,15 @@ Manage Microsoft AD Groups API Methods using the KopiCloud
 
 ----
 
-## Get a List of All Active Directory Groups
+## Get a List of All AD Groups
 
 <span class="btn-get">GET</span> /api/ADGroups/All
 
-
 **Parameters**
 
 | Name       | Type   | Description                          | Mandatory |
 | ---------- | ------ | ------------------------------------ | --------- |
-| Auth-Token  | string | Bearer or Basic Authentication Token| Yes      |
+| Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
 
@@ -131,18 +127,17 @@ Manage Microsoft AD Groups API Methods using the KopiCloud
 
 ----
 
-## Get a List of Active Directory Distribution Groups
+## Get the List of AD Distribution Groups
 
 <span class="btn-get">GET</span> /api/ADGroups/Distribution/All
 
-
 **Parameters**
 
-| Name       | Type   | Description                          | Mandatory |
-| ---------- | ------ | ------------------------------------ | --------- |
-| OUPath | string | Organization Unit DN Path| No       |
-| Recursive | boolean | Recursive Search| No       |
-| Auth-Token  | string | Bearer or Basic Authentication Token| Yes      |
+| Name       | Type    | Description                          | Mandatory |
+| ---------- | ------- | ------------------------------------ | --------- |
+| OUPath     | string  | Organization Unit DN Path            | No        |
+| Recursive  | boolean | Recursive Search                     | No        |
+| Auth-Token | string  | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
 
@@ -165,18 +160,17 @@ Manage Microsoft AD Groups API Methods using the KopiCloud
 
 ----
 
-## Get a List of Active Directory Security Groups
+## Get the List of AD Security Groups
 
 <span class="btn-get">GET</span> /api/ADGroups/Security/All
 
-
 **Parameters**
 
-| Name       | Type   | Description                          | Mandatory |
-| ---------- | ------ | ------------------------------------ | --------- |
-| OUPath | string | Organization Unit DN Path| No       |
-| Recursive | boolean | Recursive Search| No       |
-| Auth-Token  | string | Bearer or Basic Authentication Token| Yes      |
+| Name       | Type    | Description                          | Mandatory |
+| ---------- | ------- | ------------------------------------ | --------- |
+| OUPath     | string  | Organization Unit DN Path            | No        |
+| Recursive  | boolean | Recursive Search                     | No        |
+| Auth-Token | string  | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
 
@@ -199,21 +193,22 @@ Manage Microsoft AD Groups API Methods using the KopiCloud
 
 ----
 
-## Create an Active Directory Distribution Group, Optional Set the OU to Create it or Create in the Default Users OU
+## Create an AD Distribution Group
+
+>Note: Optional set the OU where to create the group or create in the default Users OU
 
 <span class="btn-post">POST</span> /api/ADGroups/{GroupName}/Distribution
 
-
 **Parameters**
 
-| Name       | Type   | Description                          | Mandatory |
-| ---------- | ------ | ------------------------------------ | --------- |
-| OUPath | string | Organization Unit DN Path| No       |
-| Auth-Token  | string | Bearer or Basic Authentication Token| Yes      |
-| GroupName | string | AD Group Name  | Yes   |
-| GroupScope | string | AD GroupScope| No      |
-| GroupDescription  | string | AD Group Description| No      |
-| GroupEmail  | string | AD Group Email| No      |
+| Name             | Type   | Description                          | Mandatory |
+| ---------------- | ------ | ------------------------------------ | --------- |
+| OUPath           | string | Organization Unit DN Path            | No        |
+| GroupName        | string | AD Group Name                        | Yes       |
+| GroupScope       | string | AD GroupScope                        | No        |
+| GroupDescription | string | AD Group Description                 | No        |
+| GroupEmail       | string | AD Group Email                       | No        |
+| Auth-Token       | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
 
@@ -233,21 +228,22 @@ Manage Microsoft AD Groups API Methods using the KopiCloud
 ```
 
 ----
-## Create an Active Directory Security Group, Optional Set the OU to Create it or Create in the Default Users OU
+## Create an AD Security Group
+
+>Note: Optional set the OU where to create the group or create in the default Users OU
 
 <span class="btn-post">POST</span> /api/ADGroups/{GroupName}/Security
 
-
 **Parameters**
 
-| Name       | Type   | Description                          | Mandatory |
-| ---------- | ------ | ------------------------------------ | --------- |
-| OUPath | string | Organization Unit DN Path| No       |
-| Auth-Token  | string | Bearer or Basic Authentication Token| Yes      |
-| GroupName | string | AD Group Name  | Yes   |
-| GroupScope | string | AD GroupScope| No      |
-| GroupDescription  | string | AD Group Description| No      |
-| GroupEmail  | string | AD Group Email| No      |
+| Name             | Type   | Description                          | Mandatory |
+| ---------------- | ------ | ------------------------------------ | --------- |
+| OUPath           | string | Organization Unit DN Path            | No        |
+| GroupName        | string | AD Group Name                        | Yes       |
+| GroupScope       | string | AD GroupScope                        | No        |
+| GroupDescription | string | AD Group Description                 | No        |
+| GroupEmail       | string | AD Group Email                       | No        |
+| Auth-Token       | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
 
@@ -268,18 +264,17 @@ Manage Microsoft AD Groups API Methods using the KopiCloud
 
 ----
 
-## Rename an Active Directory Group, Optional Set the OU to Create it or Create in the Default Users OU
+## Rename an AD Group
 
 <span class="btn-put">PUT</span> /api/ADGroups/{GroupName}/Rename/{NewGroupName}
 
-
 **Parameters**
 
-| Name       | Type   | Description                          | Mandatory |
-| ---------- | ------ | ------------------------------------ | --------- |
-| OUPath | string | Organization Unit DN Path| Yes       |
-| NewGroupName  | string | Bearer or Basic Authentication Token| Yes      |
-| GroupName | string | AD Group Name  | Yes   |
+| Name         | Type   | Description                          | Mandatory |
+| ------------ | ------ | ------------------------------------ | --------- |
+| GroupName    | string | AD Group Name                        | Yes       |
+| NewGroupName | string | New AD Group Name                    | Yes       |
+| Auth-Token   | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
 
@@ -300,18 +295,17 @@ Manage Microsoft AD Groups API Methods using the KopiCloud
 
 ----
 
-## Delete an Active Directory Group, Optional Set the OU to Create it or Create in the Default Users OU
+## Delete an AD Group
 
 <span class="btn-delete">DELETE</span> /api/ADGroups/{GroupName}/Remove
-
 
 **Parameters**
 
 | Name       | Type   | Description                          | Mandatory |
 | ---------- | ------ | ------------------------------------ | --------- |
+| GroupName | string | AD Group Name  | Yes   |
 | OUPath | string | Organization Unit DN Path| No       |
 | Auth-Token   | string | Bearer or Basic Authentication Token| Yes      |
-| GroupName | string | AD Group Name  | Yes   |
 
 **Return Schema**
 
