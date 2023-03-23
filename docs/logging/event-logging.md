@@ -13,7 +13,7 @@ These event logs are used to **audit actions performed by the API**, so you know
 
 All the information is stored in a database and can be exported to your favorite SIEM (Security Information and Event Management) software.
 
-By default all events are written to **KopiCloud API Event Log** 
+By default all events are written to **KopiCloud API Event Log** and the **Windows Event Log**. 
 
 ----
 
