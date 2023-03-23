@@ -36,7 +36,7 @@ nav:
     - AD:
       - AD Group: terraform/terraform-ad/ad-group.md
       - AD Group Membership: terraform/terraform-ad/ad-group-membership.md
-      - AD OU with Terraform: terraform/terraform-ad/ad-ou.md
+      - AD Organization Unit: terraform/terraform-ad/ad-ou.md
 
     - DNS:
       - DNS with Terraform: terraform/terraform-dns/dns.md
