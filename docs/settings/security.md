@@ -7,7 +7,7 @@ date: 2023-03-22
 # Configuring Security Access
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-By default, AD security groups acces is disabled.
+By default, AD security groups access is disabled.
 
 This article explains how to use AD security groups to provide access to specific features of KopiCloud AD API. For details, check the Security section.
 
