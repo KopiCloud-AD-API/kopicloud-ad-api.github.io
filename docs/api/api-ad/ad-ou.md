@@ -4,7 +4,7 @@ description: Describing all API methods of AD Organization Units (OU)
 date: 2023-03-23
 ---
 
-# Manage AD Organization Units with the KopiCloud AD API
+# Manage AD OUs with the KopiCloud AD API
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
 Manage Microsoft AD Organization Units (OUs) API Methods using the KopiCloud AD API
