@@ -48,7 +48,7 @@ date: 2023-03-01
 
 ## AD Group
 
-| Method                                                              | API Group | AD Group | DNS Group | Token Group | Admin Group | Security Group |
+| API Method                | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
 | ------------------------------------------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
 | GET / List ALl Groups                                               | Yes       | Yes      | No        | No          | Yes         | No             |
 | GET / List Groups Inside OU                                         | Yes       | Yes      | No        | No          | Yes         | No             |
@@ -65,7 +65,7 @@ date: 2023-03-01
 
 ## AD Group Membership
 
-| Method                                                              | API Group | AD Group | DNS Group | Token Group | Admin Group | Security Group |
+| API Method                | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
 | ------------------------------------------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
 | GET / AD User Group Membership                                      | Yes       | Yes      | No        | No          | Yes         | No             |
 | GET / Check If User is a Member of a Group                          | Yes       | Yes      | No        | No          | Yes         | No             |
@@ -76,7 +76,7 @@ date: 2023-03-01
 
 ## AD OU
 
-| Method                                                              | API Group | AD Group | DNS Group | Token Group | Admin Group | Security Group |
+| API Method                | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
 | ------------------------------------------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
 | GET / List All AD OUs                                               | Yes       | Yes      | No        | No          | Yes         | No             |
 | GET / AD OU Details by OUPath                                       | Yes       | Yes      | No        | No          | Yes         | No             |
@@ -92,72 +92,70 @@ date: 2023-03-01
 
 ## DNS AAAA Record
 
-| Method                                                              | API Group | AD Group | DNS Group | Token Group | Admin Group | Security Group |
-| ------------------------------------------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
-| List All DNS AAAA Records in All Zones                              | Yes       | No       | Yes       | No          | Yes         | No             |
-| List All DNS AAAA Records in a Zone                                 | Yes       | No       | Yes       | No          | Yes         | No             |
-| List All DNS AAAA Records that match with DNS Hostname              | Yes       | No       | Yes       | No          | Yes         | No             |
-| List All DNS AAAA Records that match with IPv6 Address              | Yes       | No       | Yes       | No          | Yes         | No             |
-| Get DNS AAAA Records                                                | Yes       | No       | Yes       | No          | Yes         | No             |
-| Create a DNS AAAA Records                                           | Yes       | No       | Yes       | No          | Yes         | No             |
+Manage DNS AAAA records.
+
+| API Method | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
+| ------------------------- | --- | -- | --- | -- | --- | -- |
+| List All DNS AAAA Records | Yes | No | Yes | No | Yes | No |
+| Create a DNS AAAA Records | Yes | No | Yes | No | Yes | No |
+| Delete a DNS AAAA Records | Yes | No | Yes | No | Yes | No |
 
 ----
 
 ## DNS A Record
 
-| Method                                                              | API Group | AD Group | DNS Group | Token Group | Admin Group | Security Group |
-| ------------------------------------------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
-| Delete a DNS A Records                                              | Yes       | No       | Yes       | No          | Yes         | No             |
-| List All DNS A Records in All Zones                                 | Yes       | No       | Yes       | No          | Yes         | No             |
-| List All DNS A Records in a Zone                                    | Yes       | No       | Yes       | No          | Yes         | No             |
-| List All DNS A Records that match with hostname                     | Yes       | No       | Yes       | No          | Yes         | No             |
-| List All DNS A Records that match with IP_address                   | Yes       | No       | Yes       | No          | Yes         | No             |
-| Get DNS A Record that match with Hostname and IP_address            | Yes       | No       | Yes       | No          | Yes         | No             |
-| Create a DNS A Records                                              | Yes       | No       | Yes       | No          | Yes         | No             |
-| Delete a DNS A Records                                              | Yes       | No       | Yes       | No          | Yes         | No             |
+Manage DNS A records.
+
+| API Method | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
+| ---------------------- | --- | -- | --- | -- | --- | -- |
+| List All DNS A Records | Yes | No | Yes | No | Yes | No |
+| Create a DNS A Records | Yes | No | Yes | No | Yes | No |
+| Delete a DNS A Records | Yes | No | Yes | No | Yes | No |
 
 ----
 
 ## DNS CNAME Record
 
-| Method                                                              | API Group | AD Group | DNS Group | Token Group | Admin Group | Security Group |
-| ------------------------------------------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
-| List All DNS CNAME Records in All Zones                             | Yes       | No       | Yes       | No          | Yes         | No             |
-| List All DNS CNAME Records in a Zone                                | Yes       | No       | Yes       | No          | Yes         | No             |
-| List All DNS CNAME Records that match with hostname                 | Yes       | No       | Yes       | No          | Yes         | No             |
-| List All DNS CNAME Records that match with DNS HostName Alias       | Yes       | No       | Yes       | No          | Yes         | No             |
-| Get DNS CNAME Record that match with DNS HostName and Alias         | Yes       | No       | Yes       | No          | Yes         | No             |
-| Create a DNS CNAME Records                                          | Yes       | No       | Yes       | No          | Yes         | No             |
-| Delete a DNS CNAME Records                                          | Yes       | No       | Yes       | No          | Yes         | No             |
+Manage DNS CNAME records.
+
+| API Method | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
+| -------------------------- | --- | -- | --- | -- | --- | -- |
+| List All DNS CNAME Records | Yes | No | Yes | No | Yes | No |
+| Create a DNS CNAME Records | Yes | No | Yes | No | Yes | No |
+| Delete a DNS CNAME Records | Yes | No | Yes | No | Yes | No |
 
 ----
 
 ## DNS Zone
 
-| Method                                                              | API Group | AD Group | DNS Group | Token Group | Admin Group | Security Group |
-| ------------------------------------------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
-| GET / Check If DNS Zone Exists                                      | Yes       | No       | Yes       | No          | Yes         | No             |
-| GET / List All DNS Zones                                            | Yes       | No       | Yes       | No          | Yes         | No             |
-| GET / Get DNS Zone by Name                                          | Yes       | No       | Yes       | No          | Yes         | No             |
-| GET / List All DNS Lookup Zones                                     | Yes       | No       | Yes       | No          | Yes         | No             |
-| POST / Create a DNS Lookup Zone                                     | Yes       | No       | Yes       | No          | Yes         | No             |
-| DELETE / Delete a DNS Lookup Zone                                   | Yes       | No       | Yes       | No          | Yes         | No             |
-| GET / List All DNS Reverse Lookup Zones                             | Yes       | No       | Yes       | No          | Yes         | No             |
-| GET / Get Dns Reverse Lookup Zone by NetworkID or Zone Name         | Yes       | No       | Yes       | No          | Yes         | No             |
-| POST / Create a DNS Reverse Lookup Zone NetworkID                   | Yes       | No       | Yes       | No          | Yes         | No             |
-| DELETE / Delete a DNS Reverse Lookup Zone                           | Yes       | No       | Yes       | No          | Yes         | No             |
+Manage DNS zones.
+
+| API Method | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
+| ------------------------------------------------------| --------- | -------- | --------- | ----------- | ----------- | -------------- |
+| Check If DNS Zone Exists                              | Yes       | No       | Yes       | No          | Yes         | No             |
+| List All DNS Zones                                    | Yes       | No       | Yes       | No          | Yes         | No             |
+| Get DNS Zone by Name                                  | Yes       | No       | Yes       | No          | Yes         | No             |
+| List All DNS Lookup Zones                             | Yes       | No       | Yes       | No          | Yes         | No             |
+| Create a DNS Lookup Zone                              | Yes       | No       | Yes       | No          | Yes         | No             |
+| Delete a DNS Lookup Zone                              | Yes       | No       | Yes       | No          | Yes         | No             |
+| List All DNS Reverse Lookup Zones                     | Yes       | No       | Yes       | No          | Yes         | No             |
+| Get DNS Reverse Lookup Zone by NetworkID or Zone Name | Yes       | No       | Yes       | No          | Yes         | No             |
+| Create a DNS Reverse Lookup Zone NetworkID            | Yes       | No       | Yes       | No          | Yes         | No             |
+| Delete a DNS Reverse Lookup Zone                      | Yes       | No       | Yes       | No          | Yes         | No             |
 
 ----
 
 ## Token Management
 
-| API Method                | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
+Create, list, enable, disable and delete authentication tokens.
+
+| API Method | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
 | --------------------------| --------- | -------- | --------- | ----------- | ----------- | -------------- |
 | Generate JWT Bearer Token | Yes       | Yes      | Yes       | Yes         | Yes         | Yes            |
 | Generate Basic Token      | Yes       | Yes      | Yes       | Yes         | Yes         | Yes            |
-| List OWN Token List       | Yes       | Yes      | Yes       | Yes         | Yes         | Yes            |
-| List ALL Token List       | No        | No       | No        | Yes         | Yes         | Yes            |
-| Enable/Disable OWN Token  | Yes       | Yes      | Yes       | Yes         | Yes         | Yes            |
+| List OWN Tokens           | Yes       | Yes      | Yes       | Yes         | Yes         | Yes            |
+| List ALL Tokens           | No        | No       | No        | Yes         | Yes         | Yes            |
+| Enable/Disable OWN Tokens | Yes       | Yes      | Yes       | Yes         | Yes         | Yes            |
 | Enable/Disable ALL Tokens | No        | No       | No        | Yes         | Yes         | Yes            |
 | Delete Token              | No        | No       | No        | Yes         | Yes         | Yes            |
 
@@ -167,7 +165,7 @@ date: 2023-03-01
 
 Review the KopiCloud AD API Event Log.
 
-| API Method     | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
+| API Method | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
 | -------------- | -- | -- | -- | -- | --- | --- |
 | Show Event Log | No | No | No | No | Yes | Yes |
 
@@ -177,7 +175,7 @@ Review the KopiCloud AD API Event Log.
 
 Configure the KopiCloud AD API License.
 
-| API Method                     | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
-| ------------------------------ | -- | -- | -- | -- | --- | --- |
-| Read KopiCloud AD API License  | No | No | No | No | Yes | Yes |
-| Write KopiCloud AD API License | No | No | No | No | Yes | Yes |
+| API Method | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
+| ------------- | -- | -- | -- | -- | --- | --- |
+| Read License  | No | No | No | No | Yes | Yes |
+| Write License | No | No | No | No | Yes | Yes |
