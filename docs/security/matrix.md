@@ -4,38 +4,28 @@ description: Welcome to KopiCloud AD API
 date: 2023-03-01
 ---
 
-<style>
-table th:first-of-type {width: 40%;}
-table th:nth-of-type(2) {width: 10%;}
-table th:nth-of-type(3) {width: 10%;}
-table th:nth-of-type(4) {width: 10%;}
-table th:nth-of-type(5) {width: 10%;}
-table th:nth-of-type(6) {width: 10%;}
-table th:nth-of-type(7) {width: 10%;}
-</style>
-
 # KopiCloud AD API Security Group Matrix
 
 ## AD User
 
-| API Method | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
-| --------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
-| GET / List of ALL Users           | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / List of Users Inside an OU  | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / Get User Details            | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / Get User Details By Guid    | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / Check If User Exist         | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / Get Last Logon              | Yes       | Yes      | No        | No          | Yes         | No             |
-| POST / Create New User            | Yes       | Yes      | No        | No          | Yes         | No             |
-| PUT / Update User                 | Yes       | Yes      | No        | No          | Yes         | No             |
-| PUT / Update User by Guid         | Yes       | Yes      | No        | No          | Yes         | No             |
-| PUT / Reset User Password         | Yes       | Yes      | No        | No          | Yes         | No             |
-| PUT / Enable User                 | Yes       | Yes      | No        | No          | Yes         | No             |
-| PUT / Disable User                | Yes       | Yes      | No        | No          | Yes         | No             |
-| PUT / Unlock User                 | Yes       | Yes      | No        | No          | Yes         | No             |
-| PUT / Rename User                 | Yes       | Yes      | No        | No          | Yes         | No             |
-| DELETE / Delete User              | Yes       | Yes      | No        | No          | Yes         | No             |
-| DELETE / Delete User by Guid      | Yes       | Yes      | No        | No          | Yes         | No             |
+| API Method | API<br />Group | AD<br />Group | DNS<br />Group | Admin<br />Group | Security<br />Group |
+| --------------------------------- | --------- | -------- | --------- | ----------- | -------------- |
+| GET / List of ALL Users           | Yes       | Yes      | No        | Yes         | No             |
+| GET / List of Users Inside an OU  | Yes       | Yes      | No        | Yes         | No             |
+| GET / Get User Details            | Yes       | Yes      | No        | Yes         | No             |
+| GET / Get User Details By Guid    | Yes       | Yes      | No        | Yes         | No             |
+| GET / Check If User Exist         | Yes       | Yes      | No        | Yes         | No             |
+| GET / Get Last Logon              | Yes       | Yes      | No        | Yes         | No             |
+| POST / Create New User            | Yes       | Yes      | No        | Yes         | No             |
+| PUT / Update User                 | Yes       | Yes      | No        | Yes         | No             |
+| PUT / Update User by Guid         | Yes       | Yes      | No        | Yes         | No             |
+| PUT / Reset User Password         | Yes       | Yes      | No        | Yes         | No             |
+| PUT / Enable User                 | Yes       | Yes      | No        | Yes         | No             |
+| PUT / Disable User                | Yes       | Yes      | No        | Yes         | No             |
+| PUT / Unlock User                 | Yes       | Yes      | No        | Yes         | No             |
+| PUT / Rename User                 | Yes       | Yes      | No        | Yes         | No             |
+| DELETE / Delete User              | Yes       | Yes      | No        | Yes         | No             |
+| DELETE / Delete User by Guid      | Yes       | Yes      | No        | Yes         | No             |
 
 ----
 
