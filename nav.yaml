@@ -19,7 +19,7 @@ nav:
     - Terraform Authentication: authentication/terraform-authentication.md
 
   - API:
-    - AD
+    - AD:
       - AD Group: api/api-ad-groups/ad-groups.md
       - AD Group Membership: api/api-ad/ad-group-membership.md
     - DNS:
@@ -32,7 +32,7 @@ nav:
       - DNS Reverse Lookup Zone: api/api-dns/dns-reverse-lookup-zones.md
     
   - Terraform:
-    - AD
+    - AD:
       - AD Group: terraform/terraform-ad-groups/terraform-ad-groups.md
       - AD Group Membership: terraform/terraform-group-membership/group-membership.md
     - DNS:
