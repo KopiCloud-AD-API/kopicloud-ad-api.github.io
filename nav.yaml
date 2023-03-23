@@ -48,6 +48,9 @@ nav:
       - DNS Lookup Zone: terraform/terraform-dns/dns-lookup-zones.md
       - DNS Reverse Lookup Zone: terraform/terraform-dns/dns-reverse-lookup-zones.md
 
+  - Logging:
+    - Event Logging: logging/event-logging.md
+
   - Security:
     - Security Overview: security/security.md
     - Access Matrix: security/matrix.md
@@ -55,13 +58,10 @@ nav:
   - Settings:
     - Security Group Access: settings/security.md
     - Token Authentication: settings/token-authentication.md     
-
-  - Logging:
-    - Event Logging: logging/event-logging.md
+    - Windows Event Log: settings/logging.md     
 
   - Product:
     #- FAQ: faq.md
     - Change Log: changelog.md
     - Credits: credits.md
-  
     
