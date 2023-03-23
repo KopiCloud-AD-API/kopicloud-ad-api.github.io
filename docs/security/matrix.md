@@ -4,11 +4,21 @@ description: Welcome to KopiCloud AD API
 date: 2023-03-01
 ---
 
+<style>
+table th:first-of-type {width: 40%;}
+table th:nth-of-type(2) {width: 10%;}
+table th:nth-of-type(3) {width: 10%;}
+table th:nth-of-type(4) {width: 10%;}
+table th:nth-of-type(5) {width: 10%;}
+table th:nth-of-type(6) {width: 10%;}
+table th:nth-of-type(7) {width: 10%;}
+</style>
+
 # KopiCloud AD API Security Group Matrix
 
 ## AD User
 
-| <div style="width:200px">API Method</div> | <div style="width:30px">API<br />Group</div> | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
+| API Method | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
 | --------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
 | GET / List of ALL Users           | Yes       | Yes      | No        | No          | Yes         | No             |
 | GET / List of Users Inside an OU  | Yes       | Yes      | No        | No          | Yes         | No             |
