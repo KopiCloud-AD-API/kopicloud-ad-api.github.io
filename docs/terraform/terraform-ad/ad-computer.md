@@ -12,7 +12,7 @@ Manage AD Computers in Microsoft AD using the KopiCloud AD API Terraform Provide
 
 ----
 
-## List of All Computer Inside an Active Directory Organization Unit
+## List of All Computers Inside an Active Directory Organization Unit
 
 List All Computers Inside an OU:
 
@@ -191,7 +191,7 @@ resource "kopicloud_computer_cleanup" "test" {
 }
 ```
 
-Return Clean Up Computers:
+Return Clean-Up Computers:
 
 ```
 output "OUTPUT_list_cleanup_computer" {

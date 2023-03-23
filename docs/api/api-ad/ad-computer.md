@@ -11,7 +11,7 @@ Manage AD Computers in Microsoft AD using the KopiCloud AD API
 
 ----
 
-## Get a List of All Computer Inside an Active Directory Organization Unit
+## Get a List of All Computers Inside an Active Directory Organization Unit
 
 <span class="btn-get">GET</span> /api/Computers
 
