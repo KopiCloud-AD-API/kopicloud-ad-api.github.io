@@ -4,10 +4,10 @@ description: Describing all API methods of AD Computer
 date: 2023-03-23
 ---
 
-# Manage Microsoft AD Computer using the KopiCloud AD API
+# Manage AD Computers with the KopiCloud AD API
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Manage AD Computers in Microsoft AD using the KopiCloud AD API
+Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
