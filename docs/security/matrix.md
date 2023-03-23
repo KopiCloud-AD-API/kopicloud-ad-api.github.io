@@ -8,12 +8,12 @@ date: 2023-03-23
 
 Review the permissions listed below based on your AD Group Membership.
 
-- API Group: Call all API Methods
-- AD  Group: Call all AD Methods only, No Calls to DNS Methods
-- DNS  Group: Call all DNS Methods only, No Calls to AD Methods
 - Admin Group: Administrator Access Group
+- API Group: Call all API Methods
+- AD Group: Call all AD Methods only, No Calls to DNS Methods
+- DNS Group: Call all DNS Methods only, No Calls to AD Methods
 - Security Group: Group designed for Information Security team access
-- Log Group: Access only the Event Log, good for troubleshooting and development
+- Log Group: Access only the Event Log, good for troubleshooting and debugging applications
 - Token Group: Manage Tokens
 
 -----
