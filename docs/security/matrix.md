@@ -8,7 +8,7 @@ date: 2023-03-01
 
 ## AD User
 
-| API Method Type and Description   | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
+| API Method                        | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
 | --------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
 | GET / List of ALL Users           | Yes       | Yes      | No        | No          | Yes         | No             |
 | GET / List of Users Inside an OU  | Yes       | Yes      | No        | No          | Yes         | No             |
@@ -31,18 +31,18 @@ date: 2023-03-01
 
 ## AD Computer
 
-| Method                                                              | API Group | AD Group | DNS Group | Token Group | Admin Group | Security Group |
-| ------------------------------------------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
-| GET / List ALL Computers inside in AD                               | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / List Computers inside an AD OU                                | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / Show Computer Details                                         | Yes       | Yes      | No        | No          | Yes         | No             |
-| GET / Check If Computer Exists                                      | Yes       | Yes      | No        | No          | Yes         | No             |
-| POST / Register Computer                                            | Yes       | Yes      | No        | No          | Yes         | No             |
-| PUT / Rename Computer                                               | Yes       | Yes      | No        | No          | Yes         | No             |
-| PUT / Update Computer Description                                   | Yes       | Yes      | No        | No          | Yes         | No             |
-| DELETE / Remove Computer                                            | Yes       | Yes      | No        | No          | Yes         | No             |
-| DELETE / Remove Multiple Computer                                   | Yes       | Yes      | No        | No          | Yes         | No             |
-| DELETE / CleanUp Inactive AD Computers                              | Yes       | Yes      | No        | No          | Yes         | No             |
+| API Method                             | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
+| ---------------------------------------| --------- | -------- | --------- | ----------- | ----------- | -------------- |
+| GET / List ALL Computers               | Yes       | Yes      | No        | No          | Yes         | No             |
+| GET / List Computers inside an AD OU   | Yes       | Yes      | No        | No          | Yes         | No             |
+| GET / Show Computer Details            | Yes       | Yes      | No        | No          | Yes         | No             |
+| GET / Check If Computer Exists         | Yes       | Yes      | No        | No          | Yes         | No             |
+| POST / Register Computer               | Yes       | Yes      | No        | No          | Yes         | No             |
+| PUT / Rename Computer                  | Yes       | Yes      | No        | No          | Yes         | No             |
+| PUT / Update Computer Description      | Yes       | Yes      | No        | No          | Yes         | No             |
+| DELETE / Remove Computer               | Yes       | Yes      | No        | No          | Yes         | No             |
+| DELETE / Remove Multiple Computer      | Yes       | Yes      | No        | No          | Yes         | No             |
+| DELETE / CleanUp Inactive AD Computers | Yes       | Yes      | No        | No          | Yes         | No             |
 
 ----
 
@@ -151,29 +151,33 @@ date: 2023-03-01
 
 ## Token Management
 
-| Method                                                              | API Group | AD Group | DNS Group | Token Group | Admin Group | Security Group |
-| ------------------------------------------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
-| Generate JWT Bearer Token                                           | Yes       | Yes      | Yes       | Yes         | Yes         | Yes            |
-| Generate Basic Token                                                | Yes       | Yes      | Yes       | Yes         | Yes         | Yes            |
-| List OWN Token List                                                 | Yes       | Yes      | Yes       | Yes         | Yes         | Yes            |
-| List ALL Token List                                                 | No        | No       | No        | Yes         | Yes         | Yes            |
-| Enable/Disable OWN Token                                            | Yes       | Yes      | Yes       | Yes         | Yes         | Yes            |
-| Enable/Disable ALLTokens                                            | No        | No       | No        | Yes         | Yes         | Yes            |
-| Delete Token                                                        | No        | No       | No        | Yes         | Yes         | Yes            |
+| API Method                | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
+| --------------------------| --------- | -------- | --------- | ----------- | ----------- | -------------- |
+| Generate JWT Bearer Token | Yes       | Yes      | Yes       | Yes         | Yes         | Yes            |
+| Generate Basic Token      | Yes       | Yes      | Yes       | Yes         | Yes         | Yes            |
+| List OWN Token List       | Yes       | Yes      | Yes       | Yes         | Yes         | Yes            |
+| List ALL Token List       | No        | No       | No        | Yes         | Yes         | Yes            |
+| Enable/Disable OWN Token  | Yes       | Yes      | Yes       | Yes         | Yes         | Yes            |
+| Enable/Disable ALL Tokens | No        | No       | No        | Yes         | Yes         | Yes            |
+| Delete Token              | No        | No       | No        | Yes         | Yes         | Yes            |
 
 ----
 
 ## Event Log
 
-| Method                                                              | API Group | AD Group | DNS Group | Token Group | Admin Group | Security Group |
-| ------------------------------------------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
-| Show Event Log                                                      | No        | No       | No        | No          | Yes         | Yes            |
+Review the KopiCloud AD API Event Log.
+
+| API Method     | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
+| -------------- | -- | -- | -- | -- | --- | --- |
+| Show Event Log | No | No | No | No | Yes | Yes |
 
 ----
 
 ## License Management
 
-| Method                                                              | API Group | AD Group | DNS Group | Token Group | Admin Group | Security Group |
-| ------------------------------------------------------------------- | --------- | -------- | --------- | ----------- | ----------- | -------------- |
-| GET /License                                                        | No        | No       | No        | No          | Yes         | Yes            |
-| Post /License                                                       | No        | No       | No        | No          | Yes         | Yes            |
+Configure the KopiCloud AD API License.
+
+| API Method                     | API<br />Group | AD<br />Group | DNS<br />Group | Token<br />Group | Admin<br />Group | Security<br />Group |
+| ------------------------------ | -- | -- | -- | -- | --- | --- |
+| Read KopiCloud AD API License  | No | No | No | No | Yes | Yes |
+| Write KopiCloud AD API License | No | No | No | No | Yes | Yes |
