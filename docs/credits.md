@@ -1,7 +1,7 @@
 ---
 title: Credits
 description: Credits and Attributions
-date: 2023-02-28
+date: 2023-03-23
 ---
 
 # Credits
@@ -24,7 +24,7 @@ This is the team that over the last few years completed the API and the Terrafor
 
 - Graphic Design: Serhii, Appel, Bedam, Olena
 
-- Documentation: Guillermo
+- Documentation: Guillermo, Mohd
 
 ----
 

@@ -1,7 +1,7 @@
 ---
 title: KopiCloud AD API Change Log
 description: KopiCloud AD API Change Log
-date: 2023-02-28
+date: 2023-03-23
 ---
 
 # Change Log
@@ -18,29 +18,29 @@ All notable user-facing changes to this project are documented in this page.
 
 API Initial Release
 
-- Create, update and remove AD Users
+- Create, list, rename, update, and remove AD Users
 
 - Modify Group Membership of AD Users
 
-- Create, update and remove AD Security Groups
+- Create, list, update, and remove AD Security Groups
 
-- Create, update and remove AD Distributions Groups
+- Create, list, update, and remove AD Distributions Groups
 
-- Create, update and remove AD Computers
+- Create, list, update, rename, and remove AD Computers
 
 - Clean up inactive AD Computers
 
-- Create, update and remove AD OUs
+- Create, list, update and remove AD OUs
 
-- Create and remove DNS A Records
+- Create, list, and remove DNS A Records
 
-- Create and remove DNS AAAA Records
+- Create, list, and remove DNS AAAA Records
 
-- Create and remove DNS CNAME Records
+- Create, list, and remove DNS CNAME Records
 
-- Create and remove DNS Loopkup Zones
+- Create, list, and remove DNS Loopkup Zones
 
-- Create and remove DNS Reverse Loopkup Zones
+- Create, list, and remove DNS Reverse Loopkup Zones
 
 ----
 
@@ -52,24 +52,24 @@ API Initial Release
 
 Terraform Provider Initial Release.
 
-- Create, update and remove AD Users
+- Create, list, update, and remove AD Users
 
 - Modify Group Membership of AD Users
 
-- Create, update and remove AD Security Groups
+- Create, list, update, and remove AD Security Groups
 
-- Create, update and remove AD Distributions Groups
+- Create, list, update, and remove AD Distributions Groups
 
-- Create, update and remove AD Computers
+- Create, list, update, and remove AD Computers
 
-- Create, update and remove AD OUs
+- Create, list, update, and remove AD OUs
 
-- Create and remove DNS A Records
+- Create, list, and remove DNS A Records
 
-- Create and remove DNS AAAA Records
+- Create, list, and remove DNS AAAA Records
 
-- Create and remove DNS CNAME Records
+- Create, list, and remove DNS CNAME Records
 
-- Create and remove DNS Loopkup Zones
+- Create, list, and remove DNS Lookup Zones
 
-- Create and remove DNS Reverse Loopkup Zones
+- Create, list, and remove DNS Reverse Lookup Zones

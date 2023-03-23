@@ -1,7 +1,7 @@
 ---
 title: Security
 description: KopiCloud AD API Security
-date: 2023-03-22
+date: 2023-03-23
 ---
 
 # Security
@@ -61,16 +61,16 @@ The default domain admin group can be different, based on your environment:
 
 ## Default API AD Groups
 
-We defined a few security groups, with specific permissions. 
+By default, We defined a list security groups, with specific permissions. 
 
-| Group Name                  | Use                    | Actions Allowed                                                              |
-| --------------------------- | ---------------------- |----------------------------------------------------------------------------- |
-| APIADAuthenticationGroup    | Access AD API Methods  | Login, Create tokens, Call API Methods for AD, No Security Logs              | 
-| APIDNSAuthenticationGroup   | Access DNS API Methods | Login, Create tokens, Call API Methods for DNS, No Security Logs             | 
-| APIAdminGroup               | Admin Access           | Login, Create Tokens, Manage Tokens, Call ALL API Methods, View Security Log | 
-| APISecurityGroup            | Security Team Access   | Login, Manage Tokens, No API Method Execution, View Security Logs            | 
-| APITokenAuthenticationGroup | Create Token           | Login, Create Tokens, No API Method Execution, No Security Logs              | 
+| Group Name                  | Use                  | Actions Allowed                                                           |
+| --------------------------- | -------------------- |-------------------------------------------------------------------------- |
+| APIAuthenticationGroup      | Call ALL API Methods | Login, Create tokens, Call ALL API Methods, No Event Logs                 | 
+| APIADAuthenticationGroup    | Call AD API Methods  | Login, Create tokens, Call API Methods for AD, No Event Logs              | 
+| APIDNSAuthenticationGroup   | Call DNS API Methods | Login, Create tokens, Call API Methods for DNS, No Event Logs             | 
+| APIAdminGroup               | Admin Access         | Login, Create Tokens, Manage Tokens, Call ALL API Methods, View Event Log | 
+| APISecurityGroup            | Security Team Access | Login, Create Tokens, Manage Tokens, View Event Logs, No API Method Calls | 
+| APITokenAuthenticationGroup | Manage Tokens        | Login, Create Tokens, No API Method Calls, No Event Logs                  | 
+| APILogAccessGroup           | View Event Logs      | Login, View Event Logs, no Token Management, No API Method Calls          | 
 
 To use these groups, check [this link](../settings/security.md).
-
-
