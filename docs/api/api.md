@@ -13,7 +13,7 @@ The API can be consumed by making API calls from:
 
 - Different development languages, such as C#, Python, JavaScript, etc.
 
-- Scripting languages such PowerShell or Bash.
+- Scripting languages such as PowerShell or Bash.
 
 - From the [Swagger UI](swagger-ui.md).
 
@@ -69,15 +69,14 @@ By default, you need an [Authentication Token](../authentication/token-authentic
 
 **KopiCloud AD API** supports two types of tokens: **JWT Token**, and **Basic Token**.
 
-If your token is not valid or expired, the API call will fail and you will receive a **401 response code**.
+If your token is invalid or expired, the API call will fail, and you will receive a **401 response code**.
 
 ----
 
 ## API Licensing
 
-You need to install a license of KopiCloud AD API, before you can make API calls or use the Terraform Provider.
+You need to install a license of KopiCloud AD API before you can make API calls or use the Terraform Provider.
 
 Get a free trial license [here](https://www.kopicloud-ad-api.com/trial).
 
-If your license is not valid or expired, the API call will fail and you will receive a **403 response code**.
-
+If your license is invalid or expired, the API call will fail, and you will receive a **403 response code**.

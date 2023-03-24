@@ -17,7 +17,7 @@ This article explains how to Check the Status, Enable, or Disable KopiCloud AD A
 
 If **Token Authentication** is enabled, every call to the API will require a token.
 
-Check the status of the Token Authentication, in the footer of the **KopiCloud AD API Management Website**:
+Check the status of the Token Authentication, in the footer of the **KopiCloud AD API Management Portal**:
 
 ![Token Authentication Status](https://help.kopicloud-ad-api.com/assets/docs/token_authentication_status.png)
 

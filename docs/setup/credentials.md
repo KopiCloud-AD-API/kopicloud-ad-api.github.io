@@ -19,7 +19,7 @@ This is the list of users required by KopiCloud AD API:
 
 **Local User Accounts**
 
-Windows local accounts used to authenticate to the server, manage IIS and login into the KopiCloud AD API management portal.
+Windows local accounts used to authenticate to the server, manage IIS and login into the **KopiCloud AD API Management Portal**.
 
 - Administrator: used to login to the server
 - KopiCloudSvc: service account used by IIS

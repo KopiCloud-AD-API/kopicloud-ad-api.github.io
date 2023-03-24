@@ -19,7 +19,7 @@ By default all events are written to **KopiCloud API Event Log** and the **Windo
 
 ## KopiCloud API Event Log
 
-To review the **KopiCloud API Event Log**, log in to the **KopiCloud AD API Management Console** and click on the **Logs** menu.
+To review the **KopiCloud API Event Log**, log in to the **KopiCloud AD API Management Portal** and click on the **Logs** menu.
 
 Use the top right **filter** to filter events using a date range.
 
