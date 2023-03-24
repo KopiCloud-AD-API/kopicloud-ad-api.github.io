@@ -784,7 +784,7 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ## Delete Active Directory User
 
-<span class="btn-put">DELETE</span> /api/ADUser/{UserName}
+<span class="btn-delete">DELETE</span> /api/ADUser/{UserName}
 
 **Parameters**
 
