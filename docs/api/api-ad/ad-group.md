@@ -1,17 +1,17 @@
 ---
-title: AD Groups API Methods
+title: AD Group API Methods
 description: Describing all API methods of AD Groups 
-date: 2023-03-23
+date: 2023-03-24
 ---
 
 # Manage AD Groups with the KopiCloud AD API
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Manage Microsoft AD Groups API Methods using the KopiCloud AD API
+Manage AD Groups in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Get a List of AD Groups Inside an OU
+## List AD Groups Inside an OU
 
 <span class="btn-get">GET</span> /api/ADGroups
 
@@ -44,7 +44,7 @@ Manage Microsoft AD Groups API Methods using the KopiCloud AD API
 
 ----
 
-## Get an AD Group Details
+## Show AD Group Details
 
 <span class="btn-get">GET</span> /api/ADGroups/{GroupName}
 
@@ -74,7 +74,7 @@ Manage Microsoft AD Groups API Methods using the KopiCloud AD API
 
 ----
 
-## Check if the AD OU Exists
+## Check If an AD Group Exists
 
 <span class="btn-get">GET</span> /api/ADGroups/{GroupName}/Exists
 
@@ -127,7 +127,7 @@ Manage Microsoft AD Groups API Methods using the KopiCloud AD API
 
 ----
 
-## Get the List of AD Distribution Groups
+## List All AD Distribution Groups
 
 <span class="btn-get">GET</span> /api/ADGroups/Distribution/All
 
@@ -160,7 +160,7 @@ Manage Microsoft AD Groups API Methods using the KopiCloud AD API
 
 ----
 
-## Get the List of AD Security Groups
+## List All AD Security Groups
 
 <span class="btn-get">GET</span> /api/ADGroups/Security/All
 
@@ -195,7 +195,7 @@ Manage Microsoft AD Groups API Methods using the KopiCloud AD API
 
 ## Create an AD Distribution Group
 
->Note: Optional set the OU where to create the group or create in the default Users OU
+>**Note:** Optional set the OU where to create the group or create it in the default Users OU
 
 <span class="btn-post">POST</span> /api/ADGroups/{GroupName}/Distribution
 
@@ -230,7 +230,7 @@ Manage Microsoft AD Groups API Methods using the KopiCloud AD API
 ----
 ## Create an AD Security Group
 
->Note: Optional set the OU where to create the group or create in the default Users OU
+>**Note:** Optional set the OU where to create the group or create it in the default Users OU
 
 <span class="btn-post">POST</span> /api/ADGroups/{GroupName}/Security
 
@@ -304,7 +304,7 @@ Manage Microsoft AD Groups API Methods using the KopiCloud AD API
 | Name       | Type   | Description                          | Mandatory |
 | ---------- | ------ | ------------------------------------ | --------- |
 | GroupName  | string | AD Group Name                        | Yes       |
-| OUPath     | string | Organization Unit DN Path| No        |           |
+| OUPath     | string | Organization Unit DN Path            | No        |
 | Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
@@ -323,6 +323,3 @@ Manage Microsoft AD Groups API Methods using the KopiCloud AD API
   }
 }
 ```
-
-----
-
