@@ -32,48 +32,6 @@ output "OUTPUT_active_directory_user_list_all" {
 
 ----
 
-## Check If a User Is a Member of an Active Directory Group
-
-If the AD User is a member with Group Membership:
-
-```
-data "kopicloud_group_membership_list" "test" {
-  user_name  = "guillermo"
-}
-```
-
-Returns User of Active Directory with Group Membership:
-
-```
-output "OUTPUT_kopicloud_group_membership_list" {
-  description = "Show Group Membership"
-  value       = data.kopicloud_group_membership_list.test
-}
-```
-
-----
-
-## Check If a User Is a Member of an Active Directory Group and return the AD Group
-
-AD Group Membership of an Active Member:
-
-```
-data "kopicloud_group_membership_list" "test" {
-  user_name  = "guillermo"
-}
-```
-
-Returns Active Directory User Group Membership:
-
-```
-output "OUTPUT_kopicloud_group_membership_list" {
-  description = "Show Group Membership"
-  value       = data.kopicloud_group_membership_list.test
-}
-```
-
-----
-
 ## Create an Active Directory User to an Active Directory Group
 
 Add an AD User in a Group Membership:
@@ -91,27 +49,6 @@ Returns Details of Active Directory User in Group:
 output "OUTPUT_kopicloud_group_membership" {
   description = "Added User to an AD Group"
   value       = resource.kopicloud_group_membership.test
-}
-```
-
-----
-
-## Remove an Active Directory User from an Active Directory Group Membership
-
-Remove an AD User from AD Group: 
-
-```
-data "kopicloud_group_membership_list" "test" {
-  user_name  = "guillermo"
-}
-```
-
-Returns Object of removed AD User:
-
-```
-output "OUTPUT_kopicloud_group_membership_list" {
-  description = "Show Group Membership"
-  value       = data.kopicloud_group_membership_list.test
 }
 ```
 

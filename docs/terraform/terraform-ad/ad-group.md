@@ -11,7 +11,7 @@ Manage Microsoft AD Groups using the KopiCloud AD Terraform Provider:
 
 ----
 
-## List of Active Directory Groups Inside an OU (Review)
+## Show List of Active Directory Groups Inside an OU (Review)
 
 Get All Security Groups:
 
@@ -24,44 +24,6 @@ Returns All Security Groups:
 ```
 output "OUTPUT_security_kopicloud_all_groups" {
   description = "All Security Groups"
-  value       = data.kopicloud_security_group_list.test_all
-}
-```
-
-----
-
-## Display AD Group Details (Name, Description, Path, Type and Scope)
-
-Get All AD Groups Details:
-
-```
-data "kopicloud_security_group_list" "test_all" { }
-```
-
-Returns All AD Groups with Details:
-
-```
-output "OUTPUT_security_kopicloud_all_groups" {
-  description = "All AD Groups with Details"
-  value       = data.kopicloud_security_group_list.test_all
-}
-```
-
-----
-
-## Show if the Active Directory Organization Unit Exists
-
-Get All Existing  AD Organization Units:
-
-```
-data "kopicloud_security_group_list" "test_all" { }
-```
-
-Returns All Existed AD Organization Unit:
-
-```
-output "OUTPUT_security_kopicloud_all_groups" {
-  description = "All Existed AD Organization Unit"
   value       = data.kopicloud_security_group_list.test_all
 }
 ```
@@ -262,90 +224,6 @@ Returns Created Domain Local Security Group:
 output "OUTPUT_domain_local_security_group" {
   description = "Created Domain Local Security Group"
   value       = resource.kopicloud_security_group.test_security_domain_local
-}
-```
-
-----
-
-## Rename an Active Directory Group, Optional Set the OU to Create it or Create in the Default Users OU
-
-Rename a Global Group:
-
-```
-resource "kopicloud_security_group" "test_security_global" {
-  GroupName        = "Global_old"
-  NewGroupName       = "Global_new"
-  ou_path     = "CN=Users,DC=kopicloud,DC=local"
-}
-```
-
-Returns Created Global Group:
-
-```
-output "OUTPUT_global_security_group" {
-  description = "Created Global Group"
-  value       = resource.kopicloud_security_group.test_security_global
-}
-```
-
-----
-
-Rename a Universal Group:
-
-```
-resource "kopicloud_security_group" "test_security_global" {
-  GroupName        = "Global_old"
-  NewGroupName       = "Global_new"
-  ou_path     = "CN=Users,DC=kopicloud,DC=local"
-}
-```
-
-Returns Created Universal Group:
-
-```
-output "OUTPUT_global_security_group" {
-  description = "Created Global Group"
-  value       = resource.kopicloud_security_group.test_security_global
-}
-```
-
-----
-
-Rename a Domain Group:
-
-```
-resource "kopicloud_security_group" "test_security_global" {
-  GroupName        = "Global_old"
-  NewGroupName       = "Global_new"
-  ou_path     = "CN=Users,DC=kopicloud,DC=local"
-}
-```
-
-Returns Created Domain Group:
-
-```
-output "OUTPUT_global_security_group" {
-  description = "Created Global Group"
-  value       = resource.kopicloud_security_group.test_security_global
-}
-```
-
-----
-
-## Remove an Active Directory Group, Optional Set the OU to Create it or Create in the Default Users OU
-
-Remove an AD Group:
-
-```
-data "kopicloud_security_group_list" "test_all" { }
-```
-
-Returns Object of removed AD Group:
-
-```
-output "OUTPUT_security_kopicloud_all_groups" {
-  description = "All Security Groups"
-  value       = data.kopicloud_security_group_list.test_all
 }
 ```
 

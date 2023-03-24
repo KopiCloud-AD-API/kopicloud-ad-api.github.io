@@ -17,10 +17,10 @@ Manage Microsoft AD Organization Units (OUs) API Methods using the KopiCloud AD 
 
 **Parameters**
 
-| Name           | Type    | Description                                                   | Mandatory |
-| -------------- | ------- | ------------------------------------------------------------- | --------- |
-| ListContainers | boolean | List All AD Containers, Including Hidden and System Containers| No        |
-| Auth-Token     | string  | Bearer or Basic Authentication Token                          | Yes       |
+| Name           | Type    | Description                                                                      | Mandatory |
+| -------------- | ------- | -------------------------------------------------------------------------------- | --------- |
+| ListContainers | boolean | List All AD Containers, Including Hidden and System Containers (Default = value) | No        |
+| Auth-Token     | string  | Bearer or Basic Authentication Token                                             | Yes       |
 
 **Return Schema**
 
@@ -125,13 +125,13 @@ Manage Microsoft AD Organization Units (OUs) API Methods using the KopiCloud AD 
 
 **Parameters**
 
-| Name              | Type    | Description                                        | Mandatory |
-| ----------------- | ------- | -------------------------------------------------- | --------- |
-| OUName            | string  | Organization Unit Name                             | Yes       |
-| OUDestinationPath | string  | Destination Organization Unit DN Path (Parent)     | Yes       |
-| OUDescription     | string  | Organization Unit Description                      | No        |
-| IsProtected       | boolean | Protect Organization Unit from Accidental Deletion | No        |
-| Auth-Token        | string  | Bearer or Basic Authentication Token               | Yes       |
+| Name              | Type    | Description                                                           | Mandatory |
+| ----------------- | ------- | --------------------------------------------------------------------- | --------- |
+| OUName            | string  | Organization Unit Name                                                | Yes       |
+| OUDestinationPath | string  | Destination Organization Unit DN Path (Parent)                        | Yes       |
+| OUDescription     | string  | Organization Unit Description                                         | No        |
+| IsProtected       | boolean | Protect Organization Unit from Accidental Deletion (Default = value)  | No        |
+| Auth-Token        | string  | Bearer or Basic Authentication Token                                  | Yes       |
 
 **Return Schema**
 
@@ -156,12 +156,12 @@ Manage Microsoft AD Organization Units (OUs) API Methods using the KopiCloud AD 
 
 **Parameters**
 
-| Name          | Type    | Description                                        | Mandatory |
-| ------------- | ------- | -------------------------------------------------- | --------- |
-| OUPath        | string  | Organization Unit DN Path                          | Yes       |
-| OUDescription | string  | Organization Unit Description                      | No        |
-| IsProtected   | boolean | Protect Organization Unit from Accidental Deletion | No        |
-| Auth-Token    | string  | Bearer or Basic Authentication Token               | Yes       |
+| Name          | Type    | Description                                                           | Mandatory |
+| ------------- | ------- | --------------------------------------------------------------------- | --------- |
+| OUPath        | string  | Organization Unit DN Path                                             | Yes       |
+| OUDescription | string  | Organization Unit Description                                         | No        |
+| IsProtected   | boolean | Protect Organization Unit from Accidental Deletion (Default = value)  | No        |
+| Auth-Token    | string  | Bearer or Basic Authentication Token                                  | Yes       |
 
 **Return Schema**
 
@@ -244,11 +244,11 @@ Manage Microsoft AD Organization Units (OUs) API Methods using the KopiCloud AD 
 
 **Parameters**
 
-| Name       | Type    | Description                                    | Mandatory |
-| ---------- | ------- | ---------------------------------------------- | --------- |
-| OUPath     | string  | Organization Unit DN Path                      | Yes       |
-| Force      | boolean | Force Deletion of Protected Organization Unit  | No        |
-| Auth-Token | string  | Bearer or Basic Authentication Token           | Yes       |
+| Name       | Type    | Description                                                      | Mandatory |
+| ---------- | ------- | ---------------------------------------------------------------- | --------- |
+| OUPath     | string  | Organization Unit DN Path                                        | Yes       |
+| Force      | boolean | Force Deletion of Protected Organization Unit (Default = value)  | No        |
+| Auth-Token | string  | Bearer or Basic Authentication Token                             | Yes       |
 
 **Return Schema**
 

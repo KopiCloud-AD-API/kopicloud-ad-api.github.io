@@ -20,7 +20,7 @@ Manage Microsoft AD Groups API Methods using the KopiCloud AD API
 | Name       | Type    | Description                          | Mandatory |
 | ---------- | ------- | ------------------------------------ | --------- |
 | OUPath     | string  | Organization Unit DN Path            | No        |
-| Recursive  | boolean | Recursive Search                     | No        |
+| Recursive  | boolean | Recursive Search (Default = value)   | No        |
 | Auth-Token | string  | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
@@ -136,7 +136,7 @@ Manage Microsoft AD Groups API Methods using the KopiCloud AD API
 | Name       | Type    | Description                          | Mandatory |
 | ---------- | ------- | ------------------------------------ | --------- |
 | OUPath     | string  | Organization Unit DN Path            | No        |
-| Recursive  | boolean | Recursive Search                     | No        |
+| Recursive  | boolean | Recursive Search (Default = value)   | No        |
 | Auth-Token | string  | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
@@ -169,7 +169,7 @@ Manage Microsoft AD Groups API Methods using the KopiCloud AD API
 | Name       | Type    | Description                          | Mandatory |
 | ---------- | ------- | ------------------------------------ | --------- |
 | OUPath     | string  | Organization Unit DN Path            | No        |
-| Recursive  | boolean | Recursive Search                     | No        |
+| Recursive  | boolean | Recursive Search (Default = value)   | No        |
 | Auth-Token | string  | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
@@ -303,9 +303,9 @@ Manage Microsoft AD Groups API Methods using the KopiCloud AD API
 
 | Name       | Type   | Description                          | Mandatory |
 | ---------- | ------ | ------------------------------------ | --------- |
-| GroupName | string | AD Group Name  | Yes   |
-| OUPath | string | Organization Unit DN Path| No       |
-| Auth-Token   | string | Bearer or Basic Authentication Token| Yes      |
+| GroupName  | string | AD Group Name                        | Yes       |
+| OUPath     | string | Organization Unit DN Path| No        |           |
+| Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
 

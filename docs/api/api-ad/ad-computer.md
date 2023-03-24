@@ -17,11 +17,12 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 **Parameters**
 
-| Name       | Type    | Description                          | Mandatory |
-| ---------- | ------- | ------------------------------------ | --------- |
-| OUPath     | string  | Organization Unit DN Path            | No        |
-| Auth-Token | string  | Bearer or Basic Authentication Token | Yes       |
-| Recursive  | boolean | Recursive Search                     | No        |
+| Name               | Type     | Description                          | Mandatory |
+| ------------------ | ------   | ------------------------------------ | --------- |
+| OUPath             | string   | Organization Unit DN Path            | No        |
+| Recursive          | boolean  | Recursive Search                     | No        |
+| Auth-Token         | string   | Bearer or Basic Authentication Token | Yes       |
+
 
 **Return Schema**
 
@@ -50,11 +51,10 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 **Parameters**
 
-| Name           | Type   | Description                          | Mandatory |
-| -------------- | ------ | ------------------------------------ | --------- |
-| Auth-Token     | string | Bearer or Basic Authentication Token | Yes       |
-| ADComputerName | string | AD Computer Name                     | Yes       |
-
+| Name              | Type      | Description                          | Mandatory  |
+| ----------------- | --------- | ------------------------------------ | ---------- |
+| ADComputerName    | string    | AD Computer Name                     | Yes        |
+| Auth-Token        | string    | Bearer or Basic Authentication Token | Yes        |
 
 **Return Schema**
 
@@ -81,10 +81,10 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 **Parameters**
 
-| Name           | Type   | Description                          | Mandatory |
-| -------------- | ------ | ------------------------------------ | --------- |
-| Auth-Token     | string | Bearer or Basic Authentication Token | Yes      |
-| ADComputerName | string | AD Computer Name                     | Yes      |
+| Name              | Type      | Description                          | Mandatory  |
+| ----------------- | --------- | ------------------------------------ | ---------- |
+| ADComputerName    | string    | AD Computer Name                     | Yes        |
+| Auth-Token        | string    | Bearer or Basic Authentication Token | Yes        |
 
 
 **Return Schema**
@@ -104,9 +104,9 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 **Parameters**
 
-| Name        | Type   | Description                          | Mandatory |
-| ----------- | ------ | ------------------------------------ | --------- |
-| Auth-Token  | string | Bearer or Basic Authentication Token | Yes       |
+| Name              | Type      | Description                          | Mandatory  |
+| ----------------- | --------- | ------------------------------------ | ---------- |
+| Auth-Token        | string    | Bearer or Basic Authentication Token | Yes        |
 
 
 **Return Schema**
@@ -136,12 +136,13 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 **Parameters**
 
-| Name                  | Type   | Description                          | Mandatory |
-| --------------------- | ------ | ------------------------------------ | --------- |
-| Auth-Token            | string | Bearer or Basic Authentication Token | Yes       |
-| ADComputerName        | string | AD Computer Name                     | Yes       |
-| ADComputerDescription | string | AD Computer Description (Optional)   | No       |
-| OUPath                | string | Optional Organization Unit DN Path   | No       |
+| Name                    | Type      | Description                          | Mandatory  |
+| ----------------------- | --------- | ------------------------------------ | ---------- |
+| ADComputerName          | string    |  AD Computer Name                    | Yes        |
+| ADComputerDescription   | string    | AD Computer Description (Optional)   | No         |
+| OUPath                  | string    | Organization Unit DN Path            | No         |
+| Auth-Token              | string    | Bearer or Basic Authentication Token | Yes        |
+
 
 **Return Schema**
 
@@ -168,11 +169,12 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 **Parameters**
 
-| Name              | Type   | Description                          | Mandatory |
-| ----------------- | ------ | ------------------------------------ | --------- |
-| Auth-Token        | string | Bearer or Basic Authentication Token | Yes       |
-| ADComputerName    | string | AD Computer Name                     | Yes       |
-| NewADComputerName | string | New AD Computer Name                 | Yes       |
+| Name                    | Type      | Description                          | Mandatory  |
+| ------------------------| --------- | ------------------------------------ | ---------- |
+| ADComputerName          | string    | AD Computer Name                     | Yes        |
+| NewADComputerName       | string    | New AD Computer Name                 | Yes        |
+| Auth-Token              | string    | Bearer or Basic Authentication Token | Yes        |
+
 
 **Return Schema**
 
@@ -199,11 +201,12 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 **Parameters**
 
-| Name                | Type   | Description                          | Mandatory |
-| ------------------- | ------ | ------------------------------------ | --------- |
-| Auth-Token          | string | Bearer or Basic Authentication Token | Yes       |
-| ADComputerName      | string | AD Computer Name                     | Yes       |
-| ComputerDescription | string | AD Computer Description              | No        |
+| Name                    | Type      | Description                          | Mandatory  |
+| ----------------------- | --------- | ------------------------------------ | ---------- |
+| ADComputerName          | string    | AD Computer Name                     | Yes        |
+| ComputerDescription     | string    | AD Computer Description              | No         |
+| Auth-Token              | string    | Bearer or Basic Authentication Token | Yes        |
+
 
 **Return Schema**
 
@@ -230,10 +233,11 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 **Parameters**
 
-| Name           | Type   | Description                          | Mandatory |
-| -------------- | ------ | ------------------------------------ | --------- |
-| Auth-Token     | string | Bearer or Basic Authentication Token | Yes       |
-| ADComputerName | string | AD Computer Name                     | Yes       |
+| Name                    | Type      | Description                          | Mandatory  |
+| ----------------------- | --------- | ------------------------------------ | ---------- |
+| ADComputerName          | string    | AD Computer Name                     | Yes        |
+| Auth-Token              | string    | Bearer or Basic Authentication Token | Yes        |
+
 
 **Return Schema**
 
@@ -260,12 +264,13 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 **Parameters**
 
-| Name       | Type    | Description                            | Mandatory |
-| ---------- | ------- | -------------------------------------- | --------- |
-| Auth-Token | string  | Bearer or Basic Authentication Token   | Yes       |
-| OUPath     | string  | Organization Unit DN Path              | No        |
-| Days       | integer | Number of Inactive Days (Default = 90) | Yes       |
-| Recursive  | boolean | Recursive Search (Default = true)      | No        |
+| Name                    | Type      | Description                             | Mandatory  |
+| ----------------------- | --------- | --------------------------------------- | ---------- |
+| OUPath                  | string    | Organization Unit DN Path               | No         |
+| Days                    | integer   | Number of Inactive Days (Default = 90)  | No         |
+| Recursive               | boolean   | Recursive Search (Default = value)      | No         |
+| Auth-Token              | string    | Bearer or Basic Authentication Token    | Yes        |
+
 
 **Return Schema**
 
@@ -294,12 +299,12 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 **Parameters**
 
-| Name       | Type    | Description                          | Mandatory |
-| ---------- | ------- | ------------------------------------ | --------- |
-| Auth-Token | string  | Bearer or Basic Authentication Token | Yes       |
-| OUPath     | string  | Organization Unit DN Path            | No        |
-| WildCard   | integer | Wild Card for AD Computer Name       | No        |
-| Recursive  | boolean | Recursive Search                     | No        |
+| Name                    | Type      | Description                          | Mandatory  |
+| ----------------------- | --------- | ------------------------------------ | ---------- |
+| OUPath                  | string    | Organization Unit DN Path            | No         |
+| WildCard                | integer   | Wild Card for AD Computer Name       | No         |
+| Recursive               | boolean   | Recursive Search (Default = value)   | No         |
+| Auth-Token              | string    | Bearer or Basic Authentication Token | Yes        |
 
 **Return Schema**
 
