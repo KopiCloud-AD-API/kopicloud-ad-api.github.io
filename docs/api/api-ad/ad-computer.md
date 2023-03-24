@@ -1,7 +1,7 @@
 ---
 title: AD Computer API Methods
 description: Describing all API methods of AD Computer
-date: 2023-03-23
+date: 2023-03-24
 ---
 
 # Manage AD Computers with the KopiCloud AD API
@@ -17,12 +17,11 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 **Parameters**
 
-| Name               | Type     | Description                          | Mandatory |
-| ------------------ | ------   | ------------------------------------ | --------- |
-| OUPath             | string   | Organization Unit DN Path            | No        |
-| Recursive          | boolean  | Recursive Search                     | No        |
-| Auth-Token         | string   | Bearer or Basic Authentication Token | Yes       |
-
+| Name               | Type    | Description                          | Mandatory |
+| ------------------ | ------- | ------------------------------------ | --------- |
+| OUPath             | string  | Organization Unit DN Path            | No        |
+| Recursive          | boolean | Recursive Search                     | No        |
+| Auth-Token         | string  | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
 
@@ -86,7 +85,6 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 | ADComputerName    | string    | AD Computer Name                     | Yes        |
 | Auth-Token        | string    | Bearer or Basic Authentication Token | Yes        |
 
-
 **Return Schema**
 
 ```
@@ -130,7 +128,7 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Create and Register AD Computer
+## Create and Register an AD Computer
 
 <span class="btn-post">POST</span> /api/Computers/{ADComputerName}/Register
 
@@ -195,7 +193,7 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Update AD Computer Description
+## Update the AD Computer Description
 
 <span class="btn-put">PUT</span> /api/Computers/{ADComputerName}/Update
 
@@ -227,7 +225,7 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Remove Active Directory Computer
+## Remove an AD Computer
 
 <span class="btn-delete">DELETE</span> /api/Computers/{ADComputerName}/Remove
 
@@ -293,7 +291,7 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Remove Multiple AD Computers Using WildCard
+## Remove Multiple AD Computers Using Wildcard
 
 <span class="btn-delete">DELETE</span> /api/Computers/Remove
 
@@ -324,5 +322,3 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
   ]
 }
 ```
-
-----
