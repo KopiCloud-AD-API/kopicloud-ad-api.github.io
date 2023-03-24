@@ -28,24 +28,24 @@ Please refer to the following documentation for details:
 
 When you use KopiCloud AD API based on the permissions in your AD account, you will be limited to executing specific actions:
 
-| Action Name              | Action Description                               |
-| ------------------------ | ------------------------------------------------ |
-| Login                    | Login to the KopiCloud AD API Management Console |
-| Create Tokens            | Create authentication tokens                     |
-| Manage Tokens            | Enable or Disable authentication tokens          |
-| Delete Tokens            | Delete authentication tokens                     |
-| Call API Methods for AD  | Only execute API AD Methods                      |
-| Call API Methods for DNS | Only execute API DNS Methods                     |
-| Call ALL API Methods     | Execute ALL API Methods                          |
-| No API Methods Execution | Cannot Execute ANY API Methods                   |
-| View Event Logs          | View the Event Logs                              |
-| No Event Log Access      | Cannot Access the Event Logs                     |
+| Action Name              | Action Description                              |
+| ------------------------ | ----------------------------------------------- |
+| Login                    | Login to the KopiCloud AD API Management Portal |
+| Create Tokens            | Create authentication tokens                    |
+| Manage Tokens            | Enable or Disable authentication tokens         |
+| Delete Tokens            | Delete authentication tokens                    |
+| Call API Methods for AD  | Only execute API AD Methods                     |
+| Call API Methods for DNS | Only execute API DNS Methods                    |
+| Call ALL API Methods     | Execute ALL API Methods                         |
+| No API Methods Execution | Cannot Execute ANY API Methods                  |
+| View Event Logs          | View the Event Logs                             |
+| No Event Log Access      | Cannot Access the Event Logs                    |
 
 -----
 
 ## Restricted Access to Domain Administrators
 
-To login into the **KopiCloud AD API Management Console**, the machine must be joined to AD, and your AD domain account must be a member of the **AD Domain Admins** group.
+To login into the **KopiCloud AD API Management Portal**, the machine must be joined to AD, and your AD domain account must be a member of the **AD Domain Admins** group.
 
 The default domain admin group can be different based on your environment:
 

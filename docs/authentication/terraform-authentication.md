@@ -13,7 +13,7 @@ Understand how to configure **KopiCloud AD Terraform Provider** authentication.
 
 ## Set up the Terraform Provider
 
-Login to the **KopiCloud AD API Management Website** and [generate a token](authentication/token-authentication.md).
+Login to the **KopiCloud AD API Management Portal** and [generate a token](authentication/token-authentication.md).
 
 In your **provider.tf** file, configure the **KopiCloud AD Terraform Provider** with the hostname of your API server and the authentication token.
 

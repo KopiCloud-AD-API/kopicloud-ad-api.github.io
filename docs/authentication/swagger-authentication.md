@@ -19,7 +19,7 @@ It is useful to test methods or can be used for some quick activities or actions
 
 If **Token Authentication** is enabled, every call to the API will require a token.
 
-[Check the status of the Token Authentication](settings/token-authentication.md), in the footer of the **KopiCloud AD API Management Website**.
+[Check the status of the Token Authentication](settings/token-authentication.md), in the footer of the **KopiCloud AD API Management Portal**.
 
 If Token Authentication is enabled, the Swagger UI will request a token to execute an API method:
 

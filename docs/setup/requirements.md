@@ -54,7 +54,7 @@ Currently, **the API can only support one AD domain**.
 
 In the future, we will add support for trusted domains.
 
-> **Note:** You can only login into the **KopiCloud AD API Management Console** with an AD joined machine.
+> **Note:** You can only login into the **KopiCloud AD API Management Portal** with an AD joined machine.
 
 ----
 
