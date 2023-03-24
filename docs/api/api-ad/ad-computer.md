@@ -1,7 +1,7 @@
 ---
 title: AD Computer API Methods
 description: Describing all API methods of AD Computers
-date: 2023-03-24
+date: 2023-03-25
 ---
 
 # Manage AD Computers with the KopiCloud AD API
@@ -11,7 +11,7 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Get a List of All AD Computers Inside an AD OU
+## List All AD Computers Inside an AD OU
 
 <span class="btn-get">GET</span> /api/Computers
 
@@ -44,7 +44,7 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Get and Show AD Computer Details
+## Show AD Computer Details
 
 <span class="btn-get">GET</span> /api/Computers/{ADComputersName}
 
@@ -74,7 +74,7 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Get and Check If AD Computer Exists
+## Check If AD Computer Exists
 
 <span class="btn-get">GET</span> /api/Computers/{ADComputersName}/Exists
 
@@ -96,7 +96,7 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Get a List of All AD Computers
+## List All AD Computers
 
 <span class="btn-get">GET</span> /api/Computers/All
 
@@ -128,7 +128,7 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Create and Register an AD Computer
+## Register (Create) an AD Computer
 
 <span class="btn-post">POST</span> /api/Computers/{ADComputerName}/Register
 
@@ -136,7 +136,7 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 
 | Name                    | Type      | Description                          | Mandatory  |
 | ----------------------- | --------- | ------------------------------------ | ---------- |
-| ADComputerName          | string    |  AD Computer Name                    | Yes        |
+| ADComputerName          | string    | AD Computer Name                     | Yes        |
 | ADComputerDescription   | string    | AD Computer Description (Optional)   | No         |
 | OUPath                  | string    | Organization Unit DN Path            | No         |
 | Auth-Token              | string    | Bearer or Basic Authentication Token | Yes        |
