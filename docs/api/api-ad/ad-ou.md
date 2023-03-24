@@ -1,17 +1,17 @@
 ---
-title: AD Organization Units API Methods (OU)
-description: Describing all API methods of AD Organization Units (OU)
-date: 2023-03-23
+title: AD Organization Unit (OU) API Methods
+description: Describing all API methods of AD Organization Units (OUs)
+date: 2023-03-24
 ---
 
 # Manage AD OUs with the KopiCloud AD API
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Manage Microsoft AD Organization Units (OUs) API Methods using the KopiCloud AD API
+Manage AD Organization Units (OUs) in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Get a List of All AD OUs
+## List All AD OUs
 
 <span class="btn-get">GET</span> /api/OU/All
 
@@ -41,7 +41,7 @@ Manage Microsoft AD Organization Units (OUs) API Methods using the KopiCloud AD 
 
 ----
 
-## Get the AD OU Guid
+## Get AD OU Details using the GUID
 
 <span class="btn-get">GET</span> /api/OU/Guid/Details
 
@@ -69,7 +69,7 @@ Manage Microsoft AD Organization Units (OUs) API Methods using the KopiCloud AD 
 
 ----
 
-## Get the AD OU Details
+## Get AD OU Details using the OU Path
 
 <span class="btn-get">GET</span> /api/OU/Path/Details
 
@@ -97,7 +97,7 @@ Manage Microsoft AD Organization Units (OUs) API Methods using the KopiCloud AD 
 
 ----
 
-## Check if the AD OU Exists
+## Check If the AD OU Exists
 
 <span class="btn-get">GET</span> /api/OU/Path/Exists
 
@@ -264,5 +264,3 @@ Manage Microsoft AD Organization Units (OUs) API Methods using the KopiCloud AD 
   }
 }
 ```
-
-----
