@@ -1,6 +1,6 @@
 ---
 title: AD Computer API Methods
-description: Describing all API methods of AD Computer
+description: Describing all API methods of AD Computers
 date: 2023-03-24
 ---
 
@@ -141,7 +141,6 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 | OUPath                  | string    | Organization Unit DN Path            | No         |
 | Auth-Token              | string    | Bearer or Basic Authentication Token | Yes        |
 
-
 **Return Schema**
 
 ```
@@ -205,7 +204,6 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 | ComputerDescription     | string    | AD Computer Description              | No         |
 | Auth-Token              | string    | Bearer or Basic Authentication Token | Yes        |
 
-
 **Return Schema**
 
 ```
@@ -235,7 +233,6 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 | ----------------------- | --------- | ------------------------------------ | ---------- |
 | ADComputerName          | string    | AD Computer Name                     | Yes        |
 | Auth-Token              | string    | Bearer or Basic Authentication Token | Yes        |
-
 
 **Return Schema**
 
@@ -268,7 +265,6 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
 | Days                    | integer   | Number of Inactive Days (Default = 90)  | No         |
 | Recursive               | boolean   | Recursive Search (Default = value)      | No         |
 | Auth-Token              | string    | Bearer or Basic Authentication Token    | Yes        |
-
 
 **Return Schema**
 
