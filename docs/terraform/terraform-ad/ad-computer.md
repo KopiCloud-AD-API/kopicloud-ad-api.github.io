@@ -33,27 +33,6 @@ output "OUTPUT_all_computers_list_inside_ou" {
 
 ----
 
-## Check If AD Computer Exists with Optional Search Inside Specific OUs
-
-List All Computers:
-
-```
-data "kopicloud_computer_list" "test" {
-  ou_path = "OU=Domain Controllers,DC=kopicloud,DC=local"
-}
-```
-
-Returns All Computers Inside an OU:
-
-```
-output "OUTPUT_all_computers_list_inside_ou" {
-  description = "Existing All Computers Inside an OU"
-  value       = data.kopicloud_computer_list.test
-}
-```
-
-----
-
 ## Get a List of All Computers in Active Directory
 
 List All Computers:
