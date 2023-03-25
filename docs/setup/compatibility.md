@@ -1,7 +1,7 @@
 ---
 title: KopiCloud AD API Compatibility
 description: KopiCloud AD API Compatibility
-date: 2023-03-25
+date: 2023-03-26
 ---
 
 # KopiCloud AD API Compatibility
