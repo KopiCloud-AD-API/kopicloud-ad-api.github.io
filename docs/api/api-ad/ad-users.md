@@ -131,9 +131,8 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 | ------------------ | ------   | ------------------------------------------------------------------------------------------------------------------ | --------- |
 | OUPath             | string   | Organization Unit DN Path                                                                                          | No        |
 | ShowFields         | string   | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
-| Recursive          | boolean  | Recursive Search (Default = value)                                                                                 | Yes       |
+| Recursive          | boolean  | Recursive Search (Default = true)                                                                                 | Yes       |
 | Auth-Token         | string   | Bearer or Basic Authentication Token                                                                               | Yes       |
-
 
 **Return Schema**
 
@@ -274,8 +273,8 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 | Office                  | string  | User Office                                                                                                        | No        |
 | Company                 | string  | User Company                                                                                                       | No        |
 | OUPath                  | string  | Organization Unit DN Path                                                                                          | No        |
-| ChangePasswordNextLogon | boolean | User Must Change Password at Next Logon (Default = value)                                                          | No        |
-| PasswordNeverExpired    | boolean | Password never expire. (Default = value)                                                                           | No        |
+| ChangePasswordNextLogon | boolean | User Must Change Password at Next Logon (Default = true)                                                           | No        |
+| PasswordNeverExpired    | boolean | Password never expire. (Default = false)                                                                           | No        |
 | JobTitle                | string  | AD User Job Title                                                                                                  | No        |
 | Manager                 | string  | AD User Manager                                                                                                    | No        |
 | Street                  | string  | AD User Street                                                                                                     | No        |
@@ -295,8 +294,8 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 | RdsProfilePath          | string  | AD User Rds Profile Path                                                                                           | No        |
 | RdsHomeFolderPath       | string  | AD User Rds Home Folder Path                                                                                       | No        |
 | RdsHomeFolderDrive      | string  | AD User Rds Home Folder Drive                                                                                      | No        |
-| RdsConnectDrive         | boolean | AD User Rds Connect Drive (Default = value)                                                                        | No        |
-| RdsAllowLogon           | string  | AD User Allow RDS Logon                                                                                            | No        |
+| RdsConnectDrive         | boolean | AD User Rds Connect Drive (Default = false)                                                                        | No        |
+| RdsAllowLogon           | string  | AD User Allow RDS Logon (Default = true)                                                                           | No        |
 | ShowFields              | string  | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
 | Auth-Token              | string  | Bearer or Basic Authentication Token                                                                               | Yes       |
 
@@ -352,7 +351,7 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Update an Active Directory User
+## Update an AD User
 
 <span class="btn-put">PUT</span> /api/ADUser/{UserName}
 
@@ -372,8 +371,8 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 | Office                  | string  | User Office                                                                                                        | No        |
 | Company                 | string  | User Company                                                                                                       | No        |
 | OUPath                  | string  | Organization Unit DN Path                                                                                          | No        |
-| ChangePasswordNextLogon | boolean | User Must Change Password at Next Logon (Default = value)                                                          | No        |
-| PasswordNeverExpired    | boolean | Password never expire. (Default = value)                                                                           | No        |
+| ChangePasswordNextLogon | boolean | User Must Change Password at Next Logon (Default = true)                                                           | No        |
+| PasswordNeverExpired    | boolean | Password never expire. (Default = false)                                                                           | No        |
 | JobTitle                | string  | AD User Job Title                                                                                                  | No        |
 | Manager                 | string  | AD User Manager                                                                                                    | No        |
 | Street                  | string  | AD User Street                                                                                                     | No        |
@@ -393,8 +392,8 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 | RdsProfilePath          | string  | AD User Rds Profile Path                                                                                           | No        |
 | RdsHomeFolderPath       | string  | AD User Rds Home Folder Path                                                                                       | No        |
 | RdsHomeFolderDrive      | string  | AD User Rds Home Folder Drive                                                                                      | No        |
-| RdsConnectDrive         | boolean | AD User Rds Connect Drive (Default = value)                                                                        | No        |
-| RdsAllowLogon           | string  | AD User Allow RDS Logon                                                                                            | No        |
+| RdsConnectDrive         | boolean | AD User Rds Connect Drive (Default = false)                                                                        | No        |
+| RdsAllowLogon           | string  | AD User Allow RDS Logon (Default = true)                                                                           | No        |
 | ShowFields              | string  | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
 | Auth-Token              | string  | Bearer or Basic Authentication Token                                                                               | Yes       |
 
@@ -520,12 +519,11 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 **Parameters**
 
-| Name                     | Type                 | Description                                                                                                        | Mandatory |
-| ------------------       | ------------------   | ------------------------------------------------------------------------------------------------------------------ | --------- |
-| Username                 | string               | AD User Name                                                                                                       | Yes       |
-| ShowFields               | string               | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned  | No        |
-| Auth-Token               | string               | Bearer or Basic Authentication Token                                                                               | Yes       |
-
+| Name       | Type   | Description                                                                                                        | Mandatory |
+| ---------- | ------ | ------------------------------------------------------------------------------------------------------------------ | --------- |
+| Username   | string | AD User Name                                                                                                       | Yes       |
+| ShowFields | string | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
+| Auth-Token | string | Bearer or Basic Authentication Token                                                                               | Yes       |
 
 **Return Schema**
 
@@ -579,19 +577,18 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Rename Active Directory User
+## Rename AD User
 
 <span class="btn-put">PUT</span> /api/ADUser/{UserName}/Rename/{NewUserName}
 
 **Parameters**
 
-| Name                     | Type                 | Description                                                                                                        | Mandatory |
-| ------------------       | ------------------   | ------------------------------------------------------------------------------------------------------------------ | --------- |
-| Username                 | string               | AD User Name                                                                                                       | Yes       |
-| NewUsername              | string               | New AD User Name                                                                                                   | Yes       |
-| ShowFields               | string               | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
-| Auth-Token               | string               | Bearer or Basic Authentication Token                                                                               | Yes       |
-
+| Name           | Type    | Description                                                                                                        | Mandatory |
+| -------------- | ------- | ------------------------------------------------------------------------------------------------------------------ | --------- |
+| Username       | string  | AD User Name                                                                                                       | Yes       |
+| NewUsername    | string  | New AD User Name                                                                                                   | No        |
+| ShowFields     | string  | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
+| Auth-Token     | string  | Bearer or Basic Authentication Token                                                                               | Yes       |
 
 **Return Schema**
 
@@ -645,20 +642,19 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Reset Active Directory User Password
+## Reset AD User Password
 
 <span class="btn-put">PUT</span> /api/ADUser/{UserName}/{ResetPassword}
 
 **Parameters**
 
-| Name                     | Type                 | Description                                                                                                        | Mandatory |
-| ------------------       | ------------------   | ------------------------------------------------------------------------------------------------------------------ | --------- |
-| Username                 | string               | AD User Name                                                                                                       | Yes       |
-| newPassword              | string($password)    | New User Password                                                                                                  | No        |
-| ChangePassword           | boolean              | Force User to Change Password on Next Login (Default = value)                                                      | No        |
-| ShowFields               | string               | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned   | No        |
-| Auth-Token               | string               | Bearer or Basic Authentication Token                                                                               | Yes       |
-
+| Name           | Type    | Description                                                                                                        | Mandatory |
+| -------------- | ------- | ------------------------------------------------------------------------------------------------------------------ | --------- |
+| Username       | string  | AD User Name                                                                                                       | Yes       |
+| newPassword    | string  | New User Password                                                                                                  | No        |
+| ChangePassword | boolean | Force User to Change Password on Next Login (Default = false)                                                      | No        |
+| ShowFields     | string  | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
+| Auth-Token     | string  | Bearer or Basic Authentication Token                                                                               | Yes       |
 
 **Return Schema**
 
@@ -712,18 +708,17 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Lock Active Directory User
+## Lock AD User
 
 <span class="btn-put">PUT</span> /api/ADUser/{UserName}/Unlock
 
 **Parameters**
 
-| Name                     | Type                 | Description                                                                                                        | Mandatory |
-| ------------------       | ------------------   | ------------------------------------------------------------------------------------------------------------------ | --------- |
-| Username                 | string               | AD User Name                                                                                                       | Yes       |
-| ShowFields               | string               | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
-| Auth-Token               | string               | Bearer or Basic Authentication Token                                                                               | Yes       |
-
+| Name       | Type   | Description                                                                                                        | Mandatory |
+| ---------- | ------ | ------------------------------------------------------------------------------------------------------------------ | --------- |
+| Username   | string | AD User Name                                                                                                       | Yes       |
+| ShowFields | string | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
+| Auth-Token | string | Bearer or Basic Authentication Token                                                                               | Yes       |
 
 **Return Schema**
 
@@ -777,18 +772,17 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Delete Active Directory User
+## Delete AD User
 
 <span class="btn-delete">DELETE</span> /api/ADUser/{UserName}
 
 **Parameters**
 
-| Name                     | Type                 | Description                                                                                                        | Mandatory |
-| ------------------       | ------------------   | ------------------------------------------------------------------------------------------------------------------ | --------- |
-| Username                 | string               | AD User Name                                                                                                       | Yes       |
-| ShowFields               | string               | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
-| Auth-Token               | string               | Bearer or Basic Authentication Token                                                                               | Yes       |
-
+| Name       | Type   | Description                                                                                                        | Mandatory |
+| ---------- | ------ | ------------------------------------------------------------------------------------------------------------------ | --------- |
+| Username   | string | AD User Name                                                                                                       | Yes       |
+| ShowFields | string | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
+| Auth-Token | string | Bearer or Basic Authentication Token                                                                               | Yes       |
 
 **Return Schema**
 
@@ -839,5 +833,3 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
   }
 }
 ```
-
-----
