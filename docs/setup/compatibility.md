@@ -60,8 +60,10 @@ We test **KopiCloud AD API** running:
 
 We tested **KopiCloud AD API** running:
 
-<span class="twemoji">{% include ".icons/fontawesome/brands/medium.svg" %} </span> Windows Server 2022 with SQL Server 2022
+- Windows Server 2022 with SQL Server 2022
 - Windows Server 2019 with SQL Server 2019
+
+<i class="fa-solid fa-circle-check"></i>
 
 <br />
 
@@ -88,4 +90,45 @@ We tested **KopiCloud AD API** running:
 
 - Windows Server 2022 with SQL Server 2022
 - Windows Server 2019 with SQL Server 2019
+
+<br />
+
+----
+
+## Oracle Cloud Infrastructure (OCI) Virtual Machines
+
+![OCI](https://help.kopicloud-ad-api.com/assets/docs/platform-oracle-cloud.png){ align=left }
+
+We tested **KopiCloud AD API** running:
+
+- Windows Server 2022 with SQL Server 2022
+- Windows Server 2019 with SQL Server 2019
+
+<br />
+
+----
+
+## VMware vSphere Virtual Machines
+
+![VMware](https://help.kopicloud-ad-api.com/assets/docs/platform-vmware-vsphere.png){ align=left }
+
+We tested **KopiCloud AD API** running:
+
+- Windows Server 2022 with SQL Server 2022
+- Windows Server 2019 with SQL Server 2019
+
+<br />
+
+----
+
+## Microsoft Hyper-V Virtual Machines
+
+![VMware](https://help.kopicloud-ad-api.com/assets/docs/platform-hyper-v.png){ align=left }
+
+We tested **KopiCloud AD API** running:
+
+- Windows Server 2022 with SQL Server 2022
+- Windows Server 2019 with SQL Server 2019
+
+
 
