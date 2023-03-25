@@ -1,17 +1,17 @@
 ---
 title: AD Group Membership with Terraform
 description: Manage AD Group Membership with Terraform
-date: 2023-03-21
+date: 2023-03-25
 ---
 
 # AD Group Membership with Terraform
 [![Terraform](https://img.shields.io/badge/terraform-v1.3+-blue.svg)](https://www.terraform.io/downloads.html) [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Manage Microsoft AD Group Membership using the KopiCloud AD Terraform Provider:
+Manage AD Group Membership in Microsoft Active Directory using the KopiCloud AD API Terraform Provider
 
 ----
 
-## List of All AD Users with Group Membership
+## List AD Users Group Membership
 
 List Group Membership for an User:
 
@@ -32,9 +32,9 @@ output "OUTPUT_active_directory_user_list_all" {
 
 ----
 
-## Create an Active Directory User to an Active Directory Group
+## Add AD User to an AD Group
 
-Add an AD User in a Group Membership:
+Add an AD User to AD Group:
 
 ```
 resource "kopicloud_group_membership" "test" {
@@ -43,7 +43,7 @@ resource "kopicloud_group_membership" "test" {
 }
 ```
 
-Returns Details of Active Directory User in Group:
+Returns Details of ADUser in Group:
 
 ```
 output "OUTPUT_kopicloud_group_membership" {
