@@ -94,9 +94,7 @@ If you represent these institutions, they can receive up to 50% discount on our 
 
 ![Internet](https://help.kopicloud-ad-api.com/assets/docs/license-network.png){ align=left }
 
-Your API server must connect to the internet to use our subscription mode licensing.
-
-Once a day, the server will contact our licensing API to validate our license.
+Your API server must connect to the internet to use our subscription mode licensing. Once a day, the server will contact our licensing API to validate our license.
 
 You must purchase a perpetual license if you need to run our API in an environment without internet access.
 
@@ -120,4 +118,4 @@ We are offering the option to deploy and purchase **KopiCloud AD API** in cloud 
 
 You can choose **BYO license** (Bring Your Own License) to use the license purchase at the KopiCloud AD API Store or **purchase the license from the cloud provider** (billed by your cloud provider).
 
-We are in the process of launching KopiCloud AD API in **AWS, Azure, GCP and OCI Marketplaces**. Please [get in touch](https://www.kopicloud-ad-api.com/contact) with us for more details.
+We are in the process of launching KopiCloud AD API in the AWS, Azure, GCP, and OCI Marketplaces. Please [get in touch](https://www.kopicloud-ad-api.com/contact) with us for more details.
