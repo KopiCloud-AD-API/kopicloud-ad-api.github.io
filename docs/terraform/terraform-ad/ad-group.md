@@ -1,36 +1,17 @@
 ---
 title: AD Groups with Terraform
 description: Manage AD Groups with Terraform
-date: 2023-03-22
+date: 2023-03-25
 ---
 
 # AD Groups with Terraform
 [![Terraform](https://img.shields.io/badge/terraform-v1.3+-blue.svg)](https://www.terraform.io/downloads.html) [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Manage Microsoft AD Groups using the KopiCloud AD Terraform Provider:
+Manage AD Groups in Microsoft Active Directory using the KopiCloud AD API Terraform Provider
 
 ----
 
-## Show List of Active Directory Groups Inside an OU (Review)
-
-Get All Security Groups:
-
-```
-data "kopicloud_security_group_list" "test_all" { }
-```
-
-Returns All Security Groups:
-
-```
-output "OUTPUT_security_kopicloud_all_groups" {
-  description = "All Security Groups"
-  value       = data.kopicloud_security_group_list.test_all
-}
-```
-
-----
-
-## Show List of All Active Directory Groups
+## List All AD Groups
 
 Get All AD Groups List:
 
@@ -49,7 +30,7 @@ output "OUTPUT_security_kopicloud_all_groups" {
 
 ----
 
-## Show List of Active Directory Distribution Groups
+## List AD Distribution Groups
 
 Get the List of Distribution Groups:
 
@@ -68,7 +49,7 @@ output "OUTPUT_kopicloud_distribution_groups_list" {
 
 ----
 
-## Show List of Active Directory Security Groups
+## List AD Security Groups
 
 Get the List of Security Groups:
 
@@ -87,7 +68,7 @@ output "OUTPUT_kopicloud_security_groups_list" {
 
 ----
 
-## Create an Active Directory Distribution Group, Optional Set the OU to Create it or Create in the Default Users OU
+## Create AD Distribution Group
 
 Create a Global Distribution Group:
 
@@ -158,7 +139,7 @@ output "OUTPUT_domain_local_distribution_group" {
 
 ----
 
-## Create an Active Directory Security Group, Optional Set the OU to Create it or Create in the Default Users OU
+## Create AD Security Group
 
 Create a Global Security Group:
 
