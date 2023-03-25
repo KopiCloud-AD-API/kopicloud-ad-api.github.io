@@ -75,7 +75,7 @@ Manage AD Users using GUID in Microsoft Active Directory using the KopiCloud AD 
 
 ----
 
-## Update an AD User using GUID
+## Update AD User using GUID
 
 <span class="btn-put">PUT</span> /api/ADUserGuid
 
