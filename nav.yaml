@@ -25,6 +25,7 @@ nav:
       - AD Group Membership: api/api-ad/ad-group-membership.md
       - AD Organization Unit: api/api-ad/ad-ou.md
       - AD Users: api/api-ad/ad-users.md
+      - AD Users with GUID: api/api-ad/ad-users-guid.md
     - DNS:
       - DNS API Methods: api/api-dns/dns.md
       - DNS AAAA Record: api/api-dns/dns-aaaa-records.md
