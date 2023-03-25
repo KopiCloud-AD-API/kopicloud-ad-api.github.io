@@ -43,6 +43,18 @@ The subscription mode is recommended to evaluate the product or short-term proje
 
 -----
 
+## Licensed per Active Directory Domain
+
+![Token List](https://help.kopicloud-ad-api.com/assets/docs/license-ad-domain.png){ align=left }
+
+The API requires one API server per Active Directory Domain, so you must purchase one license per Active Directory Domain.
+If you have two environments: development and production, you must purchase two licenses, one for each environment.
+
+
+<br /><br />
+
+-----
+
 ## License Requirements
 
 Licensing is very simple: KopiCloud AD API is **licensed per AD Domain**. 
