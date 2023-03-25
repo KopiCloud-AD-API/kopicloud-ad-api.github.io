@@ -19,12 +19,12 @@ Also, we tested the API in VMware vSphere and Microsoft Hyper-V virtual machines
 
 ![AWS](https://help.kopicloud-ad-api.com/assets/docs/platform-aws-vm.png){ align=left }
 
-We test **KopiCloud AD API** running:
+We tested **KopiCloud AD API** running:
 
 - Windows Server 2022 with SQL Server 2022
 - Windows Server 2019 with SQL Server 2019
 
-<br /><br />
+<br />
 
 ----
 
@@ -32,12 +32,12 @@ We test **KopiCloud AD API** running:
 
 ![AWS](https://help.kopicloud-ad-api.com/assets/docs/platform-aws-directory-service.png){ align=left }
 
-We test **KopiCloud AD API** running:
+We tested **KopiCloud AD API** running:
 
 - Windows Server 2022 with SQL Server 2022
 - Windows Server 2019 with SQL Server 2019
 
-<br /><br />
+<br />
 
 ----
 
@@ -58,9 +58,9 @@ We test **KopiCloud AD API** running:
 
 ![Azure](https://help.kopicloud-ad-api.com/assets/docs/platform-azure-active-directory-domain-services.png){ align=left }
 
-We test **KopiCloud AD API** running:
+We tested **KopiCloud AD API** running:
 
-- Windows Server 2022 with SQL Server 2022
+<span class="twemoji">{% include ".icons/fontawesome/brands/medium.svg" %} </span> Windows Server 2022 with SQL Server 2022
 - Windows Server 2019 with SQL Server 2019
 
 <br />
@@ -71,7 +71,20 @@ We test **KopiCloud AD API** running:
 
 ![GCP](https://help.kopicloud-ad-api.com/assets/docs/platform-gcp-vm.png){ align=left }
 
-We test **KopiCloud AD API** running:
+We tested **KopiCloud AD API** running:
+
+- Windows Server 2022 with SQL Server 2022
+- Windows Server 2019 with SQL Server 2019
+
+<br />
+
+----
+
+## GCP Managed Service for Microsoft Active Directory
+
+![GCP](https://help.kopicloud-ad-api.com/assets/docs/platform-gcp-managed-service-microsoft-active-directory.png){ align=left }
+
+We tested **KopiCloud AD API** running:
 
 - Windows Server 2022 with SQL Server 2022
 - Windows Server 2019 with SQL Server 2019

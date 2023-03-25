@@ -1,7 +1,7 @@
 ---
 title: KopiCloud AD API Requirements
 description: KopiCloud AD API Requirements
-date: 2023–03-24
+date: 2023–03-25
 ---
 
 # KopiCloud AD API Requirements
@@ -81,6 +81,6 @@ We tested **KopiCloud AD API** in Windows Server 2022 and Windows Server 2019.
 We tested two different recommended scenarios:
 
 - Windows Server 2022 with SQL Server 2022
-- Windows Server 2019 with SQL Server 2019.
+- Windows Server 2019 with SQL Server 2019
 
 These two scenarios were successfully tested on AWS, Azure, GCP, OCI, VMware, and Hyper-V.
