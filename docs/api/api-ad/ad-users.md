@@ -1,7 +1,7 @@
 ---
-title: AD Users API Methods
+title: AD User API Methods
 description: Describing all API methods of AD Users
-date: 2023-03-24
+date: 2023-03-25
 ---
 
 # Manage AD Users with the KopiCloud AD API
@@ -11,17 +11,17 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Get Active Directory User Details
+## Show AD User Details
 
 <span class="btn-get">GET</span> /api/ADUser/{UserName}/Details
 
 **Parameters**
 
-| Name               | Type     | Description                          | Mandatory |
-| ------------------ | ------   | ------------------------------------ | --------- |
-| Username           | string   | AD User Name                         | Yes       |
-| ShowFields         | string   | Recursive Search                     | No        |
-| Auth-Token         | string   | Bearer or Basic Authentication Token | Yes       |
+| Name               | Type    | Description                          | Mandatory |
+| ------------------ | ------- | ------------------------------------ | --------- |
+| Username           | string  | AD User Name                         | Yes       |
+| ShowFields         | string  | Recursive Search                     | No        |
+| Auth-Token         | string  | Bearer or Basic Authentication Token | Yes       |
 
 
 **Return Schema**
@@ -76,7 +76,7 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Check If Active Directory User Exist
+## Check If AD User Exist
 
 <span class="btn-get">GET</span> /api/ADUser/{UserName}/Exists
 
@@ -86,7 +86,6 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 | ------------------ | ------   | ------------------------------------ | --------- |
 | Username           | string   | AD User Name                         | Yes       |
 | Auth-Token         | string   | Bearer or Basic Authentication Token | Yes       |
-
 
 **Return Schema**
 
@@ -99,7 +98,7 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Get Active Directory User Last Logon
+## Show AD User Last Logon
 
 <span class="btn-get">GET</span> /api/ADUser/{UserName}/LastLogon
 
@@ -122,18 +121,18 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Get a List of AD Users Inside an OU
+## List AD Users Inside an OU
 
 <span class="btn-get">GET</span> /api/ADUser/ListUsers
 
 **Parameters**
 
-| Name               | Type     | Description                                                                                                           | Mandatory |
-| ------------------ | ------   | --------------------------------------------------------------------------------------------------------------------- | --------- |
-| OUPath             | string   | Organization Unit DN Path                                                                                             | No        |
-| ShowFields         | string   | User Fields to show. Optional argument, a comma-separated string, with the name of the fields you want  returned.     | No        |
-| Recursive          | boolean  | Recursive Search (Default = value)                                                                                    | Yes       |
-| Auth-Token         | string   | Bearer or Basic Authentication Token                                                                                  | Yes       |
+| Name               | Type     | Description                                                                                                        | Mandatory |
+| ------------------ | ------   | ------------------------------------------------------------------------------------------------------------------ | --------- |
+| OUPath             | string   | Organization Unit DN Path                                                                                          | No        |
+| ShowFields         | string   | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
+| Recursive          | boolean  | Recursive Search (Default = value)                                                                                 | Yes       |
+| Auth-Token         | string   | Bearer or Basic Authentication Token                                                                               | Yes       |
 
 
 **Return Schema**
@@ -190,17 +189,16 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Get a List of All AD Users
+## List All AD Users
 
 <span class="btn-get">GET</span> /api/ADUser/ListUsers/All
 
 **Parameters**
 
-| Name               | Type     | Description                                                                                                                              | Mandatory |
-| ------------------ | ------   | ---------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| ShowFields         | string   | User Fields to show. Optional argument, a comma-separated string, with the name of the fields you want returned.                         | No        |
-| Auth-Token         | string   | Bearer or Basic Authentication Token                                                                                                     | Yes       |
-
+| Name       | Type    | Description                                                                                   | Mandatory |
+| ---------- | ------- | --------------------------------------------------------------------------------------------- | --------- |
+| ShowFields | string  | Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
+| Auth-Token | string  | Bearer or Basic Authentication Token                                                          | Yes       |
 
 **Return Schema**
 
@@ -256,52 +254,51 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Create an Active Directory User
+## Create an AD User
 
 <span class="btn-post">POST</span> /api/ADUser/{UserName}
 
 **Parameters**
 
-| Name                     | Type                 | Description                                                                                                        | Mandatory |
-| ------------------       | ------------------   | ------------------------------------------------------------------------------------------------------------------ | --------- |
-| Username                 | string               | AD User Name                                                                                                       | Yes       |
-| Password                 | string($password)    | User Password                                                                                                      | No        |
-| FirstName                | string               | AD User First Name                                                                                                 | No        |
-| Initials                 | string               | AD User Initials                                                                                                   | No        |
-| LastName                 | string               | AD User LastName                                                                                                   | No        |
-| DisplayName              | string               | User DisplayName                                                                                                   | No        |
-| Description              | string               | User Description                                                                                                   | No        |
-| EmailAddress             | string               | User Email Address                                                                                                 | No        |
-| Department               | string               | User Department                                                                                                    | No        |
-| Office                   | string               | User Office                                                                                                        | No        |
-| Company                  | string               | User Company                                                                                                       | No        |
-| OUPath                   | string               | Organization Unit DN Path                                                                                          | No        |
-| ChangePasswordNextLogon  | boolean              | User Must Change Password at Next Logon (Default = value)                                                          | No        |
-| PasswordNeverExpired     | boolean              | Password never expire. (Default = value)                                                                           | No        |
-| JobTitle                 | string               | AD User Job Title                                                                                                  | No        |
-| Manager                  | string               | AD User Manager                                                                                                    | No        |
-| Street                   | string               | AD User Street                                                                                                     | No        |
-| POBox                    | string               | AD User Po Box                                                                                                     | No        |
-| City                     | string               | AD User City                                                                                                       | No        |
-| State                    | string               | AD User State                                                                                                      | No        |
-| ZipCode                  | string               | AD User Zip Code                                                                                                   | No        |
-| Country                  | string               | AD User Country                                                                                                    | No        |
-| OfficePhone              | string               | AD User Office Phone                                                                                               | No        |
-| HomePhone                | string               | AD User Home Phone                                                                                                 | No        |
-| MobilePhone              | string               | AD User Mobile Phone                                                                                               | No        |
-| ProfilePath              | string               | AD User Profile Path                                                                                               | No        |
-| ProfileLogonScript       | string               | AD User Profile Logon Script                                                                                       | No        |
-| HomeFolderPath           | string               | AD User Home Folder Path                                                                                           | No        |
-| HomeFolderDrive          | string               | AD User Home Folde rDrive                                                                                          | No        |
-| HomeFolderDirectory      | string               | AD User Home Folder Directory                                                                                      | No        |
-| RdsProfilePath           | string               | AD User Rds Profile Path                                                                                           | No        |
-| RdsHomeFolderPath        | string               | AD User Rds Home Folder Path                                                                                       | No        |
-| RdsHomeFolderDrive       | string               | AD User Rds Home Folder Drive                                                                                      | No        |
-| RdsConnectDrive          | boolean              | AD User Rds Connect Drive (Default = value)                                                                        | No        |
-| RdsAllowLogon            | string               | AD User Allow RDS Logon                                                                                            | No        |
-| ShowFields               | string               | User Fields to show. Optional argument, a comma-separated string, with the name of the fields you want returned.   | No        |
-| Auth-Token               | string               | Bearer or Basic Authentication Token                                                                               | Yes       |
-
+| Name                    | Type    | Description                                                                                                        | Mandatory |
+| ----------------------- | ------- | ------------------------------------------------------------------------------------------------------------------ | --------- |
+| Username                | string  | AD User Name                                                                                                       | Yes       |
+| Password                | string  | User Password                                                                                                      | No        |
+| FirstName               | string  | AD User First Name                                                                                                 | No        |
+| Initials                | string  | AD User Initials                                                                                                   | No        |
+| LastName                | string  | AD User LastName                                                                                                   | No        |
+| DisplayName             | string  | User DisplayName                                                                                                   | No        |
+| Description             | string  | User Description                                                                                                   | No        |
+| EmailAddress            | string  | User Email Address                                                                                                 | No        |
+| Department              | string  | User Department                                                                                                    | No        |
+| Office                  | string  | User Office                                                                                                        | No        |
+| Company                 | string  | User Company                                                                                                       | No        |
+| OUPath                  | string  | Organization Unit DN Path                                                                                          | No        |
+| ChangePasswordNextLogon | boolean | User Must Change Password at Next Logon (Default = value)                                                          | No        |
+| PasswordNeverExpired    | boolean | Password never expire. (Default = value)                                                                           | No        |
+| JobTitle                | string  | AD User Job Title                                                                                                  | No        |
+| Manager                 | string  | AD User Manager                                                                                                    | No        |
+| Street                  | string  | AD User Street                                                                                                     | No        |
+| POBox                   | string  | AD User Po Box                                                                                                     | No        |
+| City                    | string  | AD User City                                                                                                       | No        |
+| State                   | string  | AD User State                                                                                                      | No        |
+| ZipCode                 | string  | AD User Zip Code                                                                                                   | No        |
+| Country                 | string  | AD User Country                                                                                                    | No        |
+| OfficePhone             | string  | AD User Office Phone                                                                                               | No        |
+| HomePhone               | string  | AD User Home Phone                                                                                                 | No        |
+| MobilePhone             | string  | AD User Mobile Phone                                                                                               | No        |
+| ProfilePath             | string  | AD User Profile Path                                                                                               | No        |
+| ProfileLogonScript      | string  | AD User Profile Logon Script                                                                                       | No        |
+| HomeFolderPath          | string  | AD User Home Folder Path                                                                                           | No        |
+| HomeFolderDrive         | string  | AD User Home Folde rDrive                                                                                          | No        |
+| HomeFolderDirectory     | string  | AD User Home Folder Directory                                                                                      | No        |
+| RdsProfilePath          | string  | AD User Rds Profile Path                                                                                           | No        |
+| RdsHomeFolderPath       | string  | AD User Rds Home Folder Path                                                                                       | No        |
+| RdsHomeFolderDrive      | string  | AD User Rds Home Folder Drive                                                                                      | No        |
+| RdsConnectDrive         | boolean | AD User Rds Connect Drive (Default = value)                                                                        | No        |
+| RdsAllowLogon           | string  | AD User Allow RDS Logon                                                                                            | No        |
+| ShowFields              | string  | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
+| Auth-Token              | string  | Bearer or Basic Authentication Token                                                                               | Yes       |
 
 **Return Schema**
 
@@ -361,46 +358,45 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 **Parameters**
 
-| Name                     | Type                 | Description                                                                                                        | Mandatory |
-| ------------------       | ------------------   | ------------------------------------------------------------------------------------------------------------------ | --------- |
-| Username                 | string               | AD User Name                                                                                                       | Yes       |
-| Password                 | string($password)    | User Password                                                                                                      | No        |
-| FirstName                | string               | AD User First Name                                                                                                 | No        |
-| Initials                 | string               | AD User Initials                                                                                                   | No        |
-| LastName                 | string               | AD User LastName                                                                                                   | No        |
-| DisplayName              | string               | User DisplayName                                                                                                   | No        |
-| Description              | string               | User Description                                                                                                   | No        |
-| EmailAddress             | string               | User Email Address                                                                                                 | No        |
-| Department               | string               | User Department                                                                                                    | No        |
-| Office                   | string               | User Office                                                                                                        | No        |
-| Company                  | string               | User Company                                                                                                       | No        |
-| OUPath                   | string               | Organization Unit DN Path                                                                                          | No        |
-| ChangePasswordNextLogon  | boolean              | User Must Change Password at Next Logon (Default = value)                                                          | No        |
-| PasswordNeverExpired     | boolean              | Password never expire. (Default = value)                                                                           | No        |
-| JobTitle                 | string               | AD User Job Title                                                                                                  | No        |
-| Manager                  | string               | AD User Manager                                                                                                    | No        |
-| Street                   | string               | AD User Street                                                                                                     | No        |
-| POBox                    | string               | AD User Po Box                                                                                                     | No        |
-| City                     | string               | AD User City                                                                                                       | No        |
-| State                    | string               | AD User State                                                                                                      | No        |
-| ZipCode                  | string               | AD User Zip Code                                                                                                   | No        |
-| Country                  | string               | AD User Country                                                                                                    | No        |
-| OfficePhone              | string               | AD User Office Phone                                                                                               | No        |
-| HomePhone                | string               | AD User Home Phone                                                                                                 | No        |
-| MobilePhone              | string               | AD User Mobile Phone                                                                                               | No        |
-| ProfilePath              | string               | AD User Profile Path                                                                                               | No        |
-| ProfileLogonScript       | string               | AD User Profile Logon Script                                                                                       | No        |
-| HomeFolderPath           | string               | AD User Home Folder Path                                                                                           | No        |
-| HomeFolderDrive          | string               | AD User Home Folde rDrive                                                                                          | No        |
-| HomeFolderDirectory      | string               | AD User Home Folder Directory                                                                                      | No        |
-| RdsProfilePath           | string               | AD User Rds Profile Path                                                                                           | No        |
-| RdsHomeFolderPath        | string               | AD User Rds Home Folder Path                                                                                       | No        |
-| RdsHomeFolderDrive       | string               | AD User Rds Home Folder Drive                                                                                      | No        |
-| RdsConnectDrive          | boolean              | AD User Rds Connect Drive (Default = value)                                                                        | No        |
-| RdsAllowLogon            | string               | AD User Allow RDS Logon                                                                                            | No        |
-| ShowFields               | string               | User Fields to show. Optional argument, a comma-separated string, with the name of the fields you want returned.   | No        |
-| Auth-Token               | string               | Bearer or Basic Authentication Token                                                                               | Yes       |
-
+| Name                    | Type    | Description                                                                                                        | Mandatory |
+| ----------------------- | ------- | ------------------------------------------------------------------------------------------------------------------ | --------- |
+| Username                | string  | AD User Name                                                                                                       | Yes       |
+| Password                | string  | User Password                                                                                                      | No        |
+| FirstName               | string  | AD User First Name                                                                                                 | No        |
+| Initials                | string  | AD User Initials                                                                                                   | No        |
+| LastName                | string  | AD User LastName                                                                                                   | No        |
+| DisplayName             | string  | User DisplayName                                                                                                   | No        |
+| Description             | string  | User Description                                                                                                   | No        |
+| EmailAddress            | string  | User Email Address                                                                                                 | No        |
+| Department              | string  | User Department                                                                                                    | No        |
+| Office                  | string  | User Office                                                                                                        | No        |
+| Company                 | string  | User Company                                                                                                       | No        |
+| OUPath                  | string  | Organization Unit DN Path                                                                                          | No        |
+| ChangePasswordNextLogon | boolean | User Must Change Password at Next Logon (Default = value)                                                          | No        |
+| PasswordNeverExpired    | boolean | Password never expire. (Default = value)                                                                           | No        |
+| JobTitle                | string  | AD User Job Title                                                                                                  | No        |
+| Manager                 | string  | AD User Manager                                                                                                    | No        |
+| Street                  | string  | AD User Street                                                                                                     | No        |
+| POBox                   | string  | AD User Po Box                                                                                                     | No        |
+| City                    | string  | AD User City                                                                                                       | No        |
+| State                   | string  | AD User State                                                                                                      | No        |
+| ZipCode                 | string  | AD User Zip Code                                                                                                   | No        |
+| Country                 | string  | AD User Country                                                                                                    | No        |
+| OfficePhone             | string  | AD User Office Phone                                                                                               | No        |
+| HomePhone               | string  | AD User Home Phone                                                                                                 | No        |
+| MobilePhone             | string  | AD User Mobile Phone                                                                                               | No        |
+| ProfilePath             | string  | AD User Profile Path                                                                                               | No        |
+| ProfileLogonScript      | string  | AD User Profile Logon Script                                                                                       | No        |
+| HomeFolderPath          | string  | AD User Home Folder Path                                                                                           | No        |
+| HomeFolderDrive         | string  | AD User Home Folde rDrive                                                                                          | No        |
+| HomeFolderDirectory     | string  | AD User Home Folder Directory                                                                                      | No        |
+| RdsProfilePath          | string  | AD User Rds Profile Path                                                                                           | No        |
+| RdsHomeFolderPath       | string  | AD User Rds Home Folder Path                                                                                       | No        |
+| RdsHomeFolderDrive      | string  | AD User Rds Home Folder Drive                                                                                      | No        |
+| RdsConnectDrive         | boolean | AD User Rds Connect Drive (Default = value)                                                                        | No        |
+| RdsAllowLogon           | string  | AD User Allow RDS Logon                                                                                            | No        |
+| ShowFields              | string  | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
+| Auth-Token              | string  | Bearer or Basic Authentication Token                                                                               | Yes       |
 
 **Return Schema**
 
@@ -454,18 +450,17 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Disable Active Directory User
+## Disable AD User
 
 <span class="btn-put">PUT</span> /api/ADUser/{UserName}/Disable
 
 **Parameters**
 
-| Name                     | Type                 | Description                                                                                                        | Mandatory |
-| ------------------       | ------------------   | ------------------------------------------------------------------------------------------------------------------ | --------- |
-| Username                 | string               | AD User Name                                                                                                       | Yes       |
-| ShowFields               | string               | User Fields to show. Optional argument, a comma-separated string, with the name of the fields you want returned.   | No        |
-| Auth-Token               | string               | Bearer or Basic Authentication Token                                                                               | Yes       |
-
+| Name        | Type   | Description                                                                                                        | Mandatory |
+| ----------- | ------ | ------------------------------------------------------------------------------------------------------------------ | --------- |
+| Username    | string | AD User Name                                                                                                       | Yes       |
+| ShowFields  | string | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
+| Auth-Token  | string | Bearer or Basic Authentication Token                                                                               | Yes       |
 
 **Return Schema**
 
@@ -519,7 +514,7 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Enable Active Directory User
+## Enable AD User
 
 <span class="btn-put">PUT</span> /api/ADUser/{UserName}/Enable
 
@@ -528,7 +523,7 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 | Name                     | Type                 | Description                                                                                                        | Mandatory |
 | ------------------       | ------------------   | ------------------------------------------------------------------------------------------------------------------ | --------- |
 | Username                 | string               | AD User Name                                                                                                       | Yes       |
-| ShowFields               | string               | User Fields to show. Optional argument, a comma-separated string, with the name of the fields you want returned.   | No        |
+| ShowFields               | string               | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned  | No        |
 | Auth-Token               | string               | Bearer or Basic Authentication Token                                                                               | Yes       |
 
 
@@ -594,7 +589,7 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 | ------------------       | ------------------   | ------------------------------------------------------------------------------------------------------------------ | --------- |
 | Username                 | string               | AD User Name                                                                                                       | Yes       |
 | NewUsername              | string               | New AD User Name                                                                                                   | Yes       |
-| ShowFields               | string               | User Fields to show. Optional argument, a comma-separated string, with the name of the fields you want returned.   | No        |
+| ShowFields               | string               | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
 | Auth-Token               | string               | Bearer or Basic Authentication Token                                                                               | Yes       |
 
 
@@ -661,7 +656,7 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 | Username                 | string               | AD User Name                                                                                                       | Yes       |
 | newPassword              | string($password)    | New User Password                                                                                                  | No        |
 | ChangePassword           | boolean              | Force User to Change Password on Next Login (Default = value)                                                      | No        |
-| ShowFields               | string               | User Fields to show. Optional argument, a comma-separated string, with the name of the fields you want returned.   | No        |
+| ShowFields               | string               | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned   | No        |
 | Auth-Token               | string               | Bearer or Basic Authentication Token                                                                               | Yes       |
 
 
@@ -726,7 +721,7 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 | Name                     | Type                 | Description                                                                                                        | Mandatory |
 | ------------------       | ------------------   | ------------------------------------------------------------------------------------------------------------------ | --------- |
 | Username                 | string               | AD User Name                                                                                                       | Yes       |
-| ShowFields               | string               | User Fields to show. Optional argument, a comma-separated string, with the name of the fields you want returned.   | No        |
+| ShowFields               | string               | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
 | Auth-Token               | string               | Bearer or Basic Authentication Token                                                                               | Yes       |
 
 
@@ -791,7 +786,7 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 | Name                     | Type                 | Description                                                                                                        | Mandatory |
 | ------------------       | ------------------   | ------------------------------------------------------------------------------------------------------------------ | --------- |
 | Username                 | string               | AD User Name                                                                                                       | Yes       |
-| ShowFields               | string               | User Fields to show. Optional argument, a comma-separated string, with the name of the fields you want returned.   | No        |
+| ShowFields               | string               | User Fields to show. Optional argument: comma-separated string with the name of the fields you want to be returned | No        |
 | Auth-Token               | string               | Bearer or Basic Authentication Token                                                                               | Yes       |
 
 
