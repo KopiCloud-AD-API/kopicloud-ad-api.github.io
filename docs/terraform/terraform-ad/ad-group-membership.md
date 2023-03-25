@@ -11,9 +11,9 @@ Manage AD Group Membership in Microsoft Active Directory using the KopiCloud AD 
 
 ----
 
-## List AD Users Group Membership
+## List Group Membership of AD User
 
-List Group Membership for an User:
+List AD User Group Membership:
 
 ```
 data "kopicloud_group_membership_list" "test" {
@@ -43,7 +43,7 @@ resource "kopicloud_group_membership" "test" {
 }
 ```
 
-Returns Details of ADUser in Group:
+Returns Group Membership of AD User:
 
 ```
 output "OUTPUT_kopicloud_group_membership" {
