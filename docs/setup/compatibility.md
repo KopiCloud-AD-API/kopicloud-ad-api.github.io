@@ -22,6 +22,8 @@ Also, we tested the API in VMware vSphere and Microsoft Hyper-V virtual machines
 - Windows Server 2022 with SQL Server 2022
 - Windows Server 2019 with SQL Server 2019
 
+<br /><br />
+
 ----
 
 ## Amazon Web Services (AWS) Directory Service
@@ -31,6 +33,8 @@ Also, we tested the API in VMware vSphere and Microsoft Hyper-V virtual machines
 - Windows Server 2022 with SQL Server 2022
 - Windows Server 2019 with SQL Server 2019
 
+<br /><br />
+
 ----
 
 ## Microsoft Azure Virtual Machines
@@ -39,6 +43,8 @@ Also, we tested the API in VMware vSphere and Microsoft Hyper-V virtual machines
 
 - Windows Server 2022 with SQL Server 2022
 - Windows Server 2019 with SQL Server 2019
+
+<br />
 
 ----
 
