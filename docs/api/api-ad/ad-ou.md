@@ -1,7 +1,7 @@
 ---
 title: AD Organization Unit (OU) API Methods
 description: Describing all API methods of AD Organization Units (OUs)
-date: 2023-03-24
+date: 2023-03-25
 ---
 
 # Manage AD OUs with the KopiCloud AD API
