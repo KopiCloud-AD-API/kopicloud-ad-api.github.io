@@ -9,11 +9,18 @@ date: 2023-03-25
 
 Understanding licensing is important before you purchase or evaluate the product.
 
+We offer 4 types of licenses:
+
+- Trial
+- Monthly License
+- Yearly License
+- Perpetual License
+
 ----
 
 ## Trial License
     
-![Token List](https://help.kopicloud-ad-api.com/assets/docs/license-trial.png){ align=left }
+![Trial License](https://help.kopicloud-ad-api.com/assets/docs/license-trial.png){ align=left }
 
 To get a trial license, login to [KopiCloud AD API Website](https://kopicloud-ad-api.com/Identity/Account/Login) with your account or create a new account.
 
@@ -27,59 +34,46 @@ Go to the **Settings** page, click on the **Trial** menu, enter your name and co
 
 ## Subscription Mode or Perpetual License
     
-![Token List](https://help.kopicloud-ad-api.com/assets/docs/license-subscription.png){ align=left }
+![License Type](https://help.kopicloud-ad-api.com/assets/docs/license-subscription.png){ align=left }
 
 The API is licensed in two ways: subscription mode or perpetual license.
 
 The subscription mode is recommended to evaluate the product or short-term projects, and the perpetual license is recommended for long-term projects.
-
-<br /><br />
 
 - **Subscription Mode:** recommended to evaluate the product or short-term projects. You can cancel your subscription anytime. Reduce your upfront costs and pay a low regular monthly or yearly fee.
 
 - **Perpetual License:** recommended for long-term projects when you will invest in software integration. You pay upfront the cost of the license. However, you get a discount on the price and no extra maintenance fees.
 
-<br /><br />
-
 -----
 
 ## Licensed per Active Directory Domain
 
-![Token List](https://help.kopicloud-ad-api.com/assets/docs/license-ad-domain.png){ align=left }
+![Active Directory](https://help.kopicloud-ad-api.com/assets/docs/license-ad-domain.png){ align=left }
 
 The API requires one API server per Active Directory Domain, so you must purchase one license per Active Directory Domain.
+
 If you have two environments: development and production, you must purchase two licenses, one for each environment.
-
-
-<br /><br />
 
 -----
 
-## License Requirements
+## FREE Upgrades
 
-Licensing is very simple: KopiCloud AD API is **licensed per AD Domain**. 
+![FREE Upgrades](https://help.kopicloud-ad-api.com/assets/docs/license-upgrade.png){ align=left }
 
-To work, the machine hosting **KopiCloud AD API** must be joined to AD.
+You always will receive **FREE** updates when you buy a license.
 
-----
+No extra maintenance fee is charged.
 
-## Subscription Mode or Perpetual License
+Updates include hotfixes, or application improvements, such as new features. You can suggest and vote for new features [here](https://store.kopicloud-ad-api.com/Feature).
 
-The API is licensed in two ways: subscription mode or perpetual license.
-The subscription mode is recommended to evaluate the product or short-term projects, and the perpetual license is recommended for long-term projects.
+-----
 
+## FREE Technical Support
 
-## License Options
+![Support](https://help.kopicloud-ad-api.com/assets/docs/license-support.png){ align=left }
 
-We offer 4 types of licenses:
+**FREE technical support by e-mail** is included with all licenses purchased during business days.
 
-- Trial
-- Monthly License
-- Yearly License
-- Perpetual License
+Optionally, you can report issues [here](https://store.kopicloud-ad-api.com/Feature).
 
-
-
-- **Trial:** useful to evaluate the API and Terraform provider.
-- **Monthly License:** perfect for startups, short-term projects and complex-evaluations.
-- **Yearly License:
+You can [contact our consulting service](https://store.kopicloud-ad-api.com/consulting) if you need help integrating the API in your environment.
