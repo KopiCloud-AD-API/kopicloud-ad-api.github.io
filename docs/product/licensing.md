@@ -86,9 +86,7 @@ You can [contact our consulting service](https://www.kopicloud-ad-api.com/consul
 
 We offer discounts to eligible non-profits and educational organizations (Schools, Colleges, and Universities).
 
-If you represent these institutions, they can receive up to 50% discount on our yearly subscriptions plans or perpetual licenses.
-
-Please [get in touch](https://www.kopicloud-ad-api.com/contact) with us for more details.
+If you represent these institutions, they can receive up to 50% discount on our yearly subscriptions plans or perpetual licenses. Please [get in touch](https://www.kopicloud-ad-api.com/contact) with us for more details.
 
 ----
 
@@ -110,6 +108,16 @@ You must purchase a perpetual license if you need to run our API in an environme
 
 We cannot offer refunds, so please start with the monthly subscription. You can always cancel every month if you are unsure.
 
-You can upgrade your license from a monthly to a yearly subscription or perpetual license.
+You can upgrade your license from a monthly to a yearly subscription or perpetual license. Also, you can downgrade from a yearly to a monthly subscription at the end of your period.
 
-Also, you can downgrade from a yearly to a monthly subscription at the end of your period.
+----
+
+## Cloud Provider Marketplace License
+
+![Marketplace](https://help.kopicloud-ad-api.com/assets/docs/license-marketplace.png){ align=left }
+
+We are offering the option to deploy and purchase **KopiCloud AD API** in cloud provider marketplaces.
+
+You can choose **BYO license** (Bring Your Own License) to use the license purchase at the KopiCloud AD API Store or purchase the license from the cloud provider (billed by your cloud provider).
+
+We are in the process to launch **KopiCloud AD API in AWS, Azure, GCP and OCI Marketplaces**. Please [get in touch](https://www.kopicloud-ad-api.com/contact) with us for more details.
