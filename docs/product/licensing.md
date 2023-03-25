@@ -22,7 +22,7 @@ We offer 4 types of licenses:
     
 ![Trial License](https://help.kopicloud-ad-api.com/assets/docs/license-trial.png){ align=left }
 
-To get a trial license, login to [KopiCloud AD API Website](https://kopicloud-ad-api.com/Identity/Account/Login) with your account or create a new account.
+To get a trial license, login to [KopiCloud AD API Website](https://www.kopicloud-ad-api.com/Identity/Account/Login) with your account or create a new account.
 
 Go to the **Settings** page, click on the **Trial** menu, enter your name and company, and click on the **Generate Trial** button.
 
@@ -39,6 +39,8 @@ Go to the **Settings** page, click on the **Trial** menu, enter your name and co
 The API is licensed in two ways: subscription mode or perpetual license.
 
 The subscription mode is recommended to evaluate the product or short-term projects, and the perpetual license is recommended for long-term projects.
+
+<br />
 
 - **Subscription Mode:** recommended to evaluate the product or short-term projects. You can cancel your subscription anytime. Reduce your upfront costs and pay a low regular monthly or yearly fee.
 
@@ -64,7 +66,7 @@ You always will receive **FREE** updates when you buy a license.
 
 No extra maintenance fee is charged.
 
-Updates include hotfixes, or application improvements, such as new features. You can suggest and vote for new features [here](https://store.kopicloud-ad-api.com/Feature).
+Updates include hotfixes, or application improvements, such as new features. You can suggest and vote for new features [here](https://www.kopicloud-ad-api.com/Feature).
 
 -----
 
@@ -72,8 +74,42 @@ Updates include hotfixes, or application improvements, such as new features. You
 
 ![Support](https://help.kopicloud-ad-api.com/assets/docs/license-support.png){ align=left }
 
-**FREE technical support by e-mail** is included with all licenses purchased during business days.
+**FREE technical support by e-mail** is included with all licenses purchased during business days. Optionally, you can report issues [here](https://www.kopicloud-ad-api.com/Feature).
 
-Optionally, you can report issues [here](https://store.kopicloud-ad-api.com/Feature).
+You can [contact our consulting service](https://www.kopicloud-ad-api.com/consulting) if you need help integrating the API in your environment.
 
-You can [contact our consulting service](https://store.kopicloud-ad-api.com/consulting) if you need help integrating the API in your environment.
+----
+
+## Non-Profits and Educational Institutions
+
+![NGOs](https://help.kopicloud-ad-api.com/assets/docs/license-organization.png){ align=left }
+
+We offer discounts to eligible non-profits and educational organizations (Schools, Colleges, and Universities).
+
+If you represent these institutions, they can receive up to 50% discount on our yearly subscriptions plans or perpetual licenses.
+
+Please [get in touch](https://www.kopicloud-ad-api.com/contact) with us for more details.
+
+----
+
+## Internet Connected
+
+![Internet](https://help.kopicloud-ad-api.com/assets/docs/license-network.png){ align=left }
+
+Your API server must connect to the internet to use our subscription mode licensing.
+
+Once a day, the server will contact our licensing API to validate our license.
+
+You must purchase a perpetual license if you need to run our API in an environment without internet access.
+
+----
+
+## Refund and Cancellation Policy
+
+![Refund](https://help.kopicloud-ad-api.com/assets/docs/license-refund.png){ align=left }
+
+We cannot offer refunds, so please start with the monthly subscription. You can always cancel every month if you are unsure.
+
+You can upgrade your license from a monthly to a yearly subscription or perpetual license.
+
+Also, you can downgrade from a yearly to a monthly subscription at the end of your period.
