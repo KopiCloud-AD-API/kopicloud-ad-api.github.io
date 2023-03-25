@@ -63,7 +63,8 @@ nav:
     - Windows Event Log: settings/logging.md     
 
   - Product:
-    #- FAQ: faq.md
-    - Change Log: changelog.md
-    - Credits: credits.md
+    #- FAQ: product/faq.md
+    - Licensing: product/licensing.md
+    - Change Log: product/changelog.md
+    - Credits: product/credits.md
     

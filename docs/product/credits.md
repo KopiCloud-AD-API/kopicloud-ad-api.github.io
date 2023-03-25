@@ -1,7 +1,7 @@
 ---
 title: Credits
 description: Credits and Attributions
-date: 2023-03-23
+date: 2023-03-25
 ---
 
 # Credits
@@ -62,3 +62,5 @@ Below is the list of icons we used on our website and their authors:
 - <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/typescript" title="typescript icons">Typescript icons created by Freepik - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/python" title="python icons">Python icons created by Freepik - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/marketplace" title="marketplace icons">Marketplace icons created by lapiyee - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/trial" title="trial icons">Trial icons created by Freepik - Flaticon</a>
