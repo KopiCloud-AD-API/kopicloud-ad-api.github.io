@@ -253,7 +253,7 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Create an AD User
+## Create AD User
 
 <span class="btn-post">POST</span> /api/ADUser/{UserName}
 
@@ -351,7 +351,7 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Update an AD User
+## Update AD User
 
 <span class="btn-put">PUT</span> /api/ADUser/{UserName}
 
