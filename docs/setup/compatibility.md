@@ -14,8 +14,27 @@ Also, we tested the API in VMware vSphere and Microsoft Hyper-V virtual machines
 
 ----
 
-| ![AWS](https://help.kopicloud-ad-api.com/assets/docs/platform-aws-vm.png)<br/ >Amazon Web Services (AWS) Virtual Machines
-| ![AWS](https://help.kopicloud-ad-api.com/assets/docs/platform-aws-directory-service.png)<br/ >Amazon Web Services (AWS) Directory Service |
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+
+
+| ![AWS](https://help.kopicloud-ad-api.com/assets/docs/platform-aws-vm.png)<br/ >Amazon Web Services (AWS) Virtual Machines|![AWS](https://help.kopicloud-ad-api.com/assets/docs/platform-aws-directory-service.png)<br/ >Amazon Web Services (AWS) Directory Service |
 | :-----------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
 | ![Azure](https://help.kopicloud-ad-api.com/assets/docs/platform-azure-vm.png) | ![Azure](https://help.kopicloud-ad-api.com/assets/docs/platform-azure-active-directory-domain-services.png) |
 | :-----------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
