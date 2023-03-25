@@ -1,13 +1,13 @@
 ---
 title: AD Users with Terraform
 description: Manage AD Users with Terraform
-date: 2023-03-24
+date: 2023-03-25
 ---
 
 # AD Users with Terraform
 [![Terraform](https://img.shields.io/badge/terraform-v1.3+-blue.svg)](https://www.terraform.io/downloads.html) [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Manage AD Users in Microsoft Active Directory using the KopiCloud AD Terraform Provider:
+Manage AD Users in Microsoft Active Directory using the KopiCloud AD Terraform Provider
 
 ----
 
