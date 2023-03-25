@@ -19,6 +19,8 @@ Also, we tested the API in VMware vSphere and Microsoft Hyper-V virtual machines
 
 ![AWS](https://help.kopicloud-ad-api.com/assets/docs/platform-aws-vm.png){ align=left }
 
+We test **KopiCloud AD API** running:
+
 - Windows Server 2022 with SQL Server 2022
 - Windows Server 2019 with SQL Server 2019
 
@@ -29,6 +31,8 @@ Also, we tested the API in VMware vSphere and Microsoft Hyper-V virtual machines
 ## Amazon Web Services (AWS) Directory Service
 
 ![AWS](https://help.kopicloud-ad-api.com/assets/docs/platform-aws-directory-service.png){ align=left }
+
+We test **KopiCloud AD API** running:
 
 - Windows Server 2022 with SQL Server 2022
 - Windows Server 2019 with SQL Server 2019
@@ -41,6 +45,8 @@ Also, we tested the API in VMware vSphere and Microsoft Hyper-V virtual machines
 
 ![Azure](https://help.kopicloud-ad-api.com/assets/docs/platform-azure-vm.png){ align=left }
 
+We test **KopiCloud AD API** running:
+
 - Windows Server 2022 with SQL Server 2022
 - Windows Server 2019 with SQL Server 2019
 
@@ -52,5 +58,21 @@ Also, we tested the API in VMware vSphere and Microsoft Hyper-V virtual machines
 
 ![Azure](https://help.kopicloud-ad-api.com/assets/docs/platform-azure-active-directory-domain-services.png){ align=left }
 
+We test **KopiCloud AD API** running:
+
 - Windows Server 2022 with SQL Server 2022
 - Windows Server 2019 with SQL Server 2019
+
+<br />
+
+----
+
+## Google Cloud Platform (GCP) Virtual Machines
+
+![GCP](https://help.kopicloud-ad-api.com/assets/docs/platform-gcp-vm.png){ align=left }
+
+We test **KopiCloud AD API** running:
+
+- Windows Server 2022 with SQL Server 2022
+- Windows Server 2019 with SQL Server 2019
+
