@@ -1,7 +1,7 @@
 ---
 title: KopiCloud AD API Compatibility
 description: KopiCloud AD API Compatibility
-date: 2023-03-26
+date: 2023-04-01
 ---
 
 # KopiCloud AD API Compatibility
@@ -11,6 +11,8 @@ date: 2023-03-26
 We tested **KopiCloud AD API** in virtual machines running Active Directory Domain Controllers (DCs) in different cloud providers (AWS, Azure, GCP, OCI) and their managed Active Directory Services.
 
 Also, we tested the API in VMware vSphere and Microsoft Hyper-V virtual machines in the datacenter.
+
+> **Note:** KopiCloud AD API was tested **ONLY** with Windows Server and Active Directory in **English**. We cannot warranty, that will work with other languages. Please contact us, if you need to run KopiCloud AD API with Windows Server in other languages.
 
 ----
 
