@@ -1,7 +1,7 @@
 ---
 title: KopiCloud AD API Licensing
 description: KopiCloud AD API Licensing
-date: 2023-03-25
+date: 2023-04-02
 ---
 
 # KopiCloud AD API Licensing
@@ -103,6 +103,10 @@ You must purchase a perpetual license if you need to run our API in an environme
 ## Refund and Cancellation Policy
 
 ![Refund](https://help.kopicloud-ad-api.com/assets/docs/license-refund.png){ align=left }
+
+We provide a trial version to let you evaluate the product to ensure it meets your needs prior to making a purchase. If you need any assistance or have questions during the trial we are here to help.
+
+After purchase and you have an issue or are not satisfied please contact support, we can help you to resolve any issue with the product.
 
 We cannot offer refunds at this moment, so please start with the monthly subscription. You can always cancel every month if you are unsure.
 
