@@ -12,7 +12,7 @@ Minor versions that contain bug fixes or improvements will be released on demand
 
 This is our current schedule of versions for the year 2023:
 
-| Version Name  | API     | Release Date |
+| Version Name  | Quarter | Release Date |
 | ------------- | ------- | ------------ |
 | R1 / Amalfi   | Q2/2023 | 2023-04-04   |
 | R2 / Provence | Q3/2023 | TBD          |
