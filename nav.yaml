@@ -65,6 +65,7 @@ nav:
 
   - Product:
     #- FAQ: product/faq.md
+    - Versions: product/versions.md
     - Licensing: product/licensing.md
     - Change Log: product/changelog.md
     - Credits: product/credits.md
