@@ -6,7 +6,7 @@ date: 2023-04-04
 
 # KopiCloud AD API Version
 
-In KopiCloud, we are committed to releasing a new major version of **KopiCloud AD API** and the **KopiCloud AD Terraform Povider** each quarter.
+In KopiCloud, we are committed to releasing a new major version of **KopiCloud AD API** and the **KopiCloud AD Terraform Provider** each quarter.
 
 Minor versions that contain bug fixes or improvements will be released on demand.
 
