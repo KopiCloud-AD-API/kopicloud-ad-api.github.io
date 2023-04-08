@@ -7,7 +7,7 @@ date: 2023-04-02
 # KopiCloud AD API Licensing
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-Understanding licensing is important before you purchase or evaluate the product.
+Understanding licensing is essential before you purchase or evaluate the product.
 
 We offer four types of licenses:
 
@@ -22,13 +22,13 @@ We offer four types of licenses:
     
 ![Trial License](https://help.kopicloud-ad-api.com/assets/docs/license-trial.png){ align=left }
 
-To get a trial license, login to [KopiCloud AD API Website](https://www.kopicloud-ad-api.com/Identity/Account/Login) with your account or create a new account.
+To get a trial license, log in to [KopiCloud AD API Website](https://www.kopicloud-ad-api.com/Identity/Account/Login) with your account or create a new account.
 
-Go to the **Settings** page, click on the **Trial** menu, enter your name and company, and click on the **Generate Trial** button.
+Go to the **Settings** page, click the **Trial** menu, enter your name and company, and click the **Generate Trial** button.
 
-> Note #1: there is a limit on the number of trial licenses that you can generate
+> Note #1: there is a limit on the number of trial licenses you can generate.
 
-> Note #2: the trial starts when you activate your license
+> Note #2: the trial starts when you activate your license.
 
 -----
 
@@ -76,7 +76,7 @@ Updates include hotfixes, or application improvements, such as new features. You
 
 **FREE technical support by e-mail** is included with all licenses purchased during business days. Optionally, you can report issues [here](https://www.kopicloud-ad-api.com/Feature).
 
-You can [contact our consulting service](https://www.kopicloud-ad-api.com/consulting) if you need help integrating the API in your environment.
+We also offer a [paid consulting service](https://www.kopicloud-ad-api.com/consulting) to help deploy the API in hours or integrate the API into your environment if needed.
 
 ----
 
@@ -104,9 +104,9 @@ You must purchase a perpetual license if you need to run our API in an environme
 
 ![Refund](https://help.kopicloud-ad-api.com/assets/docs/license-refund.png){ align=left }
 
-We provide a trial version to let you evaluate the product to ensure it meets your needs prior to making a purchase. If you need any assistance or have questions during the trial we are here to help.
+We provide a trial version to let you evaluate the product to ensure it meets your needs before making a purchase. If you need any assistance or have questions during the trial, we are here to help.
 
-After purchase and you have an issue or are not satisfied please contact support, we can help you to resolve any issue with the product.
+After purchase, if you have an issue or are unsatisfied, please contact support; we can help you resolve any problem with the product.
 
 We cannot offer refunds at this moment, so please start with the monthly subscription. You can always cancel every month if you are unsure.
 
@@ -118,7 +118,7 @@ You can upgrade your license from a monthly to a yearly subscription or perpetua
 
 ![Marketplace](https://help.kopicloud-ad-api.com/assets/docs/license-marketplace.png){ align=left }
 
-We are offering the option to deploy and purchase **KopiCloud AD API** in cloud provider marketplaces.
+We offer the option to deploy and purchase **KopiCloud AD API** in cloud provider marketplaces.
 
 You can choose **BYO license** (Bring Your Own License) to use the license purchase at the KopiCloud AD API Store or **purchase the license from the cloud provider** (billed by your cloud provider).
 
