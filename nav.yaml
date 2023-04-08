@@ -5,7 +5,7 @@ nav:
   - Setup:
     - Requirements: setup/requirements.md
     - Compatibility: setup/compatibility.md
-    #- Install API: setup/install-api.md
+    - Install API: setup/install-api.md
     #- Unatended Install: setup/unattended-install-api.md
     #- One-Click Deployment: setup/one-click-deployments.md
 
