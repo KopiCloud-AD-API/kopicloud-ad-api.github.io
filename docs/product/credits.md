@@ -6,13 +6,13 @@ date: 2023-03-25
 
 # Credits
 
-The beginnings of **KopiCloud AD API** go back to the year 2014, and the finished release is the effort of a small team of developers, engineers, and designers over the last five years of work.
+The beginnings of **KopiCloud AD API** go back to 2014, and our public release is the effort of a small team of developers, engineers, and designers from December 2020 to Abril 2023.
 
 ----
 
 ## The Team
 
-This is the team that over the last few years completed the API and the Terraform provider:
+This is the team that, over the last few years, completed the API and the Terraform provider:
 
 - Project Management: Guillermo
 
