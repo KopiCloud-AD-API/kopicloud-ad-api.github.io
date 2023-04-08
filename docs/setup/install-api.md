@@ -1,10 +1,10 @@
 ---
-title: Installing KopiCloud AD API
-description: Install KopiCloud AD API Server
+title: Installing the KopiCloud AD API
+description: Installing the KopiCloud AD API
 date: 2023-04-08
 ---
 
-# Installing KopiCloud AD API Setup
+# Installing the KopiCloud AD API
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
 Installing and configuring the KopiCloud AD API on your server
