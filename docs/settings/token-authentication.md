@@ -11,6 +11,8 @@ By default, **Token Authentication** is enabled.
 
 This article explains how to Check the Status, Enable, or Disable KopiCloud AD API Token Authentication.
 
+Token Authentication settings are managed by the file C**:\KopiCloud-AD-API\appsettings.json**.
+
 ----
 
 ## Check Status

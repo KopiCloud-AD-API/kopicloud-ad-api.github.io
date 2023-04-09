@@ -60,9 +60,16 @@ nav:
     - Access Matrix: security/matrix.md
     
   - Settings:
+    - DNS Configuration: settings/dns-config.md
     - Security Group Access: settings/security.md
+    - Service Account: settings/service-account.md
     - Token Authentication: settings/token-authentication.md     
-    - Windows Event Log: settings/logging.md     
+    - Windows Event Log: settings/logging.md
+
+  - Troubleshooting:
+    - Cannot Login: troubleshooting/cannot-login.md
+    - IIS Issues: troubleshooting/iis-issues.md
+    - SQL Issues: troubleshooting/sql-issues.md
 
   - Product:
     #- FAQ: product/faq.md

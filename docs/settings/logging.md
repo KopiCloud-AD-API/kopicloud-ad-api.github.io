@@ -11,6 +11,8 @@ By default, writing events to Windows Event Viewer is **enabled**.
 
 This article explains enabling or disabling writing events to Windows Event Viewer.
 
+Logging settings are managed by the file C**:\KopiCloud-AD-API\appsettings.json**.
+
 ----
 
 ## DisableLogToEventViewer

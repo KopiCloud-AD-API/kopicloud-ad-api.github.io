@@ -11,6 +11,8 @@ By default, AD security groups access is disabled.
 
 This article explains how to use AD security groups to provide access to specific features of KopiCloud AD API. For details, check the Security section.
 
+Security Access settings are managed by the file C**:\KopiCloud-AD-API\appsettings.json**.
+
 ----
 
 ## APIAuthenticationGroup
