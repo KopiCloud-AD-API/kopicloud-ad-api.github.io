@@ -66,6 +66,5 @@ Click on the IP Address tab to check the correct IP Addresses are Active and Ena
 
 ----
 
-> **Note:** Check the [A network-related or instance-specific error occurred while establishing a connection to SQL Server]
-(https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/connect/network-related-or-instance-specific-error-occurred-while-establishing-connection) support documentation if you still have SQL connection issues.
+> **Note:** Check the [A network-related or instance-specific error occurred while establishing a connection to SQL Server](https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/connect/network-related-or-instance-specific-error-occurred-while-establishing-connection) support documentation if you still have SQL connection issues.
 
