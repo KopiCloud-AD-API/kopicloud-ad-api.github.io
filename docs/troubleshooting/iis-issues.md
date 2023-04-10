@@ -7,7 +7,7 @@ date: 2023-04-09
 # Troubleshooting IIS Issues
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-This article explains how to troubleshooting Internet Information Services (IIS) errors.
+This article explains how to troubleshoot Internet Information Services (IIS) errors.
 
 ----
 
@@ -26,12 +26,12 @@ This error is caused by a lack of permission or by a physical path that doesn't 
 
 **Solution #1:**
 
-Add the local user IIS_IUSRS and the AD Domain Service Account user (for example: apisvc) to the NTFS permissions of the folder **C:\KopiCloud-AD-API**.
+Add the local user IIS_IUSRS and the AD Domain Service Account user (for example apisvc) to the NTFS permissions of the folder **C:\KopiCloud-AD-API**.
 
 
 **Solution #2:
 
-There is a reference in the web.config of the IIS to missing component.
+There is a reference in the web.config of the IIS to a missing component.
 
 Make a copy of your file **C:\KopiCloud-AD-API\web.config** and replace it with the code below:
 
@@ -56,7 +56,6 @@ Make a copy of your file **C:\KopiCloud-AD-API\web.config** and replace it with 
   </system.webServer>
 </configuration>
 ```
-
 
 ----
 
