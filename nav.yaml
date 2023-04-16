@@ -9,6 +9,7 @@ nav:
     - Setup Tool: setup/setup-tool.md
     - Setup Config Tool: setup/setup-config-tool.md
     - Setup Configuration File: setup/setup-configuration-file.md
+    - Running in AWS: setup/setup-aws.md
     #- Unatended Install: setup/unattended-install-api.md
     #- One-Click Deployment: setup/one-click-deployments.md
 
