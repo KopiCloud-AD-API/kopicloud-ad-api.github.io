@@ -7,7 +7,7 @@ date: 2023-03-19
 # Getting Started with KopiCloud AD API
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-- Get a **free trial license**
+- Get a **free trial license** (no credit card required)
 
 - Deploy a **KopiCloud AD API** server
 
