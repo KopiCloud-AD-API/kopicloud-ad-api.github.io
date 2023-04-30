@@ -44,7 +44,7 @@ So, why do you need to use KopiCloud Active Directory API?
 
     ---
 
-    Create service accounts in AD, create DNS records, clean up orphan machine accounts in AD after a Terraform destroy, reset user passwords, and more.
+    Create service accounts in AD, create DNS records, create AD Users, create AD Groups, create AD Organization Unit, reset AD User passwords, and more.
 
 
 
