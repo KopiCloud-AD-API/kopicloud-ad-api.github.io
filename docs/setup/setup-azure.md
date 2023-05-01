@@ -33,9 +33,13 @@ Scripts to setting up the KopiCloud AD API:
 
 6) Run the **KopiCloud AD API Config tool** located in the folder C:\KopiCloud-AD-API-Config
 
+----
+
 ## Deploying in Azure using Terraform
 
 Coming soon!
+
+----
 
 ## Deploying in Azure using the Azure Marketplace
 
