@@ -6,12 +6,13 @@ nav:
     - Requirements: setup/requirements.md
     - Compatibility: setup/compatibility.md
     - Installing the API: setup/install-api.md
-    - Setup Tool: setup/setup-tool.md
     - Setup Config Tool: setup/setup-config-tool.md
     - Setup Configuration File: setup/setup-configuration-file.md
-    - Running in AWS: setup/setup-aws.md
-    #- Unatended Install: setup/unattended-install-api.md
-    #- One-Click Deployment: setup/one-click-deployments.md
+    - Deploy API in Windows: setup/setup-windows.md
+    - Deploy API in AWS: setup/setup-aws.md
+    - Deploy API in Azure: setup/setup-azure.md
+    - Deploy API in GCP: setup/setup-gcp.md
+    - Deploy API in OCI: setup/setup-oci.md
 
   - Interfaces:
     - API: api/api.md
