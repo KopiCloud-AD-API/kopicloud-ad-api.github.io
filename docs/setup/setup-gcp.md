@@ -45,7 +45,26 @@ Scripts to setting up the KopiCloud AD API:
 
 ## Deploying in GCP using Terraform
 
-Coming soon!
+To deploy an AWS EC2 Instance with KopiCloud AD API using Terraform, check the repos listed below:
+
+Windows Server 2019/SQL Server 2019 Express, use this [repo](https://github.com/KopiCloud-AD-API/terraform-gcp-kopicloud-ad-api-instance-win2019)
+
+Windows Server 2022/SQL Server 2022 Express, use this [repo](https://github.com/KopiCloud-AD-API/terraform-gcp-kopicloud-ad-api-instance-win2022)
+
+### Network Configuration
+
+The code will create the network resources (VCP, and Subnet).
+
+### Notes
+
+- By default, the download and installation of **SQL Server Management Studio** is disabled because it will take lots of time.
+
+- To get the credentials, login to GCP console and reset the password.
+
+### Configuring Google Cloud Credentials
+
+Please read **How to Create a Service Account for Terraform in GCP (Google Cloud Platform)** to configure your GCP credentials.
+https://medium.com/@gmusumeci/how-to-create-a-service-account-for-terraform-in-gcp-google-cloud-platform-f75a0cf918d1
 
 ----
 
