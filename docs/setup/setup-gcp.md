@@ -45,7 +45,7 @@ Scripts to setting up the KopiCloud AD API:
 
 ## Deploying in GCP using Terraform
 
-To deploy an AWS EC2 Instance with KopiCloud AD API using Terraform, check the repos listed below:
+To deploy a GCP Virtual Machine with KopiCloud AD API using Terraform, check the repos listed below:
 
 Windows Server 2019/SQL Server 2019 Express, use this [repo](https://github.com/KopiCloud-AD-API/terraform-gcp-kopicloud-ad-api-instance-win2019)
 
