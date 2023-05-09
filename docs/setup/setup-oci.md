@@ -69,5 +69,5 @@ api_public_ip = "xxx.xxx.xxx.xxx"
 
 ### Configuring Oracle Cloud Credentials
 
-Please read **How to Configure the Terraform Provider for OCI (Oracle Cloud Infrastructure) with API Key Authentication**
+Please read **How to Configure the Terraform Provider for OCI (Oracle Cloud Infrastructure) with API Key Authentication** to configure your OCI credentials.
 https://medium.com/@gmusumeci/how-to-configure-the-terraform-provider-for-oci-oracle-cloud-infrastructure-with-api-key-756b368647b1
