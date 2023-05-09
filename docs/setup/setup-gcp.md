@@ -1,7 +1,7 @@
 ---
 title: Deploying KopiCloud AD API in GCP
 description: Deploying KopiCloud AD API in GCP
-date: 2023–05-01
+date: 2023–05-10
 ---
 
 # Deploying KopiCloud AD API in GCP
