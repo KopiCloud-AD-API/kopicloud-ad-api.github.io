@@ -1,7 +1,7 @@
 ---
 title: Deploying KopiCloud AD API in OCI
 description: Deploying KopiCloud AD API in OCI
-date: 2023–05-01
+date: 2023–05-09
 ---
 
 # Deploying KopiCloud AD API in OCI
@@ -45,4 +45,29 @@ Scripts to setting up the KopiCloud AD API:
 
 ## Deploying in OCI using Terraform
 
-Coming soon!
+To deploy an AWS EC2 Instance with KopiCloud AD API using Terraform, check the repos listed below:
+
+Windows Server 2019/SQL Server 2019 Express, use this [repo](https://github.com/KopiCloud-AD-API/terraform-oci-kopicloud-ad-api-instance-win2019)
+
+Windows Server 2022/SQL Server 2022 Express, use this [repo](https://github.com/KopiCloud-AD-API/terraform-oci-kopicloud-ad-api-instance-win2022)
+
+### Network Configuration
+
+The code will create the network resources (VCN, Subnet, Internet Gateway, Routes).
+
+### Notes
+
+- By default, the download and installation of **SQL Server Management Studio** is disabled because it will take lots of time.
+
+- The default Windows username is **opc**, and get the password from the Terraform output.
+
+```
+api_admin_password = "B21AqTpHlai[5"
+api_admin_user = "opc"
+api_public_ip = "xxx.xxx.xxx.xxx"
+```
+
+### Configuring Oracle Cloud Credentials
+
+Please read **How to Configure the Terraform Provider for OCI (Oracle Cloud Infrastructure) with API Key Authentication**
+https://medium.com/@gmusumeci/how-to-configure-the-terraform-provider-for-oci-oracle-cloud-infrastructure-with-api-key-756b368647b1
