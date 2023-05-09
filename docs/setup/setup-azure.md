@@ -45,7 +45,26 @@ Scripts to setting up the KopiCloud AD API:
 
 ## Deploying in Azure using Terraform
 
-Coming soon!
+To deploy an Azure Virtual Machine with KopiCloud AD API using Terraform, check the repos listed below:
+
+Windows Server 2019/SQL Server 2019 Express, use this [repo](https://github.com/KopiCloud-AD-API/terraform-azure-kopicloud-ad-api-instance-win2019)
+
+Windows Server 2022/SQL Server 2022 Express, use this [repo](https://github.com/KopiCloud-AD-API/terraform-azure-kopicloud-ad-api-instance-win2022)
+
+### Network Configuration
+
+The code will create the network resources (Resource Group, VNET, Subnet).
+
+### Notes
+
+- By default, the download and installation of **SQL Server Management Studio** is disabled because it will take lots of time.
+
+- The default Windows username and password are managed by the **terraform.tfvars** file.
+
+### Configuring Azure Credentials
+
+Please read **Getting Started with Terraform and Microsoft Azure - Section #6** to configure your Azure credentials:
+https://medium.com/@gmusumeci/getting-started-with-terraform-and-microsoft-azure-a2fcb690eb67
 
 ----
 
