@@ -63,9 +63,7 @@ The code will create the network resources (Resource Group, VNET, Subnet).
 
 ### Configuring Azure Credentials
 
-Please read **Getting Started with Terraform and Microsoft Azure - Section #6** to configure your Azure credentials:
-
-https://medium.com/@gmusumeci/getting-started-with-terraform-and-microsoft-azure-a2fcb690eb67
+Please read **[Getting Started with Terraform and Microsoft Azure - Section #6](https://medium.com/@gmusumeci/getting-started-with-terraform-and-microsoft-azure-a2fcb690eb67)** to configure your Azure credentials.
 
 ----
 
