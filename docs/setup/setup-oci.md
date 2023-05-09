@@ -1,7 +1,7 @@
 ---
 title: Deploying KopiCloud AD API in OCI
 description: Deploying KopiCloud AD API in OCI
-date: 2023–05-09
+date: 2023–05-10
 ---
 
 # Deploying KopiCloud AD API in OCI
@@ -43,7 +43,7 @@ Scripts to setting up the KopiCloud AD API:
 
 ----
 
-## Deploying in OCI using Terraform
+## Deploying the API in OCI using Terraform
 
 To deploy an AWS EC2 Instance with KopiCloud AD API using Terraform, check the repos listed below:
 
