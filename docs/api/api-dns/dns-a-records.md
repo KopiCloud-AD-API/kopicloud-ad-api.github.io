@@ -1,7 +1,7 @@
 ---
 title: DNS A Records API Methods
 description: Manage Microsoft DNS A Records with KopiCloud AD API
-date: 2023-03-02
+date: 2023-05-15
 ---
 
 # Manage DNS A Records with KopiCloud AD API
@@ -95,7 +95,7 @@ Manage Microsoft DNS A Records using the KopiCloud AD API.
 
 ----
 
-## List All DNS AAAA Records that match with IP Address
+## List All DNS A Records that match with IP Address
 <span class="btn-get">GET</span> /api/DnsARecord/IPAddress/{IP_Address}
 
 **Parameters**

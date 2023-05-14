@@ -1,7 +1,7 @@
 ---
 title: DNS CNAME Records API Methods
 description: Manage Microsoft DNS CNAME Records with KopiCloud AD API
-date: 2023-03-01
+date: 2023-05-15
 ---
 
 # Manage DNS CNAME Records with KopiCloud AD API
@@ -187,7 +187,7 @@ Manage Microsoft DNS CNAME Records using the KopiCloud AD API.
 
 ----
 
-## Delete a DNS A Record
+## Delete a DNS CNAME Record
 <span class="btn-delete">DELETE</span> /api/DnsCNameRecord
 
 **Parameters**

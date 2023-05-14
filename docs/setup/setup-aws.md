@@ -97,19 +97,3 @@ And set the variable **api_associate_public_ip_address** to false.
 
 Please read **[How to create an IAM account and configure Terraform to use AWS static credentials](https://medium.com/@gmusumeci/how-to-create-an-iam-account-and-configure-terraform-to-use-aws-static-credentials-a8ea4dd4fdfc)** to configure your AWS credentials.
 
-----
-
-## Deploying in AWS using the AWS Marketplace
-
-Deploy an AWS EC2 Instance from the AWS Marketplace image.
-
-Generate a license at https://www.kopicloud-ad-api.com/get-license
-
-When the machine is ready, retrieve your initial administrator password using the AWS CLI or AWS Console.
-
-Log in to the EC2 Instance using the default Windows username (Administrator), and the password retrieved in the previous step.
-
-Join the EC2 Instance to the AD Domain that we will manage using the API and restart the machine.
-
-Run the **KopiCloud AD API Config tool** located in the folder **C:\KopiCloud-AD-API-Config** to finish the setup of the API.
-

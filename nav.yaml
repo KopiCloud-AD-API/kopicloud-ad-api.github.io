@@ -8,11 +8,12 @@ nav:
     - Installing the API: setup/install-api.md
     - Setup Config Tool: setup/setup-config-tool.md
     - Setup Configuration File: setup/setup-configuration-file.md
-    - Deploy API in Windows: setup/setup-windows.md
-    - Deploy API in AWS: setup/setup-aws.md
-    - Deploy API in Azure: setup/setup-azure.md
-    - Deploy API in GCP: setup/setup-gcp.md
-    - Deploy API in OCI: setup/setup-oci.md
+    - Deploy Windows Machine: setup/setup-windows.md
+    - Deploy AWS Machine: setup/setup-aws.md
+    #- Deploy AWS Marketplace: setup/setup-aws-marketplace.md
+    - Deploy Azure Machine: setup/setup-azure.md
+    - Deploy GCP Machine: setup/setup-gcp.md
+    - Deploy OCI Machine: setup/setup-oci.md
 
   - Interfaces:
     - API: api/api.md
@@ -76,7 +77,6 @@ nav:
     - SQL Issues: troubleshooting/sql-issues.md
 
   - Product:
-    #- FAQ: product/faq.md
     - Versions: product/versions.md
     - Licensing: product/licensing.md
     - Change Log: product/changelog.md

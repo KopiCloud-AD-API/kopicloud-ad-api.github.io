@@ -1,7 +1,7 @@
 ---
 title: DNS AAAA Records API Methods
 description: Manage Microsoft DNS AAAA Records with KopiCloud AD API
-date: 2023-03-02
+date: 2023-05-15
 ---
 
 # Manage DNS AAAA Records with KopiCloud AD API
@@ -186,7 +186,7 @@ Manage Microsoft DNS AAAA Records using the KopiCloud AD API.
 
 ----
 
-## Delete a DNS A Record
+## Delete a DNS AAAA Record
 <span class="btn-delete">DELETE</span> /api/DnsAAAARecord
 
 

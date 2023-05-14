@@ -68,9 +68,3 @@ The code will create the network resources (VCP, and Subnet).
 ## Configuring Google Cloud Credentials for Terraform
 
 Please read **[How to Create a Service Account for Terraform in GCP (Google Cloud Platform)](https://medium.com/@gmusumeci/how-to-create-a-service-account-for-terraform-in-gcp-google-cloud-platform-f75a0cf918d1)** to configure your GCP credentials.
-
-----
-
-## Deploying in GCP using the GCP Marketplace
-
-Coming soon!
