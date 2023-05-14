@@ -1,7 +1,7 @@
 ---
 title: Deploying KopiCloud AD API in Azure
 description: Deploying KopiCloud AD API in Azure
-date: 2023–05-01
+date: 2023–05-14
 ---
 
 # Deploying KopiCloud AD API in Azure
@@ -19,7 +19,9 @@ Explore options for running KopiCloud AD API in Microsoft Azure
 
 3. Join the machine to the AD Domain to manage using the API
 
-4. Run the **KopiCloud AD API Config tool** located in the folder **C:\KopiCloud-AD-API-Config**
+4. Create a Service Account with Domain Administrators permissions for the KopiCloud AD API.
+
+5. Run the **KopiCloud AD API Config tool** located in the folder **C:\KopiCloud-AD-API-Config**
 
 ----
 
@@ -61,7 +63,9 @@ The code will create the network resources (Resource Group, VNET, Subnet).
 
 - The default Windows username and password are managed by the **terraform.tfvars** file.
 
-### Configuring Azure Credentials
+----
+
+## Configuring Azure Credentials for Terraform
 
 Please read **[Getting Started with Terraform and Microsoft Azure - Section #6](https://medium.com/@gmusumeci/getting-started-with-terraform-and-microsoft-azure-a2fcb690eb67)** to configure your Azure credentials.
 

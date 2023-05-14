@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 description: Getting Started with KopiCloud AD API
-date: 2023-03-19
+date: 2023-05-14
 ---
 
 # Getting Started with KopiCloud AD API
@@ -106,7 +106,7 @@ If you are busy or need help with the integration between your applications and 
 ![Terraform](https://www.kopicloud-ad-api.com/images/consulting/terraform.png){ align=left }
 
 - Write Terraform code to automate any Active Directory and DNS tasks in AWS, Azure, GCP, OCI, and VMware vSphere.
-- Create a custom Terraform provider for **KopiCloud AD API** or update/extended the existing Terraform provider.
+- Create a custom Terraform provider for **KopiCloud AD API** or update/extend the existing Terraform provider.
 <br /><br />
 
 **Scripting Development**

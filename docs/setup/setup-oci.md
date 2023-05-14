@@ -1,7 +1,7 @@
 ---
 title: Deploying KopiCloud AD API in OCI
 description: Deploying KopiCloud AD API in OCI
-date: 2023–05-10
+date: 2023–05-14
 ---
 
 # Deploying KopiCloud AD API in OCI
@@ -19,7 +19,9 @@ Explore options for running KopiCloud AD API in Oracle Cloud Infrastructure (OCI
 
 3. Join the machine to the AD Domain to manage using the API
 
-4. Run the **KopiCloud AD API Config tool** located in the folder **C:\KopiCloud-AD-API-Config**
+4. Create a Service Account with Domain Administrators permissions for the KopiCloud AD API.
+
+5. Run the **KopiCloud AD API Config tool** located in the folder **C:\KopiCloud-AD-API-Config**
 
 ----
 
@@ -67,6 +69,8 @@ api_admin_user = "opc"
 api_public_ip = "xxx.xxx.xxx.xxx"
 ```
 
-### Configuring Oracle Cloud Credentials
+----
+
+## Configuring OCI Credentials for Terraform
 
 Please read **[How to Configure the Terraform Provider for OCI (Oracle Cloud Infrastructure) with API Key Authentication](https://medium.com/@gmusumeci/how-to-configure-the-terraform-provider-for-oci-oracle-cloud-infrastructure-with-api-key-756b368647b1)** to configure your OCI credentials.
