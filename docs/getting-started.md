@@ -42,15 +42,17 @@ You have 3 options to deploy your **KopiCloud AD API** server:
 
 1) Search for **KopiCloud AD API** in the MarketPlace of your Cloud Provider
 
-2) Download the Setup and install **KopiCloud AD API** in your server
+![AWS Marketplace](https://help.kopicloud-ad-api.com/assets/aws-marketplace/kopicloud-aws-marketplace.png)
 
-Visit the [Download](https://www.kopicloud-ad-api.com/download) page to download the Setup application.
+2) Download the Setup Scripts and install **KopiCloud AD API** in your server
+
+Visit the [Download](https://www.kopicloud-ad-api.com/download) page to download the Setup scripts.
 
 Execute the Setup application to install and configure your machine.
 
-Join the machine to your AD domain.
+3) Check our Terraform scripts to create full deployments in Azure, AWS, GCP, and OCI.
 
-3) Coming soon: we will provide Terraform scripts to create full unattended deployments in Azure, AWS, GCP, OCI, and VMware.
+Visit the [Download](https://www.kopicloud-ad-api.com/download) page to download the Terraform scripts.
 
 ----
 
