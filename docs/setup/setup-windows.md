@@ -1,7 +1,7 @@
 ---
 title: Deploying KopiCloud AD API in Windows Servers
 description: Deploying KopiCloud AD API in Windows Servers
-date: 2023–05-01
+date: 2023–05-15
 ---
 
 # Deploying KopiCloud AD API in Windows Servers
@@ -19,7 +19,9 @@ Explore options for running KopiCloud AD API in Windows Servers
 
 3. Join the machine to the AD Domain to manage using the API
 
-4. Run the **KopiCloud AD API Config tool** located in the folder **C:\KopiCloud-AD-API-Config**
+4. Create a Service Account with Domain Administrators permissions for the KopiCloud AD API.
+
+5. Run the **KopiCloud AD API Config tool** located in the folder **C:\KopiCloud-AD-API-Config**
 
 ----
 

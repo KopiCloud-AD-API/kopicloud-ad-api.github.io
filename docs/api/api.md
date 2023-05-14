@@ -1,7 +1,7 @@
 ---
 title: KopiCloud AD API
 description: KopiCloud AD API
-date: 2023-02-28
+date: 2023-05-15
 ---
 
 # KopiCloud AD API
@@ -15,7 +15,7 @@ The API can be consumed by making API calls from:
 
 - Scripting languages such as PowerShell or Bash.
 
-- From the [Swagger UI](swagger-ui.md).
+- From the [Swagger UI](../authentication/swagger-authentication.md).
 
 - Using our [Terraform Provider](../terraform/terraform.md).
 
@@ -77,6 +77,6 @@ If your token is invalid or expired, the API call will fail, and you will receiv
 
 You need to install a license of KopiCloud AD API before you can make API calls or use the Terraform Provider.
 
-Get a free trial license [here](https://www.kopicloud-ad-api.com/trial).
+Get a free trial license [here](https://www.kopicloud-ad-api.com/get-license).
 
 If your license is invalid or expired, the API call will fail, and you will receive a **403 response code**.

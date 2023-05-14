@@ -1,7 +1,7 @@
 ---
 title: Installing the KopiCloud AD API
 description: Installing the KopiCloud AD API
-date: 2023-05-14
+date: 2023-05-15
 ---
 
 # Installing the KopiCloud AD API
@@ -40,4 +40,4 @@ The process of the installing the API requires three steps:
 
 2) After the machine is deployed, join the machine to the Active Directory you want to manage and restart the machine.
 
-3) Log into the API machine with a domain administrator account, and run the [**KopiCloudConfig.exe**](setup-config.md) configuration tool.
+3) Log into the API machine with a domain administrator account, and run the [**KopiCloudConfig.exe**](setup-config-tool.md) configuration tool.
