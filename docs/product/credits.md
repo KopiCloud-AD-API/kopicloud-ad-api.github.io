@@ -1,12 +1,12 @@
 ---
 title: Credits
 description: Credits and Attributions
-date: 2023-03-25
+date: 2023-05-14
 ---
 
 # Credits
 
-The beginnings of **KopiCloud AD API** go back to 2014, and our public release is the effort of a small team of developers, engineers, and designers from December 2020 to Abril 2023.
+The beginnings of **KopiCloud AD API** go back to 2014, and our public release is the effort of a small team of developers, engineers, and designers from December 2020 to May 2023.
 
 ----
 

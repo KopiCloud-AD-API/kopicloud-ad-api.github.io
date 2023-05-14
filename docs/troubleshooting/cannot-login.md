@@ -1,7 +1,7 @@
 ---
 title: Cannot Log in to the Portal Troubleshooting
 description: Cannot Log in to the Portal Troubleshooting
-date: 2023-04-09
+date: 2023-05-14
 ---
 
 # Troubleshooting: Cannot Log In to the KopiCloud AD API Portal
@@ -15,7 +15,9 @@ This article explains how to troubleshoot logging in to the KopiCloud AD API Por
 
 Common causes of log-in issues:
 
-- The server running KopiCloud AD API is NOT part of the Active Directory domain.
+- You are trying to log in with the API Service Account. For security reasons, logging in with the service account is NOT allowed.
+
+- The KopiCloud AD API server is NOT part of the Active Directory domain.
 
 - The user is NOT a member of the Active Directory domain admins or [KopiCloud AD API authentication groups](../security/matrix.md).
 

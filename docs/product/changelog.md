@@ -1,7 +1,7 @@
 ---
 title: KopiCloud AD API Change Log
 description: KopiCloud AD API Change Log
-date: 2023-04-08
+date: 2023-05-14
 ---
 
 # Change Log
@@ -46,7 +46,7 @@ API Initial Release
 
 ## KopiCloud AD Terraform Provider Change Log
 
-### v1.0.0 - April 2023
+### v1.0.0 - May 2023
 
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 

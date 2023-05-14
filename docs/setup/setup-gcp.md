@@ -1,7 +1,7 @@
 ---
 title: Deploying KopiCloud AD API in GCP
 description: Deploying KopiCloud AD API in GCP
-date: 2023–05-10
+date: 2023–05-15
 ---
 
 # Deploying KopiCloud AD API in GCP
@@ -63,7 +63,9 @@ The code will create the network resources (VCP, and Subnet).
 
 - To get the credentials, login to GCP console and reset the password.
 
-### Configuring Google Cloud Credentials
+----
+
+## Configuring Google Cloud Credentials for Terraform
 
 Please read **[How to Create a Service Account for Terraform in GCP (Google Cloud Platform)](https://medium.com/@gmusumeci/how-to-create-a-service-account-for-terraform-in-gcp-google-cloud-platform-f75a0cf918d1)** to configure your GCP credentials.
 

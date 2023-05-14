@@ -1,7 +1,7 @@
 ---
 title: Deploying KopiCloud AD API in AWS
 description: Deploying KopiCloud AD API in AWS
-date: 2023–05-01
+date: 2023–05-15
 ---
 
 # Deploying KopiCloud AD API in AWS
@@ -90,6 +90,12 @@ And set the variable **api_associate_public_ip_address** to false.
 - By default, the download and installation of **SQL Server Management Studio** is disabled because it will take lots of time.
 
 - The default Windows username is **Administrator**, and get the password from the AWS Console.
+
+----
+
+## Configuring AWS Credentials for Terraform
+
+Please read **[How to create an IAM account and configure Terraform to use AWS static credentials](https://medium.com/@gmusumeci/how-to-create-an-iam-account-and-configure-terraform-to-use-aws-static-credentials-a8ea4dd4fdfc)** to configure your AWS credentials.
 
 ----
 

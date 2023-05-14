@@ -1,17 +1,17 @@
 ---
 title: Configuring Windows Event Logging
 description: Configuring Windows Event Logging
-date: 2023-03-23
+date: 2023-05-14
 ---
 
 # Configuring Windows Event Logging
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-By default, writing events to Windows Event Viewer is **enabled**.
+By default, writing events to Windows Event Viewer is **disabled**.
 
 This article explains enabling or disabling writing events to Windows Event Viewer.
 
-Logging settings are managed by the file C**:\KopiCloud-AD-API\appsettings.json**.
+Logging settings are managed by the file **C:\KopiCloud-AD-API\appsettings.json**.
 
 ----
 
@@ -19,18 +19,18 @@ Logging settings are managed by the file C**:\KopiCloud-AD-API\appsettings.json*
 
 The **DisableLogToEventViewer** setting manages writing events to Windows Event Viewer.
 
-Open the **appsettings.json** file located on the root of the KopiCloud AD API folder (by default, is C:\KopiCloud-AD-API).
+Open the **appsettings.json** file located on the root of the KopiCloud AD API folder (C:\KopiCloud-AD-API).
 
 > Writing events to Windows Event Viewer Enabled
 
 ```
-"DisableLogToEventViewer": false"
+"DisableLogToEventViewer: false"
 ```
 
 > Writing events to Windows Event Viewer Disabled
 
 ```
-"APIADAuthenticationGroup": ""
+"DisableLogToEventViewer: true"
 ```
 
 Save the file.
