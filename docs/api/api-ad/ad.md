@@ -1,5 +1,5 @@
 ---
-title: AD API
+title: AD API Methods
 description: Manage Microsoft AD with KopiCloud AD API
 date: 2023-05-15
 ---

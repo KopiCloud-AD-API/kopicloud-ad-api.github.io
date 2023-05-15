@@ -1,7 +1,7 @@
 ---
 title: DNS with Terraform
 description: Manage Microsoft DNS with Terraform
-date: 2023-03-01
+date: 2023-05-15
 ---
 
 # DNS with Terraform
@@ -15,15 +15,16 @@ Manage Microsoft DNS Records and DNS Zones using the KopiCloud AD Terraform Prov
 
 The provider includes **Terraform Resources** to manipulate DNS Records and DNS Zones:
 
-- Create and remove DNS A Records
 
-- Create and remove DNS AAAA Records
+- ```ad_kopicloud_dns_a_record``` - Create and remove DNS A Records
 
-- Create and remove DNS CNAME Records
+- ```ad_kopicloud_dns_aaaa_record``` - Create and remove DNS AAAA Records
 
-- Create and remove DNS Loopkup Zones
+- ```ad_kopicloud_dns_cname_record``` - Create and remove DNS CNAME Records
 
-- Create and remove DNS Reverse Loopkup Zones
+- ```ad_kopicloud_dns_lookup_zone``` - Create and remove DNS Loopkup Zones
+
+- ```ad_kopicloud_dns_reverse_lookup_zone``` - Create and remove DNS Reverse Loopkup Zones
 
 ----
 
@@ -31,14 +32,15 @@ The provider includes **Terraform Resources** to manipulate DNS Records and DNS 
 
 The provider includes **Terraform Data Sources** to list existing DNS Records and DNS Zones:
 
-- List DNS A Records
+- ```ad_kopicloud_dns_a_records_list``` - List DNS A Records
 
-- List DNS AAAA Records
+- ```ad_kopicloud_dns_aaaa_records_list``` - List DNS AAAA Records
 
-- List DNS CNAME Records
+- ```ad_kopicloud_dns_cname_records_list``` - List DNS CNAME Records
 
-- List All DNS Zones
+- ```ad_kopicloud_dns_zone_list``` - List All DNS Zones
 
-- List DNS Loopkup Zones
+- ```ad_kopicloud_dns_lookup_zone_list``` - List DNS Loopkup Zones
 
-- List DNS Reverse Loopkup Zones
+- ```ad_kopicloud_dns_reverse_lookup_zone_list``` - List DNS Reverse Loopkup Zones
+

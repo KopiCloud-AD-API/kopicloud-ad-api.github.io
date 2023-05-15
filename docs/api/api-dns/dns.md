@@ -1,5 +1,5 @@
 ---
-title: DNS API
+title: DNS API Methods
 description: Manage Microsoft DNS with KopiCloud AD API
 date: 2023-03-01
 ---

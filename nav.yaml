@@ -27,6 +27,7 @@ nav:
 
   - API:
     - AD:
+      - AD API Methods: api/api-ad/ad.md
       - AD Computers: api/api-ad/ad-computer.md
       - AD Group: api/api-ad/ad-group.md
       - AD Group Membership: api/api-ad/ad-group-membership.md
@@ -44,6 +45,7 @@ nav:
     
   - Terraform:
     - AD:
+      - AD with Terraform: terraform/terraform-ad/ad.md
       - AD Computers: terraform/terraform-ad/ad-computer.md
       - AD Group: terraform/terraform-ad/ad-group.md
       - AD Group Membership: terraform/terraform-ad/ad-group-membership.md
