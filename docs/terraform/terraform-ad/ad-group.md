@@ -11,64 +11,9 @@ Manage AD Groups in Microsoft Active Directory using the KopiCloud AD API Terraf
 
 ----
 
-## List All AD Groups
+## Resources
 
-Get All AD Groups List:
-
-```
-data "kopicloud_security_group_list" "test_all" { }
-```
-
-Returns All AD Groups List:
-
-```
-output "OUTPUT_security_kopicloud_all_groups" {
-  description = "All AD Groups List"
-  value       = data.kopicloud_security_group_list.test_all
-}
-```
-
-----
-
-## List AD Distribution Groups
-
-Get the List of Distribution Groups:
-
-```
-data "kopicloud_distribution_group_list" "test_distribution" { }
-```
-
-Returns the List of Distribution Groups:
-
-```
-output "OUTPUT_kopicloud_distribution_groups_list" {
-  description = "All Existing Distribution Groups"
-  value       = data.kopicloud_distribution_group_list.test_distribution
-}
-```
-
-----
-
-## List AD Security Groups
-
-Get the List of Security Groups:
-
-```
-data "kopicloud_security_group_list" "test_security" { }
-```
-
-Returns the List of Security Groups:
-
-```
-output "OUTPUT_kopicloud_security_groups_list" {
-  description = "All Existing Security Groups"
-  value       = data.kopicloud_security_group_list.test_security
-}
-```
-
-----
-
-## Create AD Distribution Group
+### Create an AD Distribution Group
 
 Create a Global Distribution Group:
 
@@ -207,6 +152,84 @@ output "OUTPUT_domain_local_security_group" {
   value       = resource.kopicloud_security_group.test_security_domain_local
 }
 ```
+
+----
+
+## List All AD Groups
+
+Get All AD Groups List:
+
+```
+data "kopicloud_security_group_list" "test_all" { }
+```
+
+Returns All AD Groups List:
+
+```
+output "OUTPUT_security_kopicloud_all_groups" {
+  description = "All AD Groups List"
+  value       = data.kopicloud_security_group_list.test_all
+}
+```
+
+----
+
+## List AD Distribution Groups
+
+Get the List of Distribution Groups:
+
+```
+data "kopicloud_distribution_group_list" "test_distribution" { }
+```
+
+Returns the List of Distribution Groups:
+
+```
+output "OUTPUT_kopicloud_distribution_groups_list" {
+  description = "All Existing Distribution Groups"
+  value       = data.kopicloud_distribution_group_list.test_distribution
+}
+```
+
+----
+
+## List AD Security Groups
+
+Get the List of Security Groups:
+
+```
+data "kopicloud_security_group_list" "test_security" { }
+```
+
+Returns the List of Security Groups:
+
+```
+output "OUTPUT_kopicloud_security_groups_list" {
+  description = "All Existing Security Groups"
+  value       = data.kopicloud_security_group_list.test_security
+}
+```
+
+----
+
+## Nested Schema for Result:
+
+Read-Only:
+
+- ```description``` (String) AD Group Description
+
+- ```email``` (String) AD Group Email Address
+
+- ```guid``` (String) AD Group GUID
+
+- ```name``` (String) AD Group Name
+
+- ```ou_path``` (String) AD Group OU Path (Distinguished Name)
+
+- ```scope``` (String) AD Group Scope
+
+- ```type``` (String) AD Group Type
+
 
 ----
 
