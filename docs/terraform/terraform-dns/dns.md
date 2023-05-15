@@ -16,15 +16,15 @@ Manage Microsoft DNS Records and DNS Zones using the KopiCloud AD Terraform Prov
 The provider includes **Terraform Resources** to manipulate DNS Records and DNS Zones:
 
 
-- ```ad_kopicloud_dns_a_record``` - Create and remove DNS A Records
+- ```kopicloud_dns_a_record``` - Create and remove DNS A Records
 
-- ```ad_kopicloud_dns_aaaa_record``` - Create and remove DNS AAAA Records
+- ```kopicloud_dns_aaaa_record``` - Create and remove DNS AAAA Records
 
-- ```ad_kopicloud_dns_cname_record``` - Create and remove DNS CNAME Records
+- ```kopicloud_dns_cname_record``` - Create and remove DNS CNAME Records
 
-- ```ad_kopicloud_dns_lookup_zone``` - Create and remove DNS Loopkup Zones
+- ```kopicloud_dns_lookup_zone``` - Create and remove DNS Lookup Zones
 
-- ```ad_kopicloud_dns_reverse_lookup_zone``` - Create and remove DNS Reverse Loopkup Zones
+- ```kopicloud_dns_reverse_lookup_zone``` - Create and remove DNS Reverse Lookup Zones
 
 ----
 
@@ -32,15 +32,15 @@ The provider includes **Terraform Resources** to manipulate DNS Records and DNS 
 
 The provider includes **Terraform Data Sources** to list existing DNS Records and DNS Zones:
 
-- ```ad_kopicloud_dns_a_records_list``` - List DNS A Records
+- ```kopicloud_dns_a_records_list``` - List DNS A Records
 
-- ```ad_kopicloud_dns_aaaa_records_list``` - List DNS AAAA Records
+- ```kopicloud_dns_aaaa_records_list``` - List DNS AAAA Records
 
-- ```ad_kopicloud_dns_cname_records_list``` - List DNS CNAME Records
+- ```kopicloud_dns_cname_records_list``` - List DNS CNAME Records
 
-- ```ad_kopicloud_dns_zone_list``` - List All DNS Zones
+- ```kopicloud_dns_zone_list``` - List All DNS Zones
 
-- ```ad_kopicloud_dns_lookup_zone_list``` - List DNS Loopkup Zones
+- ```kopicloud_dns_lookup_zone_list``` - List DNS Lookup Zones
 
-- ```ad_kopicloud_dns_reverse_lookup_zone_list``` - List DNS Reverse Loopkup Zones
+- ```kopicloud_dns_reverse_lookup_zone_list``` - List DNS Reverse Lookup Zones
 

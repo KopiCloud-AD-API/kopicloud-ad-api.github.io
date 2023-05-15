@@ -21,9 +21,9 @@ The API help you to manipulate DNS Records and DNS Zones:
 
 - Create and remove DNS CNAME Records
 
-- Create and remove DNS Loopkup Zones
+- Create and remove DNS Lookup Zones
 
-- Create and remove DNS Reverse Loopkup Zones
+- Create and remove DNS Reverse Lookup Zones
 
 ----
 
@@ -39,6 +39,6 @@ The API help you to list existing DNS Records and DNS Zones:
 
 - List All DNS Zones
 
-- List DNS Loopkup Zones
+- List DNS Lookup Zones
 
-- List DNS Reverse Loopkup Zones
+- List DNS Reverse Lookup Zones

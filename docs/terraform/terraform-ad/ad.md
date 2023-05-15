@@ -15,27 +15,27 @@ Manage Microsoft Active Directory using the KopiCloud AD Terraform Provider.
 
 The provider includes **Terraform Resources** to manipulate AD resources:
 
-- ```ad_kopicloud_computer``` - Create, Update, or Destroy an AD Computer
+- ```kopicloud_computer``` - Create, Update, or Destroy an AD Computer
 
-- ```ad_kopicloud_distribution_group``` - Create, Update, or Delete an AD Distribution Group
+- ```kopicloud_distribution_group``` - Create, Update, or Delete an AD Distribution Group
 
-- ```ad_kopicloud_security_group``` - Create, Update, or Delete an AD Security Group
+- ```kopicloud_security_group``` - Create, Update, or Delete an AD Security Group
 
-- ```ad_kopicloud_group_membership``` - Add an AD User to an AD Group
+- ```kopicloud_group_membership``` - Add an AD User to an AD Group
 
-- ```ad_kopicloud_ou``` - Create, Update, or Delete an AD Organization Unit (OU)
+- ```kopicloud_ou``` - Create, Update, or Delete an AD Organization Unit (OU)
 
-- ```ad_kopicloud_user``` - Create, Update, or Delete an AD User
+- ```kopicloud_user``` - Create, Update, or Delete an AD User
 
-- ```ad_kopicloud_user_disable_account``` - Disable an AD User
+- ```kopicloud_user_disable_account``` - Disable an AD User
 
-- ```ad_kopicloud_user_enable_account``` - Enable an AD User
+- ```kopicloud_user_enable_account``` - Enable an AD User
 
-- ```ad_kopicloud_user_password_reset``` - Reset the Password of an AD User
+- ```kopicloud_user_password_reset``` - Reset the Password of an AD User
 
-- ```ad_kopicloud_user_rename_account``` - Rename an AD User
+- ```kopicloud_user_rename_account``` - Rename an AD User
 
-- ```ad_kopicloud_user_unlock_account``` - Unlock an AD User
+- ```kopicloud_user_unlock_account``` - Unlock an AD User
 
 ----
 
@@ -43,17 +43,17 @@ The provider includes **Terraform Resources** to manipulate AD resources:
 
 The provider includes **Terraform Data Sources** to list existing AD resources:
 
-- ```ad_kopicloud_computer_list``` - List AD Computers
+- ```kopicloud_computer_list``` - List AD Computers
 
-- ```ad_kopicloud_distribution_group_list``` - List AD Distribution Groups
+- ```kopicloud_distribution_group_list``` - List AD Distribution Groups
 
-- ```ad_kopicloud_security_group_list``` - List AD Security Groups
+- ```kopicloud_security_group_list``` - List AD Security Groups
 
-- ```ad_kopicloud_group_list``` - List all AD Groups
+- ```kopicloud_group_list``` - List all AD Groups
 
-- ```ad_kopicloud_group_membership_list``` - List AD Groups Associated with an AD Username
+- ```kopicloud_group_membership_list``` - List AD Groups Associated with an AD Username
 
-- ```ad_kopicloud_ou_list``` - List AD Organization Units (OUs)
+- ```kopicloud_ou_list``` - List AD Organization Units (OUs)
 
-- ```ad_kopicloud_user_list``` - List Users in the AD
+- ```kopicloud_user_list``` - List Users in the AD
 
