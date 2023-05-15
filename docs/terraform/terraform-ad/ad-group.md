@@ -36,29 +36,7 @@ output "OUTPUT_global_distribution_group" {
 }
 ```
 
-**Schema**
-
-Required:
-
-- ```description``` (String) AD Group Description
-
-- ```email``` (String) AD Group Email Address
-
-- ```name``` (String) AD Group Name
-
-Optional:
-
-- ```ou_path``` (String) OU Path (Distinguished Name)
-
-- ```scope``` (String) AD Group Scope, possible values are Global, Universal or Domain_Local. Default is Global
-
-Read-Only:
-
-- ```id``` (String) The ID of this Resource
-
-- ```result``` (List of Objects) Single AD Group (see below for nested schema)
-
-----
+---
 
 Create a Universal Distribution Group:
 
@@ -81,29 +59,7 @@ output "OUTPUT_universal_distribution_group" {
 }
 ```
 
-**Schema**
-
-Required:
-
-- ```description``` (String) AD Group Description
-
-- ```email``` (String) AD Group Email Address
-
-- ```name``` (String) AD Group Name
-
-Optional:
-
-- ```ou_path``` (String) OU Path (Distinguished Name)
-
-- ```scope``` (String) AD Group Scope, possible values are Global, Universal or Domain_Local. Default is Global
-
-Read-Only:
-
-- ```id``` (String) The ID of this Resource
-
-- ```result``` (List of Objects) Single AD Group (see below for nested schema)
-
-----
+---
 
 Create a Domain Local Distribution Group:
 
@@ -173,28 +129,6 @@ output "OUTPUT_global_security_group" {
 }
 ```
 
-**Schema**
-
-Required:
-
-- ```description``` (String) AD Group Description
-
-- ```email``` (String) AD Group Email Address
-
-- ```name``` (String) AD Group Name
-
-Optional:
-
-- ```ou_path``` (String) OU Path (Distinguished Name)
-
-- ```scope``` (String) AD Group Scope, possible values are Global, Universal or Domain_Local. Default is Global
-
-Read-Only:
-
-- ```id``` (String) The ID of this Resource
-
-- ```result``` (List of Objects) Single AD Group (see below for nested schema)
-
 ----
 
 Create a Universal Security Group:
@@ -217,28 +151,6 @@ output "OUTPUT_universal_security_group" {
   value       = resource.kopicloud_security_group.test_security_universal
 }
 ```
-
-**Schema**
-
-Required:
-
-- ```description``` (String) AD Group Description
-
-- ```email``` (String) AD Group Email Address
-
-- ```name``` (String) AD Group Name
-
-Optional:
-
-- ```ou_path``` (String) OU Path (Distinguished Name)
-
-- ```scope``` (String) AD Group Scope, possible values are Global, Universal or Domain_Local. Default is Global
-
-Read-Only:
-
-- ```id``` (String) The ID of this Resource
-
-- ```result``` (List of Objects) Single AD Group (see below for nested schema)
 
 ----
 

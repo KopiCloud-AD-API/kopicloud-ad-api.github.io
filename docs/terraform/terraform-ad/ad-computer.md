@@ -130,7 +130,7 @@ Read-Only:
 
 ----
 
-### Data Source: List of All AD Computers Inside an AD OU
+### List of All AD Computers Inside an AD OU
 
 List All Computers Inside an OU:
 
@@ -177,9 +177,9 @@ Read-Only:
 
 - ```operating_system``` (String) Operating System
 
-- ```path (String)``` AD OU Path (Distinguished Name)
+- ```path``` (String) AD OU Path (Distinguished Name)
 
-- ```sid (String)``` Computer SID
+- ```sid``` (String) Computer SID
 
 ----
 
