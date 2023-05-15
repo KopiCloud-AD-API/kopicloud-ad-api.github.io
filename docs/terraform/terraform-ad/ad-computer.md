@@ -11,7 +11,7 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API Ter
 
 ----
 
-## List of All AD Computers
+### Data Source: List of All AD Computers
 
 List All Computers:
 
@@ -28,9 +28,21 @@ output "OUTPUT_all_computers_list" {
 }
 ```
 
+**Schema**
+
+Optional:
+
+- ```ou_path``` (String) AD OU Path (Distinguished Name)
+
+Read-Only:
+
+- ```id```  (String) The ID of this Resource
+
+- ```result``` (List of Objects) List of AD Computers (see below for nested schema)
+
 ----
 
-## List of All AD Computers Inside an AD OU
+## Data Source: List of All AD Computers Inside an AD OU
 
 List All Computers Inside an OU:
 
@@ -49,9 +61,21 @@ output "OUTPUT_all_computers_list_inside_ou" {
 }
 ```
 
+**Schema**
+
+Optional:
+
+- ```ou_path``` (String) AD OU Path (Distinguished Name)
+
+Read-Only:
+
+- ```id```  (String) The ID of this Resource
+
+- ```result``` (List of Objects) List of AD Computers (see below for nested schema)
+
 ----
 
-## Register (Create) AD Computer
+## Resource: Register (Create) AD Computer
 
 Use the optional **ou_path** parameter to store the computer inside a specific OU, if not it will be stored in the Computers OU.
 
@@ -74,9 +98,27 @@ output "OUTPUT_new_computer" {
 }
 ```
 
+**Schema**
+
+Required:
+
+- ```ad_computer_name``` (String) Computer Name
+
+Optional:
+
+- ```description``` (String) Computer Description
+
+- ```ou_path``` (String) OU Path (Distinguished Name)
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+
+- ```result``` (List of Objects) Single AD Computer (see below for nested schema)
+
 ----
 
-## Update AD Computer Description
+## Resource: Update AD Computer Description
 
 Update a Computer:
 
@@ -97,27 +139,23 @@ output "OUTPUT_new_computer" {
 }
 ```
 
-----
+**Schema**
 
-## Clean Up Inactive AD Computers for More Than XX Days
+Required:
 
-Clean Up Inactive AD Computers:
+- ```ad_computer_name``` (String) Computer Name
 
-```
-resource "kopicloud_computer_cleanup" "test" {
-  ou_path = "OU=Computers,DC=kopicloud,DC=local"
-  days    = 90
-}
-```
+Optional:
 
-Return Clean-Up Computers:
+- ```description``` (String) Computer Description
 
-```
-output "OUTPUT_list_cleanup_computer" {
-  description = "List of Clean Up Inactive AD Computers"
-  value       = resource.kopicloud_computer_cleanup.test
-}
-```
+- ```ou_path``` (String) OU Path (Distinguished Name)
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+
+- ```result``` (List of Objects) Single AD Computer (see below for nested schema)
 
 ----
 
