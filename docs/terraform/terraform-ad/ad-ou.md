@@ -35,13 +35,15 @@ output "OUTPUT_created_ou" {
 }
 ```
 
+----
+
 **Schema**
 
 Required:
 
 - ```description``` (String) The Description of the AD OU
 
-- ```ou_name (String)``` Name of the AD OU
+- ```ou_name``` (String) Name of the AD OU
 
 Optional:
 
@@ -76,11 +78,13 @@ output "OUTPUT_list_ou" {
 }
 ```
 
+----
+
 **Schema**
 
 Optional:
 
-- ```ou_name (String)``` Name of the AD OU
+- ```ou_name``` (String) Name of the AD OU
 
 - ```ou_path``` (String) Path of the AD OU (Distinguished Name)
 

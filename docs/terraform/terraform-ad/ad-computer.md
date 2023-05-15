@@ -36,6 +36,8 @@ output "OUTPUT_new_computer" {
 }
 ```
 
+----
+
 **Schema**
 
 Required:
@@ -45,13 +47,11 @@ Required:
 Optional:
 
 - ```description``` (String) Computer Description
-
 - ```ou_path``` (String) OU Path (Distinguished Name)
 
 Read-Only:
 
 - ```id``` (String) The ID of this Resource
-
 - ```result``` (List of Objects) Single AD Computer (see below for nested schema)
 
 ----
@@ -77,6 +77,8 @@ output "OUTPUT_new_computer" {
 }
 ```
 
+----
+
 **Schema**
 
 Required:
@@ -86,13 +88,11 @@ Required:
 Optional:
 
 - ```description``` (String) Computer Description
-
 - ```ou_path``` (String) OU Path (Distinguished Name)
 
 Read-Only:
 
 - ```id``` (String) The ID of this Resource
-
 - ```result``` (List of Objects) Single AD Computer (see below for nested schema)
 
 ----
@@ -116,6 +116,8 @@ output "OUTPUT_all_computers_list" {
 }
 ```
 
+----
+
 **Schema**
 
 Optional:
@@ -125,7 +127,6 @@ Optional:
 Read-Only:
 
 - ```id```  (String) The ID of this Resource
-
 - ```result``` (List of Objects) List of AD Computers (see below for nested schema)
 
 ----
@@ -149,6 +150,8 @@ output "OUTPUT_all_computers_list_inside_ou" {
 }
 ```
 
+----
+
 **Schema**
 
 Optional:
@@ -158,7 +161,6 @@ Optional:
 Read-Only:
 
 - ```id```  (String) The ID of this Resource
-
 - ```result``` (List of Objects) List of AD Computers (see below for nested schema)
 
 ----
@@ -168,17 +170,11 @@ Read-Only:
 Read-Only:
 
 - ```computer_name``` (String) AD Computer Name
-
 - ```created``` (String) Creation Date
-
 - ```description``` (String) Computer Description
-
 - ```dns_name``` (String) DNS Name
-
 - ```operating_system``` (String) Operating System
-
 - ```path``` (String) AD OU Path (Distinguished Name)
-
 - ```sid``` (String) Computer SID
 
 ----
@@ -192,4 +188,3 @@ Running this resource with ```terraform apply``` will create or update an AD com
 ## Source Code
 
 Source code available [here](https://github.com/KopiCloud-AD-API/terraform-kopicloud-ad-api-computers)
-

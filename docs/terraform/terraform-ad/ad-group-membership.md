@@ -33,6 +33,8 @@ output "OUTPUT_kopicloud_group_membership" {
 }
 ```
 
+----
+
 **Schema**
 
 Required:
@@ -71,6 +73,8 @@ output "OUTPUT_active_directory_user_list_all" {
   value = data.kopicloud_active_directory_user_list.all
 }
 ```
+
+----
 
 **Schema**
 

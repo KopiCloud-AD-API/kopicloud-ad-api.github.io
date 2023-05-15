@@ -82,26 +82,24 @@ output "OUTPUT_domain_local_distribution_group" {
 }
 ```
 
+----
+
 **Schema**
 
 Required:
 
 - ```description``` (String) AD Group Description
-
 - ```email``` (String) AD Group Email Address
-
 - ```name``` (String) AD Group Name
 
 Optional:
 
 - ```ou_path``` (String) OU Path (Distinguished Name)
-
 - ```scope``` (String) AD Group Scope, possible values are Global, Universal or Domain_Local. Default is Global
 
 Read-Only:
 
 - ```id``` (String) The ID of this Resource
-
 - ```result``` (List of Objects) Single AD Group (see below for nested schema)
 
 ----
@@ -175,26 +173,24 @@ output "OUTPUT_domain_local_security_group" {
 }
 ```
 
+----
+
 **Schema**
 
 Required:
 
 - ```description``` (String) AD Group Description
-
 - ```email``` (String) AD Group Email Address
-
 - ```name``` (String) AD Group Name
 
 Optional:
 
 - ```ou_path``` (String) OU Path (Distinguished Name)
-
 - ```scope``` (String) AD Group Scope, possible values are Global, Universal or Domain_Local. Default is Global
 
 Read-Only:
 
 - ```id``` (String) The ID of this Resource
-
 - ```result``` (List of Objects) Single AD Group (see below for nested schema)
 
 ----
@@ -218,12 +214,13 @@ output "OUTPUT_security_kopicloud_all_groups" {
 }
 ```
 
+----
+
 **Schema**
 
 Read-Only:
 
 - ```id``` (String) The ID of this Resource
-
 - ```result``` (List of Objects) Single AD Group (see below for nested schema)
 
 ----
@@ -245,12 +242,13 @@ output "OUTPUT_kopicloud_distribution_groups_list" {
 }
 ```
 
+----
+
 **Schema**
 
 Read-Only:
 
 - ```id``` (String) The ID of this Resource
-
 - ```result``` (List of Objects) Single AD Group (see below for nested schema)
 
 ----
@@ -272,12 +270,13 @@ output "OUTPUT_kopicloud_security_groups_list" {
 }
 ```
 
+----
+
 **Schema**
 
 Read-Only:
 
 - ```id``` (String) The ID of this Resource
-
 - ```result``` (List of Objects) Single AD Group (see below for nested schema)
 
 ----
@@ -287,19 +286,12 @@ Read-Only:
 Read-Only:
 
 - ```description``` (String) AD Group Description
-
 - ```email``` (String) AD Group Email Address
-
 - ```guid``` (String) AD Group GUID
-
 - ```name``` (String) AD Group Name
-
 - ```ou_path``` (String) AD Group OU Path (Distinguished Name)
-
 - ```scope``` (String) AD Group Scope
-
 - ```type``` (String) AD Group Type
-
 
 ----
 

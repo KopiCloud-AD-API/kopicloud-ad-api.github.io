@@ -11,8 +11,9 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD Terraform P
 
 ----
 
+## Resources
 
-## Create an AD User
+### Create an AD User
 
 Create AD User:
 
@@ -40,6 +41,8 @@ output "OUTPUT_new_user" {
   sensitive = true
 }
 ```
+
+----
 
 **Schema**
 
@@ -94,7 +97,83 @@ Read-Only:
 
 ----
 
-## Reset the Password of an AD User
+### Disable an Active Directory User
+
+Disable AD User Account:
+
+```
+resource "kopicloud_user_disable_account" "test" {
+  username = "guillermo"
+}
+```
+
+Disabled AD User Account Result:
+
+```
+output "OUTPUT_user_disable_account" {
+  description = "AD User Enabled"
+  value = resource.kopicloud_user_disaable_account.test
+}
+```
+
+----
+
+**Schema**
+
+Required:
+
+- ```username``` (String) - AD Username to Disable
+
+Optional:
+
+- ```show_fields``` (String) Filter Specific Fields in the Output
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single AD User (see below for nested schema)
+
+----
+
+### Enable an Active Directory User
+
+Enable AD User Account:
+
+```
+resource "kopicloud_user_enable_account" "test" {
+  username = "guillermo"
+}
+```
+
+Enabled AD User Account Result:
+
+```
+output "OUTPUT_user_enable_account" {
+  description = "AD User Enabled"
+  value = resource.kopicloud_user_enable_account.test
+}
+```
+
+----
+
+**Schema**
+
+Required:
+
+- ```username``` (String) - AD Username to Enable
+
+Optional:
+
+- ```show_fields``` (String) Filter Specific Fields in the Output
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single AD User (see below for nested schema)
+
+
+
+### Reset the Password of an AD User
 
 Reset User Password:
 
@@ -118,7 +197,28 @@ output "OUTPUT_user_password_reset" {
 
 ----
 
-## List of All Computers Inside an Active Directory Organization Unit
+**Schema**
+
+Required:
+
+- ```new_password``` (String) New Password for the AD User
+- ```username``` (String) - AD Username
+
+Optional:
+
+- ```change_password_next_logon``` (Boolean) Force the User to Change the Password on the Next Logon
+- ```show_fields``` (String) Filter Specific Fields in the Output
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single AD User (see below for nested schema)
+
+----
+
+## Data Sources
+
+### List of All Computers Inside an Active Directory Organization Unit
 
 Get All AD Users:
 
