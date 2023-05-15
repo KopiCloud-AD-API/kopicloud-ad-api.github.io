@@ -1,7 +1,7 @@
 ---
 title: AD Group Membership with Terraform
 description: Manage AD Group Membership with Terraform
-date: 2023-03-25
+date: 2023-05-15
 ---
 
 # AD Group Membership with Terraform
@@ -11,28 +11,9 @@ Manage AD Group Membership in Microsoft Active Directory using the KopiCloud AD 
 
 ----
 
-## List Group Membership of AD User
+## Resources
 
-List AD User Group Membership:
-
-```
-data "kopicloud_group_membership_list" "test" {
-  user_name  = "guillermo"
-}
-```
-
-Show Group Membership:
-
-```
-output "OUTPUT_active_directory_user_list_all" {
-  description = "Return all AD User Group Membership"
-  value = data.kopicloud_active_directory_user_list.all
-}
-```
-
-----
-
-## Add AD User to an AD Group
+### Add AD User to an AD Group
 
 Add an AD User to AD Group:
 
@@ -51,6 +32,87 @@ output "OUTPUT_kopicloud_group_membership" {
   value       = resource.kopicloud_group_membership.test
 }
 ```
+
+**Schema**
+
+Required:
+
+- ```user_name``` (String) AD Username
+
+Optional:
+
+- ```group_name``` (String) AD Group Name
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+
+- ```result``` (List of Objects) Single AD Group (see below for nested schema)
+
+----
+
+## Data Sources
+
+### List Group Membership of AD User
+
+List AD User Group Membership:
+
+```
+data "kopicloud_group_membership_list" "test" {
+  user_name  = "guillermo"
+}
+```
+
+Show Group Membership:
+
+```
+output "OUTPUT_active_directory_user_list_all" {
+  description = "Return all AD User Group Membership"
+  value = data.kopicloud_active_directory_user_list.all
+}
+```
+
+**Schema**
+
+Required:
+
+- ```user_name``` (String) AD Username
+
+Optional:
+
+- ```group_name``` (String) AD Group Name
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+
+- ```result``` (List of Objects) Single AD Group (see below for nested schema)
+
+----
+
+## Nested Schema for Result:
+
+Read-Only:
+
+- ```description``` (String) AD Group Description
+
+- ```email``` (String) AD Group Email Address
+
+- ```guid``` (String) AD Group GUID
+
+- ```name``` (String) AD Group Name
+
+- ```ou_path``` (String) AD Group OU Path (Distinguished Name)
+
+- ```scope``` (String) AD Group Scope
+
+- ```type``` (String) AD Group Type
+
+----
+
+## Notes
+
+Running this resource with ```terraform apply``` will add or modify the Group Membership of an AD user and running ```terraform destroy``` will remove the AD User from the AD Group.
 
 ----
 

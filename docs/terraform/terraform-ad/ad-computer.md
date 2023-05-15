@@ -1,7 +1,7 @@
 ---
 title: AD Computers with Terraform
 description: Manage AD Computers with Terraform
-date: 2023-03-25
+date: 2023-05-15
 ---
 
 # AD Computers with Terraform
@@ -180,6 +180,12 @@ Read-Only:
 - ```path (String)``` AD OU Path (Distinguished Name)
 
 - ```sid (String)``` Computer SID
+
+----
+
+## Notes
+
+Running this resource with ```terraform apply``` will create or update an AD computer resource and running ```terraform destroy``` will remove this machine from Active Directory.
 
 ----
 

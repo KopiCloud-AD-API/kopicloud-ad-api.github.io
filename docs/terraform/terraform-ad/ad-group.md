@@ -1,7 +1,7 @@
 ---
 title: AD Groups with Terraform
 description: Manage AD Groups with Terraform
-date: 2023-03-25
+date: 2023-05-15
 ---
 
 # AD Groups with Terraform
@@ -36,6 +36,28 @@ output "OUTPUT_global_distribution_group" {
 }
 ```
 
+**Schema**
+
+Required:
+
+- ```description``` (String) AD Group Description
+
+- ```email``` (String) AD Group Email Address
+
+- ```name``` (String) AD Group Name
+
+Optional:
+
+- ```ou_path``` (String) OU Path (Distinguished Name)
+
+- ```scope``` (String) AD Group Scope, possible values are Global, Universal or Domain_Local. Default is Global
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+
+- ```result``` (List of Objects) Single AD Group (see below for nested schema)
+
 ----
 
 Create a Universal Distribution Group:
@@ -58,6 +80,28 @@ output "OUTPUT_universal_distribution_group" {
   value       = resource.kopicloud_distribution_group.test_distribution_universal
 }
 ```
+
+**Schema**
+
+Required:
+
+- ```description``` (String) AD Group Description
+
+- ```email``` (String) AD Group Email Address
+
+- ```name``` (String) AD Group Name
+
+Optional:
+
+- ```ou_path``` (String) OU Path (Distinguished Name)
+
+- ```scope``` (String) AD Group Scope, possible values are Global, Universal or Domain_Local. Default is Global
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+
+- ```result``` (List of Objects) Single AD Group (see below for nested schema)
 
 ----
 
@@ -82,11 +126,33 @@ output "OUTPUT_domain_local_distribution_group" {
 }
 ```
 
+**Schema**
+
+Required:
+
+- ```description``` (String) AD Group Description
+
+- ```email``` (String) AD Group Email Address
+
+- ```name``` (String) AD Group Name
+
+Optional:
+
+- ```ou_path``` (String) OU Path (Distinguished Name)
+
+- ```scope``` (String) AD Group Scope, possible values are Global, Universal or Domain_Local. Default is Global
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+
+- ```result``` (List of Objects) Single AD Group (see below for nested schema)
+
 ----
 
-## Create AD Security Group
+### Create an AD Security Group:
 
-Create a Global Security Group:
+Create a Global Security Group
 
 ```
 resource "kopicloud_security_group" "test_security_global" {
@@ -106,6 +172,28 @@ output "OUTPUT_global_security_group" {
   value       = resource.kopicloud_security_group.test_security_global
 }
 ```
+
+**Schema**
+
+Required:
+
+- ```description``` (String) AD Group Description
+
+- ```email``` (String) AD Group Email Address
+
+- ```name``` (String) AD Group Name
+
+Optional:
+
+- ```ou_path``` (String) OU Path (Distinguished Name)
+
+- ```scope``` (String) AD Group Scope, possible values are Global, Universal or Domain_Local. Default is Global
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+
+- ```result``` (List of Objects) Single AD Group (see below for nested schema)
 
 ----
 
@@ -130,6 +218,28 @@ output "OUTPUT_universal_security_group" {
 }
 ```
 
+**Schema**
+
+Required:
+
+- ```description``` (String) AD Group Description
+
+- ```email``` (String) AD Group Email Address
+
+- ```name``` (String) AD Group Name
+
+Optional:
+
+- ```ou_path``` (String) OU Path (Distinguished Name)
+
+- ```scope``` (String) AD Group Scope, possible values are Global, Universal or Domain_Local. Default is Global
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+
+- ```result``` (List of Objects) Single AD Group (see below for nested schema)
+
 ----
 
 Create a Domain Local Security Group:
@@ -153,9 +263,33 @@ output "OUTPUT_domain_local_security_group" {
 }
 ```
 
+**Schema**
+
+Required:
+
+- ```description``` (String) AD Group Description
+
+- ```email``` (String) AD Group Email Address
+
+- ```name``` (String) AD Group Name
+
+Optional:
+
+- ```ou_path``` (String) OU Path (Distinguished Name)
+
+- ```scope``` (String) AD Group Scope, possible values are Global, Universal or Domain_Local. Default is Global
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+
+- ```result``` (List of Objects) Single AD Group (see below for nested schema)
+
 ----
 
-## List All AD Groups
+## Data Sources
+
+### List All AD Groups
 
 Get All AD Groups List:
 
@@ -172,9 +306,17 @@ output "OUTPUT_security_kopicloud_all_groups" {
 }
 ```
 
+**Schema**
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+
+- ```result``` (List of Objects) Single AD Group (see below for nested schema)
+
 ----
 
-## List AD Distribution Groups
+### List AD Distribution Groups
 
 Get the List of Distribution Groups:
 
@@ -191,9 +333,17 @@ output "OUTPUT_kopicloud_distribution_groups_list" {
 }
 ```
 
+**Schema**
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+
+- ```result``` (List of Objects) Single AD Group (see below for nested schema)
+
 ----
 
-## List AD Security Groups
+### List AD Security Groups
 
 Get the List of Security Groups:
 
@@ -209,6 +359,14 @@ output "OUTPUT_kopicloud_security_groups_list" {
   value       = data.kopicloud_security_group_list.test_security
 }
 ```
+
+**Schema**
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+
+- ```result``` (List of Objects) Single AD Group (see below for nested schema)
 
 ----
 
@@ -230,6 +388,12 @@ Read-Only:
 
 - ```type``` (String) AD Group Type
 
+
+----
+
+## Notes
+
+Running this resource with ```terraform apply``` will create or update the AD group and running ```terraform destroy``` will remove this AD Group from the Active Directory.
 
 ----
 
