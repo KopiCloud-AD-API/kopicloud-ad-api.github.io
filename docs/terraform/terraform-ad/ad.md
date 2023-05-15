@@ -13,7 +13,7 @@ Manage Microsoft Active Directory using the KopiCloud AD Terraform Provider.
 
 ## AD Terraform Resources
 
-The provider includes **Terraform Resources** to manipulate DNS Records and DNS Zones:
+The provider includes **Terraform Resources** to manipulate AD resources:
 
 - ```ad_kopicloud_computer``` - Create, Update, or Destroy an AD Computer
 
@@ -41,7 +41,7 @@ The provider includes **Terraform Resources** to manipulate DNS Records and DNS 
 
 ## AD Terraform Data Sources
 
-The provider includes **Terraform Data Sources** to list existing DNS Records and DNS Zones:
+The provider includes **Terraform Data Sources** to list existing AD resources:
 
 - ```ad_kopicloud_computer_list``` - List AD Computers
 
@@ -56,3 +56,4 @@ The provider includes **Terraform Data Sources** to list existing DNS Records an
 - ```ad_kopicloud_ou_list``` - List AD Organization Units (OUs)
 
 - ```ad_kopicloud_user_list``` - List Users in the AD
+
