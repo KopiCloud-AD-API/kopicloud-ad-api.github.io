@@ -11,16 +11,20 @@ Manage Microsoft DNS AAAA Records using the KopiCloud AD API.
 
 ----
 
-## List All DNS AAAA Records in All Zones
-<span class="btn-get">GET</span> /api/DnsAAAARecord/All
+## Get DNS AAAA Record that match with DNS Hostname and IPv6 Address
+<span class="btn-get">GET</span> /api/DnsAAAARecord
 
 **Parameters**
 
-| Name       | Type   | Description                          | Mandatory |
-| ---------- | ------ | ------------------------------------ | --------- |
-| Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
+| Name         | Type   | Description                          | Mandatory |
+| ------------ | ------ | ------------------------------------ | --------- |
+| DNS_HostName | string | DNS Host Name                        | Yes       |
+| IPv6_Address | string | IPv6 Address                         | Yes       |
+| ZoneName     | string | DNS Zone Name                        | Yes       |
+| Auth-Token   | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
+
 ```
 {
   "output": "string",
@@ -46,6 +50,33 @@ Manage Microsoft DNS AAAA Records using the KopiCloud AD API.
 | Name       | Type   | Description                          | Mandatory |
 | ---------- | ------ | ------------------------------------ | --------- |
 | ZoneName   | string | DNS Zone Name                        | Yes       |
+| Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
+}
+```
+
+----
+
+## List All DNS AAAA Records in All Zones
+<span class="btn-get">GET</span> /api/DnsAAAARecord/All
+
+**Parameters**
+
+| Name       | Type   | Description                          | Mandatory |
+| ---------- | ------ | ------------------------------------ | --------- |
 | Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
@@ -124,36 +155,6 @@ Manage Microsoft DNS AAAA Records using the KopiCloud AD API.
 
 ----
 
-## Get DNS AAAA Record that match with DNS Hostname and IPv6 Address
-<span class="btn-get">GET</span> /api/DnsAAAARecord
-
-**Parameters**
-
-| Name         | Type   | Description                          | Mandatory |
-| ------------ | ------ | ------------------------------------ | --------- |
-| DNS_HostName | string | DNS Host Name                        | Yes       |
-| IPv6_Address | string | IPv6 Address                         | Yes       |
-| ZoneName     | string | DNS Zone Name                        | Yes       |
-| Auth-Token   | string | Bearer or Basic Authentication Token | Yes       |
-
-**Return Schema**
-
-```
-{
-  "output": "string",
-  "result": [
-    {
-      "name": "string",
-      "type": "string",
-      "data": "string",
-      "zone": "string",
-      "timestamp": "string"
-    }
-  ]
-}
-```
-
-----
 
 ## Create a DNS AAAA Records
 <span class="btn-post">POST</span> /api/DnsAAAARecord

@@ -1,7 +1,7 @@
 ---
 title: AD User API Methods using GUID
 description: Describing all API methods of AD Users using GUID
-date: 2023-03-25
+date: 2023-05-15
 ---
 
 # Manage AD Users using GUID with the KopiCloud AD API

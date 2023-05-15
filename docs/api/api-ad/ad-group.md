@@ -1,7 +1,7 @@
 ---
 title: AD Group API Methods
 description: Describing all API methods of AD Groups 
-date: 2023-03-24
+date: 2023-05-15
 ---
 
 # Manage AD Groups with the KopiCloud AD API

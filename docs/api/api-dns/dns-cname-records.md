@@ -11,16 +11,20 @@ Manage Microsoft DNS CNAME Records using the KopiCloud AD API.
 
 ----
 
-## List All DNS CNAME Records in All Zones
-<span class="btn-get">GET</span> /api/DnsCNameRecord/All
+## Get DNS CNAME Record that match with DNS HostName and Alias
+<span class="btn-get">GET</span> /api/DnsCNameRecord
 
 **Parameters**
 
-| Name       | Type   | Description                          | Mandatory |
-| ---------- | ------ | ------------------------------------ | --------- |
-| Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
+| Name               | Type   | Description                          | Mandatory |
+| ------------------ | ------ | ------------------------------------ | --------- |
+| DNS_HostName       | string | DNS Host Name                        | Yes       |
+| DNS_HostName_Alias | string | DNS Host Name Alias                  | Yes       |
+| ZoneName           | string | DNS Zone Name                        | Yes       |
+| Auth-Token         | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
+
 ```
 {
   "output": "string",
@@ -46,6 +50,33 @@ Manage Microsoft DNS CNAME Records using the KopiCloud AD API.
 | Name       | Type   | Description                          | Mandatory |
 | ---------- | ------ | ------------------------------------ | --------- |
 | ZoneName   | string | DNS Zone Name                        | Yes       |
+| Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
+}
+```
+
+----
+
+## List All DNS CNAME Records in All Zones
+<span class="btn-get">GET</span> /api/DnsCNameRecord/All
+
+**Parameters**
+
+| Name       | Type   | Description                          | Mandatory |
+| ---------- | ------ | ------------------------------------ | --------- |
 | Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
@@ -124,38 +155,7 @@ Manage Microsoft DNS CNAME Records using the KopiCloud AD API.
 
 ----
 
-## Get DNS CNAME Record that match with DNS HostName and Alias
-<span class="btn-get">GET</span> /api/DnsCNameRecord
-
-**Parameters**
-
-| Name               | Type   | Description                          | Mandatory |
-| ------------------ | ------ | ------------------------------------ | --------- |
-| DNS_HostName       | string | DNS Host Name                        | Yes       |
-| DNS_HostName_Alias | string | DNS Host Name Alias                  | Yes       |
-| ZoneName           | string | DNS Zone Name                        | Yes       |
-| Auth-Token         | string | Bearer or Basic Authentication Token | Yes       |
-
-**Return Schema**
-
-```
-{
-  "output": "string",
-  "result": [
-    {
-      "name": "string",
-      "type": "string",
-      "data": "string",
-      "zone": "string",
-      "timestamp": "string"
-    }
-  ]
-}
-```
-
-----
-
-## Create a DNS CNAME Records
+## Create a DNS CNAME Record
 <span class="btn-post">POST</span> /api/DnsCNameRecord
 
 **Parameters**

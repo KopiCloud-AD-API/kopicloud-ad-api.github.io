@@ -1,7 +1,7 @@
 ---
 title: AD Computer API Methods
 description: Describing all API methods of AD Computers
-date: 2023-03-25
+date: 2023-05-15
 ---
 
 # Manage AD Computers with the KopiCloud AD API
@@ -248,40 +248,6 @@ Manage AD Computers in Microsoft Active Directory using the KopiCloud AD API
     "path": "string",
     "created": "string"
   }
-}
-```
-
-----
-
-## Clean Up Inactive AD Computers for More Than XX Days
-
-<span class="btn-delete">DELETE</span> /api/Computers/Cleanup
-
-**Parameters**
-
-| Name                    | Type      | Description                             | Mandatory  |
-| ----------------------- | --------- | --------------------------------------- | ---------- |
-| OUPath                  | string    | Organization Unit DN Path               | No         |
-| Days                    | integer   | Number of Inactive Days (Default = 90)  | No         |
-| Recursive               | boolean   | Recursive Search (Default = value)      | No         |
-| Auth-Token              | string    | Bearer or Basic Authentication Token    | Yes        |
-
-**Return Schema**
-
-```
-{
-  "output": "string",
-  "result": [
-    {
-      "sid": "string",
-      "computerName": "string",
-      "operatingSystem": "string",
-      "description": "string",
-      "dnsName": "string",
-      "path": "string",
-      "created": "string"
-    }
-  ]
 }
 ```
 

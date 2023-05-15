@@ -1,7 +1,7 @@
 ---
 title: DNS Zones API Methods
 description: Manage Microsoft DNS Zones with KopiCloud AD API
-date: 2023-03-02
+date: 2023-05-15
 ---
 
 # Manage DNS Zones with KopiCloud AD API
@@ -11,35 +11,7 @@ Manage Microsoft DNS Zones using the KopiCloud AD API.
 
 ----
 
-## List All DNS Zones
-<span class="btn-get">GET</span> /api/DnsZones/All
-
-**Parameters**
-
-| Name              | Type    | Description                          | Mandatory |
-| ----------------- | ------- | ------------------------------------ | --------- |
-| IgnoreSystemZones | boolean | Ignore System Zones (Default = true) | Yes       |
-| Auth-Token        | string  | Bearer or Basic Authentication Token | Yes       |
-
-**Return Schema**
-
-```
-{
-  "output": "string",
-  "result": [
-    {
-      "distinguishedName": "string",
-      "zoneName": "string",
-      "zoneType": "string",
-      "type": "string"
-    }
-  ]
-}
-```
-
-----
-
-## List All DNS CNAME Records in a DNS Zone
+## Get DNS Zone by Zone Name
 <span class="btn-get">GET</span> /api/DnsCNameRecord/{ZoneName}
 
 **Parameters**
@@ -86,3 +58,30 @@ Manage Microsoft DNS Zones using the KopiCloud AD API.
 ```
 
 
+----
+
+## List All DNS Zones
+<span class="btn-get">GET</span> /api/DnsZones/All
+
+**Parameters**
+
+| Name              | Type    | Description                          | Mandatory |
+| ----------------- | ------- | ------------------------------------ | --------- |
+| IgnoreSystemZones | boolean | Ignore System Zones (Default = true) | Yes       |
+| Auth-Token        | string  | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
+
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "distinguishedName": "string",
+      "zoneName": "string",
+      "zoneType": "string",
+      "type": "string"
+    }
+  ]
+}
+```

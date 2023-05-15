@@ -1,7 +1,7 @@
 ---
 title: AD User API Methods
 description: Describing all API methods of AD Users
-date: 2023-03-25
+date: 2023-05-15
 ---
 
 # Manage AD Users with the KopiCloud AD API
@@ -644,7 +644,7 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ## Reset AD User Password
 
-<span class="btn-put">PUT</span> /api/ADUser/{UserName}/{ResetPassword}
+<span class="btn-put">PUT</span> /api/ADUser/{UserName}/ResetPassword
 
 **Parameters**
 
@@ -708,7 +708,7 @@ Manage AD Users in Microsoft Active Directory using the KopiCloud AD API
 
 ----
 
-## Lock AD User
+## Unlock AD User
 
 <span class="btn-put">PUT</span> /api/ADUser/{UserName}/Unlock
 

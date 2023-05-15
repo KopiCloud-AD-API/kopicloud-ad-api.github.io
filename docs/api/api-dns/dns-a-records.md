@@ -11,16 +11,20 @@ Manage Microsoft DNS A Records using the KopiCloud AD API.
 
 ----
 
-## List All DNS A Records in All Zones
-<span class="btn-get">GET</span> /api/DnsARecord/All
+## Get DNS A Record that match with DNS Hostname and IP Address
+<span class="btn-get">GET</span> /api/DnsARecord
 
 **Parameters**
 
-| Name       | Type   | Description                          | Mandatory |
-| ---------- | ------ | ------------------------------------ | --------- |
-| Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
+| Name         | Type   | Description                          | Mandatory |
+| ------------ | ------ | ------------------------------------ | --------- |
+| DNS_HostName | string | DNS Host Name                        | Yes       |
+| IP_Address   | string | IP Address                           | Yes       |
+| ZoneName     | string | DNS Zone Name                        | Yes       |
+| Auth-Token   | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
+
 ```
 {
   "output": "string",
@@ -46,6 +50,33 @@ Manage Microsoft DNS A Records using the KopiCloud AD API.
 | Name       | Type   | Description                          | Mandatory |
 | ---------- | ------ | ------------------------------------ | --------- |
 | ZoneName   | string | DNS Zone Name                        | Yes       |
+| Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
+
+**Return Schema**
+```
+{
+  "output": "string",
+  "result": [
+    {
+      "name": "string",
+      "type": "string",
+      "data": "string",
+      "zone": "string",
+      "timestamp": "string"
+    }
+  ]
+}
+```
+
+----
+
+## List All DNS A Records in All Zones
+<span class="btn-get">GET</span> /api/DnsARecord/All
+
+**Parameters**
+
+| Name       | Type   | Description                          | Mandatory |
+| ---------- | ------ | ------------------------------------ | --------- |
 | Auth-Token | string | Bearer or Basic Authentication Token | Yes       |
 
 **Return Schema**
@@ -124,36 +155,6 @@ Manage Microsoft DNS A Records using the KopiCloud AD API.
 
 ----
 
-## Get DNS A Record that match with DNS Hostname and IP Address
-<span class="btn-get">GET</span> /api/DnsARecord
-
-**Parameters**
-
-| Name         | Type   | Description                          | Mandatory |
-| ------------ | ------ | ------------------------------------ | --------- |
-| DNS_HostName | string | DNS Host Name                        | Yes       |
-| IP_Address   | string | IP Address                           | Yes       |
-| ZoneName     | string | DNS Zone Name                        | Yes       |
-| Auth-Token   | string | Bearer or Basic Authentication Token | Yes       |
-
-**Return Schema**
-
-```
-{
-  "output": "string",
-  "result": [
-    {
-      "name": "string",
-      "type": "string",
-      "data": "string",
-      "zone": "string",
-      "timestamp": "string"
-    }
-  ]
-}
-```
-
-----
 
 ## Create a DNS A Records
 <span class="btn-post">POST</span> /api/DnsARecord

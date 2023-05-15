@@ -1,7 +1,7 @@
 ---
 title: DNS Lookup Zones API Methods
 description: Manage Microsoft DNS Lookup Zones with KopiCloud AD API
-date: 2023-03-02
+date: 2023-05-15
 ---
 
 # Manage DNS Lookup Zones with KopiCloud AD API
@@ -66,7 +66,6 @@ Manage Microsoft DNS Lookup Zones using the KopiCloud AD API.
 ----
 
 ## Remove a DNS Lookup Zone
-
 <span class="btn-delete">DELETE</span> /api/DnsLookupZone/{ZoneName}
 
 **Parameters**
