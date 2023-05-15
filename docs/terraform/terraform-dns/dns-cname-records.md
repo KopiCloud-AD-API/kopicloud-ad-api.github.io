@@ -1,6 +1,7 @@
 ---
 title: DNS CNAME Records with Terraform
 description: Manage Microsof DNS CNAME Records with Terraform
+date: 2023-05-15
 ---
 
 # DNS CNAME Records
@@ -10,7 +11,9 @@ Manage Microsoft DNS CNAME Records in AD DNS using the KopiCloud AD Terraform Pr
 
 ----
 
-## Create a DNS CNAME Record
+## Resources
+
+### Create a DNS CNAME Record
 
 Create a DNS CNAME Record for a Computer:
 
@@ -33,7 +36,24 @@ output "dns_cname_record" {
 
 ----
 
-## List All DNS CNAME Records
+**Schema**
+
+Optional:
+
+- ```hostname``` (String) Computer Hostname
+- ```hostname_alias``` (String) Computer Hostname Alias
+- ```zone_name``` (String) DNS Zone Name
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single DNS AAAA Record (see below for nested schema)
+
+----
+
+## Data Sources
+
+### List DNS CNAME Records
 
 List All DNS CNAME Records:
 
@@ -51,8 +71,6 @@ output "OUTPUT_dns_cname_records_list_all" {
 ```
 
 ----
-
-## Filter DNS CNAME Records with the Zone Name
 
 Filter DNS CNAME Records with the Zone Name:
 
@@ -73,9 +91,6 @@ output "OUTPUT_dns_cname_records_list_zone_name" {
 
 ----
 
-## Filter DNS CNAME Records with an Alias
-
-
 Filter DNS CNAME Records with an Alias:
 
 ```
@@ -95,8 +110,6 @@ output "OUTPUT_dns_cname_records_list_ip_address" {
 
 ----
 
-## Filter DNS CNAME Records with a Hostname
-
 Filter the DNS CNAME Records with a Hostname:
 
 ```
@@ -113,6 +126,39 @@ output "OUTPUT_dns_cname_records_list_hostname" {
   value       = data.kopicloud_dns_cname_records_list.test_cname_hostname
 }
 ```
+
+----
+
+**Schema**
+
+Optional:
+
+- ```hostname``` (String) Computer Hostname
+- ```hostname_alias``` (String) Computer Hostname Alias
+- ```zone_name``` (String) DNS Zone Name
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single DNS AAAA Record (see below for nested schema)
+
+----
+
+## Nested Schema for Result
+
+Read-Only:
+
+- ```data``` (String) DNS Hostname Alias
+- ```name``` (String) DNS Name
+- ```timestamp``` (String) Timestamp of the Record
+- ```type``` (String) DNS Type
+- ```zone``` (String) DNS Zone Name
+
+----
+
+## Notes
+
+Running this resource with ```terraform apply``` will create a DNS CNAME Record in the Microsoft DNS and running ```terraform destroy``` will remove the DNS CNAME Record from the DNS.
 
 ----
 

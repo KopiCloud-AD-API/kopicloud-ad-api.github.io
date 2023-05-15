@@ -1,7 +1,7 @@
 ---
 title: DNS AAAA Records with Terraform
 description: Manage Microsof DNS AAAA Records with Terraform
-date: 2023-03-01
+date: 2023-05-15
 ---
 
 # DNS AAAA Records
@@ -11,7 +11,9 @@ Manage Microsoft DNS AAAA Records using the KopiCloud AD Terraform Provider.
 
 ----
 
-## Create DNS AAAA Records
+## Resources
+
+### Create DNS AAAA Records
 
 Create a DNS AAAA Record for a computer:
 
@@ -45,8 +47,24 @@ output "dns_aaaa_record_hostname" {
 
 ----
 
-## List ALL DNS AAAA Records
+**Schema**
 
+Optional:
+
+- ```hostname``` (String) Computer Hostname
+- ```ipv6_address``` (String) IPv6 Address
+- ```zone_name``` (String) DNS Zone Name
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single DNS AAAA Record (see below for nested schema)
+
+----
+
+## Data Sources
+
+### List DNS AAAA Records
 
 List All DNS AAAA Records:
 
@@ -66,11 +84,7 @@ output "OUTPUT_dns_aaaa_records_list_all" {
 
 ----
 
-
-## List DNS AAAA Records filtered by Zone Name
-
-
-Filter DNS AAAA Records with the Zone Name:
+List DNS AAAA Records filtered by Zone Name
 
 ```
 data "kopicloud_dns_aaaa_records_list" "test_aaaa_zone_name" {
@@ -90,9 +104,7 @@ output "OUTPUT_dns_aaaa_records_list_zone_name" {
 
 ----
 
-## List DNS AAAA Records filtered by Hostname
-
-Filter DNS AAAA Records with an IPv6 Address:
+List DNS AAAA Records filtered by Hostname
 
 ```
 data "kopicloud_dns_aaaa_records_list" "test_aaaa_ip" {
@@ -112,9 +124,7 @@ output "OUTPUT_dns_aaaa_records_list_ip_address" {
 
 ----
 
-## List DNS AAAA Records filtered by Alias
-
-Filter DNS AAAA Records with a Hostname:
+List DNS AAAA Records filtered by Alias
 
 ```
 data "kopicloud_dns_aaaa_records_list" "test_aaaa_hostname" {
@@ -131,6 +141,39 @@ output "OUTPUT_dns_aaaa_records_list_hostname" {
   value       = data.kopicloud_dns_aaaa_records_list.test_aaaa_hostname
 }
 ```
+
+----
+
+**Schema**
+
+Optional:
+
+- ```hostname``` (String) Computer Hostname
+- ```ipv6_address``` (String) IPv6 Address
+- ```zone_name``` (String) DNS Zone Name
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single DNS AAAA Record (see below for nested schema)
+
+----
+
+## Nested Schema for Result
+
+Read-Only:
+
+- ```data``` (String) IPv6 Address
+- ```name``` (String) Computer Hostname
+- ```timestamp``` (String) Timestamp of the Record
+- ```type``` (String) DNS Type
+- ```zone``` (String) DNS Zone Name
+
+----
+
+## Notes
+
+Running this resource with ```terraform apply``` will create a DNS AAAA Record in the Microsoft DNS and running ```terraform destroy``` will remove the DNS AAAA Record from the DNS.
 
 ----
 

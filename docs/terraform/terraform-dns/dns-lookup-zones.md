@@ -1,7 +1,7 @@
 ---
 title: DNS Lookup Zones with Terraform
 description: Manage Microsoft DNS Lookup Zones with Terraform
-date: 2023-03-01
+date: 2023-05-15
 ---
 
 # DNS Lookup Zones
@@ -11,7 +11,9 @@ Manage Microsoft DNS Lookup Zones using the KopiCloud AD Terraform Provider.
 
 ----
 
-## Create a DNS Lookup Zone
+## Resources
+
+### Create a DNS Lookup Zone
 
 Create a DNS Lookup Zone:
 
@@ -32,7 +34,22 @@ output "dns_lookup_zone" {
 
 ----
 
-## List All DNS Lookup Zones
+**Schema**
+
+Required:
+
+- ```zone_name``` (String) DNS Zone Name
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single DNS Zone (see below for nested schema)
+
+----
+
+## Data Sources
+
+### List All DNS Lookup Zones
 
 List All DNS Lookup Zones:
 
@@ -51,22 +68,33 @@ output "dns_lookup_zone_list" {
 
 ----
 
-## List All DNS Zones
+**Schema**
 
-List All DNS Zones (Reverse Lookup Zones and Lookup Zones):
+Optional:
 
-```
-data "kopicloud_dns_zone_list" "test_all" {}
-```
+- ```zone_name``` (String) DNS Zone Name
 
-Returns the List of All DNS Zones:
+Read-Only:
 
-```
-output "dns_all_zone_list" {
-  description = "List of All DNS Zones"
-  value       = data.kopicloud_dns_zone_list.test_all
-}
-```
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single DNS Zone (see below for nested schema)
+
+----
+
+## Nested Schema for Result
+
+Read-Only:
+
+- ```distinguished_name``` (String) DNS Distinguished Name
+- ```type``` (String) DNS Type, possible values are ```ForwardDNSZone``` or ```ReverseDNSZone```
+- ```zone_name``` (String) DNS Zone Name
+- ```zone_type``` (String) DNS Zone Type, possible values are ```Primary```, ```Secondary``` or ```Stub Zone```
+
+----
+
+## Notes
+
+Running this resource with ```terraform apply``` will create a DNS Lookup Zone in the Microsoft DNS and running ```terraform destroy``` will remove the DNS Lookup Zone from the DNS.
 
 ----
 

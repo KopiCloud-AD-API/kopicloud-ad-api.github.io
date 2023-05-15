@@ -1,7 +1,7 @@
 ---
 title: DNS A Records with Terraform
 description: Manage Microsof DNS A Records with Terraform
-date: 2023-03-01
+date: 2023-05-15
 ---
 
 # DNS A Records
@@ -11,7 +11,9 @@ Manage Microsoft DNS A Records using the KopiCloud AD Terraform Provider.
 
 ----
 
-## Create a DNS A Record
+## Resources
+
+### Create a DNS A Record
 
 Create a DNS A Record for a computer
 
@@ -43,7 +45,24 @@ output "dns_a_record_hostname" {
 
 ----
 
-## List All DNS A Records
+**Schema**
+
+Optional:
+
+- ```hostname``` (String) Computer Hostname
+- ```ip_address``` (String) IPv4 Address
+- ```zone_name``` (String) DNS Zone Name
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single DNS AAAA Record (see below for nested schema)
+
+----
+
+## Data Sources
+
+### List DNS A Records
 
 List All DNS A Records:
 
@@ -61,8 +80,6 @@ output "OUTPUT_dns_a_records_list_all" {
 ```
 
 ----
-
-## Filter DNS A Records with the Zone Name
 
 Filter DNS A Records with the Zone Name:
 
@@ -83,8 +100,6 @@ output "OUTPUT_dns_a_records_list_zone_name" {
 
 ----
 
-## Filter DNS A Records with an IP Address
-
 Filter DNS A Records with an IP Address:
 
 ```
@@ -103,8 +118,6 @@ output "OUTPUT_dns_a_records_list_ip_address" {
 ```
 
 ----
-
-## Filter DNS A Records with a Hostname
 
 Filter DNS A Records with a Hostname:
 
@@ -131,6 +144,39 @@ output "dns_a_records_list_hostname_record_1_ip_address" {
   value       = data.kopicloud_dns_a_records_list.test_a_hostname.result.0.data
 }
 ```
+
+----
+
+**Schema**
+
+Optional:
+
+- ```hostname``` (String) Computer Hostname
+- ```ip_address``` (String) IPv4 Address
+- ```zone_name``` (String) DNS Zone Name
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single DNS AAAA Record (see below for nested schema)
+
+----
+
+## Nested Schema for Result
+
+Read-Only:
+
+- ```data``` (String) IPv4 Address
+- ```name``` (String) Computer Hostname
+- ```timestamp``` (String) Timestamp of the Record
+- ```type``` (String) DNS Type
+- ```zone``` (String) DNS Zone Name
+
+----
+
+## Notes
+
+Running this resource with ```terraform apply``` will create a DNS A Record in the Microsoft DNS and running ```terraform destroy``` will remove the DNS A Record from the DNS.
 
 ----
 

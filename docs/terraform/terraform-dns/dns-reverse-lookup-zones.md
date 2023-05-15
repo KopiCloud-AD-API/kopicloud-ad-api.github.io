@@ -1,7 +1,7 @@
 ---
 title: DNS Reverse Lookup Zones
 description: Manage Microsoft DNS Reverse Lookup Zones with Terraform
-date: 2023-03-01
+date: 2023-05-15
 ---
 
 # DNS Reverse Lookup Zones
@@ -11,7 +11,9 @@ Manage Microsoft DNS Reverse Lookup Zones using the KopiCloud AD Terraform Provi
 
 ----
 
-## Create a DNS Reverse Lookup Zone
+## Resouces
+
+### Create a DNS Reverse Lookup Zone
 
 Create a DNS Reverse Lookup Zone:
 
@@ -32,14 +34,28 @@ output "dns_reverse_zone" {
 
 ----
 
-## List All DNS Reverse Lookup Zones
+**Schema**
+
+Required:
+
+- ```network_id``` (String) Network ID (example: 10.20.30.0/24)
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single DNS Zone (see below for nested schema)
+
+----
+
+## Data Sources
+
+### List DNS Reverse Lookup Zones
 
 List All DNS Reverse Lookup Zones:
 
 ```
 data "kopicloud_dns_reverse_lookup_zone_list" "test_reverse_all" {}
 ```
-
 
 Returns the List of DNS Reverse Lookup Zones:
 
@@ -52,22 +68,33 @@ output "dns_reverse_lookup_zone_list" {
 
 ----
 
-## List All DNS Zones
+**Schema**
 
-List All DNS Zones (Reverse Lookup Zones and Lookup Zones):
+Optional:
 
-```
-data "kopicloud_dns_zone_list" "test_all" {}
-```
+- ```network_id``` (String) Network ID (example: 10.20.30.0/24) or Zone Name (example: 30.20.10.in-addr.arpa)
 
-Returns the List of All DNS Zones:
+Read-Only:
 
-```
-output "dns_all_zone_list" {
-  description = "List of All DNS Zones"
-  value       = data.kopicloud_dns_zone_list.test_all
-}
-```
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single DNS Zone (see below for nested schema)
+
+----
+
+## Nested Schema for Result
+
+Read-Only:
+
+- ```distinguished_name``` (String) DNS Distinguished Name
+- ```type``` (String) DNS Type, possible values are ```ForwardDNSZone``` or ```ReverseDNSZone```
+- ```zone_name``` (String) DNS Zone Name
+- ```zone_type``` (String) DNS Zone Type, possible values are ```Primary```, ```Secondary``` or ```Stub Zone```
+
+----
+
+## Notes
+
+Running this resource with ```terraform apply``` will create a DNS Reverse Lookup Zone in the Microsoft DNS and running ```terraform destroy``` will remove the DNS Reverse Lookup Zone from the DNS.
 
 ----
 
