@@ -1,7 +1,7 @@
 ---
 title: AD Users with Terraform
 description: Manage AD Users with Terraform
-date: 2023-03-25
+date: 2023-05-15
 ---
 
 # AD Users with Terraform
@@ -97,7 +97,7 @@ Read-Only:
 
 ----
 
-### Disable an Active Directory User
+### Disable an AD User
 
 Disable AD User Account:
 
@@ -135,7 +135,7 @@ Read-Only:
 
 ----
 
-### Enable an Active Directory User
+### Enable an AD User
 
 Enable AD User Account:
 
@@ -171,7 +171,7 @@ Read-Only:
 - ```id``` (String) The ID of this Resource
 - ```result``` (List of Objects) Single AD User (see below for nested schema)
 
-
+----
 
 ### Reset the Password of an AD User
 
@@ -216,9 +216,87 @@ Read-Only:
 
 ----
 
+### Rename an Active Directory User
+
+Rename AD User:
+
+```
+resource "kopicloud_user_rename_account" "test" {
+  username     = "carlos"
+  new_username = "charlie"
+}
+```
+
+AD User Rename Result:
+
+```
+output "OUTPUT_user_password_rename" {
+  description = "Rename AD User"
+  value = resource.kopicloud_user_rename_account.test
+}
+```
+
+----
+
+**Schema**
+
+Required:
+
+- ```username``` (String) - Existing AD Username
+- ```new_username``` (String) - New AD Username
+
+Optional:
+
+- ```show_fields``` (String) Filter Specific Fields in the Output
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single AD User (see below for nested schema)
+
+----
+
+### Unlock an Active Directory User
+
+Unlock AD User:
+
+```
+resource "kopicloud_user_unlock_account" "test" {
+  username = "guillermo"
+}
+```
+
+Unlock AD User Result:
+
+```
+output "OUTPUT_user_unlock_account" {
+  description = "User Unlock"
+  value = resource.kopicloud_user_unlock_account.test
+}
+```
+
+----
+
+**Schema**
+
+Required:
+
+- ```username``` (String) - AD Username to Unlock
+
+Optional:
+
+- ```show_fields``` (String) Filter Specific Fields in the Output
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single AD User (see below for nested schema)
+
+----
+
 ## Data Sources
 
-### List of All Computers Inside an Active Directory Organization Unit
+### List Users in AD
 
 Get All AD Users:
 
@@ -236,8 +314,6 @@ output "OUTPUT_kopicloud_all_users" {
 ```
 
 ----
-
-## List of All AD Users Inside an Organization Unit
 
 Get All AD Users Inside an OU:
 
@@ -258,8 +334,6 @@ output "OUTPUT_kopicloud_all_users_ou" {
 
 ----
 
-## List of All AD Users Showing Specific Fields
-
 Get All AD Users Showing Specific Fields :
 
 ```
@@ -277,6 +351,20 @@ output "kopicloud_all_users_filter" {
 }
 ```
 
+----
+
+**Schema**
+
+Optional:
+
+- ```ou_path``` (String) OU Path (Distinguished Name)
+- ```recursive``` (Boolean) Recursive Search Inside the OU
+- ```show_fields``` (String) Filter Specific Fields in the Output
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+- ```result``` (List of Objects) Single AD User (see below for nested schema)
 
 ----
 
