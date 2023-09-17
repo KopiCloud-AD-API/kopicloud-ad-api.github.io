@@ -2,5 +2,5 @@
 
 Official documentation for **KopiCloud AD API**
 
-KopiCloud AD API Documentation --> http://adapihelp.kopicloud.com
+KopiCloud AD API Documentation --> https://adapihelp.kopicloud.com
 
