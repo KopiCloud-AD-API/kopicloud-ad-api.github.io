@@ -1,7 +1,7 @@
 ---
 title: Event Logging
 description: Event Logging in KopiCloud AD API
-date: 2023-03-23
+date: 2023-09-17
 ---
 
 # Event Logging
@@ -41,5 +41,5 @@ Change the [Logging Setting Page](../settings/logging.md) to enable or disable w
 
 Coming soon, you can forward events to several SIEMs such as Splunk, Elastic, Azure Log Analytics, AWS CloudWatch, Datadog, Dynatrace, etc.
 
-Please [Request New Features](https://kopicloud-ad-api.com/Feature) or check our [Roadmap](https://kopicloud-ad-api.com/Feature/Roadmap) to prioritize your favorite SIEM.
+Please [Request New Features](https://adapi.kopicloud.com/Feature) or check our [Roadmap](https://adapi.kopicloud.com/Feature/Roadmap) to prioritize your favorite SIEM.
 
