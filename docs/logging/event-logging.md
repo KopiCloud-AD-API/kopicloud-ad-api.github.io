@@ -23,7 +23,7 @@ To review the **KopiCloud API Event Log**, log in to the **KopiCloud AD API Mana
 
 Use the top right **filter** to filter events using a date range.
 
-![Event Log](https://help.kopicloud-ad-api.com/assets/docs/event-log.png)
+![Event Log](https://adapihelp.kopicloud.com.com/assets/docs/event-log.png)
 
 ----
 
@@ -33,7 +33,7 @@ Use the top right **filter** to filter events using a date range.
 
 Change the [Logging Setting Page](../settings/logging.md) to enable or disable writing events to Windows Event Log.
 
-![Event Log](https://help.kopicloud-ad-api.com/assets/docs/windows_event_log.png)
+![Event Log](https://adapihelp.kopicloud.com.com/assets/docs/windows_event_log.png)
 
 ----
 

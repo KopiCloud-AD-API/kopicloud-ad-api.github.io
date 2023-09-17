@@ -23,7 +23,7 @@ Open the file C**:\KopiCloud-AD-API\appsettings.json** and check DNS Settings:
 
 Search for the following settings: "DNSZone", "DNSServer1" and "DNSServer2".
 
-![Troubleshooting DNS Settings](https://help.kopicloud-ad-api.com/assets/docs/troubleshooting_dns_settings.png)
+![Troubleshooting DNS Settings](https://adapihelp.kopicloud.com.com/assets/docs/troubleshooting_dns_settings.png)
 
 Check the values are valid.
 

@@ -23,4 +23,4 @@ If **Token Authentication** is enabled, every call to the API will require a tok
 
 If Token Authentication is enabled, the Swagger UI will request a token to execute an API method:
 
-![Swagger UI Token](https://help.kopicloud-ad-api.com/assets/docs/swagger_token.png)
+![Swagger UI Token](https://adapihelp.kopicloud.com.com/assets/docs/swagger_token.png)

@@ -17,7 +17,7 @@ So, why do you need to use KopiCloud Active Directory API?
 
 <div class="wrapper" markdown>
 
--   ![Token List](http://adapihelp.kopicloud.com/assets/icons/api.png) <span style="color:dodgeblue">No official API from Microsoft</span>
+-   ![Token List](https://adapihelp.kopicloud.com/assets/icons/api.png) <span style="color:dodgeblue">No official API from Microsoft</span>
 
     ---
 
@@ -25,7 +25,7 @@ So, why do you need to use KopiCloud Active Directory API?
 
 
 
--   ![Token List](http://adapihelp.kopicloud.com/assets/icons/secure.png) We use Tokens instead of Passwords
+-   ![Token List](https://adapihelp.kopicloud.com/assets/icons/secure.png) We use Tokens instead of Passwords
 
     ---
 
@@ -33,14 +33,14 @@ So, why do you need to use KopiCloud Active Directory API?
 
 
 
--   ![Token List](http://adapihelp.kopicloud.com/assets/icons/log.png) We keep a log of everything
+-   ![Token List](https://adapihelp.kopicloud.com/assets/icons/log.png) We keep a log of everything
 
     ---
 
     Every task or action executed is written in a log, so you know who and when they call any API method. Coming soon, you will be able to forward events to several SIEMs.
 
 
--   ![Token List](http://adapihelp.kopicloud.com/assets/icons/terraform.png) Automate AD with our Terraform Provider
+-   ![Token List](https://adapihelp.kopicloud.com/assets/icons/terraform.png) Automate AD with our Terraform Provider
 
     ---
 
@@ -48,7 +48,7 @@ So, why do you need to use KopiCloud Active Directory API?
 
 
 
--   ![Token List](http://adapihelp.kopicloud.com/assets/icons/buildings.png) Designed for all kinds of companies
+-   ![Token List](https://adapihelp.kopicloud.com/assets/icons/buildings.png) Designed for all kinds of companies
 
     ---
 

@@ -20,7 +20,7 @@ We offer four types of licenses:
 
 ## Trial License
     
-![Trial License](https://help.kopicloud-ad-api.com/assets/docs/license-trial.png){ align=left }
+![Trial License](https://adapihelp.kopicloud.com.com/assets/docs/license-trial.png){ align=left }
 
 To get a trial license, log in to [KopiCloud AD API Website](https://adapi.kopicloud.com/Identity/Account/Login) with your account or create a new account.
 
@@ -34,7 +34,7 @@ Go to the **Settings** page, click the **Trial** menu, enter your name and compa
 
 ## Subscription Mode or Perpetual License
     
-![License Type](https://help.kopicloud-ad-api.com/assets/docs/license-subscription.png){ align=left }
+![License Type](https://adapihelp.kopicloud.com.com/assets/docs/license-subscription.png){ align=left }
 
 The API is licensed in two ways: subscription mode or perpetual license.
 
@@ -50,7 +50,7 @@ The subscription mode is recommended to evaluate the product or short-term proje
 
 ## Licensed per Active Directory Domain
 
-![Active Directory](https://help.kopicloud-ad-api.com/assets/docs/license-ad-domain.png){ align=left }
+![Active Directory](https://adapihelp.kopicloud.com.com/assets/docs/license-ad-domain.png){ align=left }
 
 The API requires one API server per Active Directory Domain, so you must purchase one license per Active Directory Domain.
 
@@ -60,7 +60,7 @@ If you have two environments: development and production, you must purchase two 
 
 ## FREE Upgrades
 
-![FREE Upgrades](https://help.kopicloud-ad-api.com/assets/docs/license-upgrade.png){ align=left }
+![FREE Upgrades](https://adapihelp.kopicloud.com.com/assets/docs/license-upgrade.png){ align=left }
 
 You always will receive **FREE** updates when you buy a license.
 
@@ -72,7 +72,7 @@ Updates include hotfixes, or application improvements, such as new features. You
 
 ## FREE Technical Support
 
-![Support](https://help.kopicloud-ad-api.com/assets/docs/license-support.png){ align=left }
+![Support](https://adapihelp.kopicloud.com.com/assets/docs/license-support.png){ align=left }
 
 **FREE technical support by e-mail** is included with all licenses purchased during business days. Optionally, you can report issues [here](https://adapi.kopicloud.com/Feature).
 
@@ -82,7 +82,7 @@ We also offer a [paid consulting service](https://adapi.kopicloud.com/consulting
 
 ## Non-Profits and Educational Institutions
 
-![NGOs](https://help.kopicloud-ad-api.com/assets/docs/license-organization.png){ align=left }
+![NGOs](https://adapihelp.kopicloud.com.com/assets/docs/license-organization.png){ align=left }
 
 We offer discounts to eligible non-profits and educational organizations (Schools, Colleges, and Universities).
 
@@ -92,7 +92,7 @@ If you represent these institutions, they can receive up to 50% discount on our 
 
 ## Internet Connected
 
-![Internet](https://help.kopicloud-ad-api.com/assets/docs/license-network.png){ align=left }
+![Internet](https://adapihelp.kopicloud.com.com/assets/docs/license-network.png){ align=left }
 
 Your API server must connect to the internet to use our subscription mode licensing. Once a day, the server will contact our licensing API to validate our license.
 
@@ -102,7 +102,7 @@ You must purchase a perpetual license if you need to run our API in an environme
 
 ## Refund and Cancellation Policy
 
-![Refund](https://help.kopicloud-ad-api.com/assets/docs/license-refund.png){ align=left }
+![Refund](https://adapihelp.kopicloud.com.com/assets/docs/license-refund.png){ align=left }
 
 We provide a trial version to let you evaluate the product to ensure it meets your needs before making a purchase. If you need any assistance or have questions during the trial, we are here to help.
 
@@ -116,7 +116,7 @@ You can upgrade your license from a monthly to a yearly subscription or perpetua
 
 ## Cloud Provider Marketplace License
 
-![Marketplace](https://help.kopicloud-ad-api.com/assets/docs/license-marketplace.png){ align=left }
+![Marketplace](https://adapihelp.kopicloud.com.com/assets/docs/license-marketplace.png){ align=left }
 
 We offer the option to deploy and purchase **KopiCloud AD API** in cloud provider marketplaces.
 

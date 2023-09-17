@@ -19,7 +19,7 @@ Also, we tested the API in VMware vSphere and Microsoft Hyper-V virtual machines
 ## Amazon Web Services (AWS) Virtual Machines
 
 
-![AWS](https://help.kopicloud-ad-api.com/assets/docs/platform-aws-vm.png){ align=left }
+![AWS](https://adapihelp.kopicloud.com.com/assets/docs/platform-aws-vm.png){ align=left }
 
 We tested **KopiCloud AD API** running:
 
@@ -32,7 +32,7 @@ We tested **KopiCloud AD API** running:
 
 ## Amazon Web Services (AWS) Directory Service
 
-![AWS](https://help.kopicloud-ad-api.com/assets/docs/platform-aws-directory-service.png){ align=left }
+![AWS](https://adapihelp.kopicloud.com.com/assets/docs/platform-aws-directory-service.png){ align=left }
 
 We tested **KopiCloud AD API** running:
 
@@ -45,7 +45,7 @@ We tested **KopiCloud AD API** running:
 
 ## Microsoft Azure Virtual Machines
 
-![Azure](https://help.kopicloud-ad-api.com/assets/docs/platform-azure-vm.png){ align=left }
+![Azure](https://adapihelp.kopicloud.com.com/assets/docs/platform-azure-vm.png){ align=left }
 
 We test **KopiCloud AD API** running:
 
@@ -58,7 +58,7 @@ We test **KopiCloud AD API** running:
 
 ## Azure Active Directory Domain Services (Azure AD DS)
 
-![Azure](https://help.kopicloud-ad-api.com/assets/docs/platform-azure-active-directory-domain-services.png){ align=left }
+![Azure](https://adapihelp.kopicloud.com.com/assets/docs/platform-azure-active-directory-domain-services.png){ align=left }
 
 We tested **KopiCloud AD API** running:
 
@@ -73,7 +73,7 @@ We tested **KopiCloud AD API** running:
 
 ## Google Cloud Platform (GCP) Virtual Machines
 
-![GCP](https://help.kopicloud-ad-api.com/assets/docs/platform-gcp-vm.png){ align=left }
+![GCP](https://adapihelp.kopicloud.com.com/assets/docs/platform-gcp-vm.png){ align=left }
 
 We tested **KopiCloud AD API** running:
 
@@ -86,7 +86,7 @@ We tested **KopiCloud AD API** running:
 
 ## GCP Managed Service for Microsoft Active Directory
 
-![GCP](https://help.kopicloud-ad-api.com/assets/docs/platform-gcp-managed-service-microsoft-active-directory.png){ align=left }
+![GCP](https://adapihelp.kopicloud.com.com/assets/docs/platform-gcp-managed-service-microsoft-active-directory.png){ align=left }
 
 We tested **KopiCloud AD API** running:
 
@@ -99,7 +99,7 @@ We tested **KopiCloud AD API** running:
 
 ## Oracle Cloud Infrastructure (OCI) Virtual Machines
 
-![OCI](https://help.kopicloud-ad-api.com/assets/docs/platform-oracle-cloud.png){ align=left }
+![OCI](https://adapihelp.kopicloud.com.com/assets/docs/platform-oracle-cloud.png){ align=left }
 
 We tested **KopiCloud AD API** running:
 
@@ -112,7 +112,7 @@ We tested **KopiCloud AD API** running:
 
 ## VMware vSphere Virtual Machines
 
-![VMware](https://help.kopicloud-ad-api.com/assets/docs/platform-vmware-vsphere.png){ align=left }
+![VMware](https://adapihelp.kopicloud.com.com/assets/docs/platform-vmware-vsphere.png){ align=left }
 
 We tested **KopiCloud AD API** running:
 
@@ -125,7 +125,7 @@ We tested **KopiCloud AD API** running:
 
 ## Microsoft Hyper-V Virtual Machines
 
-![VMware](https://help.kopicloud-ad-api.com/assets/docs/platform-hyper-v.png){ align=left }
+![VMware](https://adapihelp.kopicloud.com.com/assets/docs/platform-hyper-v.png){ align=left }
 
 We tested **KopiCloud AD API** running:
 
