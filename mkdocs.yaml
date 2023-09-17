@@ -3,7 +3,7 @@ copyright: © 2023 KopiCloud Limited. All rights reserved
 site_author: KopiCloud Limited
 site_description: The API for Microsoft Active Directory and DNS
 site_name: KopiCloud AD API Documentation
-site_url: https://help.kopicloud-ad-api.com
+site_url: https://adapihelp.kopicloud.com
 theme:
   custom_dir: overrides
   favicon: assets/images/favicon.png
