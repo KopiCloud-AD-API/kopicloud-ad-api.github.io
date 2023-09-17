@@ -5,7 +5,7 @@ date: 2023-04-12
 ---
 
 # KopiCloud AD API Setup Configuration File
-[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
 KopiCloud AD API Setup configuration file parameters.
 

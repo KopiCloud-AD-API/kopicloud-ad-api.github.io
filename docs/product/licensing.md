@@ -5,7 +5,7 @@ date: 2023-04-02
 ---
 
 # KopiCloud AD API Licensing
-[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
 Understanding licensing is essential before you purchase or evaluate the product.
 
@@ -22,7 +22,7 @@ We offer four types of licenses:
     
 ![Trial License](https://help.kopicloud-ad-api.com/assets/docs/license-trial.png){ align=left }
 
-To get a trial license, log in to [KopiCloud AD API Website](https://www.kopicloud-ad-api.com/Identity/Account/Login) with your account or create a new account.
+To get a trial license, log in to [KopiCloud AD API Website](https://adapi.kopicloud.com/Identity/Account/Login) with your account or create a new account.
 
 Go to the **Settings** page, click the **Trial** menu, enter your name and company, and click the **Generate Trial** button.
 
@@ -66,7 +66,7 @@ You always will receive **FREE** updates when you buy a license.
 
 No extra maintenance fee is charged.
 
-Updates include hotfixes, or application improvements, such as new features. You can suggest and vote for new features [here](https://www.kopicloud-ad-api.com/Feature).
+Updates include hotfixes, or application improvements, such as new features. You can suggest and vote for new features [here](https://adapi.kopicloud.com/Feature).
 
 -----
 
@@ -74,9 +74,9 @@ Updates include hotfixes, or application improvements, such as new features. You
 
 ![Support](https://help.kopicloud-ad-api.com/assets/docs/license-support.png){ align=left }
 
-**FREE technical support by e-mail** is included with all licenses purchased during business days. Optionally, you can report issues [here](https://www.kopicloud-ad-api.com/Feature).
+**FREE technical support by e-mail** is included with all licenses purchased during business days. Optionally, you can report issues [here](https://adapi.kopicloud.com/Feature).
 
-We also offer a [paid consulting service](https://www.kopicloud-ad-api.com/consulting) to help deploy the API in hours or integrate the API into your environment if needed.
+We also offer a [paid consulting service](https://adapi.kopicloud.com/consulting) to help deploy the API in hours or integrate the API into your environment if needed.
 
 ----
 
@@ -86,7 +86,7 @@ We also offer a [paid consulting service](https://www.kopicloud-ad-api.com/consu
 
 We offer discounts to eligible non-profits and educational organizations (Schools, Colleges, and Universities).
 
-If you represent these institutions, they can receive up to 50% discount on our yearly subscription plans or perpetual licenses. Please [get in touch](https://www.kopicloud-ad-api.com/contact) with us for more details.
+If you represent these institutions, they can receive up to 50% discount on our yearly subscription plans or perpetual licenses. Please [get in touch](https://adapi.kopicloud.com/contact) with us for more details.
 
 ----
 
@@ -122,4 +122,4 @@ We offer the option to deploy and purchase **KopiCloud AD API** in cloud provide
 
 You can choose **BYO license** (Bring Your Own License) to use the license purchase at the KopiCloud AD API Store or **purchase the license from the cloud provider** (billed by your cloud provider).
 
-We are in the process of launching KopiCloud AD API in the AWS, Azure, GCP, and OCI Marketplaces. Please [get in touch](https://www.kopicloud-ad-api.com/contact) with us for more details.
+We are in the process of launching KopiCloud AD API in the AWS, Azure, GCP, and OCI Marketplaces. Please [get in touch](https://adapi.kopicloud.com/contact) with us for more details.

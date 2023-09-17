@@ -5,7 +5,7 @@ date: 2023-03-18
 ---
 
 # KopiCloud AD API Marketplace Images Credentials
-[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
 When you deploy a **KopiCloud AD API** server using a cloud provider marketplace (AWS, Azure, GCP), your server will be provisioned with serveral DEFAULT credentials.
 

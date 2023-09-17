@@ -14,7 +14,7 @@ All notable changes to this project are documented on this page.
 
 ### v1.0.0 (Amalfi) - April 2023
 
-[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
 API Initial Release
 
@@ -48,7 +48,7 @@ API Initial Release
 
 ### v1.0.0 - May 2023
 
-[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
 Terraform Provider Initial Release.
 

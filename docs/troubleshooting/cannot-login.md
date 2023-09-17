@@ -5,7 +5,7 @@ date: 2023-05-14
 ---
 
 # Troubleshooting: Cannot Log In to the KopiCloud AD API Portal
-[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
 This article explains how to troubleshoot logging in to the KopiCloud AD API Portal issues.
 

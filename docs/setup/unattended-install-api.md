@@ -5,7 +5,7 @@ date: 2023-xx-xx
 ---
 
 # Unattended Install KopiCloud AD API Setup
-[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
 Unattended installation and configuration of the KopiCloud AD API in your server
 

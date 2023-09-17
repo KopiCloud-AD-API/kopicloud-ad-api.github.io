@@ -5,7 +5,7 @@ date: 2023-05-15
 ---
 
 # Manage AD Groups with the KopiCloud AD API
-[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
 Manage AD Groups in Microsoft Active Directory using the KopiCloud AD API
 

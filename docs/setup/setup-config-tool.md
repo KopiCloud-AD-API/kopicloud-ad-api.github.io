@@ -5,7 +5,7 @@ date: 2023-04-08
 ---
 
 # Configuring KopiCloud AD API Setup
-[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
 Configuring the KopiCloud AD API on your server
 

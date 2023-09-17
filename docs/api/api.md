@@ -5,7 +5,7 @@ date: 2023-05-15
 ---
 
 # KopiCloud AD API
-[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
 The **KopiCloud AD API** is a REST API.
 
@@ -77,6 +77,6 @@ If your token is invalid or expired, the API call will fail, and you will receiv
 
 You need to install a license of KopiCloud AD API before you can make API calls or use the Terraform Provider.
 
-Get a free trial license [here](https://www.kopicloud-ad-api.com/get-license).
+Get a free trial license [here](https://adapi.kopicloud.com/get-license).
 
 If your license is invalid or expired, the API call will fail, and you will receive a **403 response code**.

@@ -5,7 +5,7 @@ date: 2023-xx-xx
 ---
 
 # Setup Details
-[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
 Details about the Setup Tool for KopiCloud AD API.
 

@@ -5,7 +5,7 @@ date: 2023-05-15
 ---
 
 # Manage Microsoft AD with KopiCloud AD API
-[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
 Manage Microsoft AD resources using the KopiCloud AD API.
 

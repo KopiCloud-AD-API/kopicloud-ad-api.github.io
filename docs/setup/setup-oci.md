@@ -5,7 +5,7 @@ date: 2023–05-14
 ---
 
 # Deploying KopiCloud AD API in OCI
-[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
 Explore options for running KopiCloud AD API in Oracle Cloud Infrastructure (OCI)
 
@@ -13,7 +13,7 @@ Explore options for running KopiCloud AD API in Oracle Cloud Infrastructure (OCI
 
 ## How to Set Up KopiCloud AD API in OCI
 
-1. Get a License - Generate a free trial license (no credit card required) or purchase a license [here](https://www.kopicloud-ad-api.com/get-license)
+1. Get a License - Generate a free trial license (no credit card required) or purchase a license [here](https://adapi.kopicloud.com/get-license)
 
 2. Deploy a **KopiCloud AD API** using the information listed below
 
