@@ -21,7 +21,7 @@ If **Token Authentication** is enabled, every call to the API will require a tok
 
 Check the status of the Token Authentication, in the footer of the **KopiCloud AD API Management Portal**:
 
-![Token Authentication Status](https://adapihelp.kopicloud.com.com/assets/docs/token_authentication_status.png)
+![Token Authentication Status](https://adapihelp.kopicloud.com/assets/docs/token_authentication_status.png)
 
 ----
 

@@ -48,7 +48,7 @@ If any is disabled, right-click it and select Enable.
 
 Configure **Shared Memory** as order 1, **TCP/IP** as order 2, and **Named Pipes** as order 3.
 
-![Troubleshooting SQL Connections](https://adapihelp.kopicloud.com.com/assets/docs/troubleshooting_sql_connection_1.png)
+![Troubleshooting SQL Connections](https://adapihelp.kopicloud.com/assets/docs/troubleshooting_sql_connection_1.png)
 
 Then expand **SQL Server Network Configuration** / **Protocols for MSSQLSERVER**.
 
@@ -56,13 +56,13 @@ On the right pane, make sure that all protocols are enabled.
 
 If any is disabled, right-click it and select Enable.
 
-![Troubleshooting SQL Connections](https://adapihelp.kopicloud.com.com/assets/docs/troubleshooting_sql_connection_2.png)
+![Troubleshooting SQL Connections](https://adapihelp.kopicloud.com/assets/docs/troubleshooting_sql_connection_2.png)
 
 Double-click the TCP/IP row to open the **TCP/IP Properties** window.
 
 Click on the IP Address tab to check the correct IP Addresses are Active and Enabled.
 
-![Troubleshooting SQL Connections](https://adapihelp.kopicloud.com.com/assets/docs/troubleshooting_sql_connection_3.png)
+![Troubleshooting SQL Connections](https://adapihelp.kopicloud.com/assets/docs/troubleshooting_sql_connection_3.png)
 
 ----
 

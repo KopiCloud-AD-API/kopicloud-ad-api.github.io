@@ -28,7 +28,7 @@ Login into the [KopiCloud AD API website](https://adapi.kopicloud.com) with your
 
 Go to the **Settings** page, click on the **Trial** menu, enter your name and company, and click on the **Generate Trial** button.
 
-![Create Trial](https://adapihelp.kopicloud.com.com/assets/docs/generate_trial_license.png)
+![Create Trial](https://adapihelp.kopicloud.com/assets/docs/generate_trial_license.png)
 
 > Note #1: there is a limit on the number of trial licenses that you can generate
 
@@ -42,7 +42,7 @@ You have 3 options to deploy your **KopiCloud AD API** server:
 
 1) Search for **KopiCloud AD API** in the MarketPlace of your Cloud Provider
 
-![AWS Marketplace](https://adapihelp.kopicloud.com.com/assets/aws-marketplace/kopicloud-aws-marketplace.png)
+![AWS Marketplace](https://adapihelp.kopicloud.com/assets/aws-marketplace/kopicloud-aws-marketplace.png)
 
 2) Download the Setup Scripts and install **KopiCloud AD API** in your server
 
