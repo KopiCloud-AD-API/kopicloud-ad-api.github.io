@@ -55,7 +55,7 @@ So, why do you need to use KopiCloud Active Directory API?
     We have plenty of pre-configured security access groups. The API provides many options if you are a small company or a large enterprise with a dedicated security team.
 
 
--   ![Token List](http://adapihelp.kopicloud/assets/icons/test.png) Production or Test Environment?
+-   ![Token List](http://adapihelp.kopicloud.com/assets/icons/test.png) Production or Test Environment?
 
     ---
 
