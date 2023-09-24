@@ -1,13 +1,13 @@
 ---
 title: Deploying KopiCloud AD API in AWS
 description: Deploying KopiCloud AD API in AWS
-date: 2023–05-15
+date: 2023–09-25
 ---
 
 # Deploying KopiCloud AD API in AWS
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
-Explore options for running KopiCloud AD API in Amazon Web Services (AWS)
+Explore options for running KopiCloud AD API in Amazon Web Services (AWS). You can deploy KopiCloud AD API using AWS MarketPlace, installing manually on an EC2 instance or using Terraform.
 
 ----
 
@@ -22,6 +22,12 @@ Explore options for running KopiCloud AD API in Amazon Web Services (AWS)
 4. Create a Service Account with Domain Administrators permissions for the KopiCloud AD API.
 
 5. Run the **KopiCloud AD API Config tool** located in the folder **C:\KopiCloud-AD-API-Config**
+
+----
+
+## Deploying in AWS from the AWS Marketplace
+
+Please check the document **[Deploying KopiCloud AD API from AWS Marketplace](setup-aws-marketplace.md)
 
 ----
 
