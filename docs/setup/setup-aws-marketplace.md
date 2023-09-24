@@ -43,21 +43,25 @@ A dialog box opens with an overview of the version of the KopiCloud AD API you'v
 > Note: You will only pay AWS EC2 costs as the KopiCloud AD API license in AWS is BYOL (Bring your own license).
 
 
-6. After we selected the image, we need to configure the EC2 Instance
+6) After we selected the image, we need to configure the EC2 Instance
 
-6.1. Under **Name and tags**, for Name, enter a descriptive name for your instance.
+
+6.1) Under **Name and tags**, for Name, enter a descriptive name for your instance.
 
 ![EC2 Instance Name](https://adapihelp.kopicloud.com/assets/marketplace/aws-marketplace-05.png)
 
-6.2. For **Instance type**, select an instance type for your instance. T3.Medium or T3.Large is recommended for the setup.
+
+6.2) For **Instance type**, select an instance type for your instance. T3.Medium or T3.Large is recommended for the setup.
 
 ![EC2 Instance Type](https://adapihelp.kopicloud.com/assets/marketplace/aws-marketplace-06.png)
 
-6.3. Under **Key pair (login)** section, for Key pair name, choose an existing key pair or create a new one.
+
+6.3) Under **Key pair (login)** section, for Key pair name, choose an existing key pair or create a new one.
 
 ![EC2 Instance Key Pair](https://adapihelp.kopicloud.com/assets/marketplace/aws-marketplace-07.png)
 
-6.4. Under **Network settings, Firewall (security groups)**, please review the new security group that was created for **KopiCloud AD API**.
+
+6.4) Under **Network settings, Firewall (security groups)**, please review the new security group that was created for **KopiCloud AD API**.
 
 The security group includes rules that allow all IPv4 addresses (0.0.0.0/0) access on RDP (port 3389) on Windows.
 
@@ -65,12 +69,13 @@ The security group includes rules that allow all IPv4 addresses (0.0.0.0/0) acce
 
 ![EC2 Instance Security Group](https://adapihelp.kopicloud.com/assets/marketplace/aws-marketplace-08.png)
 
-6.5. In the section **Configure storage**, you can keep or increase the 30 GB default size.
+
+6.5) In the section **Configure storage**, you can keep or increase the 30 GB default size.
 
 ![EC2 Instance Storage](https://adapihelp.kopicloud.com/assets/marketplace/aws-marketplace-09.png)
 
 
-7. In the **Summary panel**, under Software Image (AMI), check the details of the AMI from which you're about to launch the instance.
+7) In the **Summary panel**, under Software Image (AMI), check the details of the AMI from which you're about to launch the instance.
 
 Also, check the other configuration details that you specified. When you're ready to launch your instance, choose the **Launch instance** button.
 
@@ -87,10 +92,10 @@ If there are any problems with your credit card details, you will be asked to up
 When the launch confirmation page displays, choose **View all instances** to go to the **Instances** page.
 
 
-8. Generate a license at (https://adapi.kopicloud.com/get-license)
+8) Generate a license at (https://adapi.kopicloud.com/get-license)
 
 
-9. When the machine is ready, retrieve your initial administrator password using the AWS CLI or AWS Console.
+9) When the machine is ready, retrieve your initial administrator password using the AWS CLI or AWS Console.
 
 In the AWS Console, select the new instance, then click on **Actions** menu, select **Security**, and then **Get Windows password**.
 
@@ -99,12 +104,12 @@ In the AWS Console, select the new instance, then click on **Actions** menu, sel
 Follow the instructions to retrieve the password.
 
 
-10. Log in to the EC2 Instance using the default Windows username (Administrator), and the password retrieved in the previous step.
+10) Log in to the EC2 Instance using the default Windows username (Administrator), and the password retrieved in the previous step.
 
 
-11. Join the EC2 Instance to the AD Domain that we will manage using the API and restart the machine.
+11) Join the EC2 Instance to the AD Domain that we will manage using the API and restart the machine.
 
 Note: Based on the VPC and Subnet configuration, extra steps may be required to join the machine to the domain.
 
 
-12. Run the **KopiCloud AD API Config tool** located in the folder **C:\KopiCloud-AD-API-Config** to finish the setup of the API.
+12) Run the **KopiCloud AD API Config tool** located in the folder **C:\KopiCloud-AD-API-Config** to finish the setup of the API.
