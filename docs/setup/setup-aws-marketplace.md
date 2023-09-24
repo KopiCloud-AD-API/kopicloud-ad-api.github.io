@@ -7,7 +7,7 @@ date: 2023–09-25
 # Deploying KopiCloud AD API from AWS Marketplace
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
-Explore options for running KopiCloud AD API in Amazon Web Services (AWS)
+Deploying an EC2 Instance with KopiCloud AD API from AWS Marketplace
 
 ----
 
@@ -15,19 +15,24 @@ Explore options for running KopiCloud AD API in Amazon Web Services (AWS)
 
 To deploy an AWS EC2 Instance With KopiCloud AD API from the AWS Marketplace image, follow the procedure below:
 
-1. Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/.
+
+1. Open the Amazon EC2 console at (https://console.aws.amazon.com/ec2).
+
 
 2. From the Amazon EC2 console dashboard, choose **Launch instance**.
 
 ![Launch EC2 Instance](https://adapihelp.kopicloud.com/assets/marketplace/aws-marketplace-01.png) 
 
-3. Under **Application and OS Images (Amazon Machine Image)**, type **kopicloud** and click on Browse more AMIs.
+
+3. Under **Application and OS Images (Amazon Machine Image)**, type **kopicloud** and click on **Browse more AMIs** link.
 
 ![Search AMI](https://adapihelp.kopicloud.com/assets/marketplace/aws-marketplace-02.png) 
+
 
 4. Choose the **AWS Marketplace AMIs** tab to show all KopiCloud AMIs available:
 
 ![List AMIs](https://adapihelp.kopicloud.com/assets/marketplace/aws-marketplace-03.png) 
+
 
 5. To choose the right KopiCloud AD API product version for you, choose the **Select** button next to the operating system.
 
@@ -36,6 +41,7 @@ A dialog box opens with an overview of the version of the KopiCloud AD API you'v
 ![Selected AMI](https://adapihelp.kopicloud.com/assets/marketplace/aws-marketplace-04.png) 
 
 > Note: You will only pay AWS EC2 costs as the KopiCloud AD API license in AWS is BYOL (Bring your own license).
+
 
 6. After we selected the image, we need to configure the EC2 Instance
 
@@ -63,6 +69,7 @@ The security group includes rules that allow all IPv4 addresses (0.0.0.0/0) acce
 
 ![EC2 Instance Storage](https://adapihelp.kopicloud.com/assets/marketplace/aws-marketplace-09.png)
 
+
 7. In the **Summary panel**, under Software Image (AMI), check the details of the AMI from which you're about to launch the instance.
 
 Also, check the other configuration details that you specified. When you're ready to launch your instance, choose the **Launch instance** button.
@@ -79,7 +86,9 @@ If there are any problems with your credit card details, you will be asked to up
 
 When the launch confirmation page displays, choose **View all instances** to go to the **Instances** page.
 
-8. Generate a license at https://adapi.kopicloud.com/get-license
+
+8. Generate a license at (https://adapi.kopicloud.com/get-license)
+
 
 9. When the machine is ready, retrieve your initial administrator password using the AWS CLI or AWS Console.
 
@@ -89,10 +98,13 @@ In the AWS Console, select the new instance, then click on **Actions** menu, sel
 
 Follow the instructions to retrieve the password.
 
+
 10. Log in to the EC2 Instance using the default Windows username (Administrator), and the password retrieved in the previous step.
+
 
 11. Join the EC2 Instance to the AD Domain that we will manage using the API and restart the machine.
 
 Note: Based on the VPC and Subnet configuration, extra steps may be required to join the machine to the domain.
+
 
 12. Run the **KopiCloud AD API Config tool** located in the folder **C:\KopiCloud-AD-API-Config** to finish the setup of the API.

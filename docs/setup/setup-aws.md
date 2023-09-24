@@ -27,7 +27,7 @@ Explore options for running KopiCloud AD API in Amazon Web Services (AWS). You c
 
 ## Deploying in AWS from the AWS Marketplace
 
-Please check the document **[Deploying KopiCloud AD API from AWS Marketplace](setup-aws-marketplace.md)
+Please check the document **[Deploying KopiCloud AD API from AWS Marketplace](setup-aws-marketplace.md)**
 
 ----
 
