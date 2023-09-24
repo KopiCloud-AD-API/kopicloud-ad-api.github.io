@@ -16,25 +16,25 @@ Deploying an EC2 Instance with KopiCloud AD API from AWS Marketplace
 To deploy an AWS EC2 Instance With KopiCloud AD API from the AWS Marketplace image, follow the procedure below:
 
 
-1. Open the Amazon EC2 console at (https://console.aws.amazon.com/ec2).
+1) Open the Amazon EC2 console at (https://console.aws.amazon.com/ec2).
 
 
-2. From the Amazon EC2 console dashboard, choose **Launch instance**.
+2) From the Amazon EC2 console dashboard, choose **Launch instance**.
 
 ![Launch EC2 Instance](https://adapihelp.kopicloud.com/assets/marketplace/aws-marketplace-01.png) 
 
 
-3. Under **Application and OS Images (Amazon Machine Image)**, type **kopicloud** and click on **Browse more AMIs** link.
+3) Under **Application and OS Images (Amazon Machine Image)**, type **kopicloud** and click on **Browse more AMIs** link.
 
 ![Search AMI](https://adapihelp.kopicloud.com/assets/marketplace/aws-marketplace-02.png) 
 
 
-4. Choose the **AWS Marketplace AMIs** tab to show all KopiCloud AMIs available:
+4) Choose the **AWS Marketplace AMIs** tab to show all KopiCloud AMIs available:
 
 ![List AMIs](https://adapihelp.kopicloud.com/assets/marketplace/aws-marketplace-03.png) 
 
 
-5. To choose the right KopiCloud AD API product version for you, choose the **Select** button next to the operating system.
+5) To choose the right KopiCloud AD API product version for you, choose the **Select** button next to the operating system.
 
 A dialog box opens with an overview of the version of the KopiCloud AD API you've selected.
 
