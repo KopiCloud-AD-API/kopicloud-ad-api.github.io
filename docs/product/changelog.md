@@ -8,9 +8,18 @@ date: 2023-05-14
 
 All notable changes to this project are documented on this page.
 
+
 ----
 
 ## KopiCloud AD API Change Log
+
+### v1.1.0 (Provence) - May 2024
+
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.1+-blueviolet.svg)](https://adapi.kopicloud.com)
+
+- Enable/Disable API sections
+
+----
 
 ### v1.0.0 (Amalfi) - April 2023
 
