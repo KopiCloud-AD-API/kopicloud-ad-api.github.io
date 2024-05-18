@@ -68,6 +68,7 @@ nav:
     - Access Matrix: security/matrix.md
     
   - Settings:
+    - Enable/Disable API Sections: settings/api-section.md
     - DNS Configuration: settings/dns-config.md
     - Security Group Access: settings/security.md
     - Service Account: settings/service-account.md
