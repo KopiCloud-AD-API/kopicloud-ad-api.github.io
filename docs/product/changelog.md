@@ -17,7 +17,7 @@ All notable changes to this project are documented on this page.
 
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.1+-blueviolet.svg)](https://adapi.kopicloud.com)
 
-- Enable/Disable API sections
+- Enable/disable (show/hide) sections of the KopiCloud AD API
 
 ----
 
