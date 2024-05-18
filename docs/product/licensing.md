@@ -12,7 +12,6 @@ Understanding licensing is essential before you purchase or evaluate the product
 We offer four types of licenses:
 
 - Trial
-- Monthly License
 - Yearly License
 - Perpetual License
 
