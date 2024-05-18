@@ -20,6 +20,7 @@ This is the list of API settings that you can enable/disable:
 - APIEnableADGroup
 - APIEnableADGroupMembership
 - APIEnableADUser
+- APIEnableADOu
 - APIEnableDNS
 - APIEnableDnsA
 - APIEnableDnsAAAA
@@ -30,7 +31,7 @@ This is the list of API settings that you can enable/disable:
 
 ## APIEnableAD
 
-The **APIEnableAD** setting manages **ALL** Active Directory sections. 
+The **APIEnableAD** setting manages **ALL Active Directory** sections. 
 
 When you enable/disable this section, you will see/hide the **AD Computer**, **AD OU**, **AD User**, **AD Group**, and **ADGroupMembership** sections.
 
@@ -54,24 +55,50 @@ Restart the web server using the **IISReset command** or the IIS Console.
 
 ----
 
+## APIEnableADComputer
+
+The **APIEnableADComputer** setting manages the **AD Computer** section. 
+
+When you enable/disable this section, you will see/hide the **AD Computer** section.
+
+Open the **appsettings.json** file located at the root of the KopiCloud AD API folder (C:\KopiCloud-AD-API).
+
+> AD Computer Section Enabled
+
+```
+"APIEnableADComputer: true"
+```
+
+> AD Computer Section Disabled
+
+```
+"APIEnableADComputer: false"
+```
+
+Save the file.
+
+Restart the web server using the **IISReset command** or the IIS Console.
+
+----
+
 ## APIEnableDNS
 
-The **APIEnableDNS** setting manages **ALL** DNS sections. 
+The **APIEnableDNS** setting manages **ALL DNS** sections. 
 
 When you enable/disable this section, you will see/hide the **APIEnableDnsA**, **APIEnableDnsAAAA**, **APIEnableDnsCNAME**, and **APIEnableDnsZones** sections.
 
 Open the **appsettings.json** file located at the root of the KopiCloud AD API folder (C:\KopiCloud-AD-API).
 
-> AD Sections Enabled
+> DNS Sections Enabled
 
 ```
-"APIEnableAD: true"
+"APIEnableDNS: true"
 ```
 
-> AD Sections Disabled
+> DNS Sections Disabled
 
 ```
-"APIEnableAD: false"
+"APIEnableDNS: false"
 ```
 
 Save the file.
