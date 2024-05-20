@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 description: Getting Started with KopiCloud AD API
-date: 2023-05-14
+date: 2023-05-20
 ---
 
 # Getting Started with KopiCloud AD API
