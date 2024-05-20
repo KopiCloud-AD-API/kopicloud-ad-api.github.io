@@ -42,7 +42,7 @@ You have 3 options to deploy your **KopiCloud AD API** server:
 
 1) Search for **KopiCloud AD API** in the MarketPlace of your Cloud Provider
 
-![AWS Marketplace](https://adapihelp.kopicloud.com/assets/aws-marketplace/kopicloud-aws-marketplace.png)
+![AWS Marketplace](https://adapihelp.kopicloud.com/assets/marketplace/aws-marketplace-03.png)
 
 2) Download the Setup Scripts and install **KopiCloud AD API** in your server
 
