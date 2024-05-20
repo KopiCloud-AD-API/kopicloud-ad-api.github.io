@@ -7,7 +7,7 @@ date: 2024-05-20
 # Enable/Disable (Show/Hide) API Sections
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.1+-blueviolet.svg)](https://adapi.kopicloud.com)
 
-By default, all API sections are **enabled**, but you may need to disable sections for security reasons.
+By default, all API sections are **enabled**, but you may need to disable sections for application or security reasons.
 
 This article explains enabling or disabling some specific KopiCloud AD API sections.
 
@@ -85,17 +85,17 @@ Restart the web server using the **IISReset command** or the IIS Console.
 
 The **APIEnableADGroup** setting manages the **AD Groups** section. 
 
-When you enable/disable this section, you will see/hide the **AD Group** section.
+When you enable/disable this section, you will see/hide the **AD Groups** section.
 
 Open the **appsettings.json** file located at the root of the KopiCloud AD API folder (C:\KopiCloud-AD-API).
 
-> AD Group Section Enabled
+> AD Groups Section Enabled
 
 ```
 "APIEnableADGroup: true"
 ```
 
-> AD Group Section Disabled
+> AD Groups Section Disabled
 
 ```
 "APIEnableADGroup: false"
@@ -141,13 +141,13 @@ When you enable/disable this section, you will see/hide the **AD Users** section
 
 Open the **appsettings.json** file located at the root of the KopiCloud AD API folder (C:\KopiCloud-AD-API).
 
-> AD User Section Enabled
+> AD Users Section Enabled
 
 ```
 "APIEnableADUser: true"
 ```
 
-> AD User Section Disabled
+> AD Users Section Disabled
 
 ```
 "APIEnableADUser: false"
@@ -167,13 +167,13 @@ When you enable/disable this section, you will see/hide the **AD Organization Un
 
 Open the **appsettings.json** file located at the root of the KopiCloud AD API folder (C:\KopiCloud-AD-API).
 
-> AD OU Section Enabled
+> AD Organization Units (OU) Section Enabled
 
 ```
 "APIEnableADOu: true"
 ```
 
-> AD OU Section Disabled
+> AD Organization Units (OU) Section Disabled
 
 ```
 "APIEnableADOu: false"
