@@ -1,5 +1,5 @@
 INHERIT: ./nav.yaml
-copyright: © 2023 KopiCloud Limited. All rights reserved
+copyright: © 2025 KopiCloud Limited. All rights reserved
 site_author: KopiCloud Limited
 site_description: The API for Microsoft Active Directory and DNS
 site_name: KopiCloud AD API Documentation
@@ -47,6 +47,3 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 extra_css:
   - assets/css/extra.css
-
-
-
