@@ -1,21 +1,20 @@
 ---
 title: AD Group Membership with Terraform
 description: Manage AD Group Membership with Terraform
-date: 2023-05-15
+date: 2023-05-25
 ---
 
 # AD Group Membership with Terraform
-[![Terraform](https://img.shields.io/badge/terraform-v1.3+-blue.svg)](https://www.terraform.io/downloads.html) [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
-
 Manage AD Group Membership in Microsoft Active Directory using the KopiCloud AD API Terraform Provider
 
 ----
 
 ## Resources
 
-### Add AD User to an AD Group
+### Add an AD User to an AD Group
+[![Terraform](https://img.shields.io/badge/terraform-v1.3+-blue.svg)](https://www.terraform.io/downloads.html) [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://adapi.kopicloud.com)
 
-Add an AD User to AD Group:
+Add an AD User to an AD Group:
 
 ```
 resource "kopicloud_group_membership" "test" {
@@ -24,7 +23,7 @@ resource "kopicloud_group_membership" "test" {
 }
 ```
 
-Returns Group Membership of AD User:
+Returns the Group Membership of an AD User:
 
 ```
 output "OUTPUT_kopicloud_group_membership" {
@@ -44,6 +43,45 @@ Required:
 Optional:
 
 - ```group_name``` (String) AD Group Name
+
+Read-Only:
+
+- ```id``` (String) The ID of this Resource
+
+- ```result``` (List of Objects) Single AD Group (see below for nested schema)
+
+----
+
+### Add an AD Group to an AD Group
+[![Terraform](https://img.shields.io/badge/terraform-v1.3+-blue.svg)](https://www.terraform.io/downloads.html) [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.2+-blueviolet.svg)](https://adapi.kopicloud.com)
+
+Add an AD Group to an AD Group:
+
+```
+resource "kopicloud_group_membership" "test" {
+  parent_group_name = "KopiCloud DevOps"
+  child_group_name  = "KopiCloud Architects"
+}
+```
+
+Returns the Group Membership of the AD Group:
+
+```
+output "OUTPUT_kopicloud_group_membership" {
+  description = "Added User to an AD Group"
+  value       = resource.kopicloud_group_membership.test
+}
+```
+
+----
+
+**Schema**
+
+Required:
+
+- ```parent_group_name``` (String) Parent AD Group Name
+
+- ```child_group_name``` (String) Child AD Group Name
 
 Read-Only:
 
