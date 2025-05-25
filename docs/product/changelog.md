@@ -16,8 +16,8 @@ All notable changes to this project are documented on this page.
 
 [![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.2+-blueviolet.svg)](https://adapi.kopicloud.com)
 
-- Add a security group as a member of another security group
-- Add a distribution group as a member of another distribution group
+- Add and remove an AD Security Group as a member of another AD Security Group
+- Add and remove an AD Distribution Group as a member of another AD Distribution Group
 - Update KopiCloud AD API .NET Version to .NET Core 8
 
 ----
@@ -46,7 +46,7 @@ API Initial Release
 
 - Create, list, update, and remove AD Security Groups
 
-- Create, list, update, and remove AD Distributions Groups
+- Create, list, update, and remove AD Distribution Groups
 
 - Create, list, update, rename, and remove AD Computers
 
@@ -80,7 +80,7 @@ Terraform Provider Initial Release.
 
 - Create, list, update, and remove AD Security Groups
 
-- Create, list, update, and remove AD Distributions Groups
+- Create, list, update, and remove AD Distribution Groups
 
 - Create, list, update, and remove AD Computers
 
