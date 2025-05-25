@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 description: Getting Started with KopiCloud AD API
-date: 2023-05-20
+date: 2025-05-25
 ---
 
 # Getting Started with KopiCloud AD API
@@ -38,19 +38,15 @@ Go to the **Settings** page, click on the **Trial** menu, enter your name and co
 
 ## Deploy and Try the API
 
-You have 3 options to deploy your **KopiCloud AD API** server:
+You have 2 options to deploy your **KopiCloud AD API** server:
 
-1) Search for **KopiCloud AD API** in the MarketPlace of your Cloud Provider
-
-![AWS Marketplace](https://adapihelp.kopicloud.com/assets/marketplace/aws-marketplace-03.png)
-
-2) Download the Setup Scripts and install **KopiCloud AD API** in your server
+1) Download the Setup Scripts and install **KopiCloud AD API** on your server
 
 Visit the [Download](https://adapi.kopicloud.com/download) page to download the Setup scripts.
 
 Execute the Setup application to install and configure your machine.
 
-3) Check our Terraform scripts to create full deployments in Azure, AWS, GCP, and OCI.
+2) Check our Terraform scripts to create full deployments in Azure, AWS, GCP, and OCI.
 
 Visit the [Download](https://adapi.kopicloud.com/download) page to download the Terraform scripts.
 
@@ -79,7 +75,7 @@ Start writing your integration in any development or scripting language that sup
 
 ## Get Help from our Consulting Services
 
-If you are busy or need help with the integration between your applications and **KopiCloud AD API**, get in touch with our [Consulting Services](https://adapi.kopicloud.com/consulting).
+If you are busy or need help integrating your applications with **KopiCloud AD API**, contact our [Consulting Services](https://adapi.kopicloud.com/consulting).
 
  We have a team of engineers and developers that can help you accelerate the implementation of **KopiCloud AD API** in your company:
 <br /><br />
