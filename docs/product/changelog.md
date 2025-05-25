@@ -1,13 +1,24 @@
 ---
 title: KopiCloud AD API Change Log
 description: KopiCloud AD API Change Log
-date: 2023-05-14
+date: 2023-05-25
 ---
 
 # Change Log
 
 All notable changes to this project are documented on this page.
 
+----
+
+## KopiCloud AD API Change Log
+
+### v1.2.0 (Algarve) - May 2025
+
+[![KopiCloud_AD_API](https://img.shields.io/badge/kopiCloud_ad-v1.2+-blueviolet.svg)](https://adapi.kopicloud.com)
+
+- Add a security group as a member of another security group
+- Add a distribution group as a member of another distribution group
+- Update KopiCloud AD API .NET Version to .NET Core 8
 
 ----
 
