@@ -10,7 +10,6 @@ nav:
     - Setup Configuration File: setup/setup-configuration-file.md
     - Deploy Windows Machine: setup/setup-windows.md
     - Deploy AWS Machine: setup/setup-aws.md
-    - Deploy from AWS Marketplace: setup/setup-aws-marketplace.md
     - Deploy Azure Machine: setup/setup-azure.md
     - Deploy GCP Machine: setup/setup-gcp.md
     - Deploy OCI Machine: setup/setup-oci.md
